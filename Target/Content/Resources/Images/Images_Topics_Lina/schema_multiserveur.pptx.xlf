@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="in-progress">
+  <file
+    xml:space="preserve"
+    original="schema_multiserveur.pptx"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="x-pptx"
+    target-language="fr">
+    <header>
+      <skl><external-file
+          href="schema_multiserveur.pptx.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">18</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11 r2"
+        tool-name="Lingo"
+        tool-version="11.1.7796.16213"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="ppt"
+        phase-name="pretrans"><source>Multi-Server</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Multi-Server</mrk></seg-source><target
+          state="needs-review-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="MachineTranslated"
+            MadCap:matchPercent="0">Multi-serveur</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="ppt"
+        phase-name="pretrans"><source>Architecture</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Architecture</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Architecture</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="ppt"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span rid="3" style="font-weight:bold;"&gt;</bpt>Master Server <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span rid="3" style="font-weight:bold;"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="2">Master Server</mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk><mrk
+            mtype="seg"
+            mid="4"><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="MachineTranslated"
+            MadCap:matchPercent="0">Serveur Principal</mrk><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="4"
+        restype="ppt"
+        phase-name="pretrans"><source>Single entry point to configure, administer, and monitor backups</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Single entry point to configure, administer, and monitor backups</mrk></seg-source><target
+          state="needs-review-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="MachineTranslated"
+            MadCap:matchPercent="0">Point d'entrée unique pour configurer, administrer et surveiller les sauvegardes</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="ppt"
+        phase-name="pretrans"><source>Dispatch agents in tenants and nodes</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Dispatch agents in tenants and nodes</mrk></seg-source><target
+          state="needs-review-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="MachineTranslated"
+            MadCap:matchPercent="0">Agents de répartition dans les locataires et les nœuds</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="ppt"
+        phase-name="pretrans"><source>Dataless</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Dataless</mrk></seg-source><target
+          state="needs-review-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="MachineTranslated"
+            MadCap:matchPercent="0">Dataless</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="ppt"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span rid="7" style="font-weight:bold;"&gt;</bpt>Nodes<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span rid="7" style="font-weight:bold;"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="2">Nodes</mrk><mrk
+            mtype="seg"
+            mid="3"><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="MachineTranslated"
+            MadCap:matchPercent="0">Nœuds</mrk><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="8"
+        restype="ppt"
+        phase-name="pretrans"><source>Host the backup repository of the agents assigned to them</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Host the backup repository of the agents assigned to them</mrk></seg-source><target
+          state="needs-review-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="MachineTranslated"
+            MadCap:matchPercent="0">Héberger le référentiel de sauvegarde des agents qui leur sont affectés</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="ppt"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span rid="9" style="font-weight:bold;"&gt;</bpt>Agents to back up<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span rid="9" style="font-weight:bold;"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="2">Agents to back up</mrk><mrk
+            mtype="seg"
+            mid="3"><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="MachineTranslated"
+            MadCap:matchPercent="0">Agents à sauvegarder</mrk><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="10"
+        restype="ppt"
+        phase-name="pretrans"><source>Data Transfer</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Data Transfer</mrk></seg-source><target
+          state="needs-review-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="MachineTranslated"
+            MadCap:matchPercent="0">Transfert de données</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="ppt"
+        phase-name="pretrans"><source>Administration, Configuration, Monitoring</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Administration, Configuration, Monitoring</mrk></seg-source><target
+          state="needs-review-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="MachineTranslated"
+            MadCap:matchPercent="0">Administration, Configuration, Surveillance</mrk></target></trans-unit></body>
+  </file>
+</xliff>

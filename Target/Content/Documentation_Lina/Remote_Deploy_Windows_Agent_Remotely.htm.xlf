@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="completed">
+  <file
+    xml:space="preserve"
+    original="Remote_Deploy_Windows_Agent_Remotely.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="fr">
+    <header>
+      <skl><external-file
+          href="Remote_Deploy_Windows_Agent_Remotely.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">15</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11 r2"
+        tool-name="Lingo"
+        tool-version="11.1.7796.16213"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-title"
+        phase-name="pretrans"><source>Remote deploying Windows Agents</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Remote deploying Windows Agents</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Déployer des agents Windows à distance</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Deploy a Windows Agent Remotely</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Deploy a Windows Agent Remotely</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Déployer un agent Windows à distance</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source><ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;&lt;/MadCap:variable&gt;</ph> Windows agents may be deployed remotely, using either an Active Directory Group Policy or a deployment tool such as WAPT, Microsoft SCCM or equivalent. Only one agent is needed per machine, even in an RDS/TSE environment.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;&lt;/MadCap:variable&gt;</ph> Windows agents may be deployed remotely, using either an Active Directory Group Policy or a deployment tool such as WAPT, Microsoft SCCM or equivalent.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Only one agent is needed per machine, even in an RDS/TSE environment.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Les agents  Windows <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;&lt;/MadCap:variable&gt;</ph> peuvent être déployés à distance, en utilisant une stratégie de groupe Active Directory ou un outil de déploiement tel que WAPT, Microsoft SCCM ou équivalent.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Un seul agent est nécessaire par machine, même dans un environnement RDS/TSE.</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Before deploying agents remotely, the user performing the installation on a machine must have administrator rights on that machine.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Before deploying agents remotely, the user performing the installation on a machine must have administrator rights on that machine.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Avant de déployer des agents à distance, l'utilisateur qui effectue l'installation sur une machine doit avoir des droits d'administrateur sur cette machine.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Step 1: Extract the MSI file</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Step 1: Extract the MSI file</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="50">Étape 1 : Extraire le fichier MSI</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Run the <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>setup.exe /extractcab<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> command in the command prompt.  This command will create a <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>SupportFiles<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> folder containing the <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>ALN.msi<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> file to extract.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Run the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>setup.exe /extractcab<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> command in the command prompt.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">This command will create a <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>SupportFiles<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> folder containing the <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>ALN.msi<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> file to extract.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Exécutez la commande <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>setup.exe /extractcab<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> dans un invite de commandes.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Cette commande va créer un dossier <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>SupportFiles<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> contenant le fichier <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>ALN.msi<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> à extraire.</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Step 2: Launch the MSI package</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Step 2: Launch the MSI package</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Étape 2 : Lancer le paquet MSI</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Launch the MSI package in silent mode, using one of the following commands:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Launch the MSI package in silent mode, using one of the following commands:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Lancez le paquet MSI en mode silencieux, en utilisant l'une des commandes suivantes :</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>ALN.msi /qn SERVERNAME=your-lina-server</source><seg-source><mrk
+            mtype="seg"
+            mid="1">ALN.msi /qn SERVERNAME=your-lina-server</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">ALN.msi /qn SERVERNAME=your-lina-server</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>msiexec /qn /i ALN.msi SERVERNAME=server</source><seg-source><mrk
+            mtype="seg"
+            mid="1">msiexec /qn /i ALN.msi SERVERNAME=server</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">msiexec /qn /i ALN.msi SERVERNAME=server</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>See <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="Install_Windows_Agent_Silent_mode.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Installing [%=ALN.aln%] Windsows Agents in Silent Mode&lt;/MadCap:xref&gt;</ph> for detailed information on mandatory or optional parameters.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">See <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="Install_Windows_Agent_Silent_mode.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Installing [%=ALN.aln%] Windsows Agents in Silent Mode&lt;/MadCap:xref&gt;</ph> for detailed information on mandatory or optional parameters.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Consulter <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="Install_Windows_Agent_Silent_mode.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Installing [%=ALN.aln%] Windsows Agents in Silent Mode&lt;/MadCap:xref&gt;</ph> pour des informations détaillées sur les paramètres obligatoires ou facultatifs.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

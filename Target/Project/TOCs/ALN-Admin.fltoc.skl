@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc conditions="ALN.admin">
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/A_Introduction Topics/Title.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" conditions="ALN.PDF" StartSection="false" BreakType="pageLayout" AutoEndOnLeftPage="disabled" PageLayout="/Content/Resources/PageLayouts/7X9/Title7X9_Lina_Tina.flpgl" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" />
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/A_Introduction Topics/Copyright.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" conditions="ALN.PDF" StartSection="false" BreakType="pageLayout" AutoEndOnLeftPage="disabled" PageLayout="/Content/Resources/PageLayouts/7X9/Copyright7X9.flpgl" />
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/A_Introduction Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" conditions="ALN.PDF" StartSection="false" BreakType="chapter" PageType="firstright" PageNumberReset="reset" PageNumberFormat="lower-roman" ChapterNumber="1" ChapterNumberFormat="lower-roman" VolumeNumberReset="reset" VolumeNumber="1" VolumeNumberFormat="lower-roman" SectionNumberReset="reset" SectionNumber="1" SectionNumberFormat="lower-roman" PageNumber="1" PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl" ChapterNumberReset="continue" />
+    <TocEntry Title="砻קยด1ตว融" Link="/Content/A_Introduction Topics/Welcome.htm" conditions="ALN.HELP" />
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/About_Lina.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ChapterNumberReset="reset" ChapterNumber="1" ChapterNumberFormat="decimal" SectionNumberReset="continue" VolumeNumberReset="same" BreakType="chapter" PageNumberReset="reset" StartSection="false" PageNumber="1" ReplaceMergeNode="false" PageNumberFormat="decimal" PageType="continue" AutoEndOnLeftPage="enabled" PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Main_Features.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Architecture_and_Components.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Lina_Standalone_Configuration.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Lina_HSS_Tina.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Lina_Multi_server_Configuration.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Lina_Data_Backup.htm" />
+    </TocEntry>
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/License_Management.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ChapterNumber="1" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ChapterNumberFormat="decimal" BreakType="chapter" StartSection="false" PageNumberReset="continue" ComputeToc="false" PageType="continue" PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Display_License_Components_View.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Request_Permanent_License_File.htm" conditions="General.Hidden" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Configure_ALM_Permanent_License_File.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Declare_ALM_ in_Lina_Administration_Console.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Modify_your_License_File.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Switch_from_evaluation_to_standard_license.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Replace_Expired_License_File.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Replace_License_Manager.htm" />
+    </TocEntry>
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Deploying_Lina_Server.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" BreakType="chapter" StartSection="false" PageNumberReset="continue" PageNumberFormat="decimal" PageType="continue" ChapterNumberFormat="decimal" AutoEndOnLeftPage="enabled" PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Prerequisites_Lina_Server_installation.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Install_Lina_Server.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Activate_Lina_Service.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/log_in_lina_admin_console.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Interface_Settings.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Consult_Interface_Settings.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/General_Preferences.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Lina_Configuration.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Upgrade_Lina_Server.htm" StartSection="false" ReplaceMergeNode="false" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Uninstall_the_Lina_Server.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Upgrade_Lina_Server_Silent_Mode.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Installing_Lina_Server_Silent_Mode.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Uninstall_Lina_Server_Silent_Mode.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/About_Lina_ports.htm" />
+    </TocEntry>
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Multi_Server.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" BreakType="chapter" PageType="continue" StartSection="false" PageNumberReset="continue" PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ComputeToc="false" ReplaceMergeNode="false" ChapterNumber="1" ChapterNumberFormat="decimal">
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/About_Multi_server.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Create_MS_Configuration.htm" StartSection="false" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Manage_Nodes.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Agents_multi_server_config.htm" StartSection="false" />
+    </TocEntry>
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Security_issues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" BreakType="chapter" StartSection="Unchecked" PageNumberReset="continue" PageNumberFormat="decimal" PageType="continue" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" AutoEndOnLeftPage="enabled" ChapterNumber="1" ChapterNumberFormat="decimal" PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Authentication.htm" BreakType="none" StartSection="Unchecked" PageType="normal" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Session_Timeout.htm" BreakType="none" StartSection="Unchecked" PageType="normal" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/SSL_Certificate.htm" BreakType="none" StartSection="Unchecked" PageType="normal" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Network_Encryption.htm" BreakType="none" StartSection="Unchecked" PageType="normal">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Available_Connection_Modes.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Lina_Dynamic_Configuration.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Network_Certificates.htm">
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Configure_reverse_proxy.htm" ChapterNumber="1" ChapterNumberFormat="decimal" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" BreakType="none" StartSection="false" PageNumberReset="continue">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/About_Reverse_Proxies.htm">
+                <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Uses_of_reverse_proxies.htm" />
+                <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Architecture.htm" />
+            </TocEntry>
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Requirements_Reverse_Proxies.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Configure_Reverse_Proxy_for_Agents.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/URL_rewrite.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Principle.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Relative_URLs.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/About_Data_Flow_Control.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Dynamic_Server_Access.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Create_Dynamic_Server_Access_File.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Connect_Lina_via_Reverse_Proxy.htm" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Lina_Server_Protection_Information.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ChapterNumberFormat="decimal" BreakType="chapter" PageType="continue" StartSection="false" PageNumberReset="continue" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Backup_Restore_ADE_Server_Snapshots.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Prerequisites_using_snapshots.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Trigger_Snapshots.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Create_Thin_Volume_Linux.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Restore_Snapshots.htm">
+                <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Restore_Snapshots_Linux_Server.htm" />
+                <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Restore_Snapshots_Windows_Server.htm" />
+            </TocEntry>
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Backup_Server_third-party_tool.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Secure_Dedup_Engine_Database_third-party_tool.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Secure_Dedup_Engine_Database_OS-Based_Snapshot.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Restore_Server_Third-Party_Tool.htm" />
+    </TocEntry>
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Configure_Server_Environment.htm" ChapterNumber="1" ChapterNumberFormat="decimal" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" BreakType="chapter" StartSection="false" PageNumberReset="continue" PageType="continue" PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Enable_Disable_a_Product_Component.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Access_Background_Services.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Enable_E_Mail_Notifications.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Configure_SMTP_Mail_Service.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Configure_E-Mail_Notifications.htm" StartSection="false">
+            </TocEntry>
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Manage_Server_Parameters.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Access_Tunables.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Edit_Parameters_Values.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Add_remove_repository.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" BreakType="none" StartSection="Unchecked" PageType="normal" conditions="General.Hidden">
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Set_Encryption_Key_Data_Blocks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Configurator_window.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Use_Configurator_Wizard_Mode.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Use_Configurator_Lina_Admin_Console.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Modify_Agent_Port.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Add_Agent_DB_Repositories.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Tenants.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Create_a_Tenant.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Copy_Configurations_Between_Tenants.htm" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Install_Lina_Agents.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ChapterNumber="1" ChapterNumberFormat="decimal" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" BreakType="chapter" StartSection="false" PageNumberReset="continue" PageType="continue" PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Install_Agents_on_Windows.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Prerequisites_Windows_agents_installation.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Install_Windows_Agent.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Remote_Deploy_Windows_Agent_Remotely.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Update_Windows_Agents.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Uninstall_Windows_Agent.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Install_Windows_Agent_Silent_mode.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Update_Windows_Agent_Silent_mode.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Uninstall_Windows_Agents_Silent_Mode.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Install_Agents_macOS.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Prerequisites_macOS_Agents_installation.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Install_macOS_Agent.htm">
+            </TocEntry>
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Grant_Full_Disk_Access_for_macOS_Catalina.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Lina_Finder_Extension.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Update_macOS_Agent.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Uninstall_macOS_Agent.htm" conditions="General.Hidden" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Install_macOS_Agent_Silent_Mode.htm">
+            </TocEntry>
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Update_macOS_Agent_in_Silent_Mode.htm" conditions="General.Hidden" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Uninstall_macOS_Agent_Silent_Mode.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Install_Agents_Linux.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Linux_Agent_Installation_Package.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Prerequisites_Linux_agents_installation.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Install_Lina_Component.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Install_Lina_Linux_Agent_Silent_Mode.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Launch_Lina_Linux_Agent_.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Update_Linux_Agent.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Uninstall_Linux_Agent.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Install_Lina_Synology_Agent.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Install_Lina_Agent_Synology_DSM_6.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Install_Lina_Agent_Synology_DSM_7.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Configure_Agent_to_Server_Access.htm" />
+    </TocEntry>
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Manage_Users_And_User_Rights.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ChapterNumber="1" ChapterNumberFormat="decimal" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" BreakType="chapter" StartSection="false" PageNumberReset="continue" PageType="continue" PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Users_View.htm">
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Configure_Local_Users_and_User_Groups.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Create_Configure_User_Profile.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Create_Configure_Local_User_Group.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Create_Assign_Rights_to_Local_User.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Integrate_Lina_With_LDAP.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/About_LDAP_Groups.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Configure_LDAP.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Assign_Rights_to_LDAP.htm">
+                <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Assign_Rights_to_LDAP_Users.htm" />
+                <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Assign_Rights_to_LDAP_Groups_Command_Line_Mode.htm" />
+            </TocEntry>
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Configure_Agents_Server.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ChapterNumber="1" ChapterNumberFormat="decimal" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" BreakType="chapter" StartSection="false" PageNumberReset="continue" PageType="continue" PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Configuring_protection_policies.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Declare_New_Agents.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Create_Agents_Automatically.htm">
+            </TocEntry>
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Create_Agents_Manually.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Assign_New_Agents_to_Tenants_Automatically.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Organize_Your_Agents.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Display_the_Agents_View.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Display_Agents_Details.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Customize_the_Agents_View.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Display_Agent_Groups_View.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Create_an_Agent_Group.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Move_Agents_into_Agent_Group.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Apply_Identical_Settings_Several_Agents.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Delete_Agents.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Undelete_Agents.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Monitor_agent.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Assigning_email_address_to_agent.htm" BreakType="none" StartSection="false" PageNumberReset="continue" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Customize_Data_Protection_Settings.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Quotas_Manage_Protected_Data_Volumes.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Retention.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Limit_Agent_Browse_to_User_Home_Directory.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Create_a_Data_Protection_Strategy.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Configure_Agent_Protections.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/About_Paths_and_Categories.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Configure_Default_Protection.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Update_Your_Web_Server_Address.htm" conditions="ALN.admin" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Create_Path.htm">
+            </TocEntry>
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Create_File_Category.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Modify_File_Category.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Create_Protection_Rule.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Modify_Protection_Rule.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Create_Protection_Scheme.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Apply_Protection_Scheme_Strategy.htm" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Configure_Protection_Lina_Agent.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" BreakType="chapter" StartSection="Unchecked" PageNumberReset="continue" PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" PageType="continue" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ComputeToc="false" ReplaceMergeNode="false" AutoEndOnLeftPage="enabled" ChapterNumber="" ChapterNumberFormat="decimal">
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Access_Lina_Agent_Menu.htm" BreakType="none" StartSection="true" PageNumberReset="continue" ReplaceMergeNode="false" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Consult_Protection_Activity_Lina_Agents.htm" BreakType="none" StartSection="Unchecked" PageType="normal">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Status_of_the_Agent.htm" BreakType="none" StartSection="Unchecked" PageType="normal" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/View_Last_Protection_Date_Lina_Agent.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Access_Monitoring_Interface.htm" BreakType="none" StartSection="Unchecked" PageType="normal" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Activate_Protection_Status_Files_Folders_File_Explorer.htm" BreakType="none" StartSection="Unchecked" PageType="normal" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/View_Detailed_Protection_Status_of_Object.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Open_the_Settings_Pane_Agent.htm" PageNumberReset="continue" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Consult_Server_Rules.htm" BreakType="none" StartSection="Unchecked" PageType="normal" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Include_Exclude_Files_folders.htm" BreakType="none" StartSection="Unchecked" PageType="normal">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/See_Your_List_of_Protected_Files_and_Folders.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Define_Protection_on_a_File_or_Folder.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Exclude_File_Patterns_from_Protection.htm" BreakType="none" StartSection="Unchecked" PageType="normal" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Manage_Data_Volumes.htm" BreakType="none" StartSection="Unchecked" PageType="normal">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/View_Protected_volumes.htm" BreakType="none" StartSection="Unchecked" PageType="normal" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Protect_Removable_disks.htm" BreakType="none" StartSection="Unchecked" PageType="normal" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Cancel_Protection_of_Removable_Disks.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Deactivate_a_Removable_Disk.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Protect_MacOS_Volumes.htm" BreakType="none" StartSection="Unchecked" PageType="normal" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Configure_Protection_behavior.htm" BreakType="none" StartSection="Unchecked" PageType="normal" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Configure_Network_and_Bandwidth.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/About_Network_Settings.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Lina_Server_Access_Strings.htm" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Restore_Data_from_Agent_Interface.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" BreakType="chapter" StartSection="Unchecked" PageNumberReset="continue" PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" PageType="continue" AutoEndOnLeftPage="enabled" ChapterNumber="1" ChapterNumberFormat="decimal" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue">
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Restore_Security_Permissions.htm" BreakType="none" StartSection="Unchecked" PageType="normal">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/UAC_and_Privileges.htm" BreakType="none" StartSection="Unchecked" PageType="normal" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/ACLs.htm" BreakType="none" StartSection="Unchecked" PageType="normal" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Modes_to_Restore_Data.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Restore_data_encrypted_with_EFS.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Restore_Files.htm" BreakType="none" StartSection="Unchecked" PageType="normal">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Restore_a_File_using_the_Restore_Wizard.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/About_the_Search_View.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Restore_a_File_using_the_Search_View.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/About_the_Browse_View.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Restore_a_File_using_the_Browse_View.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Restore_a_File_from_an_Explorer.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Restore_Folders.htm" BreakType="none" StartSection="Unchecked" PageType="normal">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Restore_a_Folder_using_the_Restore_Wizard.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Restore_a_Folder_from_an_Explorer.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Restore_Data_on_Synology.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Restore_Token.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Cross_Restore.htm" BreakType="none" StartSection="Unchecked" PageType="continue" PageNumberReset="continue" PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9_old.flpgl">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Cross_Restore_Mechanism.htm" BreakType="none" StartSection="Unchecked" PageType="normal">
+            </TocEntry>
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Perform_Cross_Restore.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Remote_Restore.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Remote_Restore_Mechanism.htm" BreakType="none" StartSection="Unchecked" PageType="normal">
+            </TocEntry>
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Perform_Remote_Restore.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Restore_from_an_Alternate_Server.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Restore_from_Alternate_server_Mechanism.htm" BreakType="none" StartSection="Unchecked" PageType="normal">
+            </TocEntry>
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Perform_Restore_from_an_Alternate_Server.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Combined_Advanced_Restore.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Combined_Advanced_Restore_Mechanism.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Perform_Combined_Advanced_Restore.htm" BreakType="none" StartSection="Unchecked" PageType="normal">
+            </TocEntry>
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Web_Restore.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" BreakType="chapter" StartSection="Unchecked" PageNumberReset="continue" PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" PageType="continue" AutoEndOnLeftPage="enabled" ChapterNumber="" ChapterNumberFormat="decimal" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue">
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Access_Web_Restore.htm" BreakType="none" StartSection="Unchecked" PageType="normal">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Log_into_Web_Restore_End_User.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Change_Validity_Duration_Password.htm" conditions="General.Hidden" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Log into_Web_Restore_Administrator.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Log_into_Web_Restore_Batch_Mode.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Configure_Web_Restore.htm" BreakType="none" StartSection="Unchecked" PageType="normal">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Enable_Web_Restore.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Enable_Web_Restore_for_Strategy.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Restore_Token.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Create_Password_Web_Restore_Admin_Multi-Agent.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Provide_E-Mail_to_Identify_Agent.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Restore_Files_Using_Web_Restore.htm" BreakType="none" StartSection="Unchecked" PageType="normal">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Restore_Files_Browse_Mode.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Restore_Files_Search_Mode.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Restore_Group_Agents_Batch_Mode.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Restore_Files_URL_Mode.htm" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/BMR.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" BreakType="chapter" StartSection="Unchecked" PageNumberReset="continue" PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" PageType="continue" ChapterNumber="1" ChapterNumberFormat="decimal" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue">
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Architecture_BMR.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Prerequisites_BMR_Process.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Configure_Bare_Metal_Recovery.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Select_Data_to_Restore.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Identify_New_Agent_after_Data_ Recovery.htm" />
+    </TocEntry>
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Replication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" BreakType="chapter" StartSection="Unchecked" PageNumberReset="continue" PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" PageNumberFormat="decimal" PageType="continue" AutoEndOnLeftPage="enabled" ChapterNumber="1" ChapterNumberFormat="decimal" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue">
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/About_Server_Replication.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Server_Replication_vs_Hyperstream.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/View_Replication_Info.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Supported_Configurations.htm" BreakType="none" StartSection="Unchecked" PageType="normal">
+                <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Simple_Replication.htm" />
+                <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Hierarchical_Replication.htm" />
+                <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Server_Bidirectional_Replication.htm">
+                </TocEntry>
+            </TocEntry>
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Configure_Server_Replication.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Access_the_Replication_View.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Add_Server_Replication_Destination.htm">
+            </TocEntry>
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Modify_Replication_Destination.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Delete_Replication_Destination.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Configure_Simple_Hierarchical_Replication.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/About_Agent_Replication.htm" BreakType="none" StartSection="Unchecked" PageType="normal" />
+    </TocEntry>
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Statistics_Reporting.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" BreakType="chapter" PageType="continue" StartSection="false" PageNumberReset="continue" PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" ChapterNumber="1" ChapterNumberFormat="decimal" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue">
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Server_Events.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Display_Server_Events_View.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Refresh_View_Lina_Administration_Console.htm" conditions="General.Hidden" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Export_Information_Users_Agents_Agent_Groups.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/System_Health_Information.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Access_Notifications_View.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Access_Block_Files_View.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Statistics_View.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Global_Statistics.htm">
+                <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Access_Overall_Statistics_View.htm" />
+                <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Activity_Monitoring_Component.htm" />
+                <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Manage_Activity_History_Component.htm" />
+            </TocEntry>
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Statistics_by_Component.htm">
+                <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Access_Statistics_by_Component_View.htm" />
+                <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Activity_Monitoring_Component.htm" />
+                <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Operations_Monitoring.htm" />
+                <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Manage_Activity_History_Component.htm" />
+                <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Status_History.htm" />
+                <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Top_Agents_Information.htm" />
+                <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Calculate_Detailed_Agent_Statistics.htm" />
+            </TocEntry>
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Reporting.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Reporting_report_templates.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Reporting_reports.htm">
+            </TocEntry>
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Perform_Maintenance.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" BreakType="chapter" StartSection="false" PageNumberReset="continue" PageType="continue" PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" AutoEndOnLeftPage="enabled" ChapterNumberFormat="decimal" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ComputeToc="false">
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Ensure_Database_Block_Reppository_Consistency.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Repair.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Run_Repair_Tool.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Run_Counter_Tool.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Run_Recheck_Tool.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Run_Cleanup_Tool.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Repair_Clean_Up_Missing_or_Corrupted_blocks.htm" />
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Import_and_Export_Blocks_ADE_Server.htm" />
+    </TocEntry>
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Perform_Configurator_Operations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" BreakType="chapter" StartSection="Unchecked" PageNumberReset="continue" PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" PageNumberFormat="decimal" PageType="continue" AutoEndOnLeftPage="enabled" ChapterNumber="A" ChapterNumberReset="reset" ChapterNumberFormat="upper-alpha" SectionNumberReset="continue" VolumeNumberReset="same">
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/ADE_CLI_Operations.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Move_ADE_Database.htm" BreakType="none" StartSection="Unchecked" PageType="normal">
+            </TocEntry>
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/ADE_Repository.htm" BreakType="none" StartSection="Unchecked" PageType="normal" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Environment_Command_Prompt.htm">
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Move_Existing_Agent_db_Repository.htm" />
+    </TocEntry>
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Integration_Using_REST_API.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ChapterNumber="A" ChapterNumberFormat="upper-alpha" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" BreakType="chapter" PageType="continue" StartSection="false" PageNumberReset="continue" PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" AutoEndOnLeftPage="enabled" ChapterName="Appendix" />
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Troubleshooting.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ChapterNumber="A" ChapterNumberFormat="upper-alpha" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" BreakType="chapter" StartSection="false" PageNumberReset="continue" PageType="continue" ChapterName="Appendix" PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Advanced_Environment_Reporter.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/About_Advanced_Environment_reporter.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Downloading_Installing_Advanced_Environment_reporter.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Advanced_Environment_Reporter_mac_Unix.htm">
+                <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Launch_Advanced_Environment_Reporter_macOS_Linux.htm" />
+                <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Configure_Advanced_Environment_Reporter_macOS_Linux.htm">
+                </TocEntry>
+                <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Define_Report_Description_Options_macOS_Linux.htm" />
+                <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Generate_Report_Command_Mode_macOS_Linux.htm" />
+            </TocEntry>
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Advanced_Environment_Reporter_Windows.htm">
+                <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Launch_Advanced_Environment_Reporter_Windows.htm" />
+                <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Define_Report_Description_Options_Windows.htm" />
+                <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Generate_Report_Windows.htm" />
+            </TocEntry>
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Sending_the_Environment_Reporter_FTP.htm" />
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Export_Logs_to_Syslog.htm">
+        </TocEntry>
+        <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/About_Health_Check_Messages.htm">
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Health_Check_Error_Messages.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Health_Check_Warning_Messages.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Health_Check_Information_messages.htm" />
+            <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Documentation_Lina/Redirect_verification_messages.htm" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/A_Introduction Topics/Glossary.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" BreakType="chapter" PageType="continue" VolumeNumberReset="continue" StartSection="false" PageNumberReset="continue" PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9_old.flpgl" SectionNumberReset="continue" ChapterNumberReset="continue" />
+</CatapultToc>

@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="completed">
+  <file
+    xml:space="preserve"
+    original="About_the_Search_View.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="fr">
+    <header>
+      <skl><external-file
+          href="About_the_Search_View.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">32</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11 r2"
+        tool-name="Lingo"
+        tool-version="11.1.7796.16213"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>About the Search View</source><seg-source><mrk
+            mtype="seg"
+            mid="1">About the Search View</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">À propos de la vue rechercher</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> agent is equipped with a Search mode that searches through all your protected files regardless of their backup time. The Search view shows your protected files and the available versions to restore.  If you want to use the Search mode, see <ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="Restore_a_File_using_the_Search_View.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Restoring a File using the Search View&lt;/MadCap:xref&gt;</ph>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> agent is equipped with a Search mode that searches through all your protected files regardless of their backup time.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The Search view shows your protected files and the available versions to restore.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">If you want to use the Search mode, see <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="Restore_a_File_using_the_Search_View.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Restoring a File using the Search View&lt;/MadCap:xref&gt;</ph>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">L'agent <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> est équipé d'un mode de recherche qui permet de rechercher dans tous vos fichiers protégés indépendamment de leur heure de sauvegarde.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">La vue Rechercher affiche vos fichiers protégés et les versions disponibles à restaurer.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Si vous souhaitez utiliser le mode de recherche, voir <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="Restore_a_File_using_the_Search_View.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Restoring a File using the Search View&lt;/MadCap:xref&gt;</ph>.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The following settings are displayed in the Search view (<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#Search_view_settings" class="table_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Table&lt;/MadCap:xref&gt;</ph>):</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The following settings are displayed in the Search view (<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#Search_view_settings" class="table_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Table&lt;/MadCap:xref&gt;</ph>):</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="89">Ce tableau décrit les paramètres de la vue Rechercher (<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#Search_view_settings" class="table_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Table&lt;/MadCap:xref&gt;</ph>) :</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Search view settings</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Search view settings</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="70">Paramètres de la vue Rechercher</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Setting</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Setting</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Paramètre</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Description</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Description</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Description</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>By location</source><seg-source><mrk
+            mtype="seg"
+            mid="1">By location</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="90"
+            MadCap:diff="ContentChanged">Par emplacement</mrk></target><alt-trans
+          match-quality="90"
+          origin="previous-version"><seg-source>By Location</seg-source><target
+            MadCap:segmentStatus="Untranslated">Par emplacement</target></alt-trans></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Indicates the path where you want to search for your files or click the drop-down list to select the path from your computer or from your backups. If you want to include subfolders during the search, check <bpt
+            id="1"
+            ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Include Sub-folders<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Indicates the path where you want to search for your files or click the drop-down list to select the path from your computer or from your backups.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">If you want to include subfolders during the search, check <bpt
+              id="1"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Include Sub-folders<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0"
+            MadCap:diff="ContentChanged">Indique le chemin où vous souhaitez rechercher vos fichiers ou cliquez sur la liste déroulante pour sélectionner le chemin depuis votre ordinateur ou vos sauvegardes.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Si vous voulez inclure des sous-répertoires lors de la recherche, cochez la case <bpt
+              id="1"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Inclure les sous-dossiers<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept>.</mrk></target><alt-trans
+          match-quality="95"
+          origin="previous-version"><seg-source>Enter the path where you want to search for your files or click the drop down list to select the path from your computer or from your backups.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Indiquez le chemin où vous souhaitez rechercher vos fichiers ou cliquez sur la liste déroulante pour sélectionner le chemin depuis votre ordinateur ou vos sauvegardes.</target></alt-trans><alt-trans
+          match-quality="95"
+          origin="previous-version"><seg-source>Enter the path where you want to search for your files or click the drop down list to select the path from your computer or from your backups.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Indiquez le chemin où vous souhaitez rechercher vos fichiers ou cliquez sur la liste déroulante pour sélectionner le chemin depuis votre ordinateur ou vos sauvegardes.</target></alt-trans><alt-trans
+          match-quality="95"
+          origin="previous-version"><seg-source>Enter the path where you want to search for your files or click the drop down list to select the path from your computer or from your backups.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Indiquez le chemin où vous souhaitez rechercher vos fichiers ou cliquez sur la liste déroulante pour sélectionner le chemin depuis votre ordinateur ou vos sauvegardes.</target></alt-trans><alt-trans
+          match-quality="95"
+          origin="previous-version"><seg-source>Enter the path where you want to search for your files or click the drop down list to select the path from your computer or from your backups.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Indiquez le chemin où vous souhaitez rechercher vos fichiers ou cliquez sur la liste déroulante pour sélectionner le chemin depuis votre ordinateur ou vos sauvegardes.</target></alt-trans><alt-trans
+          match-quality="95"
+          origin="previous-version"><seg-source>Enter the path where you want to search for your files or click the drop down list to select the path from your computer or from your backups.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Indiquez le chemin où vous souhaitez rechercher vos fichiers ou cliquez sur la liste déroulante pour sélectionner le chemin depuis votre ordinateur ou vos sauvegardes.</target></alt-trans></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>By name</source><seg-source><mrk
+            mtype="seg"
+            mid="1">By name</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="85"
+            MadCap:diff="ContentChanged">Par nom</mrk></target><alt-trans
+          match-quality="85"
+          origin="previous-version"><seg-source>By Name</seg-source><target
+            MadCap:segmentStatus="Untranslated">Par nom</target></alt-trans></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Indicates the file name or extension you are looking for.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Indicates the file name or extension you are looking for.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="84"
+            MadCap:diff="ContentChanged">Indique le nom du fichier ou l'extension à rechercher.</mrk></target><alt-trans
+          match-quality="84"
+          origin="previous-version"><seg-source>Enter a file name or extension you are looking for.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Indiquez un nom de fichier ou une extension à rechercher.</target></alt-trans></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>By modification date</source><seg-source><mrk
+            mtype="seg"
+            mid="1">By modification date</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="90"
+            MadCap:diff="ContentChanged">Par date de modification</mrk></target><alt-trans
+          match-quality="90"
+          origin="previous-version"><seg-source>By Modification Date</seg-source><target
+            MadCap:segmentStatus="Untranslated">Par date de modification</target></alt-trans></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Enables to select the time interval within which the file you are looking for was modified.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Enables to select the time interval within which the file you are looking for was modified.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="86"
+            MadCap:diff="ContentChanged">Permet de sélectionner l'intervalle de temps pendant lequel le fichier que vous recherchez a été modifié.</mrk></target><alt-trans
+          match-quality="86"
+          origin="previous-version"><seg-source>Select the time interval within which the file you are looking for was modified.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Sélectionnez l'intervalle de temps pendant lequel le fichier que vous recherchez a été modifié.</target></alt-trans></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Search</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Search</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Rechercher</mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>When your search criteria is complete, click <bpt
+            id="1"
+            ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Search<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> to perform the search.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">When your search criteria is complete, click <bpt
+              id="1"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Search<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> to perform the search.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Lorsque vos critères de recherche sont complets, cliquez sur <bpt
+              id="1"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Rechercher<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> pour lancer la recherche.</mrk></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Search results</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Search results</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="55"
+            MadCap:diff="ContentChanged">Résultats de la recherche</mrk></target><alt-trans
+          match-quality="92"
+          origin="previous-version"><seg-source>Search Results</seg-source><target
+            MadCap:segmentStatus="Untranslated">Résultats de la recherche</target></alt-trans><alt-trans
+          match-quality="55"
+          origin="previous-version"><seg-source>Search view settings</seg-source><target
+            MadCap:segmentStatus="Untranslated">Paramètres de la vue Rechercher</target></alt-trans></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Displays the files matching your search criteria. You can sort the results by name, path, and backup date.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Displays the files matching your search criteria.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">You can sort the results by name, path, and backup date.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Affiche les fichiers correspondant à vos critères de recherche.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Vous pouvez trier les résultats par nom, chemin et date de sauvegarde.</mrk></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Versions</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Versions</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Versions</mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you click a file in the <bpt
+            id="1"
+            ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Search Results<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> area, the available versions of this file are displayed. You can see  information  about version number, date, and size of each file version.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you click a file in the <bpt
+              id="1"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Search Results<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> area, the available versions of this file are displayed.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">You can see information about version number, date, and size of each file version.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Si vous cliquez sur un fichier dans la zone <bpt
+              id="1"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Résultats de recherche<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept>, les versions disponibles de ce fichier sont affichées.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Les informations disponibles sont le numéro de version, la date et la taille de chaque version de fichier.</mrk></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Preview</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Preview</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Aperçu</mrk></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you click a file in the <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Search Results<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> area, and a version in the <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Versions<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> area, and click <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Preview<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>, a preview of the file version is displayed.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you click a file in the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Search Results<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> area, and a version in the <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Versions<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> area, and click <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Preview<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>, a preview of the file version is displayed.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Si vous cliquez sur un fichier dans la zone <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Résultats de recherche<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>, l<bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>es versi<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>ons disponibles d<bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>e ce fi<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>chier sont affichées.</mrk></target></trans-unit><trans-unit
+        id="21"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Restore</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Restore</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Restaurer</mrk></target></trans-unit><trans-unit
+        id="22"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Opens the Restore Options window and allows you to select the restore destination, choose the file behavior, and use different restore credentials.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Opens the Restore Options window and allows you to select the restore destination, choose the file behavior, and use different restore credentials.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Affiche la fenêtre Options de restauration et permet de sélectionner la destination de restauration, de choisir le comportement du fichier et d'utiliser une autre identité pour effectuer la restauration.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

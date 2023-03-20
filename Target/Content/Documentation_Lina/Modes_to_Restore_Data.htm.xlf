@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="completed">
+  <file
+    xml:space="preserve"
+    original="Modes_to_Restore_Data.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="fr">
+    <header>
+      <skl><external-file
+          href="Modes_to_Restore_Data.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">19</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11 r2"
+        tool-name="Lingo"
+        tool-version="11.1.7796.16213"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Modes to Restore Data</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Modes to Restore Data</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Modes de restauration </mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.aln.agent" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> allows you to restore in different modes. This depends on the permissions you have as a user logged on to the agent or an administrator managing multiple agents.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.aln.agent" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> allows you to restore in different modes.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">This depends on the permissions you have as a user logged on to the agent or an administrator managing multiple agents.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">L'<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.aln.agent" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> vous permet de restaurer dans différents modes.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Cela dépend des permissions dont vous disposez en tant qu'utilisateur connecté à l'agent ou en tant qu'administrateur gérant plusieurs agents.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Current User Restore</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Current User Restore</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Restauration par l’utilisateur courant</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>This is the default mode. The restore is performed with the permission of the user currently logged in. Use current user restore to restore files belonging to the current user.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">This is the default mode.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The restore is performed with the permission of the user currently logged in. Use current user restore to restore files belonging to the current user.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Ce mode est le mode par défaut.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">La restauration est effectuée avec les droits de l’utilisateur présentement connecté. Ce mode convient très bien si l’utilisateur courant veut restaurer ses propres fichiers.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Even if the current user belongs to an administrator group, he will not be able to perform a system restore since he does not have elevated privileges. For a system restore, the <bpt
+            id="1"
+            ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Restore As<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> option must be used, eventually with the current user context.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Even if the current user belongs to an administrator group, he will not be able to perform a system restore since he does not have elevated privileges.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">For a system restore, the <bpt
+              id="1"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Restore As<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> option must be used, eventually with the current user context.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Même si l’utilisateur courant appartient au groupe des administrateurs, il ne pourra pas effectuer de restauration système car il ne possède pas de privilèges élevés. </mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Pour une restauration du système, il faut forcément utiliser l’option <bpt
+              id="1"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Restaurer en tant que<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept>, même si c’est avec le compte de l’utilisateur courant.</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Impersonated Restore</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Impersonated Restore</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Restauration personnifiée</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The impersonated restore enables you to restore data with a different security context than that of the current user.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The impersonated restore enables you to restore data with a different security context than that of the current user.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">La restauration personnifiée vous permet de restaurer les données avec un contexte de sécurité différent de celui de l'utilisateur actuel.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>On Windows, when User Account Control (UAC) is activated, the restore is performed without elevated privileges.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">On Windows, when User Account Control (UAC) is activated, the restore is performed without elevated privileges.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Sous Windows, lorsque le contrôle de compte d'utilisateur (UAC) est activé, la restauration s'effectue sans privilèges élevés.</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>System Restore</source><seg-source><mrk
+            mtype="seg"
+            mid="1">System Restore</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Restauration système</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The system restore enables you to restore any file, including files and folders requiring administrator level permissions.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The system restore enables you to restore any file, including files and folders requiring administrator level permissions.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">La restauration système permet de restaurer tous les fichiers, y compris les fichiers et dossiers demandant les privilèges administrateur.</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The system restore grants you the following permissions:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The system restore grants you the following permissions:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">La restauration système vous donne les droits suivants :</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-p"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Lead-In"&gt;</bpt>Windows<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> Restore as NT Authority System with all required privileges activated.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Lead-In"&gt;</bpt>Windows<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> Restore as NT Authority System with all required privileges activated.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Lead-In"&gt;</bpt>Windows<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> Restauration en tant que NT Authority System avec tous les privilèges activés.</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-p"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Lead-In"&gt;</bpt>Linux and macOS<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> Restore as <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>UID 0<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>, even if the operating system does not have a root user activated.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Lead-In"&gt;</bpt>Linux and macOS<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> Restore as <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>UID 0<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>, even if the operating system does not have a root user activated.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="82"
+            MadCap:diff="ContentChanged"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Lead-In"&gt;</bpt>Linux et macOS<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> Restauration avec <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>l’UID 0<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>, même si l’utilisateur root n’est pas activé dans le système d'exploitation.</mrk></target><alt-trans
+          match-quality="82"
+          origin="previous-version"><seg-source>Restore as <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>UID 0<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>, even if the operating system does not have a root user activated.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Restauration avec <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>l’UID 0<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>, même si l’utilisateur root n’est pas activé dans le système d'exploitation.</target></alt-trans></trans-unit></body>
+  </file>
+</xliff>

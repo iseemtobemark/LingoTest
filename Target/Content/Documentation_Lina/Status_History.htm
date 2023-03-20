@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="aln_admin_1282167276_1170997"></a>Status History</h1>
+        <p class="BodyAfterHead">Displays the evolution of the volume, number of blocks and deduplication ratio for the deduplication engine on &lt;<span class="Monospace">server_name</span>&gt; over the time period you choose (by default, one day).</p>
+        <p class="Body">The volume and number of blocks is:</p>
+        <p class="Bulleted" MadCap:autonum="• "><span class="Lead-In">Stored</span> Corresponds to the actual volume/number of blocks stored after deduplication.</p>
+        <p class="or1_Or1Step" MadCap:autonum="Or "> </p>
+        <p class="Bulleted" MadCap:autonum="• "><span class="Lead-In">Recyclable</span> Indicates all the volume/number of blocks in maintenance that are ready to be removed from the repository.</p>
+        <p class="Body" MadCap:conditions="ALN.HSS">The deduplication ratio represents all <MadCap:variable name="ALN.hys_exe" /> and <MadCap:variable name="General.ProductName" /> protected volume (the protected volume is the single version of all files and folders, without history) divided by the volume stored in the deduplication engine.</p>
+        <p class="Body">If the periods proposed by the application do not suit, you can configure a customized period. <MadCap:xref href="Manage_Activity_History_Component.htm#aln_admin_1282167276_1170989" target="_blank">To configure a customized period</MadCap:xref> for details.</p>
+        <p class="Body" MadCap:conditions="ALN.ALN">The Repository Status displays the evolution of the restorable (the restorable volume corresponds to all versions of all backed up files and folders) and protected (single version of all protected files and folders, without history) volumes and number of objects, over the time period you choose, by default, one day.</p>
+        <p class="Bulleted" MadCap:conditions="ALN.HSS" MadCap:autonum="• ">The Repository Status displays the evolution of the restorable volume (the restorable volume corresponds to all versions of all backed up data) and of the number of streams (one stream represents one backup job) over the time period you choose, by default, one day.</p>
+        <p class="Bulleted" MadCap:conditions="ALN.HSS" MadCap:autonum="• ">The Replication Status displays the maximum and average replication lag over the time period you choose, by default, one day. The replication lag is the time between the beginning of the backup and the end of the replication of a stream.</p>
+    </body>
+</html>

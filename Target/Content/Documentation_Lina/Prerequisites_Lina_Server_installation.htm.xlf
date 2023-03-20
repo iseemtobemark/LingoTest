@@ -1,0 +1,1034 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="completed">
+  <file
+    xml:space="preserve"
+    original="Prerequisites_Lina_Server_installation.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="fr">
+    <header>
+      <skl><external-file
+          href="Prerequisites_Lina_Server_installation.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">76</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11 r2"
+        tool-name="Lingo"
+        tool-version="11.1.7796.16213"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Prerequisites to <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> Server Installation</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Prerequisites to <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> Server Installation</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Prérequis à l'installation du serveur <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph></mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Before installing a <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> server:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Before installing a <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> server:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Avant l'installation du serveur <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> :</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Check the following prerequisites (<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#Prerequisites_to_Lina_server_installation" class="table_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Table&lt;/MadCap:xref&gt;</ph>).</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Check the following prerequisites (<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#Prerequisites_to_Lina_server_installation" class="table_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Table&lt;/MadCap:xref&gt;</ph>).</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Vérifiez les prérequis suivants  (<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#Prerequisites_to_Lina_server_installation" class="table_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Table&lt;/MadCap:xref&gt;</ph>).</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Refer to the <bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://www.atempo.com/ressource/lina-compatibility-guide/"&gt;</bpt><ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> Compatibility Guide<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> to verify the list of supported operating systems for the <ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> server.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Refer to the <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://www.atempo.com/ressource/lina-compatibility-guide/"&gt;</bpt><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> Compatibility Guide<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> to verify the list of supported operating systems for the <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> server.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Référez-vous au <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://www.atempo.com/ressource/lina-compatibility-guide/"&gt;</bpt>Guide de compatibilité <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept> pour vérifier la liste des systèmes d'exploitation pris en charge pour le serveur <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Prerequisites to <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> server installation</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Prerequisites to <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> server installation</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="94">Prérequis à l'installation du serveur <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph></mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Prerequisite</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Prerequisite</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Conditions préalables</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Description</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Description</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Description</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Hardware/Processor</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Hardware/Processor</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Matériel/Processeur</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> server must be installed:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> server must be installed:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Vous devez installer le serveur <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> :</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>On a machine with a multi-core 64-bit processor.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">On a machine with a multi-core 64-bit processor.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Sur une machine dotée d’un processeur multicœur 64 bits.</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>On a local and dedicated fast access disk, such as an SSD.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">On a local and dedicated fast access disk, such as an SSD.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Sur un disque d’accès rapide local et dédié, tel qu’un SSD.</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Operating System</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Operating System</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Système d’exploitation</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To find out the list of supported Operating Systems,  see the <bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://www.atempo.com/ressource/lina-compatibility-guide/" target="_blank"&gt;</bpt><ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> Compatibility Guide<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To find out the list of supported Operating Systems, see the <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://www.atempo.com/ressource/lina-compatibility-guide/" target="_blank"&gt;</bpt><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> Compatibility Guide<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Pour connaître la liste des systèmes d’exploitation pris en charge, consultez le <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://www.atempo.com/ressource/lina-compatibility-guide/" target="_blank"&gt;</bpt>Guide de compatibilité <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Linux Server</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Linux Server</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Serveurs Linux</mrk></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Some packages must be installed before running the installer.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Some packages must be installed before running the installer.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Certains packages doivent être installés avant d’exécuter le programme d’installation.</mrk></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>For an installation in CLI using the silent mode, run the following commands to install the required packages:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">For an installation in CLI using the silent mode, run the following commands to install the required packages:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Pour une installation en ligne de commande utilisant le mode silencieux, exécutez les commandes suivantes pour installer les packages nécessaires :</mrk></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Debian-based distributions: <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>apt-get update &amp;&amp; apt-get install -y --no-install-recommends libaio1 libcrypt libavahi-client3 lsb-core<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Debian-based distributions: <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>apt-get update &amp;&amp; apt-get install -y --no-install-recommends libaio1 libcrypt libavahi-client3 lsb-core<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="93">Distributions basées sur Debian : <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>apt-get update &amp;&amp; apt-get install -y --no-install-recommends libaio1 libcrypt libavahi-client3 lsb-core<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>RPM-based distributions: <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>yum update &amp;&amp; yum install libaio libcrypt avahi-libs<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">RPM-based distributions: <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>yum update &amp;&amp; yum install libaio libcrypt avahi-libs<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Distributions basées sur RPM : <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>yum update &amp;&amp; yum install libaio libcrypt avahi-libs<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>For an installation in graphical mode, run the following commands to install the required packages:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">For an installation in graphical mode, run the following commands to install the required packages:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Pour une installation en mode graphique, exécutez les commandes suivantes pour installer les packages requis :</mrk></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Debian-based distributions: <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>apt-get update &amp;&amp; apt-get install -y --no-install-recommends libaio1 libcrypt libavahi-client3 lsb-core libxext6 libxtst6 libxrender1 fonts-dejavu<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Debian-based distributions: <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>apt-get update &amp;&amp; apt-get install -y --no-install-recommends libaio1 libcrypt libavahi-client3 lsb-core libxext6 libxtst6 libxrender1 fonts-dejavu<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="94">Distributions basées sur Debian : <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>apt-get update &amp;&amp; apt-get install -y --no-install-recommends libaio1 libcrypt libavahi-client3 lsb-core libxext6 libxtst6 libxrender1 fonts-dejavu<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="21"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>RPM-based distributions: <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>yum update &amp;&amp; yum install libaio libcrypt avahi-libs libXext libXtst libXrender dejavu-sans-fonts dejavu-serif-fonts<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">RPM-based distributions: <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>yum update &amp;&amp; yum install libaio libcrypt avahi-libs libXext libXtst libXrender dejavu-sans-fonts dejavu-serif-fonts<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="93">Distributions basées sur RPM : <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>yum update &amp;&amp; yum install libaio libcrypt avahi-libs libXext libXtst libXrender dejavu-sans-fonts dejavu-serif-fonts<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="22"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To use the graphical environment of a remote host during an installation in graphical mode, one of the following items must be used:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To use the graphical environment of a remote host during an installation in graphical mode, one of the following items must be used:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Pour utiliser l’environnement graphique d’un hôte distant lors d’une installation en mode graphique, vous devez utiliser l’un des éléments suivants :</mrk></target></trans-unit><trans-unit
+        id="23"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>A graphical environment (X Windows) on the local host.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">A graphical environment (X Windows) on the local host.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Un environnement graphique (X Windows) sur l'hôte distant.</mrk></target></trans-unit><trans-unit
+        id="24"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>A <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>DISPLAY<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> variable set .</source><seg-source><mrk
+            mtype="seg"
+            mid="1">A <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>DISPLAY<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> variable set .</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Une variable <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>DISPLAY<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> définie.</mrk></target></trans-unit><trans-unit
+        id="25"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Linux Server Snapshot</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Linux Server Snapshot</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Snapshot du serveur Linux</mrk></target></trans-unit><trans-unit
+        id="26"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you intend to use snapshots to secure your Linux Server, all your ADE components must be stored on:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you intend to use snapshots to secure your Linux Server, all your ADE components must be stored on:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Si vous voulez utiliser les snapshots pour sécuriser votre serveur Linux, tous vos composants doivent être stockés sur :</mrk></target></trans-unit><trans-unit
+        id="27"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Version 2.02.95 or higher of LVM2</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Version 2.02.95 or higher of LVM2</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">La version 2.02.95 ou supérieure de LVM2</mrk></target></trans-unit><trans-unit
+        id="28"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Thinly-Provisioned Logical Volumes (thin volumes)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Thinly-Provisioned Logical Volumes (thin volumes)</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Des volumes logiques à allocation fine</mrk></target></trans-unit><trans-unit
+        id="29"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>For more details on how to create a thin volume, see <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="Create_Thin_Volume_Linux.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Create a Thin Volume on Linux&lt;/MadCap:xref&gt;</ph>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">For more details on how to create a thin volume, see <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="Create_Thin_Volume_Linux.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Create a Thin Volume on Linux&lt;/MadCap:xref&gt;</ph>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="64">Pour plus de détails sur la façon de créer un thin volume, voir <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="Create_Thin_Volume_Linux.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Create a Thin Volume on Linux&lt;/MadCap:xref&gt;</ph>.</mrk></target></trans-unit><trans-unit
+        id="30"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Windows Server Snapshot</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Windows Server Snapshot</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Snapshot du serveur Windows</mrk></target></trans-unit><trans-unit
+        id="31"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you intend to use snapshots to secure your Windows Server, store all your ADE components on an NTFS file system.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you intend to use snapshots to secure your Windows Server, store all your ADE components on an NTFS file system.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Si vous avez l’intention d’utiliser des snapshots pour sécuriser votre serveur Windows, stockez tous vos composants ADE sur un système de fichiers NTFS.</mrk></target></trans-unit><trans-unit
+        id="32"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you intend to use the snapshot revert feature, do not install any ADE components on the system disk.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you intend to use the snapshot revert feature, do not install any ADE components on the system disk.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"
+            MadCap:diff="ContentChanged">Si vous voulez utiliser la fonctionnalité de restauration d’un snapshot, n’installez aucun composant ADE sur le disque système.</mrk></target><alt-trans
+          match-quality="84"
+          origin="previous-version"><seg-source>In addition, if you want to use the snapshot revert feature, do not install any ADE components on the system disk.</seg-source><target
+            MadCap:segmentStatus="Untranslated">De plus, si vous voulez utiliser la fonctionnalité snapshot revert, n’installez aucun composant ADE sur le disque système.</target></alt-trans></trans-unit><trans-unit
+        id="33"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>File system	</source><seg-source><mrk
+            mtype="seg"
+            mid="1">File system</mrk><mrk
+            mtype="protected"
+            mid="2">	</mrk><mrk
+            mtype="protected"
+            mid="3" /></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Système de fichiers</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="34"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>It is recommended to use:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">It is recommended to use:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Il est recommandé d'utiliser :</mrk></target></trans-unit><trans-unit
+        id="35"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>An ext4 file system on Linux servers</source><seg-source><mrk
+            mtype="seg"
+            mid="1">An ext4 file system on Linux servers</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Un système de fichiers ext4 sur les serveurs Linux</mrk></target></trans-unit><trans-unit
+        id="36"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>An NTFS on Windows servers.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">An NTFS on Windows servers.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Un NTFS sur les serveurs Windows.</mrk></target></trans-unit><trans-unit
+        id="37"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Memory</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Memory</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Mémoire</mrk></target></trans-unit><trans-unit
+        id="38"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>At least 8 GB of RAM is required.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">At least 8 GB of RAM is required.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Un minimum de 8 Go de RAM est nécessaire.</mrk></target></trans-unit><trans-unit
+        id="39"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Repository</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Repository</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Répertoire de stockage</mrk></target></trans-unit><trans-unit
+        id="40"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>At least 32 GB of disk space must be permanently available on the volume where the Atempo-Deduplication Engine data blocks are stored.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">At least 32 GB of disk space must be permanently available on the volume where the Atempo-Deduplication Engine data blocks are stored.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Un minimum de 32 Go d’espace disque doit être disponible en permanence sur le volume où sont stockés les blocs de données Atempo Deduplication Engine.</mrk></target></trans-unit><trans-unit
+        id="41"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Directory of the <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> server Database</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Directory of the <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> server Database</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Répertoire de la base de données du serveur <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph></mrk></target></trans-unit><trans-unit
+        id="42"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>At least 10 GB of disk space must be permanently available on the volume where the <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> data is stored.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">At least 10 GB of disk space must be permanently available on the volume where the <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> data is stored.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Au moins 10 Go d'espace disque doivent être disponibles en permanence sur le volume où les données <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> sont stockées.</mrk></target></trans-unit><trans-unit
+        id="43"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Default Communication Ports</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Default Communication Ports</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Ports de communication par défaut</mrk></target></trans-unit><trans-unit
+        id="44"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>These ports are the default ports and must be open on your firewall (unless you choose other values when you run the setup):</source><seg-source><mrk
+            mtype="seg"
+            mid="1">These ports are the default ports and must be open on your firewall (unless you choose other values when you run the setup):</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Les ports suivants sont les ports par défaut et doivent être ouverts dans votre pare-feu (sauf si vous choisissez d’autres numéros de port pendant l’installation) :</mrk></target></trans-unit><trans-unit
+        id="45"
+        restype="x-xml-p"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>8181<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>: Communication port for <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.ade_admin" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>8181<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>: Communication port for <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.ade_admin" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>8181<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> : port de communication pour la <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.ade_admin" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>.</mrk></target></trans-unit><trans-unit
+        id="46"
+        restype="x-xml-p"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>23232<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>: Communication port for Atempo-Deduplication Engine.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>23232<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>: Communication port for Atempo-Deduplication Engine.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>23232<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> : Port de communication pour le moteur de déduplication Atempo (ADE).</mrk></target></trans-unit><trans-unit
+        id="47"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Proxy option in web browser</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Proxy option in web browser</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Option proxy du navigateur web</mrk></target></trans-unit><trans-unit
+        id="48"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Ensure that your web browser does not use a proxy. Otherwise, you may get this error  message when trying to access your server in the <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.ade_admin" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>: "Attempt to load data from a server outside the security sandbox".</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Ensure that your web browser does not use a proxy.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Otherwise, you may get this error message when trying to access your server in the <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.ade_admin" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>: "Attempt to load data from a server outside the security sandbox".</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Assurez-vous que votre navigateur web n’utilise pas de proxy.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Sinon, vous risquez d'obtenir ce message d'erreur lorsque vous essayez d'accéder à votre serveur dans la <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.ade_admin" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>: "Attempt to load data from a server outside the security sandbox".</mrk></target></trans-unit><trans-unit
+        id="49"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To avoid this problem, follow these instructions:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To avoid this problem, follow these instructions:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Pour éviter ce problème, suivez ces instructions :</mrk></target></trans-unit><trans-unit
+        id="50"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Mozilla Firefox: Open the <bpt
+            id="1"
+            ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Application Menu<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> &gt; <bpt
+            id="2"
+            ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Settings<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> &gt; <bpt
+            id="3"
+            ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Network Settings<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept>. In the <bpt
+            id="4"
+            ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Connection Settings<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> window, select the <bpt
+            id="5"
+            ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>No Proxy<ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> check box.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Mozilla Firefox: Open the <bpt
+              id="1"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Application Menu<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> &gt; <bpt
+              id="2"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Settings<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> &gt; <bpt
+              id="3"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Network Settings<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">In the <bpt
+              id="4"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Connection Settings<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> window, select the <bpt
+              id="5"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>No Proxy<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> check box.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Mozilla Firefox : Ouvrez le <bpt
+              id="1"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>menu de l'application<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> &gt;<bpt
+              id="2"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt> Paramètres<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> &gt; <bpt
+              id="3"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Paramètres réseau<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Dans la fenêtre <bpt
+              id="4"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Paramètres de connexion<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept>, cochez la case <bpt
+              id="5"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Pas de Proxy<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="51"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Microsoft Internet Explorer: Open <bpt
+            id="1"
+            ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Tools<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> &gt; <bpt
+            id="2"
+            ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Internet Options<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> &gt; <bpt
+            id="3"
+            ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Connections<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> &gt; <bpt
+            id="4"
+            ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>LAN Settings<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept>. In the <bpt
+            id="5"
+            ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Local Area Network (LAN) Settings<ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> window, ensure that the <bpt
+            id="6"
+            ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Use a proxy server for your LAN<ept
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> option is unchecked.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Microsoft Internet Explorer: Open <bpt
+              id="1"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Tools<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> &gt; <bpt
+              id="2"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Internet Options<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> &gt; <bpt
+              id="3"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Connections<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> &gt; <bpt
+              id="4"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>LAN Settings<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">In the <bpt
+              id="5"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Local Area Network (LAN) Settings<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> window, ensure that the <bpt
+              id="6"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Use a proxy server for your LAN<ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> option is unchecked.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Microsoft Internet Explorer : ouvrez <bpt
+              id="1"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Outils<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> &gt; <bpt
+              id="2"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Options Internet<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> &gt; <bpt
+              id="3"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Connexions<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> &gt; <bpt
+              id="4"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Paramètres LAN<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Dans la fenêtre <bpt
+              id="5"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Paramètres du réseau local (LAN)<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept>, assurez-vous que l’option <bpt
+              id="6"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Utiliser un serveur proxy pour votre réseau local <ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept>est décochée.</mrk></target></trans-unit><trans-unit
+        id="52"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Google Chrome: Open the menu, then click  <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Settings<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &gt; <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Advanced<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &gt; <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Open proxy settings<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>. In the <bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Proxy <ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>window, ensure that the <bpt
+            id="5"
+            ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Use a proxy server<ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> option is unchecked.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Google Chrome: Open the menu, then click <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Settings<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &gt; <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Advanced<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &gt; <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Open proxy settings<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">In the <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Proxy <ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>window, ensure that the <bpt
+              id="5"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Use a proxy server<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> option is unchecked.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Google Chrome : ouvrez le menu, puis cliquez sur <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Paramètres<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &gt; <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Avancé<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &gt; <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Ouvrir les paramètres du proxy<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>. </mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Dans la fenêtre <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Proxy<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>, assurez-vous que l'option <bpt
+              id="5"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Utiliser un serveur proxy<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> est décochée.</mrk></target></trans-unit><trans-unit
+        id="53"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Apple Safari: Open <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Safari<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &gt; <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Preferences<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &gt; <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Advanced<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> tab &gt; <bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Change Settings...<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>. Ensure that no proxies are used.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Apple Safari: Open <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Safari<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &gt; <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Preferences<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &gt; <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Advanced<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> tab &gt; <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Change Settings...<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Ensure that no proxies are used.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="95">Apple Safari : ouvrez <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Safari<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &gt; <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Préférences<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &gt; onglet <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Avancé<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &gt; <bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Modifier les paramètres...<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Assurez-vous qu'aucun proxy n'est utilisé.</mrk></target></trans-unit><trans-unit
+        id="54"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Language</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Language</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Langue</mrk></target></trans-unit><trans-unit
+        id="55"
+        restype="x-xml-p"
+        phase-name="pretrans"><source><ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> adopts the language set at the operating system level. Available languages are English and French.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> adopts the language set at the operating system level.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Available languages are English and French.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="97"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> adopte la langue définie au niveau du système d'exploitation.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Les langues disponibles sont l’anglais et le français.</mrk></target></trans-unit><trans-unit
+        id="56"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>User</source><seg-source><mrk
+            mtype="seg"
+            mid="1">User</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Droits requis</mrk></target></trans-unit><trans-unit
+        id="57"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The user launching the setup program must have administrator or root rights.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The user launching the setup program must have administrator or root rights.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101"
+            MadCap:diff="ContentChanged">L’utilisateur qui lance le programme d’installation doit avoir des droits d’administrateur ou root.</mrk></target><alt-trans
+          match-quality="94"
+          origin="previous-version"><seg-source>The user launching the setup program must have administrator/root rights.</seg-source><target
+            MadCap:segmentStatus="Untranslated">L’utilisateur qui lance le programme d’installation doit avoir les permissions d’administrateur/root.</target></alt-trans></trans-unit><trans-unit
+        id="58"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>During the installation or upgrade, the setup verifies that prerequisites are met. If your environment does not meet some of them, you may encounter one of the following cases:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">During the installation or upgrade, the setup verifies that prerequisites are met.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">If your environment does not meet some of them, you may encounter one of the following cases:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Lors de l’installation ou la mise à jour, le programme d’installation vérifie si les conditions préalables sont remplies.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100"
+            MadCap:diff="ContentChanged">Si votre environnement ne répond pas à certains prérequis, vous risquez de rencontrer l'un des cas suivants :</mrk></target><alt-trans
+          mid="2"
+          match-quality="79"
+          origin="previous-version"><seg-source>If your environment does not meet some of the prerequisites, either:</seg-source><target
+            MadCap:segmentStatus="Untranslated">Si votre environnement ne remplit pas certaines des conditions préalables, soit :</target></alt-trans><alt-trans
+          mid="2"
+          match-quality="79"
+          origin="previous-version"><seg-source>If your environment does not meet some of the prerequisites, either:</seg-source><target
+            MadCap:segmentStatus="Untranslated">Si votre environnement ne remplit pas certaines des conditions préalables, soit :</target></alt-trans><alt-trans
+          mid="2"
+          match-quality="79"
+          origin="previous-version"><seg-source>If your environment does not meet some of the prerequisites, either:</seg-source><target
+            MadCap:segmentStatus="Untranslated">Si votre environnement ne remplit pas certaines des conditions préalables, soit :</target></alt-trans><alt-trans
+          mid="2"
+          match-quality="79"
+          origin="previous-version"><seg-source>If your environment does not meet some of the prerequisites, either:</seg-source><target
+            MadCap:segmentStatus="Untranslated">Si votre environnement ne remplit pas certaines des conditions préalables, soit :</target></alt-trans><alt-trans
+          mid="2"
+          match-quality="79"
+          origin="previous-version"><seg-source>If your environment does not meet some of the prerequisites, either:</seg-source><target
+            MadCap:segmentStatus="Untranslated">Si votre environnement ne remplit pas certaines des conditions préalables, soit :</target></alt-trans></trans-unit><trans-unit
+        id="59"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>A warning message specifies which requirement is not met, as well as recommendations on the corrective measures to take to comply with the requirements.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">A warning message specifies which requirement is not met, as well as recommendations on the corrective measures to take to comply with the requirements.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="55">Un message d'avertissement précise quel prérequis n'est pas rempli, ainsi que des recommandations sur les mesures correctives à prendre pour se conformer aux exigences.</mrk></target></trans-unit><trans-unit
+        id="60"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The installation stops until you make the necessary changes to meet the prerequisites.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The installation stops until you make the necessary changes to meet the prerequisites.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100"
+            MadCap:diff="ContentChanged">L’installation s’arrête pour vous permettre d’effectuer les modifications nécessaires.</mrk></target><alt-trans
+          match-quality="98"
+          origin="previous-version"><seg-source>the installation stops until you make the necessary changes to meet the prerequisites.</seg-source><target
+            MadCap:segmentStatus="Untranslated">l’installation s’arrêtera pour vous permettre d’effectuer les modifications nécessaires. </target></alt-trans></trans-unit></body>
+  </file>
+</xliff>

@@ -1,0 +1,588 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="completed">
+  <file
+    xml:space="preserve"
+    original="Restore_Snapshots_Linux_Server.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="fr">
+    <header>
+      <skl><external-file
+          href="Restore_Snapshots_Linux_Server.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">44</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11 r2"
+        tool-name="Lingo"
+        tool-version="11.1.7796.16213"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Restore  Snapshots  on a Linux Server</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Restore Snapshots on a Linux Server</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Restaurer des snapshots sur un serveur Linux</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Prerequisites</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Prerequisites</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Prérequis</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To mount a snapshots, take into account these prerequisites:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To mount a snapshots, take into account these prerequisites:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Pour monter un snapshot, prenez en compte ces prérequis :</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If the device <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>/dev/mapper/&lt;vg_name&gt;/&lt;snap_name&gt;<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> is missing, before the snapshot creation you must:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If the device <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>/dev/mapper/&lt;vg_name&gt;/&lt;snap_name&gt;<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> is missing, before the snapshot creation you must:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Si le périphérique <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>/dev/mapper/&lt;vg_name&gt;/&lt;snap_name&gt;<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> est manquant avant la création du snapshot, vous devez :</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Run <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>lvchange -ay &lt;vg_name&gt;/&lt;snap_name&gt;<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Run <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>lvchange -ay &lt;vg_name&gt;/&lt;snap_name&gt;<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Exécuter <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>lvchange -ay &lt;vg_name&gt;/&lt;snap_name&gt;<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Modify <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>/etc/lvm/lvm.conf<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> and add the <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>auto_set_activation_skip = 0<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> line to the configuration file.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Modify <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>/etc/lvm/lvm.conf<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> and add the <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>auto_set_activation_skip = 0<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> line to the configuration file.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Modifiez <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>/etc/lvm/lvm.conf<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> et ajouter la ligne <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>auto_set_activation_skip = 0<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> dans le fichier de configuration.</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The ADE <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>snap_mount &lt;ID&gt;<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> command gives the opportunity to mount snapshots too.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The ADE <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>snap_mount &lt;ID&gt;<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> command gives the opportunity to mount snapshots too.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">La commande ADE <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>snap_mount  &lt;ID&gt;<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> vous permet également de monter des snapshots.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Mount the Snapshot</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Mount the Snapshot</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Monter le snapshot</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Before mounting the snapshot, you can use the command <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>lvs<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> to get information about the snapshots. For example:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Before mounting the snapshot, you can use the command <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>lvs<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> to get information about the snapshots.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">For example:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Avant de monter le snapshot, vous pouvez utiliser la commande <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>lvs<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> pour obtenir des informations sur les snapshots.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Par exemple :</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>[root@cherubin data]# lvs</source><seg-source><mrk
+            mtype="seg"
+            mid="1">[root@cherubin data]# lvs</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">[root@cherubin data]# lvs</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>LV<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>VG<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">          		</ph>Attr<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">       	</ph>LSize<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">	  </ph>Pool<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>Origin Data%</source><seg-source><mrk
+            mtype="seg"
+            mid="1">LV<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>VG<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">          		</ph>Attr</mrk><mrk
+            mtype="seg"
+            mid="2"><ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">       	</ph>LSize<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">	  </ph>Pool<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>Origin Data%</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">LV<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>VG<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">          		</ph>Attr</mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0"><ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">       	</ph>LSize<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">	  </ph>Pool<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>Origin Data%</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>lv_root		vg_cherubin -wi-ao----   6,71g</source><seg-source><mrk
+            mtype="seg"
+            mid="1">lv_root vg_cherubin -wi-ao---- 6,71g</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">lv_root vg_cherubin -wi-ao---- 6,71g</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>lv_swap		vg_cherubin -wi-ao---- 816,00m</source><seg-source><mrk
+            mtype="seg"
+            mid="1">lv_swap vg_cherubin -wi-ao---- 816,00m</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">lv_swap vg_cherubin -wi-ao---- 816,00m</mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>SNAP_ID1		vg_data     Vwi-a-tz--  90,00g		thinpool lv1    2,64</source><seg-source><mrk
+            mtype="seg"
+            mid="1">SNAP_ID1 vg_data Vwi-a-tz-- 90,00g thinpool lv1 2,64</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">SNAP_ID1 vg_data Vwi-a-tz-- 90,00g thinpool lv1 2,64</mrk></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>SNAP_ID2		vg_data     Vwi-a-tz--  90,00g 		thinpool lv1    2,64</source><seg-source><mrk
+            mtype="seg"
+            mid="1">SNAP_ID2 vg_data Vwi-a-tz-- 90,00g thinpool lv1 2,64</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">SNAP_ID2 vg_data Vwi-a-tz-- 90,00g thinpool lv1 2,64</mrk></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>lv1		vg_data     Vwi-aotz--  90,00g 			thinpool        2,64</source><seg-source><mrk
+            mtype="seg"
+            mid="1">lv1 vg_data Vwi-aotz-- 90,00g thinpool 2,64</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">lv1 vg_data Vwi-aotz-- 90,00g thinpool 2,64</mrk></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>lvol0		vg_data     -wi-a----- 100,00m</source><seg-source><mrk
+            mtype="seg"
+            mid="1">lvol0 vg_data -wi-a----- 100,00m</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">lvol0 vg_data -wi-a----- 100,00m</mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>thinpool		vg_data     twi-a-tz--  90,00g    			       		  						2,66</source><seg-source><mrk
+            mtype="seg"
+            mid="1">thinpool vg_data twi-a-tz-- 90,00g 2,66</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">thinpool vg_data twi-a-tz-- 90,00g 2,66</mrk></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>thin2		vg_data2    twi-a-tz--   6,00g   		          						  		    	0,00</source><seg-source><mrk
+            mtype="seg"
+            mid="1">thin2 vg_data2 twi-a-tz-- 6,00g 0,00</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">thin2 vg_data2 twi-a-tz-- 6,00g 0,00</mrk></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>thinvolume		vg_data2    Vwi-a-tz--   1,00g 		thin2           0,00</source><seg-source><mrk
+            mtype="seg"
+            mid="1">thinvolume vg_data2 Vwi-a-tz-- 1,00g thin2 0,00</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">thinvolume vg_data2 Vwi-a-tz-- 1,00g thin2 0,00</mrk></target></trans-unit><trans-unit
+        id="21"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To mount a snapshot</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To mount a snapshot</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Pour monter un snapshot</mrk></target></trans-unit><trans-unit
+        id="22"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Launch the command:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Launch the command:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Lancez la commande :</mrk></target></trans-unit><trans-unit
+        id="23"
+        restype="x-xml-p"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>mount <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>/dev/mapper/&lt;vg_name&gt;/&lt;snap_name&gt;<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt> /&lt;mount_point&gt;<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>mount <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>/dev/mapper/&lt;vg_name&gt;/&lt;snap_name&gt;<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt> /&lt;mount_point&gt;<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>mount <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>/dev/mapper/&lt;vg_name&gt;/&lt;snap_name&gt;<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt> /&lt;mount_point&gt;<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="24"
+        restype="x-xml-div"
+        phase-name="pretrans"><source>mount /dev/mapper/vg_data/SNAP_ID /mnt/snap</source><seg-source><mrk
+            mtype="seg"
+            mid="1">mount /dev/mapper/vg_data/SNAP_ID /mnt/snap</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">mount /dev/mapper/vg_data/SNAP_ID /mnt/snap</mrk></target></trans-unit><trans-unit
+        id="25"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Regardless of the method you choose, after a restore of your <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> server, you need to manually remove the file <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>db_backup_sync<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> located in the <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="_Override" style="font-weight: bold;"&gt;</bpt><ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" style="font-weight: normal;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph><ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> database path.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Regardless of the method you choose, after a restore of your <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> server, you need to manually remove the file <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>db_backup_sync<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> located in the <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="_Override" style="font-weight: bold;"&gt;</bpt><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" style="font-weight: normal;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph><ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> database path.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Quelle que soit la méthode que vous choisissez, après une restauration de votre serveur <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>, vous devez supprimer manuellement le fichier <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>db_backup_sync<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> situé dans le chemin de la base de données <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" style="font-weight: normal;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>.<bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="_Override" style="font-weight: bold;"&gt;</bpt><ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="26"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Revert the Snapshot</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Revert the Snapshot</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Effectuer un revert du snapshot</mrk></target></trans-unit><trans-unit
+        id="27"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Stop the ADE service.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Stop the ADE service.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Arrêtez le service.</mrk></target></trans-unit><trans-unit
+        id="28"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Launch:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Launch:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Exécutez :</mrk></target></trans-unit><trans-unit
+        id="29"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>unmount /&lt;lv_mount_point&gt;0</source><seg-source><mrk
+            mtype="seg"
+            mid="1">unmount /&lt;lv_mount_point&gt;0</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">unmount /&lt;lv_mount_point&gt;0</mrk></target></trans-unit><trans-unit
+        id="30"
+        restype="x-xml-div"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>umount /data/lv1<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>
+            <ph
+            id="2"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>data/lv1<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> is the mount point of the <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>/dev/vg_data/lv1<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> logical volume that must be reverted.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>umount /data/lv1<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> <ph
+              id="2"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>data/lv1<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> is the mount point of the <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>/dev/vg_data/lv1<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> logical volume that must be reverted.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>umount /data/lv1<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> <ph
+              id="2"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>data/lv1<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> est le point de montage du volume logique<bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>/dev/vg_data/lv1<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> qui doit être subir un revert.</mrk></target></trans-unit><trans-unit
+        id="31"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Launch:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Launch:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Exécutez :</mrk></target></trans-unit><trans-unit
+        id="32"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>lvrename /dev/&lt;vg_name&gt;/&lt;lv_name&gt; /dev/&lt;vg_name&gt;/&lt;lv_bck_name&gt;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">lvrename /dev/&lt;vg_name&gt;/&lt;lv_name&gt; /dev/&lt;vg_name&gt;/&lt;lv_bck_name&gt;</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">lvrename /dev/&lt;vg_name&gt;/&lt;lv_name&gt; /dev/&lt;vg_name&gt;/&lt;lv_bck_name&gt;</mrk></target></trans-unit><trans-unit
+        id="33"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>lvrename /dev/&lt;vg_name&gt;/&lt;snap_name&gt; /dev/&lt;vg_name&gt;/&lt;lv_name&gt;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">lvrename /dev/&lt;vg_name&gt;/&lt;snap_name&gt; /dev/&lt;vg_name&gt;/&lt;lv_name&gt;</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">lvrename /dev/&lt;vg_name&gt;/&lt;snap_name&gt; /dev/&lt;vg_name&gt;/&lt;lv_name&gt;</mrk></target></trans-unit><trans-unit
+        id="34"
+        restype="x-xml-div"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>lvrename /dev/vg_data/lv1 /dev/vg_data/lv1_sav<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>
+            <ph
+            id="2"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>lvrename /dev/vg_data/SNAP_ID /dev/vg_data/lv1<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>lvrename /dev/vg_data/lv1 /dev/vg_data/lv1_sav<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> <ph
+              id="2"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="3">lvrename /dev/vg_data/SNAP_ID /dev/vg_data/lv1</mrk><mrk
+            mtype="seg"
+            mid="4"><ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>lvrename /dev/vg_data/lv1 /dev/vg_data/lv1_sav<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> <ph
+              id="2"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br /&gt;</ph></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">lvrename /dev/vg_data/SNAP_ID /dev/vg_data/lv1</mrk><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="35"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Verify that all your data is correctly restored, and remove the initial volume:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Verify that all your data is correctly restored, and remove the initial volume:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Vérifiez que toutes vos données sont correctement restaurées et retirez le volume initial :</mrk></target></trans-unit><trans-unit
+        id="36"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>lvremove /dev/&lt;vg_name&gt;/&lt;lv_bck_name&gt;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">lvremove /dev/&lt;vg_name&gt;/&lt;lv_bck_name&gt;</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">lvremove /dev/&lt;vg_name&gt;/&lt;lv_bck_name&gt;</mrk></target></trans-unit><trans-unit
+        id="37"
+        restype="x-xml-div"
+        phase-name="pretrans"><source>lvremove /dev/vg_data/lv1_sav</source><seg-source><mrk
+            mtype="seg"
+            mid="1">lvremove /dev/vg_data/lv1_sav</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">lvremove /dev/vg_data/lv1_sav</mrk></target></trans-unit></body>
+  </file>
+</xliff>

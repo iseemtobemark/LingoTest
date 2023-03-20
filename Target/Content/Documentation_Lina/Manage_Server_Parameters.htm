@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="aln_admin_1282167276_1170692"></a>Manage Tunables</h1>
+        <p class="BodyAfterHead">Tunables are special parameters that modify <MadCap:variable name="General.ProductName" MadCap:conditions="ALN.admin" /><MadCap:variable name="ALN.hys_exe" MadCap:conditions="HSS.HSS" /> server behavior. They may be used to tune the application to fit specific needs. To view and manage tunables, you need to be an administrator.</p>
+        <h2 MadCap:conditions="General.Hidden" MadCap:autonum="">Adding or removing a repository</h2>
+        <p class="s1_StepNum" MadCap:conditions="General.Hidden" MadCap:autonum="1. ">Click the variable <span class="Monospace">repository.path</span>. The <b>Environment Variable Value</b> window opens.</p>
+        <p class="s1_StepNum" MadCap:conditions="General.Hidden" MadCap:autonum="2. ">To add a repository, enter a semicolon followed by the new repository path after the existing repository path. If you define several repositories, blocks are copied successively into one or the other repository. The server writes the first block file into the first repository, then the next block file into the next repository, etc.</p>
+        <p class="s1_StepNum" MadCap:conditions="General.Hidden" MadCap:autonum="3. ">To remove a repository, delete the path of the repository you want to remove. If you remove a repository that already contained backups, the data backed up remains in the repository unless you move the block files using the <span class="Monospace">ade_server</span> command.</p>
+        <p class="s1_StepNum" MadCap:conditions="General.Hidden" MadCap:autonum="4. ">Close the window or click outside  to validate the new value.</p>
+    </body>
+</html>

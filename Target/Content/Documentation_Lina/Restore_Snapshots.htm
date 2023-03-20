@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/TableStyles/t_BasicTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="appendix_server_protect_2327159732_1115366"></a>Restore Snapshots</h1>
+        <p class="BodyAfterHead">These procedures apply to both automatic snapshot and manual snapshot restore.</p>
+        <p class="Body">Since all components (home directory, block repositories, database, logs, etc.) are linked together, it is mandatory to restore all components together.</p>
+        <p class="Body">Two solutions are available to restore a snapshot:</p>
+        <p class="Bulleted" MadCap:autonum="• ">Mount or expose the snapshot and copy files from the snapshot to the current volume.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Revert/restore the whole volume (not for system volumes).</p>
+        <p>Before a Restore Operation: in the <span class="Monospace">ade_admin</span> command line interface, run the <span class="Monospace">snap_list</span> command to obtain the list of available snapshots. You must stop the ADE and HyperStream Snapshot services before you start copying any file.</p>
+        <p>
+            <MadCap:annotation MadCap:createDate="2022-04-22T18:11:03.7020105+02:00" MadCap:creator="lisal" MadCap:initials="LI" MadCap:comment="info à check pour le HSS" MadCap:editor="lisal" MadCap:editDate="2022-04-22T18:11:18.9131865+02:00">After a Restore Operation: ensure that you restart the ADE and the HyperStream Snapshot services after any restore operation.</MadCap:annotation>
+        </p>
+    </body>
+</html>

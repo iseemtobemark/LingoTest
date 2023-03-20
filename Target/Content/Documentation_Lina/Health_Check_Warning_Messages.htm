@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/TableStyles/t_BasicTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="troubleshooting_2086620547_1199680"></a><a name="troubleshooting_2086620547_10397"></a> Warning Messages</h1>
+        <p class="BodyAfterHead">The following warning messages can be displayed in the health check (<MadCap:xref href="#health_warning_messages" class="table_x">see Table</MadCap:xref>):</p>
+        <table class="TableStyle-t_BasicTable" style="mc-table-style: url('../Resources/TableStyles/t_BasicTable.css');margin-left: 0;margin-right: auto;caption-side: top;mc-caption-repeat: true;" cellspacing="0">
+            <caption>
+                <p class="TableCaption" MadCap:autonum="&lt;b&gt;Table&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="health_warning_messages"></a>Description of health warning messages</p>
+            </caption>
+            <col class="TableStyle-t_BasicTable-Column-Column1" />
+            <col class="TableStyle-t_BasicTable-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-t_BasicTable-Head-Header1">
+                    <td class="TableStyle-t_BasicTable-HeadE-Column1-Header1">
+                        <p class="tbh_TableHead">Name</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-HeadD-Column2-Header1">
+                        <p class="tbh_TableHead">Description</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">ADE Server running on a Virtualized server.</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">On virtual platforms, performance cannot be exactly determined, since resources are shared with others virtual machines. For maximum performance, use a dedicated physical server.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">Hot backup mode has been running for X minutes <MadCap:conditionalText MadCap:conditions="ALN.ALN">(ALN agents are waiting).</MadCap:conditionalText></p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">The hot backup is in progress.</p>
+                        <p class="tbt_TableText">
+                            <MadCap:conditionalText MadCap:conditions="ALN.ALN">Note that during the hot backup of a <MadCap:variable name="General.ProductName" /> configuration, <MadCap:variable name="General.ProductName" /> agents backup is unavailable.</MadCap:conditionalText>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">ADE Server is not backed up nor snapshotted.</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Snapshots and backups are important to recover your server in case of trouble. This warning is not displayed on mirrored configurations.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">ADE Server has been backed up X days ago.</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">You should verify why the last server backup took place so long ago.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Database and block repositories should be stored on separate volumes for optimal performance.</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Since database should be stored on SSD, having both the database and the repositories on the same volume is probably a configuration error.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">Using self-signed SSL certificate.</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">ADE generates and self-signs a SSL certificate. For improved security, you should replace it by our own certificate.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Replication source <span class="Monospace">&lt;host:port&gt;</span> is on the same host as the server. Be carefull with this configuration: hardware failure could damage both ADE Servers</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Replication mainly aims at protecting data using redundancy on another location. Thus having both mirrors on the same host, or storing data on the same disk array is not recommended.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">Replication destination <span class="Monospace">&lt;host:port&gt;</span> is on the same host as the server. Be carefull with this configuration: hardware failure could damage both ADE Servers.</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">Replication mainly aims at protecting data using redundancy on another location. Thus having both mirrors on the same host, or storing data on the same disks array is not recommended.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">SSD does not support the TRIM command.</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">TRIM is essential to guarantee constant SSD performance and reliability over the years. This message indicates that your device does not support the feature.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">Database commits are too long (average is X seconds). Please move Core database to SSD.</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">The seek time of a SSD device is much faster than the seek time of an usual hard drive. It is mandatory to move the database to an SSD device, since database usage is mostly random access pattern.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Evaluation license (X days remaining)</p>
+                        <p class="tbt_TableText">or</p>
+                        <p class="tbt_TableText">License expire in X days</p>
+                        <p class="tbt_TableText">or</p>
+                        <p class="tbt_TableText">Expired license.</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Please contact your reseller to get a new license file.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">Fail to determine license info.</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">Check that the license server is running.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">CPU power scheme is set to <span class="Monospace">&lt;mode&gt;</span> instead of "Performance" mode.</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">On heavy load, a CPU set to <span class="Monospace">performance</span> mode performs more DB operations per second.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">Snapshot not supported (LVM not installed)</p>
+                        <p class="tbt_TableText">or</p>
+                        <p class="tbt_TableText">Snapshot not supported (old LVM version).</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">Please install LVM2 with version 2.02.95 or more.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Snapshot not supported (some paths cannot be protected).</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">All paths must be located on a volume that can be snapshotted.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">Snapshot not supported.</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">Check your file system and configuration.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Some repositories share the same volume (performance issue).</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Block files should be stored on different volumes to increase performance. Having several repositories pointing to the same volume is probably a configuration error.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">Check SSD configuration. System considers it as a Disk, not an SSD.</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">The system is not correctly configured or the disk controller firmware is not aware of SSD or does not fully support SSD.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Unable to check if an update is available.</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">ADE fails to contact the server to check for update. Check the firewall or disable the notification about new releases from the <MadCap:variable name="ALN.ade_admin" MadCap:conditions="ALN.ALN" /><MadCap:variable name="HSS.ade_admin" MadCap:conditions="ALN.HSS" />.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">New release available (only available for version X and above)</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">A new release is available but ADE must be upgraded to version X before upgrading to the last version.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyB-Column1-row1">
+                        <p class="tbt_TableText">New optional release available</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyA-Column2-row1">
+                        <p class="tbt_TableText">A new release is available. Download it and install it.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

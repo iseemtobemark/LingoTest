@@ -1,0 +1,796 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="completed">
+  <file
+    xml:space="preserve"
+    original="Simple_and_Hierarchical_replication.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="fr">
+    <header>
+      <skl><external-file
+          href="Simple_and_Hierarchical_replication.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">59</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11 r2"
+        tool-name="Lingo"
+        tool-version="11.1.7796.16213"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Simple and Hierarchical Replication</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Simple and Hierarchical Replication</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Réplication simple et réplication hiérarchique</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Replication enables to copy the content of an <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> onto another. Unlike bidirectional replication, simple and hierarchical replication are a one way copy. I.e., the destination server content is not copied back onto the source (unless you specifically define a bidirectional replication).</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Replication enables to copy the content of an <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> onto another.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:conditions="ALN.HSS"> </mrk><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:conditions="ALN.HSS">Unlike bidirectional replication, simple and hierarchical replication are a one way copy.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:conditions="ALN.HSS"> </mrk><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:conditions="ALN.HSS">I.e., the destination server content is not copied back onto the source (unless you specifically define a bidirectional replication).</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">La réplication permet de copier le contenu d’un <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> vers un autre serveur <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Contrairement à la réplication bidirectionnelle, la réplication simple et hiérarchique est une copie unidirectionnelle.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Par exemple, le contenu du serveur de destination n'est pas recopié sur la source (sauf si vous définissez spécifiquement une réplication bidirectionnelle).</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>These replication configurations are supported:</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">These replication configurations are supported:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Ces configurations de réplication sont supportées :</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Server A to Server B.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Server A to Server B.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Serveur A vers Serveur B.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Servers A,B,C,D, etc. to Server N.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Servers A,B,C,D, etc. to Server N.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Servers A,B,C,D, etc. vers Server N.</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Server A to Server B to Server C to Server A.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Server A to Server B to Server C to Server A.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Serveur A vers Serveur B vers Serveur C vers Serveur A.</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-div"
+        phase-name="pretrans"><source>Replicating an <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> A to an <ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> B is supported only if the two servers are installed on different physical servers (or virtual machines). The servers must have the same architecture, the same operating system, and the same HyperStream version.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Replicating an <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> A to an <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> B is supported only if the two servers are installed on different physical servers (or virtual machines).</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:conditions="ALN.HSS"> </mrk><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:conditions="ALN.HSS">The servers must have the same architecture, the same operating system, and the same HyperStream version.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">La réplication d’un <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> A vers un <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> B n’est prise en charge que si les deux serveurs sont installés sur des serveurs physiques (ou des machines virtuelles) différents.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Les serveurs doivent avoir la même architecture, le même système d’exploitation et la même version d'HyperStream.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-div"
+        phase-name="pretrans"><source>The replication starts as soon as the replication destination is created. Ensure that the time to launch the replication is appropriate prior to defining the replication destination.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">The replication starts as soon as the replication destination is created.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:conditions="ALN.HSS"> </mrk><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:conditions="ALN.HSS">Ensure that the time to launch the replication is appropriate prior to defining the replication destination.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">La réplication commence dès que la destination de réplication est créée.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Ne créez cette destination que lorsque le moment est opportun pour lancer la réplication.</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To activate the replication of <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> A to <ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> B with the Graphical User Interface</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">To activate the replication of <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> A to <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> B with the Graphical User Interface</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Pour activer la réplication du <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> A vers le <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> B en mode graphique</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Launch the <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="HSS.ade_admin" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> on Server A and log in as the <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>admin<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> user.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Launch the <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="HSS.ade_admin" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> on Server A and log in as the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>admin<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> user.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Lancez le <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="HSS.ade_admin" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> sur le serveur A et connectez-vous en tant qu'utilisateur <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>administrateur<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Select <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Server &gt; Configuration &gt; Replication<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Select <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Server &gt; Configuration &gt; Replication<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Sélectionnez <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Serveur &gt; Configuration &gt; Réplication<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Click <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Add<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Click <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Add<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Cliquez sur <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Ajouter<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Provide the name and port number of Server B.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Provide the name and port number of Server B.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Saisissez le nom et le numéro de port du serveur B.</mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Click <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Validate the creation<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Click <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Validate the creation<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Cliquez sur <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Valider la création<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To activate the replication of <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> A to <ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> B with the Command Line Interface</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">To activate the replication of <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> A to <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> B with the Command Line Interface</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Pour activer la réplication du <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> A vers le <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> B en mode commande</mrk></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-div"
+        phase-name="pretrans"><source>Use the command line only if you cannot access the <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="HSS.ade_admin" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> .</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Use the command line only if you cannot access the <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="HSS.ade_admin" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> .</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Utilisez le mode commande uniquement si vous ne pouvez pas accéder à la <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="HSS.ade_admin" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>.</mrk></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Launch the <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>ade_admin<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> command line interface on Server A as <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>admin<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Launch the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>ade_admin<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> command line interface on Server A as <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>admin<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Lancez l’interface ligne de commande <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>ade_admin<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> sur le serveur A en tant qu'<bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>admin<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Run the <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>add_repli &lt;<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monoitalic"&gt;</bpt>server B<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>&gt;:&lt;<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><bpt
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monoitalic"&gt;</bpt>port_number<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><bpt
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>&gt;<ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> command to add Server B as a replication destination for Server A.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Run the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>add_repli &lt;<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monoitalic"&gt;</bpt>server B<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>&gt;:&lt;<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monoitalic"&gt;</bpt>port_number<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>&gt;<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> command to add Server B as a replication destination for Server A.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Exécutez la commande  <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>add_repli &lt;<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monoitalic"&gt;</bpt>server B<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>&gt;:&lt;<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><bpt
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monoitalic"&gt;</bpt>port_number<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><bpt
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>&gt;<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> pour ajouter le serveur B comme destination de réplication du serveur A.</mrk></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To pause/restart replication of the <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph></source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">To pause/restart replication of the <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Pour suspendre / redémarrer la réplication du <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph></mrk></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Launch the <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>ade_admin<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> command line interface on the source <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Launch the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>ade_admin<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> command line interface on the source <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Lancez l’interface ligne de commande <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>ade_admin<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> sur le <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> source.</mrk></target></trans-unit><trans-unit
+        id="21"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To pause the replication, run this command:</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">To pause the replication, run this command:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Pour suspendre la réplication, exécutez cette commande :</mrk></target></trans-unit><trans-unit
+        id="22"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>service pause replication</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">service pause replication</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">service pause replication</mrk></target></trans-unit><trans-unit
+        id="23"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To resume the replication, run this command:</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">To resume the replication, run this command:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Pour reprendre la réplication, exécutez cette commande :</mrk></target></trans-unit><trans-unit
+        id="24"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>service resume replication</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">service resume replication</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">service resume replication</mrk></target></trans-unit><trans-unit
+        id="25"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To display bidirectional replication information</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">To display bidirectional replication information</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Pour afficher des informations sur la réplication bidirectionnelle</mrk></target></trans-unit><trans-unit
+        id="26"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Launch the <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>ade_admin<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> command line interface on one of the servers.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Launch the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>ade_admin<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> command line interface on one of the servers.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Lancez l’interface ligne de commande <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>ade_admin<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> sur l’un des serveurs.</mrk></target></trans-unit><trans-unit
+        id="27"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Run the command</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Run the command</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Exécutez la commande :</mrk></target></trans-unit><trans-unit
+        id="28"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>repli_info</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">repli_info</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">repli_info</mrk></target></trans-unit><trans-unit
+        id="29"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>This information is returned:</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">This information is returned:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Ces informations sont renvoyées :</mrk></target></trans-unit><trans-unit
+        id="30"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>TIBERIUM:23233&gt; repli_info</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">TIBERIUM:23233&gt; repli_info</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">TIBERIUM:23233&gt; repli_info</mrk></target></trans-unit><trans-unit
+        id="31"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>- ADE Replicator: TIBERIUM:32323 (ed8ccb38-820a-2e45-a579-018b22f1caab) CONNECTED<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph>(59 minutes ago)</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">- ADE Replicator: TIBERIUM:32323 (ed8ccb38-820a-2e45-a579-018b22f1caab) CONNECTED<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:conditions="ALN.HSS">(59 minutes ago)</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">- ADE Replicator: TIBERIUM:32323 (ed8ccb38-820a-2e45-a579-018b22f1caab) CONNECTED<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">(59 minutes ago)</mrk></target></trans-unit><trans-unit
+        id="32"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>- HSS Replicator: TIBERIUM:32323 (ed8ccb38-820a-2e45-a579-018b22f1caab) CONNECTED<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph>(59 minutes ago)</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">- HSS Replicator: TIBERIUM:32323 (ed8ccb38-820a-2e45-a579-018b22f1caab) CONNECTED<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:conditions="ALN.HSS">(59 minutes ago)</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">- HSS Replicator: TIBERIUM:32323 (ed8ccb38-820a-2e45-a579-018b22f1caab) CONNECTED<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">(59 minutes ago)</mrk></target></trans-unit><trans-unit
+        id="33"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Last synchro: 0 minute(s) ago</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Last synchro: 0 minute(s) ago</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Last synchro: 0 minute(s) ago</mrk></target></trans-unit><trans-unit
+        id="34"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>Last synchro<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> parameter, also known as replication lag, displays the date from which you are able to restore data from the replication target server if the replication source is off. If its value is <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>0<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>, the synchronizing is complete.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">The <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>Last synchro<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> parameter, also known as replication lag, displays the date from which you are able to restore data from the replication target server if the replication source is off.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:conditions="ALN.HSS"> </mrk><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:conditions="ALN.HSS">If its value is <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>0<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>, the synchronizing is complete.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Le paramètre <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>Last synchro<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>, aussi appelé décalage de réplication, indique la date à partir de laquelle vous pouvez restaurer des données si la source est inactive.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0"> Si sa valeur est <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>0<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>, la synchronisation est terminée.</mrk></target></trans-unit><trans-unit
+        id="35"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Run the command:</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Run the command:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Exécutez la commande :</mrk></target></trans-unit><trans-unit
+        id="36"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>service list</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">service list</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">service list</mrk></target></trans-unit><trans-unit
+        id="37"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>This information is returned:</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">This information is returned:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Ces informations sont renvoyées :</mrk></target></trans-unit><trans-unit
+        id="38"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>redhsswin3:23232&gt; service list</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">redhsswin3:23232&gt; service list</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">redhsswin3:23232&gt; service list</mrk></target></trans-unit><trans-unit
+        id="39"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>ADE Replication   is RUNNING  (type= 6, host=redhsswin4:23232,uuid=e5030fd4-f0d8-374e-9b76-32a01bcc5dbd,remote_blocks=36998698,timeshifting=0,status=CONNECTED)</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">ADE Replication is RUNNING (type= 6, host=redhsswin4:23232,uuid=e5030fd4-f0d8-374e-9b76-32a01bcc5dbd,remote_blocks=36998698,timeshifting=0,status=CONNECTED)</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">ADE Replication is RUNNING (type= 6, host=redhsswin4:23232,uuid=e5030fd4-f0d8-374e-9b76-32a01bcc5dbd,remote_blocks=36998698,timeshifting=0,status=CONNECTED)</mrk></target></trans-unit><trans-unit
+        id="40"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Compactor         is READY    (type= 7, wasted=10.67%)</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Compactor is READY (type= 7, wasted=10.67%)</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Compactor is READY (type= 7, wasted=10.67%)</mrk></target></trans-unit><trans-unit
+        id="41"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Discover          is RUNNING  (type= 8, nb_server=29,upnp=0)</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Discover is RUNNING (type= 8, nb_server=29,upnp=0)</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Discover is RUNNING (type= 8, nb_server=29,upnp=0)</mrk></target></trans-unit><trans-unit
+        id="42"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Garbage Collector is READY    (type= 9, pending_task=0)</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Garbage Collector is READY (type= 9, pending_task=0)</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Garbage Collector is READY (type= 9, pending_task=0)</mrk></target></trans-unit><trans-unit
+        id="43"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>HSS               is RUNNING  (type=15, nb_stream=2405)</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">HSS is RUNNING (type=15, nb_stream=2405)</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">HSS is RUNNING (type=15, nb_stream=2405)</mrk></target></trans-unit><trans-unit
+        id="44"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>HSS Replication   is RUNNING  (type=13, host=redhsswin4:23232,uuid=e5030fd4-f0d8-374e-9b76-32a01bcc5dbd,nb_waiting_task=1,status=CONNECTED)</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">HSS Replication is RUNNING (type=13, host=redhsswin4:23232,uuid=e5030fd4-f0d8-374e-9b76-32a01bcc5dbd,nb_waiting_task=1,status=CONNECTED)</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">HSS Replication is RUNNING (type=13, host=redhsswin4:23232,uuid=e5030fd4-f0d8-374e-9b76-32a01bcc5dbd,nb_waiting_task=1,status=CONNECTED)</mrk></target></trans-unit><trans-unit
+        id="45"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Monitor           is RUNNING  (type= 3, thr=15,cli=4,req=546,chk=8544,get=0,put=0,upd=0,inc=0,dec=0,del=0,net=28.31,bck=0.00,resto=0.00,rep_in=0.00,rep_out=23.98,cpu=0 %,ram=1849 MB,vm=1898 MB)</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Monitor is RUNNING (type= 3, thr=15,cli=4,req=546,chk=8544,get=0,put=0,upd=0,inc=0,dec=0,del=0,net=28.31,bck=0.00,resto=0.00,rep_in=0.00,rep_out=23.98,cpu=0 %,ram=1849 MB,vm=1898 MB)</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Monitor is RUNNING (type= 3, thr=15,cli=4,req=546,chk=8544,get=0,put=0,upd=0,inc=0,dec=0,del=0,net=28.31,bck=0.00,resto=0.00,rep_in=0.00,rep_out=23.98,cpu=0 %,ram=1849 MB,vm=1898 MB)</mrk></target></trans-unit><trans-unit
+        id="46"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Web server        is RUNNING  (type= 5, sessions=0,port=8181)</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Web server is RUNNING (type= 5, sessions=0,port=8181)</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Web server is RUNNING (type= 5, sessions=0,port=8181)</mrk></target></trans-unit><trans-unit
+        id="47"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>Rep_in<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> parameter provides the incoming data rate in MB/s, while <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>Rep_out<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> provides the outgoing data rate in MB/s.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">The <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>Rep_in<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> parameter provides the incoming data rate in MB/s, while <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>Rep_out<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> provides the outgoing data rate in MB/s.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Le paramètre <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>Rep_in<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> fournit le débit en Mo/s des données reçues, alors que le paramètre <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>Rep_out<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> fournit le débit en Mo/s des données envoyées.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

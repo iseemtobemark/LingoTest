@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="">Restore a File Using the Search View</h1>
+        <p class="Introduction">The agent interface allows you to take control and search through all your protected files regardless of their backup time. If you want to learn more about the Search interface before starting your file restore, see <MadCap:xref href="About_the_Search_View.htm">About the Search View</MadCap:xref>. </p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Right-click the <MadCap:variable name="ALN.aln.agent" /> icon <img src="../Resources/Images/Images_Topics_Lina/trayicon32.png" MadCap:mediastyle="@media print { height: 16px;width: auto; }" style="height: 16px;width: auto;" />  in the task bar and select <span class="Bold"><MadCap:variable name="ALN.agent_restore" /></span>. </p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">In the <span class="Bold">Restore</span> menu, select <span class="Bold">Search</span>. </p>
+        <p class="BulletedCont">A list of available servers display in the upper-right corner of the window. This list displays only if there are several restore sources available and if you are not in Advanced mode. Each item of the list contains:</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">An icon that specifies if the server is available or not.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">The name of the restore source (primary and secondary). </p>
+        <p class="BulletedIndent" MadCap:autonum="• ">The retention period for each server.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Select the server to use for the file restore.</p>
+        <p class="BulletedCont">By default, the primary server is selected as an available server.   The <MadCap:variable name="ALN.aln.agent" /> switches on the secondary server if the primary server is unreachable.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Choose your search criteria: </p>
+        <p class="BulletedIndent" MadCap:autonum="• ">Type the path to locate your file or select it with <span class="Bold">Browse computer</span> or <span class="Bold">Browse backup</span>. </p>
+        <p class="BulletedIndent" MadCap:autonum="• ">Type your extension or your file.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">Define the time interval in which the file was modified.</p>
+        <p class="s1_StepNum_KeepWithNext" MadCap:autonum="5. ">Once you have entered your search criteria, select <b>Search</b>.  If the search returns too many files, you will be invited to reduce your search criteria to yield a smaller number of files.</p>
+        <p class="s1_StepNum" MadCap:autonum="6. ">Select your file to see the available restore versions (<MadCap:xref href="#Restoring_file_search_view" class="figure_x">see Figure</MadCap:xref>). </p>
+        <div class="figureIndented">
+            <img src="../Resources/Images/Images_Topics_Lina/FR_agent_ui_search_result.PNG" MadCap:mediastyle="@media print { height: auto;width: 459px; }" style="width: 649px;height: auto;" />
+            <p class="Figure" MadCap:autonum="&lt;b&gt;Figure&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="Restoring_file_search_view"></a>In this example, the selected file is available in three restorable versions</p>
+        </div>
+        <p class="s1_StepNum" MadCap:autonum="7. ">In the  <span class="Bold">Version</span> area, select the version to restore and click <b>Restore</b>. </p>
+        <p class="BulletedCont"> The <b>Restore</b> window is displayed.</p>
+        <p class="s1_StepNum" MadCap:autonum="8. ">Choose the restore location. By default, the file is restored to its original location, but you can switch the toggle on to restore the file to another location.</p>
+        <p class="BulletedCont">If you choose a new location, click <span class="Bold">Browse computer</span> to add the target directory. </p>
+        <p class="s1_StepNum" MadCap:autonum="9. ">If the file to restore already exists at this location, select the restore behavior : </p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold">Overwrite</span> The file is replaced by the restored file. </p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold">Skip</span> The file is not restored.</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold">Rename</span> The file already present is renamed with the suffix <span class="Monospace">.bak</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="10. ">If needed, change the identity to a user that may have more privilege to  restore  data. If the chosen identity is linked to an admin group, the restore is done directly as administrator (<span class="Monospace">NT Authority\system</span> on Windows, <span class="Monospace">root</span> on Linux and macOS): </p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold">Impersonated restore</span> Type the username and password of the user you want to restore.</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold">System restore on Windows</span> Type the username and password belonging to the local administrators group, then click <span class="Bold">Check Identity</span>.</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold">System restore Linux and macOS</span> Type the username and password belonging to the admin, adm, sudo, wheel or root groups.</p>
+        <p class="s1_StepNum_KeepWithNext" MadCap:autonum="11. ">Click <span class="Bold">Check Identity</span>.</p>
+        <p class="s1_StepNum_KeepWithNext" MadCap:autonum="12. ">Select <span class="Bold">Restore</span>. To cancel the restore process, click <span class="Bold">Cancel</span>.</p>
+        <p class="BulletedCont">Once the restore process is complete, you can view the details in the status overview. </p>
+        <p class="s1_StepNum" MadCap:autonum="13. ">Click <span class="Bold">Finish</span> to close the restore process. </p>
+    </body>
+</html>

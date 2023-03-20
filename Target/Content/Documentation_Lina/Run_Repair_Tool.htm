@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="appendix_maintenance_2072635088_1087812"></a><a name="appendix_maintenance_2072635088_61814"></a>Run the Repair Tool</h1>
+        <p class="BodyAfterHead">The repair tool performs these operations:</p>
+        <p class="Bulleted" MadCap:autonum="• ">A complete in-depth check of each block validity, and a reset of the counters keeping track of the number of occurrences of each block.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Each <MadCap:conditionalText MadCap:conditions="ALN.ALN"><MadCap:variable name="General.ProductName"></MadCap:variable> client database</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="ALN.HSS"><MadCap:variable name="ALN.hys_exe"></MadCap:variable> stream</MadCap:conditionalText> is then checked and for every listed block of every known file, the related counter is incremented, even if the block does not exist.</p>
+        <p class="Bulleted" MadCap:autonum="• ">When a file has at least one missing block, this file is labeled as <span class="Monospace">erroneous</span>.</p>
+        <p class="Bulleted" MadCap:autonum="• ">When a <MadCap:conditionalText MadCap:conditions="ALN.ALN">database</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="ALN.HSS">stream</MadCap:conditionalText> has at least one <span class="Monospace">erroneous</span> file, this database is reported for a reload. This operation does not hide <span class="Monospace">erroneous</span> files, which are still displayed for browsing and restore purpose.</p>
+        <p class="Bulleted" MadCap:autonum="• ">When the repair operation is over, every reference counter is correct and the status of missing blocks is updated on ADE.</p>
+        <p class="Bulleted" MadCap:autonum="• ">If an <span class="Monospace">erroneous</span> file is still under protection on an active agent, the file is  sent to the server again, giving an opportunity to retrieve the missing block. The last version of the file is fixed.There is a very high probability to fix most, if not all, previous file versions.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">To run the repair tool</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Launch this command in the bin directory of the installation directory: </p>
+        <p class="BulletedCont"><span class="Monospace">ade_server --repair &lt;path&gt;</span>
+        </p>
+        <p class="BulletedCont">Where <span class="Monospace" style="font-size: 10pt;line-height: 12pt;">&lt;path&gt;</span> is the location where your database is copied before the modifications take place.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">
+            <MadCap:annotation MadCap:createDate="2022-05-30T15:47:30.2811125+02:00" MadCap:creator="lisal" MadCap:initials="LI" MadCap:comment="rapatrié d'une autre section" MadCap:editor="lisal" MadCap:editDate="2022-05-30T15:47:45.7054804+02:00">When the repair process ends, start the ADE service.</MadCap:annotation>
+        </p>
+        <h2 MadCap:autonum="">Repair Tool<MadCap:annotation MadCap:createDate="2022-05-30T15:26:24.4456129+02:00" MadCap:creator="lisal" MadCap:initials="LI" MadCap:comment="partie à garder ?" MadCap:editor="lisal" MadCap:editDate="2022-05-30T15:26:30.1856324+02:00"> in the Upgrade Procedure</MadCap:annotation></h2>
+        <p class="BodyAfterHead">You must run the repair tool prior to upgrading from a version earlier than 1.2.9.</p>
+        <p class="Body">The procedure is described in <MadCap:conditionalText MadCap:conditions="ALN.ALN"><MadCap:xref href="Upgrade_Lina_Server.htm#aln_installation_adm_2087185880_1146471" target="_blank">Upgrading the <MadCap:variable name="General.ProductName"></MadCap:variable> Server</MadCap:xref></MadCap:conditionalText><MadCap:xref href="../Documentation_HSS/HSS_Upgrade.htm" MadCap:conditions="ALN.HSS">Upgrade.</MadCap:xref></p>
+    </body>
+</html>

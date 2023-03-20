@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/TableStyles/ti_IndentedBasicTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="client_config_403703647_1235302"></a><a name="client_config_403703647_66165"></a>Access the Monitoring Interface</h1>
+        <p>The dashboard (<MadCap:xref href="#Agent_dashboard_parameters" class="figure_x">see Figure</MadCap:xref>) enables you to view information about the current configuration of the <MadCap:variable name="ALN.aln.agent" />, and to view the protection activity in real time.</p>
+        <p class="ss_SingleStep" MadCap:autonum="&amp;gt;">Right-click on the  <img src="../Resources/Images/Images_Topics_Lina/trayicon32.png" MadCap:mediastyle="@media print { height: 16px;width: auto; }" style="height: 16px;width: auto;" /> icon and select <span class="Bold"><MadCap:variable name="ALN.agent_dashboard" /></span>.</p>
+        <div class="figure">
+            <img src="../Resources/Images/Images_Topics_Lina/agent_ui_dashboard.png" style="width: 800px;height: auto;" />
+            <p class="Figure" MadCap:autonum="&lt;b&gt;Figure&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="Lina_agent_dashboard"></a>Dashboard</p>
+        </div>
+        <p>Each dashboard card in the interface presents information about the protection of the <MadCap:variable name="General.ProductName" /> agent (<MadCap:xref href="#Agent_dashboard_parameters" class="table_x">see Table</MadCap:xref>):</p>
+        <table class="TableStyle-ti_IndentedBasicTable" style="mc-table-style: url('../Resources/TableStyles/ti_IndentedBasicTable.css');margin-left: 0;margin-right: auto;caption-side: top;mc-caption-repeat: true;" cellspacing="0">
+            <caption>
+                <p class="TableCaption" MadCap:autonum="&lt;b&gt;Table&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="Agent_dashboard_parameters"></a>Agent dashboard parameters</p>
+            </caption>
+            <col class="TableStyle-ti_IndentedBasicTable-Column-Column1" />
+            <col class="TableStyle-ti_IndentedBasicTable-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-ti_IndentedBasicTable-Head-Header1">
+                    <td class="TableStyle-ti_IndentedBasicTable-HeadE-Column1-Header1">
+                        <p class="tbh_TableHead">Dashboard card</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-HeadD-Column2-Header1">
+                        <p class="tbh_TableHead">Description</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row1">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Protection</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Indicates the protection status of the <MadCap:variable name="ALN.aln.agent" />. These are the possible statuses:</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Bold">Protected</span> The agent is fully protected. There is no new modifications to send to the <MadCap:variable name="General.ProductName" /> server.</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Bold">Processing</span> The agent is sending objects to the <MadCap:variable name="General.ProductName" /> server.</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Bold">Analyzing</span> The agent is detecting changes.</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Bold">Modifications detected</span> The agent has detected new or modified data to back up.</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Bold">Protection paused</span> You have suspended the protection. </p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Bold">Disconnected</span> The agent cannot reach the <MadCap:variable name="General.ProductName" /> server.</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Bold">Resynchronizing</span> The agent database is resynchronized from the <MadCap:variable name="General.ProductName" /> server.</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Bold">Network paused</span> The network connection is blocked due to a network option set. See <MadCap:xref href="Configure_Network_and_Bandwidth.htm#client_config_403703647_1264536" target="_blank">Configuring Network and Bandwidth</MadCap:xref> for details.</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Bold">Missing CDP module</span> The agent cannot access the CDP module which is supposed to be present on the platform.</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Bold">Scan Mode</span> The agent is running on a platform which does not support CDP.</p>
+                        <p class="tbt_TableText">Indicates the status of the <MadCap:variable name="General.ProductName"></MadCap:variable> server. These are the possible statuses:</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Bold">Active</span> The <MadCap:variable name="General.ProductName" /> server is protecting the agent.</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Bold">Quota limit reached</span> The quota set for this agent has been reached. The <MadCap:variable name="General.ProductName" /> server will not protect new data.</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Bold">Agent unauthorized</span> The agent is not declared on the <MadCap:variable name="General.ProductName" /> server.</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Bold">Maintenance</span> The server is busy and is unable to back up the agent data.</p>
+                        <p class="tbt_TableText">Indicates also: </p>
+                        <p class="BulletedTable" MadCap:autonum="• ">Date and time when agent files were last sent to the <MadCap:variable name="General.ProductName" /> server.</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">Protected volume.</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">Number of protected files.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row2">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">Processing</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">Displays in a graph the backed up data in KB/s or MB/s.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row1">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Network activity</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Displays in a graph the outgoing network traffic in KB/s.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row2">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">Backup</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">Displays the backup activity on the <MadCap:variable name="ALN.aln.agent" />. You can click on the dashboard card to view the list of  backed up files.</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Bold">Current Item</span> Path and name of the object which is being backed up. </p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Bold">Last Item</span> Path and name of the last  backed up objects.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row1">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">General information</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Displays the following information: </p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Bold">Agent name</span> Name of the <MadCap:variable name="ALN.aln.agent" /> host.</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Bold">Server name</span> Name of the <MadCap:variable name="General.ProductName" /> server host.</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Bold">Recovery Point Objective (RPO)</span> Defines the maximum time lapse between two protection sessions. The RPO indicates the maximum acceptable data loss if the data is restored between two sessions.</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Bold">Compression</span> Indicates the compression algorithm as defined in the Settings. See <MadCap:xref href="Configure_Network_and_Bandwidth.htm">Configuring Network and Bandwidth</MadCap:xref> for more information.</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Bold">Protection for BMR</span> Indicates a <MadCap:variable name="General.ProductName" /> module to recover a complete Windows agent. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row2">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyB-Column1-row2">
+                        <p class="tbt_TableText">Network information</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyA-Column2-row2">
+                        <p class="tbt_TableText">Displays the following information: </p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Bold">Last connection</span> Indicates the date and time when the agent last connected to the <MadCap:variable name="General.ProductName" /> server.</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Bold">Interface type</span> Indicates the type of network interface used (e.g., Ethernet, Wi-Fi).</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Bold">Gateway</span> Indicates the gateway through which the <MadCap:variable name="ALN.aln.agent" /> connects to the <MadCap:variable name="General.ProductName" /> server.</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Bold">Encryption</span> Indicates if data is encrypted or not.</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Bold">Bandwidth limit</span> Indicates the amount of bandwidth used for data transfer, as defined in the Settings. See <MadCap:xref href="Configure_Network_and_Bandwidth.htm">Configuring Network and Bandwidth</MadCap:xref> for more information.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

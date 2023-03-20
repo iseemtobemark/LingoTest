@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="aln_installation_adm_2087185880_1146471"></a><a name="aln_installation_adm_2087185880_upgrading_the_live_navigator_server"></a>Upgrade the <MadCap:variable name="General.ProductName" /> Server</h1>
+        <p class="Introduction">Before upgrading the <MadCap:variable name="General.ProductName" /> Server, ensure that : </p>
+        <p class="Bulleted" MadCap:autonum="• ">You have downloaded the <MadCap:variable name="General.ProductName" /> binaries from the Atempo Client Portal: <a href="https://support.atempo.com/" target="_blank">https://support.atempo.com</a>.</p>
+        <p class="Bulleted" MadCap:autonum="• ">The user launching the setup program has administrator or root rights.</p>
+        <p class="Bulleted" MadCap:autonum="• ">If you intend to use the <MadCap:variable name="General.ProductName" /> built-in mechanism to update your agents automatically (rather than using a tool such as GPO), you have set the Update URL parameter in the server <MadCap:variable name="ALN.adm_exe" /> prior to upgrading the server. If not, agents may become unreachable after the server update, at which point you are unable to push the URL to the agents. See <MadCap:xref href="Update_Your_Web_Server_Address.htm#server_config_1507838811_1250033" target="_blank">Update Your Web Server Address</MadCap:xref> for details on that parameter.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">To upgrade the <MadCap:variable name="General.ProductName" /><span class="VariablesEquation"> Server</span></p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Close all existing directories.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Launch the setup program corresponding to your operating system:</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Lead-In">Windows</span> Double-click the executable <span class="Monospace">ATLXXX-Windows-X64.exe</span>.</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Lead-In">Linux</span> Run <span class="Monospace">ATLXXX_Linux-X64.bin</span>. You need to ensure that the binary can be executed. If necessary, you can define the rights with the command: <span class="Monospace">chmod +x</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Select an installation language.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Click <span class="Bold">Next</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="5. ">Accept the <span class="Bold">License Agreement</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="6. "><span class="Bold">Upgrade</span>, then click <span class="Bold">Next</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="7. ">In the drop-down list, select the version to upgrade, then click <span class="Bold">Next</span>. A summary indicates the installation parameters.</p>
+        <p class="BulletedCont"><span class="Bold">License File</span> If you selected Atempo-License Manager during a <MadCap:variable name="General.ProductName" /> server upgrade, you need to indicate whether you have the license file corresponding to <MadCap:variable name="General.ProductName" />. If you do, provide the location of the file on the server. If you do not, a temporary license file is automatically attributed.</p>
+        <p class="s1_StepNum" MadCap:autonum="8. ">Click <span class="Bold">Install</span>, then click on <span class="Bold">Done</span>.</p>
+        <p class="BulletedCont">If the upgrade fails and returns a message indicating the directory is locked, do the following: </p>
+        <p class="sa_StepAlpha" MadCap:autonum="a. ">Quit the upgrade.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="b. ">Restart the <span class="Monospace">ade.default</span>.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="c. ">Relaunch the upgrade in this procedure. </p>
+    </body>
+</html>

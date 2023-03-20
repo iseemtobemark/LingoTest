@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/ALN-User.fltoc"
+  MasterPageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"
+  PatchHeadingLevels="true"
+  AutoSizeCaptureCaptions="true"
+  InjectEmptyPages="true"
+  ConditionTagExpression="include[ALN.ADE or ALN.ALN or ALN.PDF or ALN.user], exclude[ALN.ADA or ALN.admin or ALN.AMM or ALN.ATN or ALN.BMR or ALN.HELP or ALN.HSS or ALN.MAC or ALN.Syno or ALN.UNIX or ALN.WINDOWS or General.Hidden or HVAVMware.PDF or TN-xen-us.PDF or HVAVMware.HELP or TN-xen-us.HELP]"
+  conditions="HVAVMware.PDF,ALN.PDF,ALN.user"
+  OutputFile="[%=ALN.PDF_File_Name_User%]">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false"
+    PreserveTrackedChanges="false" />
+  <PDF
+    PageLayout="SinglePage"
+    FullScreen="false"
+    CollapsedBookmarks="true"
+    InitialMagnification="Fit"
+    TitleBar="DocumentTitle"
+    ShowUsedBookmarks="false"
+    DownsampleImages="true"
+    ImagePPIThreshold="150" />
+  <Glossaries />
+  <DocumentProperties
+    Title="[%=General.UserGuideTitleUser%]"
+    Author="Atempo SAS" />
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/Intranet User EN.fldes"
+      Publish="true"
+      IsResource="false" />
+    <Destination
+      Link="/Project/Destinations/Intranet zip global Admin User EN.fldes"
+      Publish="true"
+      IsResource="false" />
+  </Destinations>
+  <Variables>
+    <Variable
+      Name="ALN/aln">Panasas</Variable>
+  </Variables>
+</CatapultTarget>

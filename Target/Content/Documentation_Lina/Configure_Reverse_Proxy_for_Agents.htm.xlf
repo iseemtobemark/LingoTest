@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="completed">
+  <file
+    xml:space="preserve"
+    original="Configure_Reverse_Proxy_for_Agents.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="fr">
+    <header>
+      <skl><external-file
+          href="Configure_Reverse_Proxy_for_Agents.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">14</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11 r2"
+        tool-name="Lingo"
+        tool-version="11.1.7796.16213"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Configure the Reverse Proxy for Agents</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Configure the Reverse Proxy for Agents</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Configurer le proxy inversé pour les agents</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To configure the proxy</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To configure the proxy</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Pour configurer le proxy</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If you want to connect a mix of Agents in both versions 4 and 5, you must create two sites with specific URL Rewrite rule.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If you want to connect a mix of Agents in both versions 4 and 5, you must create two sites with specific URL Rewrite rule.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Si vous souhaitez connecter un mélange d'agents dans les versions 4 et 5, vous devez créer deux sites avec une règle d'URL rewriting  spécifique.</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Install the <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;&lt;/MadCap:variable&gt;</ph> certificate (under <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>pfx<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> format) available on <bpt
+            id="3"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="http://isp.atempo.com/Atempo/LiveNavigator/SupportInfo/aln.pfx" target="_blank"&gt;</bpt>Atempo Client Portal (<bpt
+            id="4"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://support.atempo.com/" target="_blank"&gt;</bpt>https://support.atempo.com<ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>)<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>. For more details on the certificate installation steps, a video is available on <bpt
+            id="5"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="http://isp.atempo.com/Atempo/LiveNavigator/SupportInfo/certificate.avi"&gt;</bpt>Atempo Client Portal <bpt
+            id="6"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://support.atempo.com/" target="_blank"&gt;</bpt>(https://support.atempo.com)<ept
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept><ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Install the <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;&lt;/MadCap:variable&gt;</ph> certificate (under <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>pfx<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> format) available on <bpt
+              id="3"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="http://isp.atempo.com/Atempo/LiveNavigator/SupportInfo/aln.pfx" target="_blank"&gt;</bpt>Atempo Client Portal (<bpt
+              id="4"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://support.atempo.com/" target="_blank"&gt;</bpt>https://support.atempo.com<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>)<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">For more details on the certificate installation steps, a video is available on <bpt
+              id="5"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="http://isp.atempo.com/Atempo/LiveNavigator/SupportInfo/certificate.avi"&gt;</bpt>Atempo Client Portal <bpt
+              id="6"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://support.atempo.com/" target="_blank"&gt;</bpt>(https://support.atempo.com)<ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept><ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Installez le certificat <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;&lt;/MadCap:variable&gt;</ph> (au format <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>pfx<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>) disponible sur le <bpt
+              id="3"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="http://isp.atempo.com/Atempo/LiveNavigator/SupportInfo/aln.pfx" target="_blank"&gt;</bpt>portail client Atempo (<bpt
+              id="4"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://support.atempo.com/" target="_blank"&gt;</bpt>https://support.atempo.com<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>)<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Pour plus de détails sur les étapes d'installation du certificat, une vidéo est disponible sur le <bpt
+              id="5"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="http://isp.atempo.com/Atempo/LiveNavigator/SupportInfo/certificate.avi"&gt;</bpt>portail client Atempo <bpt
+              id="6"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://support.atempo.com/" target="_blank"&gt;</bpt>(https://support.atempo.com)<ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept><ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Create a new site (e.g., aln) with these parameters (<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#Interface_to_add_a_new_website" class="figure_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Figure&lt;/MadCap:xref&gt;</ph>):</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Create a new site (e.g., aln) with these parameters (<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#Interface_to_add_a_new_website" class="figure_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Figure&lt;/MadCap:xref&gt;</ph>):</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Créez un nouveau site (par exemple, aln) avec ces paramètres (<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#Interface_to_add_a_new_website" class="figure_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Figure&lt;/MadCap:xref&gt;</ph>) :</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Interface to add a new website</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Interface to add a new website</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Interface pour ajouter un nouveau site web</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-div"
+        phase-name="pretrans"><source>To create the site, you need to have URL Rewrite installed. Use Web Platform Installer to retrieve and install URL Rewrite and ARR on your IIS system.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To create the site, you need to have URL Rewrite installed.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Use Web Platform Installer to retrieve and install URL Rewrite and ARR on your IIS system.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Pour créer le site, vous devez avoir installé le URL rewrite.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Utilisez Web Platform Installer pour récupérer et installer le URL rewrite et ARR sur votre système IIS.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Add a URL Rewrite rule and configure it with these parameters (<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#URL_Rewrite_rule" class="figure_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Figure&lt;/MadCap:xref&gt;</ph>):</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Add a URL Rewrite rule and configure it with these parameters (<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#URL_Rewrite_rule" class="figure_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Figure&lt;/MadCap:xref&gt;</ph>):</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Ajoutez une règle de URL rewrite et configurez-la avec ces paramètres (<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#URL_Rewrite_rule" class="figure_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Figure&lt;/MadCap:xref&gt;</ph>) :</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>URL Rewrite rule</source><seg-source><mrk
+            mtype="seg"
+            mid="1">URL Rewrite rule</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Règle de URL rewrite</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The Rewrite URL is the location where you want to convert to hence esc-hss (in the screen shot, it corresponds to your <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> server).</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The Rewrite URL is the location where you want to convert to hence esc-hss (in the screen shot, it corresponds to your <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> server).</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">L'URL Rewrite est l'emplacement où vous souhaitez convertir en esc-hss (dans la capture d'écran, elle correspond à votre serveur <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>).</mrk></target></trans-unit></body>
+  </file>
+</xliff>

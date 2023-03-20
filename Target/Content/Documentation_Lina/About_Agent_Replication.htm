@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="about_agent_replication"></a>About Agent Replication</h1>
+        <p class="BodyAfterHead">Agent replication is a strategy-related replication process giving you the opportunity to partially replicate your <MadCap:variable name="General.ProductName" /> data. </p>
+        <p class="BodyAfterHead">Use this configuration (<MadCap:xref href="#Topology" class="figure_x">see Figure</MadCap:xref>) to:</p>
+        <p class="Bulleted" MadCap:autonum="• ">Dispatch replicated data across various servers. </p>
+        <p class="Bulleted" MadCap:autonum="• ">Ensure the availability of a limited number of agents from the target server.</p>
+        <h2 MadCap:autonum="">Topology</h2>
+        <div class="figure">
+            <img src="../Resources/Images/Images_Topics_Lina/replication_by_strategy_updated.png" style="width: 800px;height: auto;" MadCap:mediastyle="@media print { width: 701px;height: 350px; }" />
+            <p class="Figure" MadCap:autonum="&lt;b&gt;Figure&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="Topology"></a>Each strategy has been applied to three <MadCap:variable name="General.ProductName" /> agents. The data of the agents belonging to strategy 1 and 2 will be replicated to a different server, which is not the case for the agents assigned to the strategy without replication. </p>
+        </div>
+        <h2 MadCap:autonum="">Replicated Items</h2>
+        <p class="BodyAfterHead">All the objects backed up are replicated to the related destination. Thus, the retention period is server specific. Deleting an agent on the source does not delete the related replicated data on the target server. You must explicitly delete it from the target server.</p>
+        <p>To ensure that your data replication is over, check the status of the replication synchronization indicator.</p>
+    </body>
+</html>

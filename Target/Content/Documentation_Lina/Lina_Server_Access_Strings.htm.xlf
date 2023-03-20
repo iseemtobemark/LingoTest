@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="completed">
+  <file
+    xml:space="preserve"
+    original="Lina_Server_Access_Strings.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="fr">
+    <header>
+      <skl><external-file
+          href="Lina_Server_Access_Strings.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">18</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11 r2"
+        tool-name="Lingo"
+        tool-version="11.1.7796.16213"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source><ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> Server Access Strings</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> Server Access Strings</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Chaînes d'accès au serveur <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph></mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Depending on both the corporate network infrastructure and the <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;&lt;/MadCap:variable&gt;</ph> server location, a mobile user agent might be forced to use different server access strings to access the <ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;&lt;/MadCap:variable&gt;</ph> server.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Depending on both the corporate network infrastructure and the <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;&lt;/MadCap:variable&gt;</ph> server location, a mobile user agent might be forced to use different server access strings to access the <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;&lt;/MadCap:variable&gt;</ph> server.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">En fonction de l'infrastructure du réseau d'entreprise et de l'emplacement du  serveur <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;&lt;/MadCap:variable&gt;</ph>, un utilisateur nomade peut être contraint d'utiliser différentes chaînes d'accès au serveur pour accéder au serveur <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;&lt;/MadCap:variable&gt;</ph>.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Based on the network’s gateway name, the Dynamic Server Access feature automatically detects which network the agent is connected to, and makes the <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.aln.agent" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> able to connect using the correct server access string.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Based on the network’s gateway name, the Dynamic Server Access feature automatically detects which network the agent is connected to, and makes the <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.aln.agent" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> able to connect using the correct server access string.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Sur la base du nom de passerelle du réseau, l'accès dynamique au serveur  détecte automatiquement le réseau auquel l'agent est connecté et permet à l'<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.aln.agent" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> de se connecter à l'aide de la chaîne d'accès au serveur appropriée.</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To use Dynamic Server Access</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To use Dynamic Server Access</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Pour utiliser l'accès au serveur dynamique</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Under the <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>HNDB<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> folder of your agent, create a file named <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>ServerDynamicPaths.def<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>, and edit it.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Under the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>HNDB<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> folder of your agent, create a file named <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>ServerDynamicPaths.def<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>, and edit it.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Dans le répertoire <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>HNDB<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> de votre agent, créez un fichier nommé <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>ServerDynamicPaths.def<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>, et éditez-le.</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-div"
+        phase-name="pretrans"><source>The file name is case sensitive.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The file name is case sensitive.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Le nom du fichier est sensible à la casse.</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>You can both use the special character <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>*<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> and add as many lines as needed. The special character <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>*<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> can fully replace a name or an address, or only a part of it. The first line that matches the current gateway is used. Any subsequent lines are ignored.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You can both use the special character <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>*<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> and add as many lines as needed.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The special character <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>*<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> can fully replace a name or an address, or only a part of it.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">The first line that matches the current gateway is used.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">Any subsequent lines are ignored.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Vous pouvez utiliser à la fois le caractère spécial <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>*<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> et autant de lignes que nécessaire.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Le caractère spécial <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>*<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> peut remplacer tout ou partie d'un nom ou une adresse.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="99">La première ligne qui correspond à la passerelle actuelle est utilisée.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Les lignes suivantes sont ignorées.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Connecting to the <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;&lt;/MadCap:variable&gt;</ph> server from different networks might require the use of several server access strings, in case you connect to the <ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;&lt;/MadCap:variable&gt;</ph> server through different proxies, depending on your location. To set up Dynamic Server Access with a reverse proxy configuration, see <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="Dynamic_Server_Access.htm#appendix_scenarios_1505489920_1080594" target="_blank" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Dynamic Server Access in a reverse Proxy Configuration&lt;/MadCap:xref&gt;</ph>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Connecting to the <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;&lt;/MadCap:variable&gt;</ph> server from different networks might require the use of several server access strings, in case you connect to the <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;&lt;/MadCap:variable&gt;</ph> server through different proxies, depending on your location.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">To set up Dynamic Server Access with a reverse proxy configuration, see <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="Dynamic_Server_Access.htm#appendix_scenarios_1505489920_1080594" target="_blank" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Dynamic Server Access in a reverse Proxy Configuration&lt;/MadCap:xref&gt;</ph>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="99">Se connecter au serveur <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;&lt;/MadCap:variable&gt;</ph> depuis différents réseaux peut nécessiter l'utilisation de plusieurs chaînes d'accès au serveur, dans le cas où vous vous connecteriez au serveur <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;&lt;/MadCap:variable&gt;</ph> via différents proxys en fonction de votre localisation.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Pour configurer l'accès au serveur dynamique avec une configuration de proxy inverse, voir <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="Dynamic_Server_Access.htm#appendix_scenarios_1505489920_1080594" target="_blank" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Dynamic Server Access in a reverse Proxy Configuration&lt;/MadCap:xref&gt;</ph>.</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-div"
+        phase-name="pretrans"><source>Configuration of a client connecting to the same <ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;&lt;/MadCap:variable&gt;</ph> server from two different networks and through different proxies (<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#lina_Dynamic_Server_Access" class="figure_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Figure&lt;/MadCap:xref&gt;</ph>): <ph
+            id="4"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;&lt;br&gt;&lt;/br&gt;</ph><bpt
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>gateway1=alnserver:::&lt;proxy_host1&gt;:&lt;proxyport1&gt;:&lt;proxy user1&gt;:&lt;proxy_passwd1&gt;<ept
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+            id="7"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;&lt;br&gt;&lt;/br&gt;</ph><bpt
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>gateway2=alnserver:::&lt;proxy_host2&gt;:&lt;proxyport2&gt;:&lt;proxy user2&gt;:&lt;proxy_passwd2&gt;<ept
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+            id="10"
+            ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;&lt;br&gt;&lt;/br&gt;</ph><bpt
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>*=alnserver<ept
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Configuration of a client connecting to the same <ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;&lt;/MadCap:variable&gt;</ph> server from two different networks and through different proxies (<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#lina_Dynamic_Server_Access" class="figure_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Figure&lt;/MadCap:xref&gt;</ph>): <ph
+              id="4"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;&lt;br&gt;&lt;/br&gt;</ph><bpt
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>gateway1=alnserver:::&lt;proxy_host1&gt;:&lt;proxyport1&gt;:&lt;proxy user1&gt;:&lt;proxy_passwd1&gt;<ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="7"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;&lt;br&gt;&lt;/br&gt;</ph><bpt
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>gateway2=alnserver:::&lt;proxy_host2&gt;:&lt;proxyport2&gt;:&lt;proxy user2&gt;:&lt;proxy_passwd2&gt;<ept
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="10"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;&lt;br&gt;&lt;/br&gt;</ph><bpt
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>*=alnserver<ept
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="99">Configuration d'un client se connectant au même serveur <ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;&lt;/MadCap:variable&gt;</ph> depuis deux réseaux différents et via différents proxys (<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#lina_Dynamic_Server_Access" class="figure_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Figure&lt;/MadCap:xref&gt;</ph>) : <ph
+              id="4"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;&lt;br&gt;&lt;/br&gt;</ph><bpt
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>gateway1=alnserver:::&lt;proxy_host1&gt;:&lt;proxyport1&gt;:&lt;proxy user1&gt;:&lt;proxy_passwd1&gt;<ept
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="7"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;&lt;br&gt;&lt;/br&gt;</ph><bpt
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>gateway2=alnserver:::&lt;proxy_host2&gt;:&lt;proxyport2&gt;:&lt;proxy user2&gt;:&lt;proxy_passwd2&gt;<ept
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept><ph
+              id="10"
+              ctype="lb" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;br&gt;&lt;/br&gt;&lt;br&gt;&lt;/br&gt;</ph><bpt
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>*=alnserver<ept
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Dynamic Server Access configuration</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Dynamic Server Access configuration</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Configuration de l'accès au serveur dynamique</mrk></target></trans-unit></body>
+  </file>
+</xliff>

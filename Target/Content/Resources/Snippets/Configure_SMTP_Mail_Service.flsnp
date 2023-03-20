@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Open the <MadCap:variable name="ALN.ade_admin" MadCap:conditions="ALN.ALN" /><MadCap:variable name="HSS.ade_admin" MadCap:conditions="ALN.HSS" />.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Select <span class="Bold">Settings &gt; Settings &gt; Preferences &gt; Network</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Click the <b>SMTP</b> tab.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Complete the following parameters:</p>
+        <p class="sa_StepAlpha" MadCap:autonum="a. ">Enter the name of the SMTP Server you want to use to send notifications.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="b. ">If you want to apply a secured connection when sending notifications, select <b>STARTTLS</b> or <b>SSL/TLS</b>. If you do not want to apply a secured connection, select <b>None</b>.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="c. ">Type the port number of your SMTP server.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="d. ">Depending on your SMTP server, enter a user name and password.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="e. ">Enter the email address of the sender, for instance <span class="Monospace">noreply@yourorganization.com</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="5. ">Click <span class="Bold">Apply SMTP configuration</span>.</p>
+        <p class="BulletedCont">To verify that the SMTP configuration is working, enter the email address of the recipient and click <b>Send the test message</b>. To display the SMTP configuration, click on the <span class="Bold">Display configuration</span> button.</p>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="">Create and Configure a User Profile</h1>
+        <p>A user profile is a type of profile that specifies a number of rights applicable to your group of users. These rights may be: an access to specific sections of the <MadCap:variable name="ALN.ade_admin" MadCap:conditions="ALN.ALN" /><MadCap:variable name="HSS.ade_admin" MadCap:conditions="ALN.HSS" /> (<span class="Bold">View</span> right), create, edit or delete rights. You can only assign the user rights of your group to another user profile. For instance, if you cannot modify LDAP parameters, you cannot assign this right to a user profile.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">To create and configure a user profile</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Connect to the  <MadCap:variable name="ALN.ade_admin" MadCap:conditions="ALN.ALN" /><MadCap:variable name="HSS.ade_admin" MadCap:conditions="ALN.HSS" /> with administrator rights.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Select <span class="Bold">Server</span> &gt;  <span class="Bold">User Profiles</span>.</p>
+        <p class="BulletedCont">The list of existing and default profiles  is displayed. By default, the list of user profile contains an administrator profile and a default profile. These profiles are not editable, however you can duplicate them and modify them as you want. You can also refresh the list of user rights profiles or export it  in CSV or HTML formats.<br /></p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">In the list of tenants in the upper-left corner of the page, select a tenant then click <img src="../Resources/Images/Images_Topics_Lina/create_button.png" /> to create a user profile.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Enter a new profile name in the <b>Name</b> field.</p>
+        <p class="s1_StepNum" MadCap:autonum="5. ">(Optional) Enter a comment.</p>
+        <p class="s1_StepNum" MadCap:autonum="6. ">Click the toggle buttons to select the rights you want to assign to the new profile <MadCap:conditionalText MadCap:conditions="ALN.HSS">(<MadCap:xref href="#HSS_rights_view_box_checked" class="figure_x">see Figure</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="ALN.ALN">(<MadCap:xref href="#Lina_rights_view_box_checked" class="figure_x">see Figure</MadCap:xref>)</MadCap:conditionalText>. The <b>View</b> right may be required to assign create, edit and delete rights. A user right is green when enabled and grey when disabled.</p>
+        <p class="BulletedCont"> If you want to select or unselect all rights in one click,  use the buttons above the list of user rights. </p>
+        <div class="figureIndented" MadCap:conditions="ALN.HSS">
+            <img src="../Resources/Images/Images_Topics_HSS/HSS_add_user_profile.png" MadCap:mediastyle="@media print { width: 500px;height: auto; }" style="width: 631px;height: 344px;" />
+            <p class="Figure" MadCap:conditions="ALN.HSS" MadCap:autonum="&lt;b&gt;Figure&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="HSS_rights_view_box_checked"></a>View of a user profile<br /></p>
+        </div>
+        <div class="figureIndented" MadCap:conditions="ALN.ALN">
+            <img src="../Resources/Images/Images_Topics_Lina/lina_add_user_profile.PNG" MadCap:mediastyle="@media print { width: 450px;height: auto; }" />
+            <p class="Figure" MadCap:autonum="&lt;b&gt;Figure&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="Lina_rights_view_box_checked"></a>View of a user profile</p>
+        </div>
+        <p class="s1_StepNum" MadCap:autonum="7. "> Click on <span class="Bold">Create</span> to create the user profile. Once the profile is created, it must be associated with a user group. For more details, see <MadCap:xref href="Create_Configure_Local_User_Group.htm">Create and Configure a Local User Group</MadCap:xref>.<br /></p>
+        <p class="BulletedCont">To modify a profile, click on the profile in the list of profiles, edit the profile and save. </p>
+    </body>
+</html>

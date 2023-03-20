@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="aln_installation_adm_2087185880_1359908"></a><a name="aln_installation_adm_2087185880_35449"></a>Install a macOS Agent in Silent Mode</h1>
+        <p class="BodyAfterHead">The deployment is performed with the <span class="Monospace">LiveNavigator.pkg</span> file:</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">In the same folder where the <span class="Monospace">LiveNavigator.pkg</span> is located, create a file named <span class="Monospace">AutoConfig.txt</span> containing this line:</p>
+        <p class="BulletedCont"><span class="Monospace">SERVERNAME = &lt;server_connection_string&gt;</span>
+        </p>
+        <p class="BulletedCont">Replace  <span class="Monospace">&lt;server_connection_string&gt;</span> with your <MadCap:variable name="General.ProductName" /> Server information. The server connection string is in the form:</p>
+        <p class="BulletedCont"><span class="Monospace">&lt;servername&gt;:&lt;encrypted port&gt;:&lt;unencrypted port&gt;</span>
+        </p>
+        <p class="BulletedCont" MadCap:conditions="ALN.admin">See <MadCap:xref href="Configure_Agent_to_Server_Access.htm#aln_installation_adm_2087185880_1360281" target="_blank">Agent to Server Access Configuration</MadCap:xref> for details.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Launch this command:</p>
+        <p class="BulletedCont"><span class="Monospace">installer -pkg LiveNavigator.pkg -target "/"</span>
+        </p>
+        <p class="BulletedCont">The installation takes place at the root of your disk. The installation location cannot be modified. </p>
+    </body>
+</html>

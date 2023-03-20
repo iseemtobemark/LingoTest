@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="completed">
+  <file
+    xml:space="preserve"
+    original="Ensure_Database_Block_Reppository_Consistency.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="fr">
+    <header>
+      <skl><external-file
+          href="Ensure_Database_Block_Reppository_Consistency.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">10</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11 r2"
+        tool-name="Lingo"
+        tool-version="11.1.7796.16213"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Ensure Database and Block Repository Consistency</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Ensure Database and Block Repository Consistency</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Garantir la cohérence de la base de données et de l'espace de stockage des blocs</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The product reliability depends on its database and block repository consistency. To ensure that you run a consistent system, a set of tools is provided to check, repair, and clean up your data.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The product reliability depends on its database and block repository consistency.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">To ensure that you run a consistent system, a set of tools is provided to check, repair, and clean up your data.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">La fiabilité du produit dépend de la cohérence de sa base de données et de son espace de stockage des blocs.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Pour vous assurer que vous utilisez un système cohérent, un ensemble d'outils est fourni pour vérifier, réparer et nettoyer vos données.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If a <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" MadCap:conditions="ALN.ALN" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph><ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" MadCap:conditions="ALN.HSS" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> restore process fails and reports missing or corrupted blocks, it is possible that your system suffers from hardware issues or file system corruption. A hard drive failure of the disk where the block files are stored, or a file system corruption may lead to missing or corrupted blocks.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If a <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" MadCap:conditions="ALN.ALN" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" MadCap:conditions="ALN.HSS" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> restore process fails and reports missing or corrupted blocks, it is possible that your system suffers from hardware issues or file system corruption.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">A hard drive failure of the disk where the block files are stored, or a file system corruption may lead to missing or corrupted blocks.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Si un processus de restauration <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" MadCap:conditions="ALN.ALN" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.hys_exe" MadCap:conditions="ALN.HSS" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> échoue et signale des blocs manquants ou corrompus, il est possible que votre système ait des problèmes matériel ou une corruption du système de fichiers.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Une panne du disque dur où les fichiers blocs sont stockés, ou une corruption du système de fichiers peut faire disparaître ou corrompre des blocs.</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>As a consequence, ensure that your system is completely healthy and that the server has enough free space prior to going through the maintenance steps described in this section. The necessary amount of free space must be at least equal to the size of your database.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">As a consequence, ensure that your system is completely healthy and that the server has enough free space prior to going through the maintenance steps described in this section.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The necessary amount of free space must be at least equal to the size of your database.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Par conséquent, assurez-vous que votre système est complètement sain et que le serveur dispose d'espace disque suffisant avant d'effectuer les opérations de maintenance décrites dans cette rubrique.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">L'espace disque disponible doit être au moins égal à la taille de votre base de données.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

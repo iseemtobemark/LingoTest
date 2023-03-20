@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="in-progress">
+  <file
+    xml:space="preserve"
+    original="Tina.flvar"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="x-flvar"
+    target-language="fr">
+    <header>
+      <skl><external-file
+          href="Tina.flvar.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">11</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11 r2"
+        tool-name="Lingo"
+        tool-version="11.1.7796.16213"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>4.7</source><seg-source><mrk
+            mtype="seg"
+            mid="1">4.7</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>Tina_Web_UI_Getting_Started_Documentation_EN</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Tina_Web_UI_Getting_Started_Documentation_EN</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-variable-datetime"
+        phase-name="pretrans"><source>MMMM yyyy</source><seg-source><mrk
+            mtype="seg"
+            mid="1">MMMM yyyy</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">MMMM yyyy</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-variable-datetime"
+        phase-name="pretrans"><source>MMyy</source><seg-source><mrk
+            mtype="seg"
+            mid="1">MMyy</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">MMyy</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>Tina</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Tina</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Tina</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>Web Administration Console</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Web Administration Console</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>Tina Web UI Getting Started Documentation</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Tina Web UI Getting Started Documentation</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>Tina Installation Documentation</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Tina Installation Documentation</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Tina Installation Documentation</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>Tina Restore Documentation</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Tina Restore Documentation</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Tina Restore Documentation</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>Tina Administration Documentation</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Tina Administration Documentation</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Tina Administration Documentation</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>Atempo-License Manager</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Atempo-License Manager</mrk></seg-source><target
+          state="needs-review-adaptation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="ExactMatch"
+            MadCap:matchPercent="100">Manager Atempo-License</mrk></target></trans-unit></body>
+  </file>
+</xliff>

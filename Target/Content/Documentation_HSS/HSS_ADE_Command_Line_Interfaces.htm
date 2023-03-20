@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/TableStyles/t_BasicTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="hss_installation_814337163_1084946"></a><a name="hss_installation_814337163_48333"></a><MadCap:variable name="HSS.ade" /> Command Line Interfaces</h1>
+        <p class="BodyAfterHead">Two <MadCap:variable name="HSS.ade" /> command line interfaces enable you to modify various parameters:</p>
+        <p class="Bulleted" MadCap:autonum="• "><span class="Monospace">ade_admin</span>: Contains commands to manage the <MadCap:variable name="HSS.hys_exe" /> and graphical interface from the command line interface.</p>
+        <p class="Bulleted" MadCap:autonum="• "><span class="Monospace">ade_server</span>: Contains commands concerning the <MadCap:variable name="HSS.hys_exe" /> and requires to stop the Atempo Dedup Engine service.</p>
+        <h2 MadCap:autonum="">Launching the ade_admin Interface</h2>
+        <p class="s1_StepNum" MadCap:autonum="1. ">On the machine hosting the <MadCap:variable name="HSS.ade" />:</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Lead-In">Windows</span> Select <span class="Bold">Start</span> &gt; <span class="Bold">Programs</span> &gt; <span class="Bold"> <MadCap:variable name="HSS.ade"></MadCap:variable></span> &gt; <span class="Bold">Administration</span>.</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Lead-In">macOS/Linux</span> Launch the <span class="Monospace">./ade_admin</span> command.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. "> Connect as superadmin. If you do not provide any login credentials, you will be logged as guest, in read-only mode.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">To launch the Command Line Interface with a different user, run the <span class="Monospace" style="font-size: 10pt;line-height: 12pt;">./ade_admin -u username</span> command. You are prompted to enter the password for this user.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">To see help for more for more details about <span class="Monospace">ade_admin</span> commands, enter the following commands: </p>
+        <div class="CommandIndent" xml:space="preserve" madcap-space-after-export="preserve">root@semaphore:/DT/local/Dedup/Bin# ./ade_admin
+password:
+hyperstream:23232&gt; help</div>
+        <h2 MadCap:autonum="">Accessing the ade_server command </h2>
+        <p class="htd_HeadingToDo" MadCap:autonum="">Windows</p>
+        <p class="BodyAfterHead">On the machine hosting the <MadCap:variable name="HSS.ade" />:</p>
+        <p class="ss_SingleStep" MadCap:autonum="&amp;gt;">Select <span class="interface">Start</span> &gt; <span class="interface">Run</span> and enter <span class="Monospace">cmd</span> in the Open field. In the bin directory of the HyperStream Installation directory, launch the <span class="Monospace">ade_server</span> command with the option you require.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">Linux</p>
+        <p class="ss_SingleStep" MadCap:autonum="&amp;gt;">Launch the <span class="Monospace">./ade_server</span> command with the option you require.</p>
+        <p class="Body">You must stop the <MadCap:variable name="HSS.ade" /> service prior to making any modifications through the <span class="Monospace">ade_server</span> interface. The service name is <span class="Monospace">ADE.default</span> unless you modified the default name when you installed the product.</p>
+        <h2 MadCap:autonum=""><a name="hss_installation_814337163_26947"></a>Main Command Line Configuration Operations</h2>
+        <div class="Important" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;: ">Do not delete any block files from the repository as they may be needed for restore operations.</div>
+        <h3 MadCap:autonum=""><a name="hss_installation_814337163_1085147"></a><a name="hss_installation_814337163_18644"></a>
+            <MadCap:annotation MadCap:createDate="2020-06-15T14:25:32.7956319+02:00" MadCap:creator="tychom" MadCap:initials="TY" MadCap:comment="Check this section with LCH" MadCap:editor="tychom" MadCap:editDate="2020-06-15T14:25:40.4141757+02:00">Add or remove a Repository</MadCap:annotation>
+        </h3>
+        <p class="Description">A repository is primarily used for future block files. If you remove a repository that already contained block files, the data backed up remains in the repository unless you move the existing block files.Do not manually move the block files. Otherwise, <MadCap:variable name="HSS.hys_exe" /> looses track of these files.</p>
+        <p class="Note">Adding or removing a repository can also be performed by modifying an environment variable in the <MadCap:variable name="HSS.ade_admin" />. See <MadCap:xref href="../Documentation_Lina/Manage_Server_Parameters.htm#use_3944184059_1089569">Managing Parameters</MadCap:xref> for details.</p>
+        <h3 MadCap:autonum="">
+            <MadCap:annotation MadCap:createDate="2020-06-15T14:23:26.8963589+02:00" MadCap:creator="tychom" MadCap:initials="TY" MadCap:comment="Check this section with LCH" MadCap:editor="tychom" MadCap:editDate="2020-06-15T14:23:37.7867063+02:00">Change the Service Port</MadCap:annotation>
+        </h3>
+        <p class="Description">To modify the port on the <MadCap:variable name="HSS.hys_exe" />, you must: </p>
+        <p class="Bulleted" MadCap:autonum="• ">Change the port for all <MadCap:variable name="HSS.tn" /> HyperStream drives in order to restore data from the clients. See <MadCap:xref href="HSS_Configuration_Tina.htm#hss_installation_814337163_1096377" target="_blank">To change drives port numbers</MadCap:xref>.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Restart the <MadCap:variable name="HSS.ade_admin" />.</p>
+        <div class="Important" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;: ">If a server is replicated or mirrored onto another server, it is not possible to change the server port number. If you do, the replication will fail.</div>
+        <p class="Description">Check the following overview of the ports used by <MadCap:variable name="HSS.hys_exe" /> (<MadCap:xref href="#hss_server_ports" class="table_x">see Table</MadCap:xref>). </p>
+        <table style="width: 100%;mc-table-style: url('../Resources/TableStyles/t_BasicTable.css');margin-left: 0;margin-right: auto;caption-side: top;mc-caption-repeat: true;" class="TableStyle-t_BasicTable" cellspacing="0">
+            <caption>
+                <p class="TableCaption" MadCap:autonum="&lt;b&gt;Table&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="hss_server_ports"></a>HyperStream Server ports</p>
+            </caption>
+            <col class="TableStyle-t_BasicTable-Column-Column1" />
+            <col class="TableStyle-t_BasicTable-Column-Column2" />
+            <col class="TableStyle-t_BasicTable-Column-Column2" />
+            <col class="TableStyle-t_BasicTable-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-t_BasicTable-Head-Header1">
+                    <th class="TableStyle-t_BasicTable-HeadE-Column1-Header1">
+                        <p class="tbt_TableText">TCP port</p>
+                    </th>
+                    <th class="TableStyle-t_BasicTable-HeadF-Column2-Header1">
+                        <p class="tbt_TableText">Tunable</p>
+                    </th>
+                    <th class="TableStyle-t_BasicTable-HeadF-Column2-Header1">
+                        <p class="tbt_TableText">Protocol</p>
+                    </th>
+                    <th class="TableStyle-t_BasicTable-HeadD-Column2-Header1">
+                        <p class="tbt_TableText">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">23232</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyF-Column2-row1">
+                        <p class="tbt_TableText">tcp.port</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyF-Column2-row1">
+                        <p class="tbt_TableText">Proprietary</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Port used by the agent to back up and restore and the <span class="Monospace">ade_admin</span> tool</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyB-Column1-row2">
+                        <p class="tbt_TableText">8181</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyC-Column2-row2">
+                        <p class="tbt_TableText">httpd.port</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyC-Column2-row2">
+                        <p class="tbt_TableText">HTTP/HTTPS (automatic detection)</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyA-Column2-row2">
+                        <p class="tbt_TableText">Port used by the <MadCap:variable name="ALN.adm_exe" />, for replication and by the <span class="Monospace">ade_admin</span> tool</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

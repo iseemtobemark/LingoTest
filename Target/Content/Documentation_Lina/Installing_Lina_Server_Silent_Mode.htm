@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="aln_installation_adm_2087185880_1235920"></a><a name="aln_installation_adm_2087185880_81347"></a>Install the <MadCap:variable name="General.ProductName" /> Server in Silent Mode </h1>
+        <p class="BodyAfterHead">If you cannot install in graphical mode, you can install/upgrade <MadCap:variable name="General.ProductName" /> in silent mode.</p>
+        <p class="Body">To do so, you must create a batch file and use this file to install <MadCap:variable name="General.ProductName" /> on machines without graphical or X terminals.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">To install <MadCap:variable name="General.ProductName" /> in silent mode </p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Open the <span class="Monospace">batch_install_sample.txt</span> sample file located in the Server directory of the product iso.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Set the value of the required parameters according to your environment and save the batch file as a text file. </p>
+        <p class="BulletedCont">To edit the file in Windows, use a  text editor  such as Wordpad or Notepad++, not Microsoft Word or equivalent as it may corrupt the file syntax.</p>
+        <div class="Note" MadCap:autonum="&lt;b&gt;Note&lt;/b&gt;: ">Use double backslashes in Windows paths.</div>
+        <p class="BulletedCont">The sample below is set to install <MadCap:variable name="ALN.hys_exe" />.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Launch the installer using this command:</p>
+        <p class="pc_procedure_cont"><span class="Monospace">&lt;installer_path&gt; -f &lt;batch_file_absolute_path&gt;</span>
+        </p>
+        <p class="pc_procedure_cont">For instance:</p>
+        <p class="pc_procedure_cont" style="font-weight: normal;"><b>Windows.</b>
+        </p>
+        <p class="pc_procedure_cont"><span class="Monospace">C:\temp\ATLXXX-Windows-X64.exe -f C:\temp\my_batch_file.txt</span>
+        </p>
+        <p class="pc_procedure_cont"><b>Linux.</b>
+        </p>
+        <p class="pc_procedure_cont"><span class="Monospace">/tmp/ATLXXX-Linux-X64.bin -f /tmp/my_batch_file.txt</span>
+        </p>
+        <p class="pc_procedure_cont"><MadCap:variable name="General.ProductName" /> install starts automatically with the parameters specified in your batch file.</p>
+    </body>
+</html>

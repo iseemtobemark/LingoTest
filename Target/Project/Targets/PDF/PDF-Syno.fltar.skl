@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget Version="2" Comment="New Target" Type="PDF" Destinations="" MasterToc="/Project/TOCs/ALN-Install_Syno.fltoc" MasterPageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" PatchHeadingLevels="true" AutoSizeCaptureCaptions="true" InjectEmptyPages="true" ConditionTagExpression="include[ALN.PDF or ALN.Syno], exclude[ALN.ADA or ALN.ADE or ALN.admin or ALN.ALN or ALN.AMM or ALN.ATN or ALN.HELP or ALN.HSS or ALN.user or HSS.ADA or HSS.ADE or HSS.admin or HSS.ALN or HSS.AMM or HSS.ATN or HSS.HELP or HSS.HSS or HSS.MAC or HSS.PDF or HSS.UNIX or HSS.user or HSS.WINDOWS]" conditions="HVAVMware.PDF,ALN.PDF,ALN.admin" OutputFile="[%=ALN.PDF_File_Name_Syno%]">
+    <PrintedOutput CollapseMargins="true" GenerateTOCProxy="true" GenerateIndexProxy="false" GenerateGlossaryProxy="true" PreserveTrackedChanges="true" OutputFormat="doc" />
+    <PDF PageLayout="SinglePage" FullScreen="false" CollapsedBookmarks="true" InitialMagnification="Fit" TitleBar="DocumentTitle" ShowUsedBookmarks="false" DownsampleImages="true" ImagePPIThreshold="150" />
+    <Glossaries>
+    </Glossaries>
+    <DocumentProperties Title="[%=ALN.PDF_File_Name_Syno%]" Author="Atempo SAS" />
+</CatapultTarget>

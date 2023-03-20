@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/TableStyles/t_BasicTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="troubleshooting_2086620547_1199559"></a><a name="troubleshooting_2086620547_91980"></a>Error Messages</h1>
+        <p class="BodyAfterHead">The following error messages can be displayed in the health check (<MadCap:xref href="#error_health_messages" class="table_x">see Table</MadCap:xref>):</p>
+        <table class="TableStyle-t_BasicTable" style="mc-table-style: url('../Resources/TableStyles/t_BasicTable.css');margin-left: 0;margin-right: auto;caption-side: top;mc-caption-repeat: true;" cellspacing="0">
+            <caption>
+                <p class="TableCaption" MadCap:autonum="&lt;b&gt;Table&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="error_health_messages"></a>Description of error health messages</p>
+            </caption>
+            <col class="TableStyle-t_BasicTable-Column-Column1" />
+            <col class="TableStyle-t_BasicTable-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-t_BasicTable-Head-Header1">
+                    <td class="TableStyle-t_BasicTable-HeadE-Column1-Header1">
+                        <p class="tbh_TableHead">Name</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-HeadD-Column2-Header1">
+                        <p class="tbh_TableHead">Description</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr MadCap:conditions="ALN.ALN" class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1" MadCap:conditions="">
+                        <p class="tbt_TableText"><span class="interface">There are too many ALN agents: X (exceeding the limit of Y).</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1" MadCap:conditions="">
+                        <p class="tbt_TableText">The maximum number of <MadCap:variable name="General.ProductName" /> agents has been reached. Remove unused agents, or add a <MadCap:variable name="General.ProductName" /> server.</p>
+                    </td>
+                </tr>
+                <tr MadCap:conditions="ALN.ALN" class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2" MadCap:conditions="">
+                        <p class="tbt_TableText">Bypass of ALN startup consistency is active</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2" MadCap:conditions="">
+                        <p class="tbt_TableText">The <span class="Monospace">HN_SERVER_INITCHECK_ISFATAL=false</span> tunable is used in the parameters file. Service starts even if some agent databases are corrupted. </p>
+                    </td>
+                </tr>
+                <tr MadCap:conditions="ALN.ALN" class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1" MadCap:conditions="">
+                        <p class="tbt_TableText">Not enough disk space for <MadCap:variable name="General.ProductName" /></p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1" MadCap:conditions="">
+                        <p class="tbt_TableText">At least 10 GB of disk space must be permanently available on the volume where the <MadCap:variable name="General.ProductName" /> data is stored. This volume is running out of disk space. Contact your customer support if you can not add more free space.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">Required configuration level is C[0-4]. Database must be stored on an SSD.</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">To find out the list of supported configurations, see <MadCap:conditionalText MadCap:conditions="ALN.ALN"><MadCap:xref href="Prerequisites_Lina_Server_installation.htm">Prerequisites to [%=ALN.aln%] Server Installation</MadCap:xref></MadCap:conditionalText><MadCap:xref href="../Documentation_HSS/HSS_Sizing_Recommendations.htm#hss_installation_814337163_1097828" MadCap:conditions="ALN.HSS">Configuration Types</MadCap:xref>. Some configurations require SSD devices.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText"><span class="interface">This configuration level is not supported.</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">This configuration is no more supported because it does not fit the requirements enumerated in Configuration Types. Contact your customer support for further assistance.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText"><span class="interface">Repositories are full.</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">No more block can be added. You must add new repositories to backup additional data. Contact your customer support if you cannot add more free space.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText"><span class="interface">Estimate: Repositories will be full in X days.</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Add free space to avoid the <span class="Monospace">Repositories are full</span> issue.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText"><span class="interface">Repository </span><span class="Monospace">&lt;path&gt;</span><span class="interface" style="font-family: 'Times New Roman';"> is located on a remote volume.</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">It is recommended to use an <span class="Monospace">ext4</span> file system on Linux servers and NTFS on Windows servers.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText"><span class="interface">Repository </span><span class="Monospace">&lt;path&gt;</span><span class="interface" style="font-family: 'Times New Roman';"> is not on a journaling file system.</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">It is recommended to use an <span class="Monospace">ext4</span> file system on Linux servers and <span class="Monospace">NTFS</span> on Windows servers.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">Repository <span class="Monospace">&lt;path&gt;</span> has no pre-allocation feature.</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">The <span class="Monospace">ext4</span> file system can pre-allocate on-disk space for a file. If you are using an <span class="Monospace">ext4</span> file system, check that partition has the <span class="Monospace">Extents</span> extension enabled.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">The database is stored in a remote location.</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">To ensure optimum reliability and performance, the database must be stored on a local disk. Atempo recommends using an SSD device.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">Index page size is too big. Perform a shrink operation to avoid excessive RAM usage.</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">Index page size has changed following a server upgrade from 2.x to 3.x. It is recommended to perform a shrink operation, as described in <MadCap:xref href="../Documentation_HSS/HSS_Upgrade.htm#hss_installation_814337163_1097523">Index Page Size too Large</MadCap:xref>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Repair was not totally finished: reference counters are fuzzy.</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">A repair operation was running and has been aborted. Reference counters are not reliable. Run the counter tool to rebuild reference counters as described in <MadCap:conditionalText MadCap:conditions="ALN.ALN"><MadCap:xref href="import-link:appendix_maintenance_229154286_15352" MadCap:unresolvedLink="import-link:appendix_maintenance_229154286_15352"><MadCap:conditionalText MadCap:conditions="ALN.ALN"><MadCap:xref href="Repair.htm#appendix_maintenance_2072635088_1087830" target="_blank">Counter Tool</MadCap:xref></MadCap:conditionalText></MadCap:xref></MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="ALN.HSS"><MadCap:xref href="Health_Check_Error_Messa.htm" MadCap:unresolvedLink="import-link:hss_appendix_maintenance_412228520_15352" target="_blank">Health Check Error Messages</MadCap:xref></MadCap:conditionalText>. The compact service is stopped until the operation is complete.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">HSS product is not enabled on destination so HSS replication is denied.</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">Enable HSS to allow source replication server to send data.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">The hss.min_space_left tunable is below the minimum requirement of X.</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">To prevent a full repository, this tunable should not be set to less than 64GB. This amount of free space is enough to run a compact task.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">DB disk is almost full</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">The ADE Database disk is almost full. Add free space or move database to another SSD with more space.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">There are X missing blocks in block files</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Run the <span class="Monospace">ade_server </span><span class="Monospace">--repair counter</span> command to fix this issue. See <MadCap:conditionalText MadCap:conditions="ALN.ALN"><MadCap:xref href="Repair.htm#appendix_maintenance_2072635088_1087830">Counter Tool</MadCap:xref></MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="ALN.HSS"><MadCap:xref href="Repair.htm#appendix_maintenance_2072635088_1087830">Counter Tool</MadCap:xref></MadCap:conditionalText> for details.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">X records cannot be removed (inconsistent reference counter)</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">Run the <span class="Monospace">ade_server </span><span class="Monospace">--repair </span>command to fix this issue. See <MadCap:conditionalText MadCap:conditions="ALN.ALN"><MadCap:xref href="Repair.htm#appendix_maintenance_2072635088_1087812">Repair Tool</MadCap:xref></MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="ALN.HSS"><MadCap:xref href="Repair.htm#appendix_maintenance_2072635088_1087812">Repair Tool</MadCap:xref></MadCap:conditionalText> for details.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyB-Column1-row1">
+                        <p class="tbt_TableText">New important release available </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyA-Column2-row1">
+                        <p class="tbt_TableText">Download and install the new release.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

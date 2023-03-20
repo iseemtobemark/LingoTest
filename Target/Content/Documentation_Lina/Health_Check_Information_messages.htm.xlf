@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="completed">
+  <file
+    xml:space="preserve"
+    original="Health_Check_Information_messages.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="fr">
+    <header>
+      <skl><external-file
+          href="Health_Check_Information_messages.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">22</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11 r2"
+        tool-name="Lingo"
+        tool-version="11.1.7796.16213"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source> Information Messages</source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2">Information Messages</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Messages d'information</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The following information messages can be displayed in the health check (<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#health_check_information_messages" class="table_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Table&lt;/MadCap:xref&gt;</ph>):</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The following information messages can be displayed in the health check (<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#health_check_information_messages" class="table_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Table&lt;/MadCap:xref&gt;</ph>):</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Les messages d'information suivants peuvent être affichés dans les vérifications (<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#health_check_information_messages" class="table_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Table&lt;/MadCap:xref&gt;</ph>):</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Description of health check information messages</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Description of health check information messages</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="60">Description des Messages d’information des vérifications</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Name</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Name</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Nom</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Description</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Description</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Description</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Required configuration level is C[0-4].</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Required configuration level is C[0-4].</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Le niveau de configuration requis est C[0-4].</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To find out the list of supported configurations, see <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="Prerequisites_Lina_Server_installation.htm" MadCap:conditions="ALN.ALN" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Prerequisites to [%=ALN.aln%] Server Installation&lt;/MadCap:xref&gt;&lt;MadCap:xref href="../Documentation_HSS/HSS_Sizing_Recommendations.htm#hss_installation_814337163_1097828" MadCap:conditions="ALN.HSS" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Configuration Types&lt;/MadCap:xref&gt;</ph>. Some configurations require SSD devices.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To find out the list of supported configurations, see <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="Prerequisites_Lina_Server_installation.htm" MadCap:conditions="ALN.ALN" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Prerequisites to [%=ALN.aln%] Server Installation&lt;/MadCap:xref&gt;&lt;MadCap:xref href="../Documentation_HSS/HSS_Sizing_Recommendations.htm#hss_installation_814337163_1097828" MadCap:conditions="ALN.HSS" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Configuration Types&lt;/MadCap:xref&gt;</ph>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Some configurations require SSD devices.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Pour connaître la liste des configurations prises en charge, voir <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="Prerequisites_Lina_Server_installation.htm" MadCap:conditions="ALN.ALN" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Prerequisites to [%=ALN.aln%] Server Installation&lt;/MadCap:xref&gt;&lt;MadCap:xref href="../Documentation_HSS/HSS_Sizing_Recommendations.htm#hss_installation_814337163_1097828" MadCap:conditions="ALN.HSS" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Configuration Types&lt;/MadCap:xref&gt;</ph>.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Certaines configurations nécessitent des disques SSD.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Database size: X GB. RAM installed: Y GB.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Database size: X GB.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">RAM installed: Y GB.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Taille de la base : X Go.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">RAM installée : Y Go.</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The amount of RAM must be enough to cache a significant part of the database. Database size can be smaller if using a bigger block size (256 KB by default).</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The amount of RAM must be enough to cache a significant part of the database.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Database size can be smaller if using a bigger block size (256 KB by default).</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">La taille de la RAM doit être suffisante pour pouvoir mettre en cache une part importante de la base de données.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">La taille de la base de données peut être plus petite si vous utilisez une plus grande taille de bloc (256 Ko par défaut).</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>You have X of free space in the repositories.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">You have X of free space in the repositories.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Vous disposez de X d'espace disponible dans vos répertoires de stockage.</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Information on the current available free space.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Information on the current available free space.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Information sur l'espace disponible courant.</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Hot backup mode running for the past X minutes.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Hot backup mode running for the past X minutes.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Mode sauvegarde à chaud en cours depuis X minutes.</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Information on hot backup progress.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Information on hot backup progress.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Information sur la progression de la sauvegarde à chaud.</mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Enabled product(s): <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>&lt;product list&gt;<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Enabled product(s): <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>&lt;product list&gt;<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Produit(s) activé(s) : <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>&lt;product list&gt;<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Information on the list of enabled products.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Information on the list of enabled products.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Information sur la liste des produits activés.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  ShowMadCapBacklink="false"
+  GlossaryTermConversion="marked"
+  DefaultUrl="/Content/A_Introduction Topics/Welcome.htm"
+  MasterToc="/Project/TOCs/HSS.fltoc"
+  MasterStylesheet="/Content/Resources/Stylesheets/styles.css"
+  Skin="/Project/Skins/HTML5 - Tripane_HSS.flskn"
+  ConditionTagExpression="include[ALN.HSS or General.Online or HSS.HELP or HSS.HSS], exclude[ALN.ALN or ALN.BMR or ALN.Syno or ALN.user or General.Hidden or General.PDF or HSS.ADA or HSS.admin or HSS.ALN or HSS.AMM or HSS.ATN or HSS.MAC or HSS.PDF or HSS.UNIX or HSS.user or HSS.WINDOWS or PrintGuides.UserGuideA or PrintGuides.UserGuideB]"
+  conditions="ALN.HELP"
+  MasterPage="/Content/Resources/MasterPages/MasterPage.flmsp">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true"
+    OutputFormat="docx" />
+  <Glossaries></Glossaries>
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/Intranet HyperStreamServer EN.fldes"
+      Publish="true"
+      IsResource="false" />
+  </Destinations>
+  <MicroContentSearch>
+    <FeaturedSnippets
+      type="AllFiles"
+      numberOfResults="1">
+      <microContentSubset />
+    </FeaturedSnippets>
+    <KnowledgePanel
+      type="Empty"
+      numberOfResults="1">
+      <microContentSubset />
+    </KnowledgePanel>
+  </MicroContentSearch>
+</CatapultTarget>

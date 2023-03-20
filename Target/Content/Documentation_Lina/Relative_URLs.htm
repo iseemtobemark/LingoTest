@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="appendix_scenarios_1505489920_86167"></a>Relative URLs</h1>
+        <p class="Body">There are four different <MadCap:variable name="General.ProductName"></MadCap:variable> relative URLs to redirect.</p>
+        <h2 MadCap:autonum="">Standard Backup and Restore Service</h2>
+        <p class="BodyAfterHead"><span class="Lead-In">/ALN.</span> Standard backup and restore service. Using this service is necessary to be constantly protected when working remotely. It is important to set Data Flow Control when using this service, as numerous remote computers simultaneously sending large amounts of data can jam your Internet connection.</p>
+        <p>It is highly recommended for security reasons that agents connecting from the Internet use an encrypted connection.</p>
+        <h2 MadCap:autonum="">Webrestore Service</h2>
+        <p class="Bulleted" MadCap:autonum="• "><span class="Lead-In">/ALNWEB.</span> Access to the <MadCap:variable name="ALN.aln_web_resto"></MadCap:variable> HTTP API.</p>
+        <p class="Bulleted" MadCap:autonum="• "><span class="Lead-In">/ALNRESTORE.</span> Single file and Zipped files download URL.</p>
+        <p class="Bulleted" MadCap:autonum="• "><span class="Lead-In">/webrestore. </span>Enables to remotely connect to the <MadCap:variable name="ALN.aln_web_resto"></MadCap:variable>.</p>
+        <p class="Body">The proxy <span class="Monospace"><a href="https://proxy.public.com:9443//ALNBKPSVC/whatfollows">https://proxy.public.com:8181/ALN/whatfollows</a></span> has to be converted into <span class="Monospace"><a href="http://alnserver.internal.local:9080/ALNBKPSVC/whatfollows">http://alnserver.internal.local:8181/ALN/whatfollows</a>.</span></p>
+        <p class="Body"> If no information follows the port number, everything is converted.</p>
+        <p><span class="Monospace">proxy.public.com</span> is the public address of the IIS server used as reverse proxy, <span class="Monospace">alnserver.internal.local</span> is the <MadCap:variable name="General.ProductName"></MadCap:variable> server behind the firewall.</p>
+        <p class="Body">The proxy conversion is easy to perform with URL Rewrite and IIS, but you also need Application Request Routing (ARR) installed. If you do not have URL Rewrite and ARR installed, you can use the Web Platform Installer.</p>
+    </body>
+</html>

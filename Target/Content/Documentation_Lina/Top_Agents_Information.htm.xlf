@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="completed">
+  <file
+    xml:space="preserve"
+    original="Top_Agents_Information.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="fr">
+    <header>
+      <skl><external-file
+          href="Top_Agents_Information.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">17</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11 r2"
+        tool-name="Lingo"
+        tool-version="11.1.7796.16213"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Top Agents Information</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.ALN">Top Agents Information</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Information sur les agents remarquables</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The Top Agents screen displays this information:</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.ALN">The Top Agents screen displays this information:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">L'écran Agents remarquables affiche ces informations :</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Lead-In"&gt;</bpt>Most voluminous agents.<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> Displays agents that have the largest volume of data to protect. You can sort the result by volume or number of protected or restorable objects.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.ALN"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Lead-In"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:conditions="ALN.ALN">Most voluminous agents.</mrk><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:conditions="ALN.ALN"><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:conditions="ALN.ALN"> </mrk><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:conditions="ALN.ALN">Displays agents that have the largest volume of data to protect.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:conditions="ALN.ALN"> </mrk><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:conditions="ALN.ALN">You can sort the result by volume or number of protected or restorable objects.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Les agents les plus  volumineux.</mrk><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Affiche les agents qui ont le plus grand volume de données à protéger.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Vous pouvez trier le résultat par volume ou par nombre d'objets protégés ou restaurables.</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Lead-In"&gt;</bpt>Most active agents.<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> Displays agents that have the most volatile data.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.ALN"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Lead-In"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:conditions="ALN.ALN">Most active agents.</mrk><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:conditions="ALN.ALN"><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:conditions="ALN.ALN"> </mrk><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:conditions="ALN.ALN">Displays agents that have the most volatile data.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Agents les plus actifs</mrk><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Affiche les agents qui ont les données les plus volatiles.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If the periods proposed by the application do not suit, you can configure a customized period. <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="Manage_Activity_History_Component.htm#aln_admin_1282167276_1170989" target="_blank" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;To configure a customized period&lt;/MadCap:xref&gt;</ph> for details.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.ALN">If the periods proposed by the application do not suit, you can configure a customized period.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:conditions="ALN.ALN"> </mrk><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:conditions="ALN.ALN"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="Manage_Activity_History_Component.htm#aln_admin_1282167276_1170989" target="_blank" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;To configure a customized period&lt;/MadCap:xref&gt;</ph> for details.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Si les périodes que l’application propose par défaut ne vous conviennent pas, vous pouvez paramétrer vos propres périodes pour le calcul et l’affichage des graphiques.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Voir <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="Manage_Activity_History_Component.htm#aln_admin_1282167276_1170989" target="_blank" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;To configure a customized period&lt;/MadCap:xref&gt;</ph> pour plus de détails.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

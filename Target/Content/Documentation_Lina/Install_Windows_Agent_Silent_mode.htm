@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/TableStyles/ti_IndentedBasicTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="aln_installation_adm_2087185880_1359341"></a>Install  a Windows Agent in Silent Mode</h1>
+        <p class="BodyAfterHead">The silent mode lets you install, upgrade, or uninstall <MadCap:variable name="General.ProductName" /> from the command line, without having to launch a graphical interface.</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Launch a command line on your agent and navigate to the  directory containing the <span class="Monospace">setup.exe</span> program of your <MadCap:variable name="ALN.aln.agent" />: <span class="Monospace">ATLXXX.iso\Agent\Windows\amd64</span></p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Enter this command:</p>
+        <p class="pc_procedure_cont"><span class="Monospace">setup.exe /q /CompleteCommandArgs "SERVERNAME=xxxx DATABASEDIR=xxxx INSTALLDIR=xxxx"</span>
+        </p>
+        <p class="BulletedCont">If the value contains space characters, enclose it between escape quotes (\<span class="Monospace">"</span>).</p>
+        <p class="pc_procedure_cont">For instance:</p>
+        <p class="pc_procedure_cont"><span class="Monospace">setup.exe /q /CompleteCommandArgs "SERVERNAME=lina-server DATABASEDIR=\"C:\Program Files\ALN_Agent\""</span>
+        </p>
+        <p class="Description">The installation  in silent mode consists of multiple parameters (<MadCap:xref href="#Installation_parameters_in_silent_mode" class="table_x">see Table</MadCap:xref>).</p>
+        <table class="TableStyle-ti_IndentedBasicTable" style="mc-table-style: url('../Resources/TableStyles/ti_IndentedBasicTable.css');margin-left: 0;margin-right: auto;caption-side: top;mc-caption-repeat: true;" cellspacing="0">
+            <caption>
+                <p class="TableCaption" MadCap:autonum="&lt;b&gt;Table&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="Installation_parameters_in_silent_mode"></a>Installation parameters in silent mode</p>
+            </caption>
+            <col class="TableStyle-ti_IndentedBasicTable-Column-Column1" style="width: 220px;" />
+            <col class="TableStyle-ti_IndentedBasicTable-Column-Column2" style="width: 603px;" />
+            <col class="TableStyle-ti_IndentedBasicTable-Column-Column2" style="width: 405px;" />
+            <thead>
+                <tr class="TableStyle-ti_IndentedBasicTable-Head-Header1">
+                    <td class="TableStyle-ti_IndentedBasicTable-HeadE-Column1-Header1">
+                        <p class="tbh_TableHead">Parameter</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-HeadF-Column2-Header1">
+                        <p class="tbh_TableHead">Description</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-HeadD-Column2-Header1">
+                        <p class="tbh_TableHead">Status</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row1">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText"><span class="interface">INSTALLDIR</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyF-Column2-row1">
+                        <p class="tbt_TableText"><MadCap:variable name="General.ProductName" /> installation path.</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Optional, the default value is <span class="Monospace">C:\Program Files\Atempo\Atempo Live Navigator\</span></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row2">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText"><span class="interface">DATABASEDIR</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyF-Column2-row2">
+                        <p class="tbt_TableText"><MadCap:variable name="General.ProductName" /> database path.</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">Optional, the default value is <span class="Monospace">C:\ProgramData\HNDB</span></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row1">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText"><span class="interface">SERVERNAME</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyF-Column2-row1">
+                        <p class="tbt_TableText">Connection string of the <MadCap:variable name="General.ProductName" /> Server where the agent data is going to be protected.</p>
+                        <p class="tbt_TableText">The server connection string is in the form:</p>
+                        <p class="tbt_TableText"><span class="Monospace">&lt;servername&gt;:&lt;port&gt;</span>
+                        </p>
+                        <p class="tbt_TableText">To indicate the tenant: </p>
+                        <p class="tbt_TableText"><span class="Monospace">&lt;tenant_name&gt;/@&lt;servername&gt;</span>
+                        </p>
+                        <p class="tbt_TableText">
+                            <MadCap:conditionalText MadCap:conditions="ALN.admin">See <MadCap:xref href="Configure_Agent_to_Server_Access.htm#aln_installation_adm_2087185880_1360281" target="_blank">Agent to Server Access Configuration</MadCap:xref> for details.</MadCap:conditionalText>
+                        </p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Mandatory</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row2">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText"><span class="interface">- /l c:\logfile.log </span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyF-Column2-row2">
+                        <p class="tbt_TableText">Creates a log file in <span class="Monospace">c:\logfile.log</span>.</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">Optional</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row1">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText"><span class="interface">- /qb</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyF-Column2-row1">
+                        <p class="tbt_TableText">The setup only displays a small window with progression information.</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Optional</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row2">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyB-Column1-row2">
+                        <p class="tbt_TableText"><span class="interface">- /q</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyC-Column2-row2">
+                        <p class="tbt_TableText">The setup is hidden.</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyA-Column2-row2">
+                        <p class="tbt_TableText">Optional</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

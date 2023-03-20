@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/TableStyles/t_BasicTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="aln_installation_adm_2087185880_1207285"></a><a name="aln_installation_adm_2087185880_94980"></a>Prerequisites to <MadCap:variable name="General.ProductName" /> Server Installation</h1>
+        <p>Before installing a <MadCap:variable name="General.ProductName" /> server:</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Check the following prerequisites (<MadCap:xref href="#Prerequisites_to_Lina_server_installation" class="table_x">see Table</MadCap:xref>).</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Refer to the <a href="https://www.atempo.com/ressource/lina-compatibility-guide/"><MadCap:variable name="General.ProductName" /> Compatibility Guide</a> to verify the list of supported operating systems for the <MadCap:variable name="General.ProductName" /> server.</p>
+        <table class="TableStyle-t_BasicTable" style="mc-table-style: url('../Resources/TableStyles/t_BasicTable.css');margin-left: 0;margin-right: auto;caption-side: top;mc-caption-repeat: true;" cellspacing="0">
+            <caption>
+                <p class="TableCaption" MadCap:autonum="&lt;b&gt;Table&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="Prerequisites_to_Lina_server_installation"></a>Prerequisites to <MadCap:variable name="General.ProductName" /> server installation</p>
+            </caption>
+            <col class="TableStyle-t_BasicTable-Column-Column1" />
+            <col class="TableStyle-t_BasicTable-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-t_BasicTable-Head-Header1">
+                    <td class="TableStyle-t_BasicTable-HeadE-Column1-Header1">
+                        <p class="tbh_TableHead">Prerequisite</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-HeadD-Column2-Header1">
+                        <p class="tbh_TableHead">Description</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText"><span class="interface">Hardware/Processor</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">The <MadCap:variable name="General.ProductName" /> server must be installed:</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">On a machine with a multi-core 64-bit processor. </p>
+                        <p class="BulletedTable" MadCap:autonum="• ">On a local and dedicated fast access disk, such as an SSD.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText"><span class="interface">Operating System</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">To find out the list of supported Operating Systems,  see the <a href="https://www.atempo.com/ressource/lina-compatibility-guide/" target="_blank"><MadCap:variable name="General.ProductName" /> Compatibility Guide</a>. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText"><span class="interface">Linux Server</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Some packages must be installed before running the installer.</p>
+                        <p class="tbt_TableText">For an installation in CLI using the silent mode, run the following commands to install the required packages:</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">Debian-based distributions: <span class="Monospace">apt-get update &amp;&amp; apt-get install -y --no-install-recommends libaio1 libcrypt libavahi-client3 lsb-core</span></p>
+                        <p class="BulletedTable" MadCap:autonum="• ">RPM-based distributions: <span class="Monospace">yum update &amp;&amp; yum install libaio libcrypt avahi-libs</span></p>
+                        <p class="tbt_TableText">For an installation in graphical mode, run the following commands to install the required packages:</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">Debian-based distributions: <span class="Monospace">apt-get update &amp;&amp; apt-get install -y --no-install-recommends libaio1 libcrypt libavahi-client3 lsb-core libxext6 libxtst6 libxrender1 fonts-dejavu</span></p>
+                        <p class="BulletedTable" MadCap:autonum="• ">RPM-based distributions: <span class="Monospace">yum update &amp;&amp; yum install libaio libcrypt avahi-libs libXext libXtst libXrender dejavu-sans-fonts dejavu-serif-fonts</span></p>
+                        <p class="tbt_TableText">To use the graphical environment of a remote host during an installation in graphical mode, one of the following items must be used:</p>
+                        <p class="BulletedTable" MadCap:autonum="• "> A graphical environment (X Windows) on the local host. </p>
+                        <p class="BulletedTable" MadCap:autonum="• ">A <span class="Monospace">DISPLAY</span> variable set .</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText"><span class="interface">Linux Server Snapshot</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">If you intend to use snapshots to secure your Linux Server, all your ADE components must be stored on:</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">Version 2.02.95 or higher of LVM2</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">Thinly-Provisioned Logical Volumes (thin volumes) </p>
+                        <p class="tbt_TableText">For more details on how to create a thin volume, see <MadCap:xref href="Create_Thin_Volume_Linux.htm">Create a Thin Volume on Linux</MadCap:xref>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText"><span class="interface">Windows Server Snapshot</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="BulletedTable" MadCap:autonum="• ">If you intend to use snapshots to secure your Windows Server, store all your ADE components on an NTFS file system.</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">If you intend to use the snapshot revert feature, do not install any ADE components on the system disk.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText"><span class="interface">File system	</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">It is recommended to use:</p>
+                        <p class="BulletedTable" MadCap:autonum="• "> An ext4 file system on Linux servers</p>
+                        <p class="BulletedTable" MadCap:autonum="• "> An NTFS on Windows servers.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText"><span class="interface">Memory</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">At least 8 GB of RAM is required.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText"><span class="interface">Repository</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">At least 32 GB of disk space must be permanently available on the volume where the Atempo-Deduplication Engine data blocks are stored.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Directory of the <MadCap:variable name="General.ProductName" /> server Database</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">At least 10 GB of disk space must be permanently available on the volume where the <MadCap:variable name="General.ProductName" /> data is stored.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText"><span class="interface">Default Communication Ports</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">These ports are the default ports and must be open on your firewall (unless you choose other values when you run the setup):</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Monospace">8181</span>: Communication port for <MadCap:variable name="ALN.ade_admin" />.</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Monospace">23232</span>: Communication port for Atempo-Deduplication Engine.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText"><span class="interface">Proxy option in web browser</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Ensure that your web browser does not use a proxy. Otherwise, you may get this error  message when trying to access your server in the <MadCap:variable name="ALN.ade_admin" />: "Attempt to load data from a server outside the security sandbox".</p>
+                        <p class="tbt_TableText">To avoid this problem, follow these instructions:</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">Mozilla Firefox: Open the <b>Application Menu</b> &gt; <b>Settings</b> &gt; <b>Network Settings</b>. In the <b>Connection Settings</b> window, select the <b>No Proxy</b> check box.</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">Microsoft Internet Explorer: Open <b>Tools</b> &gt; <b>Internet Options</b> &gt; <b>Connections</b> &gt; <b>LAN Settings</b>. In the <b>Local Area Network (LAN) Settings</b> window, ensure that the <b>Use a proxy server for your LAN</b> option is unchecked.</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">Google Chrome: Open the menu, then click  <span class="Bold">Settings</span> &gt; <span class="Bold">Advanced</span> &gt; <span class="Bold">Open proxy settings</span>. In the <span class="Bold">Proxy </span>window, ensure that the <b>Use a proxy server</b> option is unchecked.</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">Apple Safari: Open <span class="Bold">Safari</span> &gt; <span class="Bold">Preferences</span> &gt; <span class="Bold">Advanced</span> tab &gt; <span class="Bold">Change Settings...</span>. Ensure that no proxies are used.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText"><span class="interface">Language</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText"><MadCap:variable name="General.ProductName" /> adopts the language set at the operating system level. Available languages are English and French.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyB-Column1-row1">
+                        <p class="tbt_TableText">User</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyA-Column2-row1">
+                        <p class="tbt_TableText">The user launching the setup program must have administrator or root rights.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>During the installation or upgrade, the setup verifies that prerequisites are met. If your environment does not meet some of them, you may encounter one of the following cases:</p>
+        <p class="Bulleted" MadCap:autonum="• "> A warning message specifies which requirement is not met, as well as recommendations on the corrective measures to take to comply with the requirements.</p>
+        <p class="Bulleted" MadCap:autonum="• ">The installation stops until you make the necessary changes to meet the prerequisites.</p>
+    </body>
+</html>

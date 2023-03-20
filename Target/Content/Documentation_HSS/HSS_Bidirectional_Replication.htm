@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="ALN.HSS" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:conditions="ALN.HSS" MadCap:autonum=""><a name="replication_1301808991_1144375"></a>Bidirectional Replication</h1>
+        <p MadCap:conditions="ALN.HSS">Bidirectional replication is useful if you have an infrastructure containing two geographically remote sites.</p>
+        <div MadCap:conditions="ALN.HSS" class="example" MadCap:autonum="&lt;b&gt;Example&lt;/b&gt;: ">A site in Paris and a site in London each have systems to perform backups. These can be done locally with the two servers backing up each other. </div>
+        <p class="BodyAfterHead" MadCap:conditions="ALN.HSS">Bidirectional replication ensures high availability and enables to keep an up-to-date copy of the <MadCap:variable name="ALN.hys_exe" /> repository at all time. To use the bidirectional replication, you must have two <MadCap:variable name="ALN.hys_exe" />s installed and configured. Atempo highly recommends to have two separate machines for better security. The installations must be identical, i.e.:</p>
+        <p class="Bulleted" MadCap:conditions="ALN.HSS" MadCap:autonum="• ">Same operating system.</p>
+        <p class="Bulleted" MadCap:conditions="ALN.HSS" MadCap:autonum="• ">Same installation path.</p>
+        <p class="Bulleted" MadCap:conditions="ALN.HSS" MadCap:autonum="• ">Same name and password for the admin user.</p>
+        <p class="Body" MadCap:conditions="ALN.HSS">Bidirectional replication must be activated after you installed your <MadCap:variable name="ALN.hys_exe" />. Once it is activated, the source <MadCap:variable name="ALN.hys_exe" /> automatically updates the target server each time new data blocks are added or deleted.</p>
+        <p class="Body" MadCap:conditions="ALN.HSS">It is possible that <MadCap:variable name="HSS.tn" /> is unable to connect to the source <MadCap:variable name="HSS.hys_exe" />. If this is the case, <MadCap:variable name="HSS.tn" /> will automatically switch to the destination server only when the initial backup was successful.</p>
+        <p class="Body" MadCap:conditions="ALN.HSS">When the source server is back online, it is automatically updated with the new or removed data blocks. If a backup job is in progress when the <MadCap:variable name="ALN.hys_exe" /> connection is lost, the job is canceled. <MadCap:variable name="ALN.tn" /> default setting is to retry the job which will be automatically redirected to the target server.</p>
+        <h2 MadCap:conditions="General.Hidden" MadCap:autonum="">Activate Bidirectional Replication  with the Graphical User Interface</h2>
+        <p class="htd_HeadingToDo" MadCap:conditions="General.Hidden" MadCap:autonum="">Step 1: Server A</p>
+        <p class="s1_StepNum" MadCap:conditions="General.Hidden" MadCap:autonum="1. ">Launch the <MadCap:variable name="ALN.ade" /> on Server A and log in as the <span class="Monospace">admin</span> user.</p>
+        <p class="s1_StepNum" MadCap:conditions="General.Hidden" MadCap:autonum="2. ">Select <span class="Bold">Server &gt; Configuration &gt; Replication</span>.</p>
+        <p class="s1_StepNum" MadCap:conditions="General.Hidden" MadCap:autonum="3. ">Click <span class="Bold">Add</span>.</p>
+        <p class="s1_StepNum" MadCap:conditions="General.Hidden" MadCap:autonum="4. ">Provide the name and port number of Server B.</p>
+        <p class="s1_StepNum" MadCap:conditions="General.Hidden" MadCap:autonum="5. ">Click <span class="Bold">Validate the creation</span>. </p>
+        <p class="htd_HeadingToDo" MadCap:conditions="General.Hidden" MadCap:autonum="">Step 2 : Server B</p>
+        <p class="s1_StepNum" MadCap:conditions="General.Hidden" MadCap:autonum="1. ">Launch the <MadCap:variable name="HSS.ade_admin" /> on Server B and log in as the <span class="Monospace">admin</span> user.</p>
+        <p class="s1_StepNum" MadCap:conditions="General.Hidden" MadCap:autonum="2. ">Select <span class="Bold">Server &gt; Configuration &gt; Replication</span>.</p>
+        <p class="s1_StepNum" MadCap:conditions="General.Hidden" MadCap:autonum="3. ">Click <span class="Bold">Add</span>.</p>
+        <p class="s1_StepNum" MadCap:conditions="General.Hidden" MadCap:autonum="4. ">Provide the name and port number of Server A.</p>
+        <p class="s1_StepNum" MadCap:conditions="General.Hidden" MadCap:autonum="5. ">Click <span class="Bold">Validate the creation</span>.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">Activate Bidirectional Replication with the Command Line Interface</p>
+        <p>To activate Bidirectional Replication with the <MadCap:variable name="HSS.cli" /></p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="1. ">Launch <span class="Monospace">ade_admin</span> on Server A while logged as the <span class="Monospace">admin</span> user.</p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="2. ">Run the command <span class="Monospace">add_repli &lt;</span><span class="Monoitalic">Server_B</span><span class="Monospace">:</span><span class="Monoitalic">port_number</span><span class="Monospace">&gt;</span> to add server B as replication destination of server A.</p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="3. ">Launch <span class="Monospace">ade_admin</span> on Server B while logged as the <span class="Monospace">admin</span> user.</p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="4. ">Run the command <span class="Monospace">add_repli &lt;</span><span class="Monoitalic">Server_A</span><span class="Monospace">:</span><span class="Monoitalic">port_number</span><span class="Monospace">&gt;</span> to add Server A as replication destination of Server B.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">To display replication information</p>
+        <p class="ss_SingleStep" MadCap:autonum="&amp;gt;">See <MadCap:xref href="Simple_and_Hierarchical_replication.htm#replication_1301808991_1144352">To display bidirectional replication information.</MadCap:xref></p>
+    </body>
+</html>

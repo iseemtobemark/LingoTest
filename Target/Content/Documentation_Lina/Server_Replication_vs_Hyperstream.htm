@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="replication_1301808991_1144227"></a>Server Replication vs <MadCap:conditionalText MadCap:conditions="ALN.ALN">Agent</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="ALN.HSS">Hyperstream</MadCap:conditionalText> Replication</h1>
+        <p class="BodyAfterHead">If you enable server replication, existing <MadCap:conditionalText MadCap:conditions="ALN.ALN">Agent</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="ALN.HSS">Hyperstream</MadCap:conditionalText> specific replication processes are disabled, even though their configuration is kept. Server replication configuration takes precedence over the other replication processes available, and its parameters override existing <MadCap:conditionalText MadCap:conditions="ALN.ALN">Agent</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="ALN.HSS">Hyperstream</MadCap:conditionalText> specific replication parameters:</p>
+        <p class="Bulleted" MadCap:autonum="• ">The target server is the one defined in the server replication.</p>
+        <p class="Bulleted" MadCap:autonum="• ">The connection is never encrypted.</p>
+        <p class="Bulleted" MadCap:conditions="General.Hidden" MadCap:autonum="• ">The port is the one set by the <span class="Monospace">HN_TARGET_HTTP_PORT</span> tunable. <MadCap:annotation MadCap:createDate="2022-07-04T23:53:18.3509170+02:00" MadCap:creator="lisal" MadCap:initials="LI" MadCap:comment="toujours valable ?" MadCap:editor="lisal" MadCap:editDate="2022-07-04T23:53:25.1470014+02:00">See</MadCap:annotation> <MadCap:xref href="Prerequisites_to_Disaster_Recovery.htm">Replication Prerequisites</MadCap:xref> for details on this tunable.</p>
+        <p class="Bulleted" MadCap:autonum="• ">No proxy is used.</p>
+    </body>
+</html>

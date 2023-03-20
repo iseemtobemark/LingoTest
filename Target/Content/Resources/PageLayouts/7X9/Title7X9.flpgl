@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <Page Name="All" Width="210mm" Height="297mm" Padding="20px" PageSize="custom" PageType="normal" PaddingLeft="0" PaddingRight="0" PaddingTop="0" PaddingBottom="0" BackgroundRepeat="no-repeat" Orientation="portrait" BackgroundImage="none" BackgroundPositionX="10px" BackgroundPositionY="-90px" BleedLeft="0" BleedRight="0" BleedTop="0" BleedBottom="0">
+        <Frame Flow="body" Y="61px" Bottom="378px" X="59px" Right="0px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="735px" Height="684px" PaddingLeft="0" PaddingTop="0">
+        </Frame>
+        <Frame X="1px" Y="618px" Width="796px" Height="506px" Flow="decoration1" Right="-3px" Bottom="-1px" BackgroundImage="../../Images/workspaces-image.jpg" BackgroundRepeat="stretch" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:style="text-align: right;">
+                            <xhtml:img xhtml:src="../../Images/Sources/visuel-CG-Docs-Produit-700px-2-transp.png" xhtml:style="width: 700px;" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="1px" Y="0px" Width="793px" Height="376px" Flow="header" Right="0px" Bottom="747px" Anchors="" BackgroundType="Solid" PaddingRight="20pt" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="width: 100%;margin-top: 14pt;margin-left: 0;margin-right: auto;">
+                            <xhtml:col xhtml:style="width: 416px;" />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td>
+                                        <xhtml:p xhtml:style="text-align: right;">
+                                            <xhtml:img xhtml:src="../../Images/Logo_Atempo/Atempo-logo-screen-300px.jpg" xhtml:style="width: 170px;" />
+                                        </xhtml:p>
+                                        <xhtml:p>&#160;</xhtml:p>
+                                        <xhtml:p>&#160;</xhtml:p>
+                                        <xhtml:p xhtml:style="text-align: center;">
+                                            <xhtml:img xhtml:src="../../Images/Logo_Lina/LINA_Logo COUL medium.jpg" xhtml:style="width: 246px;height: 214px;" MadCap:conditions="ALN.ALN,ALN.Syno" />
+                                            <xhtml:img xhtml:src="../../Images/Logo_HSS/TINA_Logo COUL medium.jpg" MadCap:conditions="ALN.HSS,HSS.HSS" xhtml:style="width: 246px;height: 214px;" />
+                                        </xhtml:p>
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

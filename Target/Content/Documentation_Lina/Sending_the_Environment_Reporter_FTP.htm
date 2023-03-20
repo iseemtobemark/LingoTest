@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="appendix_troubleshooting_400633163_1164224"></a><a name="troubleshooting_2086620547_1200567"></a><a name="troubleshooting_2086620547_96832"></a>Upload the Advanced Environment Report to the Support FTP Server</h1>
+        <p>An Advanced Environment Report (AER) can be sent to the Atempo Support team. This file contains information used to identify the cause of a reported issue, such as log or configuration files. To upload the file:</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Rename the AER file and add the incident number assigned to you. </p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Use an anonymous connection to upload the file. You can use any third-party FTP client that supports passive mode (e.g., FileZilla).</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Notify the Atempo Support team of the file upload.</p>
+        <div class="Note" MadCap:autonum="&lt;b&gt;Note&lt;/b&gt;: ">For security reasons, the content of the FTP folder <span class="Monospace">/pub/share</span> cannot be listed.</div>
+        <h2 MadCap:autonum="">Upload an AER File on Windows</h2>
+        <h3 MadCap:autonum="">Windows File Explorer</h3>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Specify the incident number at the beginning of the AER file name (e.g., 000654789_AER_servername-product_2021Oct10_10h10m10.zip).</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Open Windows File Explorer.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">In the path field, enter <span class="Monospace">ftp://ftp.atempo.com/pub/share</span> and press Enter.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Drag and drop the file in the window. If a file with the same name already exists on the FTP server, an error occurs.</p>
+        <p class="s1_StepNum" MadCap:autonum="5. ">Notify the Atempo Support team of the file upload.</p>
+        <h3 MadCap:autonum="">Windows Command Line</h3>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Specify the incident number at the beginning of the AER file name (e.g., 000654789_AER_servername-product_2021Oct10_10h10m10.zip).</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Open a DOS command prompt and go to the directory that contains the AER file.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Enter <span class="Monospace">ftp ftp.atempo.com</span> to open a FTP connection.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Enter <span class="Monospace">anonymous</span> as user name.</p>
+        <p class="s1_StepNum" MadCap:autonum="5. ">Enter your complete e-mail address as password.</p>
+        <p class="s1_StepNum" MadCap:autonum="6. ">Enter <span class="Monospace">cd /pub/share</span> to change directory.</p>
+        <p class="s1_StepNum" MadCap:autonum="7. ">Enter <span class="Monospace">bin</span> to set the transfer mode as binary.</p>
+        <p class="s1_StepNum" MadCap:autonum="8. ">Enter <span class="Monospace">mput your_AER_file.zip</span> to upload the AER file.</p>
+        <p class="s1_StepNum" MadCap:autonum="9. ">Enter <span class="Monospace">quit</span> to close the connection.</p>
+        <p class="s1_StepNum" MadCap:autonum="10. ">Notify the Atempo Support team of the file upload.</p>
+        <h2 MadCap:autonum="">Upload an AER File on Linux</h2>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Specify the incident number at the beginning of the AER file name (e.g., 000654789_AER_servername-product_2021Oct10_10h10m10.zip).</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Open a terminal.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Enter the directory name that contains the AER file.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Run the following commands:</p>
+        <p class="JCLTop_Indented">open ftp.atempo.com</p>
+        <p class="JCL_Indented">user anonymous support</p>
+        <p class="JCL_Indented">cd /pub/share</p>
+        <p class="JCL_Indented">bin</p>
+        <p class="JCL_Indented">put your_AER_file.zip</p>
+        <p class="JCL_Indented">quit</p>
+        <p class="JCLBottom_Indented">EOF</p>
+        <p class="BulletedCont">Where: <span class="Monospace">your_AER_file</span> is the name of the AER file.</p>
+        <p class="s1_StepNum" MadCap:autonum="5. ">Press Enter. The file upload may take some time.</p>
+        <p class="s1_StepNum" MadCap:autonum="6. ">Notify the Atempo Support team of the file upload.</p>
+    </body>
+</html>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/TableStyles/t_BasicTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="hss_installation_814337163_1084667"></a><a name="hss_installation_814337163_82829"></a><MadCap:variable name="HSS.license_doc" />
+        </h1>
+        <p class="BodyAfterHead">
+            <MadCap:annotation MadCap:createDate="2022-12-06T17:32:01.0489626+01:00" MadCap:creator="lisal" MadCap:initials="LI" MadCap:comment="Add info on how to activate HSS service on admin console" MadCap:editor="lisal" MadCap:editDate="2022-12-13T18:41:01.4308462+01:00">When you in</MadCap:annotation>stall <MadCap:variable name="HSS.hys_exe" />, a 30-day evaluation license is generated. You must request an add-on to your <MadCap:variable name="HSS.tn" /> License from Atempo and add it to your existing <MadCap:variable name="HSS.tn" /> license. See the <MadCap:annotation MadCap:createDate="2020-06-12T17:17:50.3626348+02:00" MadCap:creator="tychom" MadCap:initials="TY" MadCap:comment="Activate hyperlink" MadCap:editor="tychom" MadCap:editDate="2020-06-12T17:18:01.5349283+02:00"><MadCap:variable name="HSS.inst_EN_doc" /> for details</MadCap:annotation>.</p>
+        <p class="Body">Once your license file has been updated, you must declare the <MadCap:variable name="HSS.license_doc" /> used by <MadCap:variable name="HSS.tn" /> in your <MadCap:variable name="HSS.ade" />.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">
+            <MadCap:annotation MadCap:createDate="2020-06-12T17:19:33.7559971+02:00" MadCap:creator="tychom" MadCap:initials="TY" MadCap:comment="See Managing Licenses and Products =&gt; this procedure still needed?" MadCap:editor="tychom" MadCap:editDate="2020-06-12T17:19:59.1938621+02:00">To declare <MadCap:variable name="HSS.license_doc" /> in the <MadCap:variable name="HSS.ade" /></MadCap:annotation>
+        </p>
+        <p class="Note">Do not perform this operation if the <MadCap:variable name="HSS.tn" /> License file has not been updated with your <MadCap:variable name="HSS.hys_exe" /> component.</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Launch a web browser and enter this URL:</p>
+        <p class="pc_procedure_cont"><span class="Monospace">http://&lt;your_server&gt;:8181/</span>
+        </p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Connect to the <MadCap:variable name="HSS.ade_admin" /> with administrator rights (superadmin).</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Select <span class="Bold">Settings</span> &gt; <span class="Bold">Preferences</span> &gt; <span class="Bold">License</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">In the License server field, enter the name of your Atempo License Manager.</p>
+        <p class="s1_StepNum" MadCap:autonum="5. ">Provide a port number only if you do not want to use a port within the default range of 27000 to 27001.</p>
+        <p class="BulletedCont">If you do not specify a port number, <MadCap:variable name="ALN.hys_exe" /> automatically assigns a free port number within the default range to communicate with the license server. For instance, if port 27000 is not available, port 27001 is chosen instead.</p>
+        <p class="BulletedCont">If you do specify a port number, <MadCap:variable name="ALN.hys_exe" /> does not attempt to find the next  free port available when the one specified is already used.</p>
+        <p>6. 	Click <span class="Bold">Apply license configuration</span>.</p>
+        <p class="Description">Interface parameters enable you to configure and modify the license and components<MadCap:conditionalText MadCap:conditions="General.PDF"> (<MadCap:xref href="#license_components" class="table_x">see Table</MadCap:xref>)</MadCap:conditionalText>.</p>
+        <table class="TableStyle-t_BasicTable" style="mc-table-style: url('../Resources/TableStyles/t_BasicTable.css');margin-left: 0;margin-right: auto;caption-side: top;mc-caption-repeat: true;" cellspacing="0">
+            <caption>
+                <p class="TableCaption" MadCap:autonum="&lt;b&gt;Table&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="license_components"></a>Interface parameters</p>
+            </caption>
+            <col class="TableStyle-t_BasicTable-Column-Column1" />
+            <col class="TableStyle-t_BasicTable-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-t_BasicTable-Head-Header1">
+                    <td class="TableStyle-t_BasicTable-HeadE-Column1-Header1">
+                        <p class="tbh_TableHead">Feature</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-HeadD-Column2-Header1">
+                        <p class="tbh_TableHead">Description</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Name</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Product name, either <MadCap:variable name="ALN.hys_exe" /> (HSS), <MadCap:variable name="ALN.hvvmw_hvds" /> (HVDS), or <MadCap:variable name="General.ProductName" /> (ALN).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">Status</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">Product status (e.g., Running, Disabled).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Use</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">License status (e.g., number of agents available or token acquired).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">Expiration</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">Number of days remaining before the license expires.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p>Missing licenses</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Number of agents that require a license.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">License type</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p>Possible values are evaluation, standard or MSP license:</p>
+                        <p class="Bulleted" MadCap:autonum="• ">An evaluation license lasts only for 30 days and is installed by default when you install a <MadCap:variable name="General.ProductName" /> server. </p>
+                        <p class="Bulleted" MadCap:autonum="• ">A standard license requires an <MadCap:variable name="ALN.license_doc" /> installed on your network. The standard license is associated with a predefined number of agents, as specified when you purchased the license. This type of license requires a license server and a license file corresponding to <MadCap:variable name="General.ProductName" MadCap:conditions="ALN.ALN" /><MadCap:variable name="HSS.hys_exe" MadCap:conditions="HSS.HSS" />.</p>
+                        <p class="Bulleted" MadCap:autonum="• "> An MSP license can be used for an unlimited number of agents. This type of license requires a license server and a license file corresponding to <MadCap:variable name="General.ProductName" MadCap:conditions="ALN.ALN" /><MadCap:variable name="HSS.hys_exe" MadCap:conditions="HSS.HSS" />.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">License Server</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">For standard licenses only, this parameter displays the License Server name used. To apply a license configuration, provide a server name and a port, then click Apply license configuration.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyB-Column1-row2">
+                        <p class="tbt_TableText">Port</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyA-Column2-row2">
+                        <p class="tbt_TableText">License server port number.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

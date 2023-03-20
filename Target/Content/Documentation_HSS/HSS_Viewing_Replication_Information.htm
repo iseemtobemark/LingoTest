@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/TableStyles/ti_IndentedBasicTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:conditions="HSS.ALN" MadCap:autonum=""><a name="security_3568438272_1127221"></a><span class="_Override">Viewing Replication Information</span>
+        </h1>
+        <p class="BodyAfterHead" MadCap:conditions="HSS.ALN"><span class="_Override">You can display replication information in the Agent view of the <MadCap:variable name="HSS.aln" /></span><span class="_Override"> <MadCap:variable name="HSS.adm_exe" /></span><span class="_Override"> and in command mode.</span>
+        </p>
+        <p class="htd_HeadingToDo" MadCap:conditions="HSS.ALN" MadCap:autonum=""><span class="_Override">To display replication information in the <MadCap:variable name="HSS.ade_admin" /></span>
+        </p>
+        <p class="s1_StepNum" MadCap:conditions="HSS.ALN" MadCap:autonum="1. "><span class="_Override">In the <MadCap:variable name="HSS.ade_admin" /></span><span class="_Override">, select </span><span class="interface"><MadCap:variable name="HSS.aln" /></span><span class="_Override"> </span>
+            <img src="../Resources/Images/Sources/menuarrow.png" /><span class="_Override"> Agents.</span>
+        </p>
+        <p class="s1_StepNum" MadCap:conditions="HSS.ALN" MadCap:autonum="2. "><span class="_Override">Click Columns to Display. Check the replication columns you want to display.</span>
+        </p>
+        <p class="pc_procedure_cont" MadCap:conditions="HSS.ALN"><span class="_Override">This table describes the replication information available for each agent:</span>
+        </p>
+        <table MadCap:conditions="HSS.ALN" class="TableStyle-ti_IndentedBasicTable" style="mc-table-style: url('../Resources/TableStyles/ti_IndentedBasicTable.css');margin-left: 0;margin-right: auto;caption-side: top;" cellspacing="0">
+            <col class="TableStyle-ti_IndentedBasicTable-Column-Column1" />
+            <col class="TableStyle-ti_IndentedBasicTable-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-ti_IndentedBasicTable-Head-Header1">
+                    <td class="TableStyle-ti_IndentedBasicTable-HeadE-Column1-Header1">
+                        <p class="tbh_TableHead">Column</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-HeadD-Column2-Header1">
+                        <p class="tbh_TableHead">Description</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row1">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Replication Source Name</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Name of the server providing data for the specific agent. If the source is the agent (or if no replication is defined), this field is empty.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row2">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">Replication Destination Name</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">Name of the server to which the current server is replicated. If you are viewing the <MadCap:variable name="HSS.adm_exe" /> from the replication destination server (or if no replication is defined), this field is empty.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row1">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Last Synchronization Point Replicated</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Time of the last synchronization, i.e., last protection time of the replicated data.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row2">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyB-Column1-row2">
+                        <p class="tbt_TableText">Replication Lag</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyA-Column2-row2">
+                        <p class="tbt_TableText">Displays information regarding the replication of this agent. Synchronized means the agent has been correctly replicated to the target replication server.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="htd_HeadingToDo" MadCap:conditions="HSS.ALN" MadCap:autonum=""><span class="_Override">To display replication information in command line</span>
+        </p>
+        <p class="s1_StepNum" MadCap:conditions="HSS.ALN" MadCap:autonum="1. "><span class="_Override">On the machine hosting the <MadCap:variable name="HSS.ade" /></span><span class="_Override">:</span>
+        </p>
+        <p class="BulletedIndent" style="font-family: Arial;font-weight: bold;font-style: normal;font-size: 11pt;letter-spacing: 0em;text-decoration: none;" MadCap:conditions="HSS.ALN" MadCap:autonum="• "><span class="Lead-In">Windows.</span>
+        </p>
+        <p class="BulletedIndentCont" MadCap:conditions="HSS.ALN"><span class="_Override">Select Start </span>
+            <img src="../Resources/Images/Sources/menuarrow.png" /><span class="_Override"> Programs </span>
+            <img src="../Resources/Images/Sources/menuarrow.png" /><span class="_Override"> Atempo-Deduplication Engine </span>
+            <img src="../Resources/Images/Sources/menuarrow.png" /><span class="_Override"> Administration.</span>
+        </p>
+        <p class="BulletedIndent" style="font-family: Arial;font-weight: bold;font-style: normal;font-size: 11pt;letter-spacing: 0em;text-decoration: none;" MadCap:conditions="HSS.ALN" MadCap:autonum="• "><span class="Lead-In">Linux.</span>
+        </p>
+        <p class="BulletedIndentCont" MadCap:conditions="HSS.ALN"><span class="_Override">Launch the </span><span class="Monospace">./ade_admin</span><span class="_Override"> command.</span>
+        </p>
+        <p class="s1_StepNum" MadCap:conditions="HSS.ALN" MadCap:autonum="2. "><span class="_Override">Provide a password. Two default users exist in the <MadCap:variable name="HSS.ade" /></span><span class="_Override">:</span>
+        </p>
+        <p class="BulletedIndent" MadCap:conditions="HSS.ALN" MadCap:autonum="• "><span class="Monospace">admin</span><span class="_Override">, password </span><span class="Monospace">admin</span><span class="_Override"> (default user with administrative rights)</span>
+        </p>
+        <p class="BulletedIndent" MadCap:conditions="HSS.ALN" MadCap:autonum="• "><span class="Monospace">tina</span><span class="_Override">, password </span><span class="Monospace">tina</span><span class="_Override"> (standard user)</span>
+        </p>
+        <p class="NoteIndent" MadCap:conditions="HSS.ALN"><span class="_Override">If you must launch the Command Line Interface with a different user, then run the </span><span class="Monospace">./ade_admin -u username</span><span class="_Override"> command.</span>
+        </p>
+        <p class="pc_procedure_cont" MadCap:conditions="HSS.ALN"><span class="_Override">You are prompted to enter the password for this user.</span>
+        </p>
+        <p class="s1_StepNum" MadCap:conditions="HSS.ALN" MadCap:autonum="3. "><span class="_Override">Run the </span><span class="Monospace">repli_info</span><span class="_Override"> command to display this information:</span>
+        </p>
+        <p class="BulletedIndent" MadCap:conditions="HSS.ALN" MadCap:autonum="• "><span class="_Override">The replication destination.</span>
+        </p>
+        <p class="BulletedIndent" MadCap:conditions="HSS.ALN" MadCap:autonum="• "><span class="_Override">The replication status.</span>
+        </p>
+        <p class="BulletedIndent" MadCap:conditions="HSS.ALN" MadCap:autonum="• "><span class="_Override">The replication lag can be inferred from the </span><span class="Monospace">last synchro point </span><span class="_Override">which is the date from which you are able to restore data from the replication target if the replication source is off. It is the difference between the current time and the </span><span class="Monospace">last synchro point</span><span class="_Override">.</span>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="">Set an Encryption Key for Data Blocks</h1>
+        <p>You can encrypt data blocks in the <MadCap:variable name="General.ProductName" /> Repository.</p>
+        <p>The encryption is: </p>
+        <p class="Bulleted" MadCap:autonum="• ">Performed by the <MadCap:variable name="General.ProductName" /> Server when writing blocks to the repository.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Based on the AES-256 algorithm.</p>
+        <div class="Caution" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;: ">Blocks that were already stored in the repository prior to the activation of the encryption are not encrypted. To encrypt them, you have to compact blocks: in this way, blocks are re-written and encrypted.</div>
+        <p class="htd_HeadingToDo" MadCap:autonum="">To set an encryption key</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Go to <span class="Bold">Settings &gt; Preferences &gt; Encryption</span>. </p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Enter the key of your choice or click on <span class="Bold">Generate a key</span>. </p>
+        <div class="Caution" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;: ">Once you have defined an encryption key, it cannot be changed.</div>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Click <span class="Bold">Activate encryption</span>.</p>
+        <p class="BulletedCont">The key is used for all agents that are protected by the <MadCap:variable name="General.ProductName" /> Server.</p>
+        <p class="BulletedCont">If you no longer wish to encrypt the data blocks, you can disable it.</p>
+        <h2 MadCap:autonum="">Replicate data</h2>
+        <p class="BodyAfterHead">If you are replicating data, you also have to define an encryption key on the replicated server to encrypt the replicated blocks. The key can be identical or different between the server and the replica.</p>
+        <h2 MadCap:autonum="">During a restore</h2>
+        <p class="BodyAfterHead">When an agent requests for a restore, <MadCap:variable name="General.ProductName" /> decrypts the blocks prior to sending them to the agent requesting the restore. The blocks can be sent by HTTPS if needed.</p>
+    </body>
+</html>

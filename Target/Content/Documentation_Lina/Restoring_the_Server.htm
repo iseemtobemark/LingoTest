@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="787" MadCap:lastWidth="1252" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1><a name="appendix_server_protect_2327159732_1115226"></a>Restoring the Server</h1>
+        <p class="htd_HeadingToDo" MadCap:autonum="">To restore the server</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Stop the <MadCap:variable name="ALN.ade" /> before attempting to restore the database. The restore is canceled automatically if the server is running.</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Lead-In">Windows.</span>
+        </p>
+        <p class="BulletedIndentCont">Through the Start <img src="../Resources/Images/Sources/menuarrow.png" /> Administrative Tools <img src="../Resources/Images/Sources/menuarrow.png" /> Services menu or with this command</p>
+        <p class="BulletedIndentCont"><span class="Monospace">net stop ADE.default</span>
+        </p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Lead-In">Unix.</span>
+        </p>
+        <p class="BulletedIndentCont">With this command</p>
+        <p class="BulletedIndentCont"><span class="Monospace">/etc/init.d/ade.default stop</span>
+        </p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Open the <MadCap:variable name="ALN.tina_exe" />. Even if there are problems with your installation, the Synchronizer is still shown. This diagram illustrates the Synchronizer object in the <MadCap:variable name="ALN.tina_exe" /> file tree:</p>
+        <p class="pc_procedure_cont"> </p>
+        <p>
+            <img src="../Resources/Images/Images_Topics_Lina/12e_hss_ListAppRestore.gif" style="width: 379.9997px;height: 127.9997px;margin-left: 100, 0397px;margin-top: 7, 28352px;margin-right: 68, 46841px;margin-bottom: 5, 2668px;" />
+        </p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Right-click the Synchronizer and select the backup to be restored. Select the <MadCap:variable name="ALN.hys_exe" /> entry, unselect the Synchronizer object, and select Restore <img src="../Resources/Images/Sources/menuarrow.png" /> Run.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Restart the <MadCap:variable name="ALN.ade" />.</p>
+        <p class="s1_StepNum" MadCap:autonum="5. ">If the server is mirrored onto another server, the mirrors must be resynchronized manually. Launch<span class="Monospace"> ade_admin</span> on the restored <MadCap:variable name="ALN.ade" /> and run this command:</p>
+        <p class="One-line_JCL_Indent">resync
+        </p>
+    </body>
+</html>

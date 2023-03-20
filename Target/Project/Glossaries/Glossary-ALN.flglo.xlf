@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="completed">
+  <file
+    xml:space="preserve"
+    original="Glossary-ALN.flglo"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="x-flglo"
+    target-language="fr">
+    <header>
+      <skl><external-file
+          href="Glossary-ALN.flglo.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">36</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11 r2"
+        tool-name="Lingo"
+        tool-version="11.1.7796.16213"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-term"
+        phase-name="pretrans"><source>Atempo-Deduplication Engine</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Atempo-Deduplication Engine</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Atempo-Deduplication Engine</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-definition"
+        phase-name="pretrans"><source><ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=ALN.ade%]</ph> is a software component with which the <ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=General.ProductName%]</ph> server communicates. Its role is to gather all protected data blocks for implementation of data deduplication.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=ALN.ade%]</ph> is a software component with which the <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=General.ProductName%]</ph> server communicates.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Its role is to gather all protected data blocks for implementation of data deduplication.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=ALN.ade%]</ph> est un composant logiciel avec lequel le serveur <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=General.ProductName%]</ph>communique.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Son rôle est de rassembler tous les blocs de données protégés pour la mise en œuvre de la déduplication des données.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-term"
+        phase-name="pretrans"><source>Continuous Data Protection (CDP)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Continuous Data Protection (CDP)</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Protection continue des données (CDP)</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-definition"
+        phase-name="pretrans"><source>A technology which intercepts modifications on objects at block level and stores this data in order to protect it.<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=General.ProductName%]</ph> offers protection at near CDP level: thanks to the Recovery Point Objective feature, you can limit the number of backup sessions by postponing the next backup until a defined time interval has elapsed.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">A technology which intercepts modifications on objects at block level and stores this data in order to protect it.<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=General.ProductName%]</ph></mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">offers protection at near CDP level: thanks to the Recovery Point Objective feature, you can limit the number of backup sessions by postponing the next backup until a defined time interval has elapsed.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Une technologie qui intercepte les modifications sur les objets au niveau des blocs et stocke ces données afin de les protéger.<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=General.ProductName%]</ph></mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">offre une protection proche du niveau CDP : grâce à la fonction d'objectif de point de récupération, vous pouvez limiter le nombre de sessions de sauvegarde en reportant la sauvegarde suivante jusqu'à ce qu'un intervalle de temps défini se soit écoulé.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-term"
+        phase-name="pretrans"><source>group</source><seg-source><mrk
+            mtype="seg"
+            mid="1">group</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">groupe</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-definition"
+        phase-name="pretrans"><source>The intermediate level between an agent view and the <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=General.ProductName%]</ph> agent. A view can be constituted by one or more groups in which agents are distributed.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The intermediate level between an agent view and the <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=General.ProductName%]</ph> agent.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">A view can be constituted by one or more groups in which agents are distributed.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="98"
+            MadCap:diff="ContentChanged">Le niveau intermédiaire entre une vue de l'agent et l'agent <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=General.ProductName%]</ph>.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Une vue peut être constituée d'un ou plusieurs groupes dans lesquels des agents sont répartis.</mrk></target><alt-trans
+          match-quality="98"
+          origin="previous-version"><seg-source>The intermediate level between an agent view and the<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=ALN.aln%]</ph> agent.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Le niveau intermédiaire entre une vue d'agent et l'agent <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=ALN.aln%]</ph>.</target></alt-trans><alt-trans
+          match-quality="98"
+          origin="previous-version"><seg-source>The intermediate level between an agent view and the<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=ALN.aln%]</ph> agent.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Le niveau intermédiaire entre une vue d'agent et l'agent <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=ALN.aln%]</ph>.</target></alt-trans></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-term"
+        phase-name="pretrans"><source>protection rule</source><seg-source><mrk
+            mtype="seg"
+            mid="1">protection rule</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="81">Règles de protection</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-definition"
+        phase-name="pretrans"><source>The protection rule is one of the components of a protection scheme. It consists of these elements:
+Combinations of:
+File categories, defined as a series of extensions or file patterns (e.g. ~*)
+An action to apply to objects corresponding to the defined file types
+A default action for file types not explicitly specified by a category</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The protection rule is one of the components of a protection scheme.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">It consists of these elements:</mrk><mrk
+            mtype="protected"
+            mid="4">
+</mrk><mrk
+            mtype="seg"
+            mid="5">Combinations of:</mrk><mrk
+            mtype="protected"
+            mid="6">
+</mrk><mrk
+            mtype="seg"
+            mid="7">File categories, defined as a series of extensions or file patterns (e.g. ~*)</mrk><mrk
+            mtype="protected"
+            mid="8">
+</mrk><mrk
+            mtype="seg"
+            mid="9">An action to apply to objects corresponding to the defined file types</mrk><mrk
+            mtype="protected"
+            mid="10">
+</mrk><mrk
+            mtype="seg"
+            mid="11">A default action for file types not explicitly specified by a category</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">La règle de protection est l’un des éléments d’un programme de protection.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Elle comprend :</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Combinaisons de :</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Catégories de fichiers, définies comme une série d'extensions ou de modèles de fichiers (par exemple ~ *)</mrk><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Une action à appliquer aux objets correspondant aux types de fichiers définis</mrk><mrk
+            mtype="protected"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Une action par défaut pour les types de fichiers non explicitement spécifiés par une catégorie</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-term"
+        phase-name="pretrans"><source>protection scheme</source><seg-source><mrk
+            mtype="seg"
+            mid="1">protection scheme</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="70">Programme de protection</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-definition"
+        phase-name="pretrans"><source>The protection scheme determines what data is to be protected on <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=General.ProductName%]</ph> agents.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The protection scheme determines what data is to be protected on <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=General.ProductName%]</ph> agents.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Le schéma de protection détermine quelles données doivent être protégées sur les agents <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=General.ProductName%]</ph>.</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-term"
+        phase-name="pretrans"><source>strategy</source><seg-source><mrk
+            mtype="seg"
+            mid="1">strategy</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Stratégie</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-definition"
+        phase-name="pretrans"><source>A strategy is a feature used by the <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=General.ProductName%]</ph> administrator to determine the method for protecting the data of <ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=General.ProductName%]</ph> agents.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">A strategy is a feature used by the <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=General.ProductName%]</ph> administrator to determine the method for protecting the data of <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=General.ProductName%]</ph> agents.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Une stratégie est une fonctionnalité utilisée par l'administrateur <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=General.ProductName%]</ph> pour déterminer la méthode de protection des données des agents <ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=General.ProductName%]</ph>.</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-term"
+        phase-name="pretrans"><source>view</source><seg-source><mrk
+            mtype="seg"
+            mid="1">view</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Vue</mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-definition"
+        phase-name="pretrans"><source>The highest level in the organization of <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=General.ProductName%]</ph> agents. A view permits listing of all the agents declared on the server and can be constituted of agent groups.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The highest level in the organization of <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=General.ProductName%]</ph> agents.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">A view permits listing of all the agents declared on the server and can be constituted of agent groups.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Le niveau le plus élevé dans l'organisation des agents <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">[%=General.ProductName%]</ph>.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Une vue permet de lister tous les agents déclarés sur le serveur et peut être constituée de groupes d'agents.</mrk></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-term"
+        phase-name="pretrans"><source>protection policy</source><seg-source><mrk
+            mtype="seg"
+            mid="1">protection policy</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Politiques de Protection</mrk></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-definition"
+        phase-name="pretrans"><source>A protection policy is defined on the server and consists of a protection scheme and a strategy. A protection policy is applied to the agent.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">A protection policy is defined on the server and consists of a protection scheme and a strategy.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">A protection policy is applied to the agent.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Une politique de protection est définie sur le serveur et se compose d'un programme de protection et d'une stratégie.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Une politique de protection est appliquée à l'agent.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

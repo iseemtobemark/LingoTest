@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:conditions="HSS.ALN" MadCap:autonum=""><a name="security_3568438272_1127183"></a><span class="_Override">Configure the Replication</span>
+        </h1>
+        <p class="BodyAfterHead" MadCap:conditions="HSS.ALN"><span class="_Override">Ensure that you installed a <MadCap:variable name="HSS.aln" /></span><span class="_Override"> server on all the machines involved.</span>
+        </p>
+        <p class="Body" MadCap:conditions="HSS.ALN"><span class="_Override">To configure a simple or a hierarchical replication, you must create a replication destination on every source server involved.</span>
+        </p>
+        <p class="Body" MadCap:conditions="HSS.ALN"><span class="_Override">To configure bidirectional replication, which is a two way replication, you must create a replication destination on both the source server, and the target server.</span>
+        </p>
+        <p class="Note" MadCap:conditions="HSS.ALN"><span class="_Override">The replication of the source server starts as soon as the replication destination is created. Ensure that the time to launch the replication is appropriate prior to creating the replication destination.</span>
+        </p>
+        <p class="htd_HeadingToDo" MadCap:conditions="HSS.ALN" MadCap:autonum=""><span class="_Override">To create a replication destination for simple or hierarchical replication</span>
+        </p>
+        <p class="s1_StepNum" MadCap:conditions="HSS.ALN" MadCap:autonum="1. "><span class="_Override">In the <MadCap:variable name="HSS.ade_admin" /></span><span class="_Override"> of the server you want to replicate, select Server Configuration </span>
+            <img src="../Resources/Images/Sources/menuarrow.png" /><span class="_Override"> Replication.</span>
+        </p>
+        <p class="s1_StepNum" MadCap:conditions="HSS.ALN" MadCap:autonum="2. "><span class="_Override">Click the New Replication Destination icon <img src="../Resources/Images/Images_Topics_HSS/21e_admin_new_user_button_2.gif" style="width: 21.11904px;height: 21.11904px;margin-left: 5, 99976px;margin-top: 5, 99976px;margin-right: 6, 024961px;margin-bottom: 1, 48896px;" MadCap:conditions="HSS.ALN" /> located at the top of the Replication view. </span>
+        </p>
+        <p class="s1_StepNum" MadCap:conditions="HSS.ALN" MadCap:autonum="3. "><span class="_Override">Enter the network name of the replication target server and its port number.</span>
+        </p>
+        <p class="s1_StepNum" MadCap:conditions="HSS.ALN" MadCap:autonum="4. "><span class="_Override">Click Apply and Close to add the replication destination.</span>
+        </p>
+        <p class="htd_HeadingToDo" MadCap:conditions="HSS.ALN" MadCap:autonum=""><span class="_Override">To configure a bidirectional replication between Server A and Server B</span>
+        </p>
+        <p class="s1_StepNum" MadCap:conditions="HSS.ALN" MadCap:autonum="1. "><span class="_Override">In the <MadCap:variable name="HSS.ade_admin" /></span><span class="_Override"> of Server A, select Server Configuration </span>
+            <img src="../Resources/Images/Sources/menuarrow.png" /><span class="_Override"> Replication.</span>
+        </p>
+        <p class="s1_StepNum" MadCap:conditions="HSS.ALN" MadCap:autonum="2. "><span class="_Override">Click the New Replication Destination icon <img src="../Resources/Images/Images_Topics_HSS/21e_admin_new_user_button_3.gif" style="width: 21.11904px;height: 21.11904px;margin-left: 5, 99976px;margin-top: 5, 99976px;margin-right: 6, 024961px;margin-bottom: 1, 48896px;" MadCap:conditions="HSS.ALN" /> located at the top of the Replication view.</span>
+        </p>
+        <p class="s1_StepNum" MadCap:conditions="HSS.ALN" MadCap:autonum="3. "><span class="_Override">Enter Server B name and port number and click Apply and Close.</span>
+        </p>
+        <p class="s1_StepNum" MadCap:conditions="HSS.ALN" MadCap:autonum="4. "><span class="_Override">In the <MadCap:variable name="HSS.ade_admin" /></span><span class="_Override"> of Server B, select Server Configuration </span>
+            <img src="../Resources/Images/Sources/menuarrow.png" /><span class="_Override"> Replication.</span>
+        </p>
+        <p class="s1_StepNum" MadCap:conditions="HSS.ALN" MadCap:autonum="5. "><span class="_Override">Click the New Replication Destination icon <img src="../Resources/Images/Images_Topics_HSS/21e_admin_new_user_button_4.gif" style="width: 21.11904px;height: 21.11904px;margin-left: 5, 99976px;margin-top: 5, 99976px;margin-right: 6, 024961px;margin-bottom: 1, 48896px;" MadCap:conditions="HSS.ALN" /> located at the top of the Replication view.</span>
+        </p>
+        <p class="s1_StepNum" MadCap:conditions="HSS.ALN" MadCap:autonum="6. "><span class="_Override">Enter Server A name and port number and click Apply and Close.</span>
+        </p>
+    </body>
+</html>

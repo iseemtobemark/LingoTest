@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="client_config_403703647_1235072"></a><a name="client_config_403703647_11716"></a>Exclude File Patterns from Protection</h1>
+        <MadCap:snippetBlock src="../Resources/Snippets/DefiningFilesToIgnore.flsnp" />
+        <p class="htd_HeadingToDo" MadCap:autonum="">To exclude file patterns from protection</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Right-click the <MadCap:variable name="ALN.aln.agent" /> icon <img src="../Resources/Images/Images_Topics_Lina/trayicon32.png" MadCap:mediastyle="@media print { height: 16px;width: auto; }" style="height: 16px;width: auto;" /> in the task bar and select <span class="Bold"><MadCap:variable name="ALN.agent_settings" /></span>.</p>
+        <p class="BulletedCont">The list of protections is displayed. </p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">In the section <span class="Bold">File types excluded from the backup</span>, click <span class="Bold">+</span>. </p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Enter the pattern for the files to exclude. </p>
+        <div class="ExampleIndent" MadCap:autonum="&lt;b&gt;Example&lt;/b&gt;: ">
+            <br />
+            <br /><span class="Monospace">*.avi</span> to exclude all files with this extension.<br /><span class="Monospace">~*</span> to exclude all files beginning with "~".<br /><span class="Monospace">SOFTWARE.LOG</span> to exclude these files from any protected folder. </div>
+        <p class="s1_StepNum" MadCap:autonum="4. ">(Optional)  If you want to apply rules in the BMR that exclude certain types of files, enter a more detailed path, for example <span class="Monospace">/*/*.avi</span>. The Bare Metal Recovery (BMR) is a <MadCap:variable name="General.ProductName" /> module that performs a workstation recovery while applying rules to the system.</p>
+        <p class="s1_StepNum" MadCap:autonum="5. ">Click <span class="interface" style="font-weight: bold;">OK</span> to confirm the creation of your exclusion. The <span class="interface" style="font-weight: bold;">Check</span> column shows whether the <MadCap:variable name="ALN.aln.agent" /> validates the syntax you entered. See <MadCap:xref href="See_Your_List_of_Protected_Files_and_Folders.htm">See Your List of Protected Files and Folders</MadCap:xref> for details.</p>
+    </body>
+</html>

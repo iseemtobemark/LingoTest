@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="">Modes to Restore Data</h1>
+        <p class="BodyAfterHead">The <MadCap:variable name="ALN.aln.agent" /> allows you to restore in different modes. This depends on the permissions you have as a user logged on to the agent or an administrator managing multiple agents. </p>
+        <h2 MadCap:autonum="">Current User Restore</h2>
+        <p class="BodyAfterHead">This is the default mode. The restore is performed with the permission of the user currently logged in. Use current user restore to restore files belonging to the current user.</p>
+        <p>Even if the current user belongs to an administrator group, he will not be able to perform a system restore since he does not have elevated privileges. For a system restore, the <b>Restore As</b> option must be used, eventually with the current user context.</p>
+        <h2 MadCap:autonum=""><a name="restore_3223274187_86031"></a>Impersonated Restore</h2>
+        <p class="BodyAfterHead">The impersonated restore enables you to restore data with a different security context than that of the current user.</p>
+        <p>On Windows, when User Account Control (UAC) is activated, the restore is performed without elevated privileges. </p>
+        <h2 MadCap:autonum=""><a name="restore_3223274187_54853"></a>System Restore</h2>
+        <p class="BodyAfterHead">The system restore enables you to restore any file, including files and folders requiring administrator level permissions. </p>
+        <p class="Body">The system restore grants you the following permissions:</p>
+        <p class="Bulleted" MadCap:autonum="• "><span class="Lead-In">Windows</span> Restore as NT Authority System with all required privileges activated.</p>
+        <p class="Bulleted" MadCap:autonum="• "><span class="Lead-In">Linux and macOS</span> Restore as <span class="Monospace">UID 0</span>, even if the operating system does not have a root user activated.</p>
+    </body>
+</html>

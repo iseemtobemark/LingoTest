@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="">Restore a Folder from an Explorer</h1>
+        <p>You can restore a previous version of a folder if :</p>
+        <p class="Bulleted" MadCap:autonum="• ">The folder still exists.</p>
+        <p class="Bulleted" MadCap:autonum="• ">The folder contains a tree of subfolders that you do not want to restore. </p>
+        <p class="Bulleted" MadCap:autonum="• ">You want to restore the folder to its original place.</p>
+        <p class="Bulleted" MadCap:autonum="• ">You only want to restore files that have been removed.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">To restore a previous version of a folder from an Explorer</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Right-click in a file Explorer on the folder to restore, then select <span class="Bold"><MadCap:variable name="General.ProductName" /> Backup &gt; Restore Folder</span>. </p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">In the folder selection window, clear  the <span class="interface" style="font-weight: bold;">Search in subfolders</span> option.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Click <span class="Bold">Next</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">In the date and time window, select the approximate date and time at which you backed up the folder.</p>
+        <p class="BulletedCont">The folder is restored to the state it was in at the date and time you selected. The <span class="interface" style="font-weight: bold;">Valid Time Range</span> indicates the time between the first and last backups of your folder. Make sure the selected date falls within this range. </p>
+        <p class="s1_StepNum" MadCap:autonum="5. ">Choose the restore location:</p>
+        <p class="BulletedCont">By default, the folder is restored in the same location, but you can  choose a new location:</p>
+        <p class="sa_StepAlpha" MadCap:autonum="a. ">Turn on the toggle to change the target directory of the restore.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="b. ">Click on <span class="Bold">Browse computer</span> to add the target directory, then click <span class="Bold">Select Folder</span>. </p>
+        <p class="sa_StepAlpha" MadCap:autonum="c. ">Choose whether to restore the folder and its content or the folder content only.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="d. "> </p>
+        <p class="s1_StepNum" MadCap:autonum="6. "> If the folder to restore already exists at this location, select the restore behavior: </p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold">Overwrite</span> The folder is replaced by the restored folder. </p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold">Skip</span> The folder is not restored.</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold">Rename</span> The folder already present is renamed with the suffix <span class="Monospace">.bak</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="7. ">If needed, change the identity to a user that may have more privilege to restore  data and click <span class="Bold">Change identity</span>. If the chosen identity is linked to an admin group, the restore is done directly as administrator (<span class="Monospace">NT Authority\system</span> on Windows, <span class="Monospace">root</span> on Linux and macOS):</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold">Impersonated restore</span> Type the username and password of the user you want to restore.</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold">System restore on Windows</span> Type the username and password belonging to the local administrators group.</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold">System restore Linux and macOS</span> Type the username and password belonging to the admin, adm, sudo, wheel or root groups.</p>
+        <p class="s1_StepNum_KeepWithNext" MadCap:autonum="8. ">Click <span class="Bold">Check Identity</span>.</p>
+        <p class="s1_StepNum_KeepWithNext" MadCap:autonum="9. ">Select <span class="Bold">Restore</span>. To cancel the restore process, click <span class="Bold">Cancel</span>.</p>
+        <p class="BulletedCont"> Once the restore process is complete, you can view the details in the status overview. </p>
+        <p class="BulletedCont"> If the folder contains more than 10,000 files, for performance reasons, the list of restored files is not displayed in real time.</p>
+        <p class="s1_StepNum" MadCap:autonum="10. ">Click <span class="Bold">Finish</span> to close the <MadCap:variable name="ALN.aln_restore_wizard" />. You are redirected to the home page of the <MadCap:variable name="ALN.aln_restore_wizard" /></p>
+    </body>
+</html>

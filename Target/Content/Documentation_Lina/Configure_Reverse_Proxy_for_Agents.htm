@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="">Configure the Reverse Proxy for Agents</h1>
+        <p class="htd_HeadingToDo" MadCap:autonum="">To configure the proxy</p>
+        <p>If you want to connect a mix of Agents in both versions 4 and 5, you must create two sites with specific URL Rewrite rule.</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Install the <MadCap:variable name="General.ProductName"></MadCap:variable> certificate (under <span class="Monospace">pfx</span> format) available on <a href="http://isp.atempo.com/Atempo/LiveNavigator/SupportInfo/aln.pfx" target="_blank">Atempo Client Portal (<a href="https://support.atempo.com/" target="_blank">https://support.atempo.com</a>)</a>. For more details on the certificate installation steps, a video is available on <a href="http://isp.atempo.com/Atempo/LiveNavigator/SupportInfo/certificate.avi">Atempo Client Portal <a href="https://support.atempo.com/" target="_blank">(https://support.atempo.com)</a></a>.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Create a new site (e.g., aln) with these parameters (<MadCap:xref href="#Interface_to_add_a_new_website" class="figure_x">see Figure</MadCap:xref>):<br></br></p>
+        <div class="figureIndented">
+            <img src="../Resources/Images/Images_Topics_Lina/AppB-Proxy-config-site.gif" style="margin-left: 101, 3436px;margin-top: 4, 07304px;margin-right: 9, 54361px;margin-bottom: 3, 473267px;">
+            </img>
+            <p class="Figure" MadCap:autonum="&lt;b&gt;Figure&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="Interface_to_add_a_new_website"></a>Interface to add a new website</p>
+        </div>
+        <div class="NoteIndent" MadCap:autonum="&lt;b&gt;Note&lt;/b&gt;: ">To create the site, you need to have URL Rewrite installed. Use Web Platform Installer to retrieve and install URL Rewrite and ARR on your IIS system.</div>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Add a URL Rewrite rule and configure it with these parameters (<MadCap:xref href="#URL_Rewrite_rule" class="figure_x">see Figure</MadCap:xref>):</p>
+        <div class="figureIndented">
+            <img src="../Resources/Images/Images_Topics_Lina/AppB-Proxy-config-inbound-rule.gif" style="margin-left: 39, 00024px;margin-top: 1, 49976px;margin-right: 1, 687683px;margin-bottom: 5, 198395px;">
+            </img>
+            <p class="Figure" MadCap:autonum="&lt;b&gt;Figure&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="URL_Rewrite_rule"></a>URL Rewrite rule</p>
+        </div>
+        <p class="BodyIndent">The Rewrite URL is the location where you want to convert to hence esc-hss (in the screen shot, it corresponds to your <MadCap:variable name="General.ProductName" /> server).</p>
+    </body>
+</html>

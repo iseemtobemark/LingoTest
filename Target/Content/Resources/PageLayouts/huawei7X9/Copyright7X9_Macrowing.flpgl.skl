@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <Page Name="All" Width="210mm" Height="297mm" Padding="20px" PageSize="custom" PageType="normal" PaddingLeft="0" PaddingRight="0" PaddingTop="0" PaddingBottom="0" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in" Orientation="portrait">
+        <Frame Flow="body" Y="95px" Bottom="48px" X="60px" Right="54px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="680px" Height="980px">
+        </Frame>
+        <Frame X="41px" Y="0px" Width="759px" Height="64px" Flow="decoration0" Right="-6px" Bottom="1059px" BackgroundType="Solid" BackgroundColor="#ffffff" Anchors="" PaddingRight="20pt">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="width: 100%;margin-top: 14pt;padding-left: 30px;margin-left: 0;margin-right: auto;">
+                            <xhtml:col xhtml:style="color: #91aa9d;width: 226px;" />
+                            <xhtml:col xhtml:style="color: #91aa9d;width: 70%;" />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td xhtml:style="padding-left: 0px;color: #ffffff;">
+                                        <xhtml:img xhtml:src="../../Images/Huawei_Macrowing/logo-macrowing.png" xhtml:style="max-width: 10%;" />
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: right;">
+                                        <xhtml:p>&#160;</xhtml:p>
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

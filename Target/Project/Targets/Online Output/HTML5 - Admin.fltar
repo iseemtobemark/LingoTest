@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="HTML5 Output"
+  Type="WebHelp2"
+  Destinations=""
+  DefaultUrl="/Content/A_Introduction Topics/Welcome.htm"
+  MasterToc="/Project/TOCs/ALN-Admin.fltoc"
+  InsertMOTW="true"
+  EnableSitemap="false"
+  IncludeStopWords="true"
+  GenerateWebSafeImages="true"
+  WebSafeFileExtension="png"
+  MasterPage="/Content/Resources/MasterPages/MasterPage.flmsp"
+  MasterStylesheet="/Content/Resources/Stylesheets/styles.css"
+  EquationsOutputType="PNG"
+  AliasFile="/Project/Advanced/AliasFile.flali"
+  Skin="/Project/Skins/HTML5 - Tripane.flskn"
+  MoveOutputContentToRoot="false"
+  ConditionTagExpression="include[ALN.ADE or ALN.admin or ALN.ALN or ALN.HELP or ALN.HVDS or General.Online or HSS.admin], exclude[ALN.ADA or ALN.AMM or ALN.ATN or ALN.BMR or ALN.HSS or ALN.MAC or ALN.PDF or ALN.UNIX or ALN.user or General.Hidden or General.PDF or HSS.ADA or HSS.ADE or HSS.ALN or HSS.AMM or HSS.ATN or HSS.HELP or HSS.HSS or HSS.MAC or HSS.PDF or HSS.UNIX or HSS.user or HSS.WINDOWS]"
+  ExcludeUnreferencedContent="true"
+  PreCompileScaledImages="false"
+  PartialWordSearch="true"
+  conditions="ALN.HELP"
+  GlossaryTermConversion="marked">
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/Glossary-ALN.flglo" />
+  </Glossaries>
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/Intranet Admin EN.fldes"
+      Publish="true"
+      IsResource="false" />
+  </Destinations>
+</CatapultTarget>

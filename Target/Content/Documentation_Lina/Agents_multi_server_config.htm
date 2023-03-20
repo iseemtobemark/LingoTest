@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="">Agents in a Multi-Server Configuration</h1>
+        <p>The workstation on which <MadCap:variable name="General.ProductName" /> is installed must be associated with a node. You can:</p>
+        <p class="Bulleted" MadCap:autonum="• "> Define an automatic allocation policy for agents on the nodes associated with a tenant. For more details, see <MadCap:xref href="Create_a_Tenant.htm">Create a Tenant.</MadCap:xref></p>
+        <p class="Bulleted" MadCap:autonum="• ">Associate an agent with a node while creating the agent on the <MadCap:variable name="ALN.ade_admin" />.For more details, see <MadCap:xref href="Create_Agents_Manually.htm">Create [%=ALN.aln%] Agents Manually</MadCap:xref>.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Specify the node to associate with the agent, using the accessinfo. For more details on the CfgServerHost, see <MadCap:xref href="Configure_Agent_to_Server_Access.htm">Configure Advanced Agent to Server Access</MadCap:xref>.</p>
+        <p>If the master server is unavailable for any reason, the agents continue to be protected and data can be restored.  The master server is not required for backup or restore. </p>
+        <p>If a node is offline, agents associated with that node cannot be backed up or restored.</p>
+    </body>
+</html>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/TableStyles/t_BasicTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="hss_installation_814337163_1097470"></a><a name="hss_installation_814337163_34743"></a>Install <MadCap:variable name="HSS.hys_exe" /></h1>
+        <p class="BodyAfterHead">The <MadCap:variable name="HSS.hys_doc" /> must be installed on one of the supported OS, using the dedicated setup provided.</p>
+        <p class="Body">For the latest list of supported servers, see the <a href="https://www.atempo.com/ressource/tina-compatibility-guide/" target="_blank"><MadCap:variable name="HSS.tn" /> Compatibility Guide</a>.</p>
+        <p class="Body">For performance reasons, Atempo strongly recommends that you do not install the <MadCap:variable name="HSS.hys_exe" /> and the <MadCap:variable name="HSS.tn" style="font-weight: normal;" /> Server on the same machine.</p>
+        <p class="Body">If you must manage snapshots of your HyperStream environment, Atempo strongly recommends that you do not install the <MadCap:variable name="HSS.hys_exe" /> on a disk containing a paging file.</p>
+        <h2 MadCap:autonum="">Prerequisites</h2>
+        <p class="Introduction">You should use only direct attached storage or SAN to locate the repository. Mainly for performance issues, Atempo recommends to avoid NFS/CIFS mount points.</p>
+        <p class="Description">Check the following prerequisites to <MadCap:variable name="HSS.hys_doc" /> installation (<MadCap:xref href="#hss_prereq_install" class="table_x">see Table</MadCap:xref>):</p>
+        <table class="TableStyle-t_BasicTable" style="mc-table-style: url('../Resources/TableStyles/t_BasicTable.css');margin-left: 0;margin-right: auto;caption-side: top;" cellspacing="0">
+            <caption>
+                <p class="TableCaption" MadCap:autonum="&lt;b&gt;Table&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="hss_prereq_install"></a>Prerequisites to HyperStream Server installation</p>
+            </caption>
+            <col class="TableStyle-t_BasicTable-Column-Column1" />
+            <col class="TableStyle-t_BasicTable-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-t_BasicTable-Head-Header1">
+                    <td class="TableStyle-t_BasicTable-HeadE-Column1-Header1">
+                        <p class="tbh_TableHead">Prerequisite</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-HeadD-Column2-Header1">
+                        <p class="tbh_TableHead">Description</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Hardware and Processor</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">The <MadCap:variable name="HSS.hys_exe" /> server must be installed:</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">On a machine with a multi-core 64-bit processor. </p>
+                        <p class="BulletedTable" MadCap:autonum="• ">On a local, dedicated fast access disk such as an SSD.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">Memory</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">At least 8 GB of RAM is required.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Block File Repository</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">At least 32 GB of disk space must be permanently available on the volume where the unique <MadCap:variable name="HSS.ade" /> data blocks are stored.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">Linux Server</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">X windows is required to launch the setup. It is recommended to avoid using a Windows X server.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText"><span class="interface">Linux Server Snapshot</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">If you intend to use snapshots to secure your Linux Server, all your ADE components must be stored on:</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">Version 2.02.95 or higher of LVM2.</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">Thinly-Provisioned Logical Volumes (thin volumes).</p>
+                        <p class="tbt_TableText">See <MadCap:xref href="../Documentation_Lina/Create_Thin_Volume_Linux.htm#hss_appendix_thin_volume_3890073035_1080522" target="_blank">Creation of a Thin Volume on Linux</MadCap:xref> for details.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText"><span class="interface">Windows Server Snapshot</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="BulletedTable" MadCap:autonum="• ">If you intend to use snapshots to secure your Windows Server, all your ADE components must be stored on an NTFS filesystem.</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">In addition, if you want to use the snapshot revert feature, do not install any ADE components on the system disk.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Filesystem</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Atempo recommends using an ext4 filesystem on Linux servers and NTFS on Windows servers.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">Communication Ports</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">These ports must be open on your firewall:</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Monospace">8181</span> Communication port for <MadCap:variable name="HSS.ade_admin" />.</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Monospace">23232</span> Communication port for <MadCap:variable name="HSS.ade" />. Open this port in input, or in input/output if there is a replication destination.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Graphical Interface</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">To use <MadCap:variable name="HSS.ade_admin" />, you need one of these browsers, equipped with at least version 10.1 of Adobe Flash Player:</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">Internet Explorer, version 11 </p>
+                        <p class="tbt_TableText">Up-to-date versions of:</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">Firefox</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">Safari</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">Chrome</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">Edge</p>
+                        <p class="tbt_TableText">For all interfaces, the minimum resolution supported by <MadCap:variable name="HSS.hys_exe" /> is <span class="Monospace">1280 x 800</span>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">Web browser proxy</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">If your web browser uses a proxy, ensure that the network used by the <MadCap:variable name="HSS.hys_exe" /> is included in the exclusion list of the browser proxy. Otherwise you may get this security error when you try to access your server in the <MadCap:variable name="HSS.ade_admin" /> : "Attempt to load data from a server outside the security sandbox".</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">User</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">The user launching the setup program must have administrator/root rights.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyB-Column1-row2">
+                        <p class="tbt_TableText">Product Download</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyA-Column2-row2">
+                        <p class="tbt_TableText">Make sure you have downloaded the <MadCap:variable name="HSS.hys_doc" /> binaries from Atempo Client Portal: <a href="https://support.atempo.com/" target="_blank">https://support.atempo.com</a>.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="Note">During the installation or upgrade, the setup verifies that prerequisites are met. If your environment does not meet some of the prerequisites, you either get a warning informing you that such requirement is not met and what our recommendations are, or the installation stops until you make the necessary changes to meet the prerequisites.</p>
+        <h2 MadCap:autonum="">Installation</h2>
+        <p class="Introduction">Atempo recommends to install <MadCap:variable name="General.ProductNameHSS" /> on a physical machine rather than a virtual one.</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Launch the setup program corresponding to your operating system:</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Lead-In">Windows.</span>
+        </p>
+        <p class="BulletedIndentCont">Double click <span class="Monospace">ATSXXX-Windows-X64.exe</span>.</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Lead-In">Linux.</span>
+        </p>
+        <p class="BulletedIndentCont">Run <span class="Monospace">ATSXXX-Linux-X64.bin</span>.</p>
+        <p class="BulletedIndentCont">Make sure that the binary is executable. If needed, set the permission with the command: <span class="Monospace">chmod +x</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Select the installation language, then click <span class="Bold">OK</span>.. </p>
+        <p class="BulletedCont">If you are launching the setup on a Linux platform, through a Windows platform using a remote display, you may not be able to change the installation language. This is due to an X server issue.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Click <span class="Bold">Next</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Accept the license agreement, then click <span class="Bold">Next</span>. The HSS Server is included by default in the setup program.</p>
+        <p class="s1_StepNum" MadCap:autonum="5. ">In the <span class="Bold">Parameters</span> pane, select <span class="Bold">Installation</span>, then click <span class="Bold">Next</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="6. ">(Optional) Select:</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">The main destination directory for the <MadCap:variable name="ALN.ade" />. The default destination directory is <span class="Monospace">C:\Program Files\Atempo</span> .</p>
+        <p class="BulletedIndentCont">If needed, select <span class="Bold">Choose</span> and browse the directory tree to select an installation directory other than the default (<span class="Monospace">C:\Program Files\Atempo</span>). </p>
+        <p class="BulletedIndentCont">To return to the default directory, click <span class="Bold">Restore Default</span>. It is recommended to install on a physical machine rather than a virtual one.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">The advanced setup option. This option  defines a customized service name. By default, the home directory is <span class="Monospace">C:\Program Files\Atempo\AtempoDedupEngine\default</span>. The HyperStream home directory is composed of the installation directory selected in the previous window, and of the service name. The structure of the directory path is: <span class="Monospace">&lt;installation_directory&gt;\AtempoDedupEngine\&lt;service_name&gt;</span>.  </p>
+        <p class="BulletedIndentCont">To modify the default service name, select this option, enter a service name, then click <span class="Bold">Next</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="7. ">Click <span class="Bold">Next</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="8. ">Click <span class="Bold">Install</span>.</p>
+        <p class="s1_StepNum" MadCap:conditions="General.Hidden" MadCap:autonum="9. ">
+            <MadCap:annotation MadCap:createDate="2022-12-13T16:47:09.9944174+01:00" MadCap:creator="lisal" MadCap:initials="LI" MadCap:comment="pas vu" MadCap:editor="lisal" MadCap:editDate="2022-12-13T16:47:12.4765713+01:00">If needed, define a port number other than the default <span class="Monospace">8181</span> port for the <MadCap:variable name="HSS.adm_exe" /> console.</MadCap:annotation>
+        </p>
+        <p>When installation is finished, the <span class="Monospace">Atempo Dedup Engine</span> service starts automatically. To check that it is running:</p>
+        <p class="Bulleted" MadCap:autonum="• "><span class="Lead-In">Windows</span> Select <span class="Bold">Start &gt; Administration Tools &gt; Services</span>.</p>
+        <p class="Bulleted" MadCap:autonum="• "><span class="Lead-In">Linux</span> Launch the<span class="Monospace">/etc/init.d/ADE.default status</span> command.</p>
+        <p class="Note">If you intend to perform ongoing mirroring or replication of your <MadCap:variable name="HSS.hys_doc" />, which Atempo strongly recommends, you must install a second server on a separate machine with the same installation parameters as your main <MadCap:variable name="HSS.hys_exe" />.</p>
+    </body>
+</html>

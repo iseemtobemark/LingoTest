@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="bmr_2504525064_1062822"></a><a name="bmr_2504525064_85728"></a>Bare Metal Recovery</h1>
+        <p class="Introduction">
+            <MadCap:conditionalText MadCap:conditions="ALN.admin,ALN.user">The Bare Metal Recovery (herein called BMR) is a <MadCap:variable name="General.ProductName" /> module used to recover a complete Windows agent (system and data).</MadCap:conditionalText> The BMR feature simply requires setting a specific protection policy at backup time to ensure that all necessary files are backed up and available should you need to perform a recovery of your machine. Note that such policy will prevent any customization on the agent side. </p>
+        <p>When you activate the BMR feature, your workstation system is backed up every hour, using restore points. Data can be backed up only if a protection zone is defined.</p>
+        <p>By default the entire workstation system is backed up (including all the local disks). If you want to backup a specific disk, you must create a protection zone.</p>
+        <p class="Description"> Bare Metal Recovery can also be used to back up Microsoft SQL servers. The backup frequency of a MS SQL Server depends on the Recovery Point Objective (RPO) value. </p>
+        <p class="Description">Bootstrap files are saved once an hour, regardless of the RPO value.  A bootstrap file contains information about system partition that can be used to recreate the partition during the BMR recovery.</p>
+    </body>
+</html>

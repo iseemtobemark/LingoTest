@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget Version="2" Comment="HTML5 Output" Type="WebHelp2" Destinations="" DefaultUrl="/Content/Documentation_Lina/BMR.htm" InsertMOTW="true" EnableSitemap="false" IncludeStopWords="true" GenerateWebSafeImages="true" WebSafeFileExtension="png" MasterPage="/Content/Resources/MasterPages/MasterPage.flmsp" MasterStylesheet="/Content/Resources/Stylesheets/styles.css" EquationsOutputType="PNG" AliasFile="/Project/Advanced/AliasFile.flali" MoveOutputContentToRoot="false" ConditionTagExpression="include[ALN.ADE or ALN.admin or ALN.ALN or ALN.HELP or ALN.HVDS] exclude[ALN.ADA or ALN.AMM or ALN.ATN or ALN.HSS or ALN.MAC or ALN.PDF or ALN.UNIX or ALN.user] " ExcludeUnreferencedContent="true" PreCompileScaledImages="false" MasterToc="/Project/TOCs/BMR.fltoc" Skin="/Project/Skins/HTML5 - Tripane-BMR_old.flskn" PartialWordSearch="true" conditions="ALN.HELP">
+    <Glossaries>
+        <Glossary Link="/Project/Glossaries/Glossary-ALN.flglo" />
+    </Glossaries>
+</CatapultTarget>

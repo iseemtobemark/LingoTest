@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="completed">
+  <file
+    xml:space="preserve"
+    original="General.flvar"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="x-flvar"
+    target-language="fr">
+    <header>
+      <skl><external-file
+          href="General.flvar.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">9</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11 r2"
+        tool-name="Lingo"
+        tool-version="11.1.7796.16213"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>Lina</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Lina</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Lina</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>Lina Documentation</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Lina Documentation</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Documentation Lina</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>6.0</source><seg-source><mrk
+            mtype="seg"
+            mid="1">6.0</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">6.0</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>Lina Administrator Documentation</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Lina Administrator Documentation</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Documentation Administrateur Lin</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>Lina User Documentation</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Lina User Documentation</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Documentation utilisateur Lina</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>HyperStream Server</source><seg-source><mrk
+            mtype="seg"
+            mid="1">HyperStream Server</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Serveur HyperStream</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>HyperStream Server Documentation</source><seg-source><mrk
+            mtype="seg"
+            mid="1">HyperStream Server Documentation</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="53"
+            MadCap:diff="ContentChanged">Documentation Serveur HyperStream</mrk></target><alt-trans
+          match-quality="56"
+          origin="previous-version"><seg-source>HyperStream Server</seg-source><target
+            MadCap:segmentStatus="Untranslated">Serveur HyperStream</target></alt-trans><alt-trans
+          match-quality="53"
+          origin="previous-version"><seg-source>Lina User's Documentation</seg-source><target
+            MadCap:segmentStatus="Untranslated">Documentation Utilisateur Lina</target></alt-trans></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>Lina Agent Installation on Synology NAS Documentation</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Lina Agent Installation on Synology NAS Documentation</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Documentation d'installation de l'agent Lina sur le NAS Synology</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-variable"
+        phase-name="pretrans"><source>Bare Metal Recovery Documentation</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Bare Metal Recovery Documentation</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Documentation Bare Metal Recovery</mrk></target></trans-unit></body>
+  </file>
+</xliff>

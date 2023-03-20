@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  conditions="ALN.admin">
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/A_Introduction Topics/Title.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    conditions="ALN.PDF"
+    StartSection="false"
+    BreakType="pageLayout"
+    AutoEndOnLeftPage="disabled"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Title7X9.flpgl" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/A_Introduction Topics/Copyright.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    conditions="ALN.PDF"
+    StartSection="false"
+    BreakType="pageLayout"
+    AutoEndOnLeftPage="disabled"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Copyright7X9.flpgl" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/A_Introduction Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    conditions="ALN.PDF"
+    StartSection="false"
+    BreakType="chapter"
+    PageType="firstright"
+    PageNumberReset="reset"
+    PageNumberFormat="lower-roman"
+    ChapterNumber="1"
+    ChapterNumberFormat="lower-roman"
+    VolumeNumberReset="reset"
+    VolumeNumber="1"
+    VolumeNumberFormat="lower-roman"
+    SectionNumberReset="reset"
+    SectionNumber="1"
+    SectionNumberFormat="lower-roman"
+    PageNumber="1"
+    PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl"
+    ChapterNumberReset="continue" />
+  <TocEntry
+    Title="Welcome"
+    Link="/Content/A_Introduction Topics/Welcome.htm"
+    conditions="ALN.HELP" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Documentation_Lina/Install_Lina_Synology_Agent.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"
+    PageNumber="1"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ComputeToc="false"
+    ReplaceMergeNode="false"
+    PageNumberFormat="decimal">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Documentation_Lina/Install_Lina_Agent_Synology_DSM_6.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Documentation_Lina/Install_Lina_Agent_Synology_DSM_7.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Documentation_Lina/Restore_Data_on_Synology.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+</CatapultToc>

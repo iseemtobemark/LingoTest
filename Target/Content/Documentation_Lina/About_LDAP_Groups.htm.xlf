@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="completed">
+  <file
+    xml:space="preserve"
+    original="About_LDAP_Groups.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="fr">
+    <header>
+      <skl><external-file
+          href="About_LDAP_Groups.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">9</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11 r2"
+        tool-name="Lingo"
+        tool-version="11.1.7796.16213"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>About LDAP Groups</source><seg-source><mrk
+            mtype="seg"
+            mid="1">About LDAP Groups</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">À propos des groupes LDAP</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>When you declare an LDAP group to assign rights to its members, the name of the group consists of the hierarchy levels separated by a period, beginning with the lowest level up to the highest level (<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#About_LDAP_Groups" class="figure_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Figure&lt;/MadCap:xref&gt;</ph>).</source><seg-source><mrk
+            mtype="seg"
+            mid="1">When you declare an LDAP group to assign rights to its members, the name of the group consists of the hierarchy levels separated by a period, beginning with the lowest level up to the highest level (<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#About_LDAP_Groups" class="figure_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Figure&lt;/MadCap:xref&gt;</ph>).</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Lorsque vous déclarez un groupe LDAP pour attribuer des droits à ses membres, le nom du groupe se compose des niveaux hiérarchiques séparés par un point, en commençant par le niveau le plus bas jusqu'au niveau le plus élevé (<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#About_LDAP_Groups" class="figure_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Figure&lt;/MadCap:xref&gt;</ph>).</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In this example, the group name to declare is <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>adeadmin2. ALN.Groups.16 - R&amp;D ALN@AD.fr<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">In this example, the group name to declare is <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>adeadmin2.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">ALN.Groups.16 - R&amp;D ALN@AD.fr<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Dans cet exemple, le nom du groupe à déclarer est <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>adeadmin2.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">ALN.Groups.16 - R&amp;D ALN@AD.fr<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The LDAP group that is used to grant access to users must not be the primary group for these users. Access will be denied to such users.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The LDAP group that is used to grant access to users must not be the primary group for these users.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Access will be denied to such users.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="90"
+            MadCap:diff="ContentChanged">Le groupe LDAP utilisé pour attribuer un accès à des utilisateurs ne doit pas être un groupe primaire.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">L’accès sera refusé aux utilisateurs d’un tel groupe.</mrk></target><alt-trans
+          match-quality="90"
+          origin="previous-version"><seg-source>The LDAP group used to grant access to users must not be the Primary group for these users.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Le groupe LDAP utilisé pour attribuer un accès à des utilisateurs ne doit pas être un groupe primaire.</target></alt-trans><alt-trans
+          match-quality="90"
+          origin="previous-version"><seg-source>The LDAP group used to grant access to users must not be the Primary group for these users.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Le groupe LDAP utilisé pour attribuer un accès à des utilisateurs ne doit pas être un groupe primaire.</target></alt-trans><alt-trans
+          match-quality="90"
+          origin="previous-version"><seg-source>The LDAP group used to grant access to users must not be the Primary group for these users.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Le groupe LDAP utilisé pour attribuer un accès à des utilisateurs ne doit pas être un groupe primaire.</target></alt-trans><alt-trans
+          match-quality="90"
+          origin="previous-version"><seg-source>The LDAP group used to grant access to users must not be the Primary group for these users.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Le groupe LDAP utilisé pour attribuer un accès à des utilisateurs ne doit pas être un groupe primaire.</target></alt-trans><alt-trans
+          match-quality="90"
+          origin="previous-version"><seg-source>The LDAP group used to grant access to users must not be the Primary group for these users.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Le groupe LDAP utilisé pour attribuer un accès à des utilisateurs ne doit pas être un groupe primaire.</target></alt-trans></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>If a user belongs to several groups, and one of these groups is assigned the default user profile while another is assigned the administrator profile, then the user will be granted administrator rights.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">If a user belongs to several groups, and one of these groups is assigned the default user profile while another is assigned the administrator profile, then the user will be granted administrator rights.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="97"
+            MadCap:diff="ContentChanged">Si un utilisateur appartient à plusieurs groupes, et que l’un de ces groupes a les droits utilisateur par défaut alors qu’un autre groupe a les droits administrateur, l’utilisateur aura les droits administrateur.</mrk></target><alt-trans
+          match-quality="97"
+          origin="previous-version"><seg-source>If a user belongs to several groups, and one of his groups is assigned the Default user profile while another is assigned the Administrator profile, then the user will be granted Administrator rights.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Si un utilisateur appartient à plusieurs groupes, et que l’un de ses groupes a les droits utilisateur par défaut alors qu’un autre de ses groupes a les droits administrateur, l’utilisateur aura les droits administrateur.</target></alt-trans></trans-unit></body>
+  </file>
+</xliff>

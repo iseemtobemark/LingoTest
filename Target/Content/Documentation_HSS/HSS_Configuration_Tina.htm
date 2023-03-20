@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/TableStyles/ti_IndentedBasicTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="hss_installation_814337163_1085217"></a><a name="hss_installation_814337163_42912"></a>Configure <MadCap:variable name="HSS.tn" /> for <MadCap:variable name="General.ProductNameHSS" /></h1>
+        <p class="BodyAfterHead">In the <MadCap:variable name="HSS.adm_exe" style="font-weight: normal;" /> of the <MadCap:variable name="HSS.tn" style="font-weight: normal;" /> Server, you must:</p>
+        <p class="Bulleted" MadCap:autonum="• ">Create one, or more HyperStream drives.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Create one, or more dedicated media pools.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Create a strategy that uses the media pools dedicated to HyperStream.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Set tunables according to the <MadCap:variable name="HSS.tn" /> version you are using.</p>
+        <p class="Body">Once you have set up your <MadCap:variable name="HSS.tn" /> Server to use <MadCap:variable name="HSS.hys_exe" />, the backup and restore procedures are identical to that of any <MadCap:variable name="HSS.tn" /> agent.</p>
+        <p class="Body">Backups are deduplicated based on the combination of cartridge pools and drives you select in the Strategies for each agent.</p>
+        <p class="Body">Restores take place as usual through the <MadCap:variable name="HSS.tina_exe" />.</p>
+        <h2 MadCap:autonum="">Create HyperStream Drives</h2>
+        <p class="s1_StepNum" MadCap:autonum="1. ">In the <MadCap:variable name="HSS.adm_exe" />, expand your catalog and select <span class="Bold">Storage &gt; Drives</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Click the <span class="Bold">New Drive +</span> button to launch the <span class="Bold">Drive</span> Creation Wizard.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">In the Wizard, provide these parameters (<MadCap:xref href="#hss_drive_param_tina_config" class="table_x">see Table</MadCap:xref>):</p>
+        <table class="TableStyle-ti_IndentedBasicTable" style="mc-table-style: url('../Resources/TableStyles/ti_IndentedBasicTable.css');margin-left: 0;margin-right: auto;caption-side: top;" cellspacing="0">
+            <caption>
+                <p class="TableCaption" MadCap:autonum="&lt;b&gt;Table&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="hss_drive_param_tina_config"></a><span class="Bold">Drive</span> parameters</p>
+            </caption>
+            <col class="TableStyle-ti_IndentedBasicTable-Column-Column1" />
+            <col class="TableStyle-ti_IndentedBasicTable-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-ti_IndentedBasicTable-Head-Header1">
+                    <td class="TableStyle-ti_IndentedBasicTable-HeadE-Column1-Header1">
+                        <p class="tbh_TableHead">Parameter</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-HeadD-Column2-Header1">
+                        <p class="tbh_TableHead">Description</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row1">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Drive Name</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Name of the HyperStream drive. Must be a unique name within the catalog. </p>
+                        <p class="tbt_TableText">If you choose to create n drives at the end of the procedure, drive names are in the form:</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">drive_name</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">drive_name_1</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">drive_name_2</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">...</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">drive_name_(n-1)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row2">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">Drive Type</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">Use the selection button (...) to select VTL Drives &gt; <MadCap:variable name="HSS.hys_exe" />.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row1">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Drive Network</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Select Define a new Storage Area Network (SAN), and provide a name for the storage network. The sole use of the network is to regroup your <MadCap:variable name="HSS.hys_exe" /> drives together. If you ever want to add drives to your <MadCap:variable name="HSS.hys_exe" />, you can reuse the present network.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row2">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">Deduplication Server Name</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">Provide the name of the <MadCap:variable name="HSS.ade" /> that manages the deduplication.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row1">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Deduplication Server Port </p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Provide the port number for the <MadCap:variable name="HSS.ade" />.</p>
+                        <p class="tbt_TableText">To change the port number of the drives after creation, see <MadCap:xref href="#hss_installation_814337163_1096377">To change drives port numbers</MadCap:xref>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row2">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">User</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">Indicate the name of the access user to the <MadCap:variable name="HSS.ade" />. There are two default users:</p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Monospace">admin</span>, password <span class="Monospace">admin</span></p>
+                        <p class="BulletedTable" MadCap:autonum="• "><span class="Monospace">tina</span>, password <span class="Monospace">tina</span></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row1">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Password and Confirm Password.</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Provide the password of the access user and confirm it.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row2">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">Media Size (MB)</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">Enter the size in MB of the medias used to store the backed up data. The size value you enter should be the same as the physical tape size that will be used for duplication to tape if you intend to duplicate the disk backup to tape.</p>
+                        <p class="NoteTable">To avoid segmenting backups on 2 cartridges, the cartridge size may be increased by <MadCap:variable name="HSS.tn" />. For instance, if you select a size of 100 GB, with only 10 GB left on a cartridge, and that a 20 GB backup is launched, the size of the cartridge will be increased to 110 GB to fit the entire backup job on the same cartridge.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row1">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Compression Algorithm</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Name of the algorithm used to compress the data and metadata of the HyperStream clients. Possible values are:</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">None</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">Brotli</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">Zlib </p>
+                        <p class="BulletedTable" MadCap:autonum="• ">Lzma </p>
+                        <p class="BulletedTable" MadCap:autonum="• ">Lzf </p>
+                        <p class="tbt_TableText">In general, Brotli is recommended in a LAN environment whereas Lzma is recommended in WAN environments. Lzf is a rapid algorithm with average compression.</p>
+                        <p class="tbt_TableText">If you want to apply compression on a host but not on another host, you must use separate Hyperstream drives and separate pools for these hosts.</p>
+                        <p class="NoteTable">If you want to apply compression on a host but not on another host, you must use separate Hyperstream drives and separate pools for these hosts.</p>
+                        <p class="NoteTable">If you are deduplicating a backup selection on which the compression option is checked, <MadCap:variable name="HSS.tn" /> automatically disables the compression and uses the Hyperstream compression instead.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row2">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyB-Column1-row2">
+                        <p class="tbt_TableText">Number of drives to create</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyA-Column2-row2">
+                        <p class="tbt_TableText">Specify the number of drives that must be created.</p>
+                        <p class="tbt_TableText">You should create as many drives as you want jobs to be deduplicated in parallel. For instance, if you have 10 drives, the HyperStream Server is able to deduplicate 10 backups at the same time.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Click Finish and Close to create the drives and close the wizard window. The new drives are now displayed in the Drives view. </p>
+        <h2 MadCap:autonum="">Modify the <MadCap:variable name="HSS.hys_exe" /> Behavior through Drive Variables</h2>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Double click the drive in the <span class="Bold">Drive View List</span> and expand the <span class="Bold">Specific Variables</span> area.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Click the <span class="Bold">+</span> button. </p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">In the <span class="Bold">Name</span> and <span class="Bold">Value</span> columns, enter the name of the variable and its value. The variables name is case sensitive, it must imperatively be entered in lower case.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Click <span class="Bold">Apply and Close</span> when all variables you need are defined.</p>
+        <p class="Description">The following variables available are presented (<MadCap:xref href="#hss_drive_var_tina" class="table_x">see Table</MadCap:xref>):</p>
+        <table class="TableStyle-ti_IndentedBasicTable" style="mc-table-style: url('../Resources/TableStyles/ti_IndentedBasicTable.css');margin-left: 0;margin-right: auto;caption-side: top;" cellspacing="0">
+            <caption>
+                <p class="TableCaption" MadCap:autonum="&lt;b&gt;Table&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><span class="Bold"><a name="hss_drive_var_tina"></a>Drive</span> variables</p>
+            </caption>
+            <col class="TableStyle-ti_IndentedBasicTable-Column-Column1" />
+            <col class="TableStyle-ti_IndentedBasicTable-Column-Column2" />
+            <col class="TableStyle-ti_IndentedBasicTable-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-ti_IndentedBasicTable-Head-Header1">
+                    <td class="TableStyle-ti_IndentedBasicTable-HeadE-Column1-Header1">
+                        <p class="tbh_TableHead">Variable Name </p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-HeadF-Column2-Header1">
+                        <p class="tbh_TableHead">Possible Values</p>
+                        <p class="tbh_TableHead">[default]</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-HeadD-Column2-Header1">
+                        <p class="tbh_TableHead">Description</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row1">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText"><span class="Monospace">debug</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyF-Column2-row1">
+                        <p class="tbt_TableText">Yes</p>
+                        <p class="tbt_TableText">[No]</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Adds debug traces in the logs.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row2">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyB-Column1-row2">
+                        <p class="tbt_TableText"><span class="Monospace">bs</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyC-Column2-row2">
+                        <p class="tbt_TableText">Size from 256KB to 4MB</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyA-Column2-row2">
+                        <p class="tbt_TableText">Size of the blocks stored by the <MadCap:variable name="HSS.hys_exe" />. The default size is 256KB, depending on the configuration mode you chose during the installation. Clients with high volume measurement consisting of large files leads to bigger block sizes. As a result, less blocks are in the repository which increases performance.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 MadCap:autonum="">Create a Dedicated Media Pool</h2>
+        <p class="Introduction">To create a dedicated media pool for HyperStream backups, you must: </p>
+        <p class="Bulleted" MadCap:autonum="• ">Use this pool only for HyperStream backups. </p>
+        <p class="Bulleted" MadCap:autonum="• ">Avoid mixing regular backups with deduplicated backups.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Use the pool by a single HyperStream user with a single <MadCap:variable name="HSS.hys_exe" />.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">To create a media pool for HyperStream backups</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">In the <MadCap:variable name="HSS.adm_exe" />, select <span class="Bold">Backup Destinations &gt; Media Pools</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">In the <span class="Bold">Media Pool</span> view, click the <span class="Bold">New Pool button (+)</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Provide the following information:</p>
+        <p class="sa_StepAlpha" MadCap:autonum="a. "><span class="Bold">Pool Name</span> Enter the name of your choice for the pool.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="b. "><span class="Bold">Pool Label</span> Specify the label that appears in the name of all the cartridges belonging to the pool. It is usually a short version of the pool name.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="c. "><span class="Bold">Comment (optional)</span> Enter a comment to describe the media pool. The comment is recorded in the <MadCap:variable name="HSS.tn" /> catalog.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="d. "><span class="Bold">Retention Period and Duration</span> Once a cartridge is filled, define the period of time that <MadCap:variable name="HSS.tn" /> waits to recycle the cartridge:</p>
+        <p class="BulletedIndentList" MadCap:autonum="–"><span class="Bold">Infinite</span> Select this option if you do not want to recycle cartridges. In that case, <MadCap:variable name="HSS.tn" /> does not reuse a cartridge once it is filled.</p>
+        <p class="BulletedIndentList" MadCap:autonum="–"><span class="Bold">Limited</span> Select this option if you want to recycle cartridges after a set period of time. Enter a numerical value and select a unit between Years, Months, Weeks, and Days.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="e. "><span class="Bold">Associated Drives</span> Drives associated to the same pool must have the same parameters, i.e., same HyperStream Server, same port number, same user and same block size. A verification is performed and all incompatible drives are set to maintenance mode.</p>
+        <p class="BulletedIndentList" MadCap:autonum="–">Click <span class="Bold">Choose Objects</span> to open the <span class="Bold">Drive Name List</span>. </p>
+        <p class="BulletedIndentList" MadCap:autonum="–">Select all the HyperStream drives to associate with the pool.</p>
+        <p class="BulletedIndentList" MadCap:autonum="–">Click <span class="Bold">Apply</span> and <span class="Bold">Close</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Click <span class="Bold">Finish </span>and <span class="Bold">Close</span> to create the pool admin and exit the Wizard. See the <MadCap:variable name="HSS.adm_EN_doc" /> for details.</p>
+        <h2 MadCap:autonum="">Create a Strategy</h2>
+        <p class="s1_StepNum" MadCap:autonum="1. ">In the <MadCap:variable name="HSS.adm_exe"></MadCap:variable>, expand your catalog and select <span class="Bold">Data Management &gt; Strategies</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Click the <span class="Bold">New Strategy button (+)</span>. </p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Select <span class="Bold">New Standard Strategy</span>. In the creation wizard, follow on-screen instruction. See the <MadCap:variable name="HSS.adm_EN_doc"></MadCap:variable> for details on creating a strategy.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Select media pools that are dedicated to HyperStream.</p>
+        <p class="s1_StepNum" MadCap:autonum="5. ">Click <span class="Bold">Finish</span> to create the Strategy.</p>
+        <p class="s1_StepNum" MadCap:autonum="6. ">In the <span class="Bold">Strategies</span> view, double click the strategy you just created to see the details and make sure that:</p>
+        <p class="sa_StepAlpha" MadCap:autonum="a. ">In the <span class="Bold">Option</span> area, <span class="Bold">Use cache on Server</span> is not selected.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="b. ">In the <span class="Bold">Advanced</span> area, the writing format is <span class="Bold">SIDF</span>. This is the only writing format supported by the HyperStream drives.</p>
+        <h2 MadCap:autonum="">Set Tunables</h2>
+        <p class="s1_StepNum" MadCap:autonum="1. ">In the <MadCap:variable name="HSS.adm_exe"></MadCap:variable>, expand your catalog and select <span class="Bold">Configuration &gt; Tunables</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Click the <span class="Bold">New Tunable</span> button. </p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">In the Tunable Creation Wizard, set the <span class="Monospace">dedup_sync_for_canceled_jobs=</span> advanced tunable to <span class="Monospace">yes</span>. See the <MadCap:variable name="HSS.adm_EN_doc" /> for details.</p>
+        <h2 MadCap:autonum="">Change Drives Port Numbers</h2>
+        <p class="Introduction">You may need to change HyperStream drives port numbers if you change the port number on your <MadCap:variable name="HSS.hys_exe"></MadCap:variable>. Drives port numbers must always match the server port number.</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Select the drive in the <span class="Bold">Storage &gt; Drive &gt; Drive List</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Click the <span class="Bold">Drive Maintenance</span> button.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Double click the drive and select <span class="Bold">Properties</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">In the <span class="Bold">General</span> area, modify the Port Number and click <span class="Bold">OK</span>. Repeat for all the drives you want to modify.</p>
+        <p class="s1_StepNum" MadCap:autonum="5. ">Enable the drives.</p>
+    </body>
+</html>

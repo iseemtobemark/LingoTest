@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="server_config_1507838811_1258716"></a><a name="server_config_1507838811_99991"></a>Retention</h1>
+        <p class="BodyAfterHead">The retention is the period, in days, during which a file remains restorable after it has been:</p>
+        <p class="Bulleted" MadCap:autonum="• ">Deleted from the agent</p>
+        <p class="Bulleted" MadCap:autonum="• ">Excluded from the protection policies</p>
+        <p class="Bulleted" MadCap:autonum="• ">Replaced by a new version of the same file</p>
+        <p class="Description">Until a protected file falls into one of these three situations, the retention countdown does not start and the file remains restorable at any time. When a file can no longer be restored, it is picked up by the background tasks and removed. The removal triggers the de-referencing of the datablocks so the ADE subsystem compactor eventually could free up part or all of the space in the block repository.</p>
+        <p class="Body">The diagram (<MadCap:xref href="#Lina_retention_process_explained" class="figure_x">see Figure</MadCap:xref>) shows when the retention countdown starts in various situations:</p>
+        <div class="figure">
+            <img src="../Resources/Images/Images_Topics_Lina/lina_retention.png" style="width: 465px;height: 312px;">
+            </img>
+            <p class="Figure" MadCap:autonum="&lt;b&gt;Figure&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="Lina_retention_process_explained"></a><MadCap:variable name="General.ProductName" />  retention process explained</p>
+        </div>
+    </body>
+</html>

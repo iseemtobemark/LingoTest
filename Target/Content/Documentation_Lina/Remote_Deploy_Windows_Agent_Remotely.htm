@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head><title>Remote deploying Windows Agents</title>
+    </head>
+    <body>
+        <h1 MadCap:autonum="">Deploy a Windows Agent Remotely</h1>
+        <p class="BodyAfterHead"><MadCap:variable name="General.ProductName"></MadCap:variable> Windows agents may be deployed remotely, using either an Active Directory Group Policy or a deployment tool such as WAPT, Microsoft SCCM or equivalent. Only one agent is needed per machine, even in an RDS/TSE environment.</p>
+        <p>Before deploying agents remotely, the user performing the installation on a machine must have administrator rights on that machine. </p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">Step 1: Extract the MSI file</p>
+        <p class="ss_SingleStep" MadCap:autonum="&amp;gt;">Run the <span class="Monospace">setup.exe /extractcab</span> command in the command prompt.  This command will create a <span class="Bold">SupportFiles</span> folder containing the <span class="Monospace">ALN.msi</span> file to extract.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">Step 2: Launch the MSI package</p>
+        <p class="ss_SingleStep" MadCap:autonum="&amp;gt;">Launch the MSI package in silent mode, using one of the following commands:</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Monospace">ALN.msi /qn SERVERNAME=your-lina-server</span>
+        </p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Monospace">msiexec /qn /i ALN.msi SERVERNAME=server</span>
+        </p>
+        <p>See <MadCap:xref href="Install_Windows_Agent_Silent_mode.htm">Installing [%=ALN.aln%] Windsows Agents in Silent Mode</MadCap:xref> for detailed information on mandatory or optional parameters.</p>
+    </body>
+</html>

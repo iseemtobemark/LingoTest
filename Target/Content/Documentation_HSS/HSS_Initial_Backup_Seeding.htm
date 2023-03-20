@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <p class="AppendixTitle"><a name="hss_appendix_backup_seeding_304378069_15294"></a>
+        </p>
+        <h1><a name="hss_appendix_backup_seeding_304378069_1080522"></a><a name="hss_appendix_backup_seeding_304378069_42813"></a>Initial Backup Seeding</h1>
+        <p class="BodyAfterHead">This topic describes how to perform the initial backup of an agent connected through a slow link to an HyperStream repository (i.e., seeding).</p>
+        <p class="Body">The initial backup of a remote agent consists of:</p>
+        <p class="Bulleted" MadCap:autonum="• ">Backing up the remote agent to a temporary <MadCap:variable name="HSS.hys_exe" /> directly connected to the same LAN.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Moving the <MadCap:variable name="HSS.hys_exe" /> to the central site, and replicating it to the main <MadCap:variable name="HSS.hys_exe" />.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Re-runing a full backup from the remote agents so that appropriate metadata is recorded in the <MadCap:variable name="HSS.tn" /> catalog.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">To perform the initial backup of a remote agent</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Install an <MadCap:variable name="HSS.hys_exe" /> on a mobile machine (named B).</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Configure the replication on B to replicate any new stream to the main <MadCap:variable name="HSS.hys_exe" /> (named A) in the central site. See <MadCap:xref href="Simple_and_Hierarchical_replication.htm">Simple and Hierarchical Replication</MadCap:xref> for details.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Stop the replication service on B (to prevent any new stream on B from being copied onto A while server B is away).</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Create a new HyperStream drive on the <MadCap:variable name="HSS.tn" /> server and set it to connect to the <MadCap:variable name="HSS.hys_exe" /> B.</p>
+        <p class="s1_StepNum" MadCap:autonum="5. ">Create a new media pool and link it to the newly created HyperStream drive connected to the <MadCap:variable name="HSS.hys_exe" /> B.</p>
+        <p class="s1_StepNum" MadCap:autonum="6. ">Create a new strategy for every remote host agent to be backed up, using the newly created HyperStream drive.</p>
+        <p class="s1_StepNum" MadCap:autonum="7. "><a name="hss_appendix_backup_seeding_304378069_1088791"></a><a name="hss_appendix_backup_seeding_304378069_39583"></a>Go to the remote site and connect the mobile <MadCap:variable name="HSS.hys_exe" /> B to the local LAN. At this point, the host(s) to be backed up and B are on the same LAN.</p>
+        <p class="s1_StepNum" MadCap:autonum="8. "><a name="hss_appendix_backup_seeding_304378069_1088792"></a><a name="hss_appendix_backup_seeding_304378069_97089"></a>Do the first full backup of the host(s) located on the current LAN using the strategy you created and observe the new streams getting created on <MadCap:variable name="HSS.hys_exe" /> B.</p>
+        <p class="s1_StepNum" MadCap:autonum="9. ">Repeat step 7 and step 8 for every remote site.</p>
+        <p class="s1_StepNum" MadCap:autonum="10. ">Bring the mobile <MadCap:variable name="HSS.hys_exe" /> B back onto the main LAN where the <MadCap:variable name="HSS.hys_exe" /> A is connected.</p>
+        <p class="s1_StepNum" MadCap:autonum="11. ">Start the replication service on the server B so that all the streams previously created on it are copied onto the server A.</p>
+        <p class="s1_StepNum" MadCap:autonum="12. "><a name="hss_appendix_backup_seeding_304378069_1088805"></a><a name="hss_appendix_backup_seeding_304378069_13329"></a>Create a new media pool and associate it with the HyperStream drive(s) connected to the <MadCap:variable name="HSS.hys_exe" /> A.</p>
+        <p class="s1_StepNum" MadCap:autonum="13. ">Modify the strategy created earlier on all the remote host agents in order to have it use the media pool created in step 12.</p>
+        <p class="s1_StepNum" MadCap:autonum="14. ">Perform a new full backup for every remote agent.</p>
+        <p class="s1_StepNum" MadCap:autonum="15. ">Remove the <MadCap:variable name="HSS.hys_exe" /> B from the loop and delete the HyperStream drive associated with the <MadCap:variable name="HSS.hys_exe" /> B as well as the media pool associated with this drive.</p>
+    </body>
+</html>

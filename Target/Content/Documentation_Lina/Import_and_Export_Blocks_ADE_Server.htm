@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="appendix_maintenance_2072635088_1091761"></a><a name="appendix_maintenance_2072635088_37096"></a>Import and Export Blocks from an ADE Server</h1>
+        <p>The import and export procedure  copies blocks from a server to another. This procedure can be useful in a replication context, or when performing an initial seeding.</p>
+        <p>The following procedure describes how to perform an incremental blocks export and import:</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">Step 1: Retrieve the abr_dump.txt file from the source and target servers</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Stop the ADE service on both source and target servers.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Run this command on the source server to generate a file called <span class="Monospace">abr_dump.txt</span> located in <span class="Monospace">&lt;path&gt;</span>:</p>
+        <p class="BulletedCont"><span class="Monospace">ade_server -Z 13 --dump &lt;path&gt;</span>
+        </p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Run this command on the target server to generate a file called <span class="Monospace">abr_dump.txt</span> located in <span class="Monospace">&lt;path&gt;</span>:</p>
+        <p class="BulletedCont"><span class="Monospace">ade_server -Z 13 --dump &lt;path&gt;</span>
+        </p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Restart the ADE service on both source and target servers.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">Step 2: Replace the abr_dump.txt file on the source server</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Copy <span class="Monospace">abr_dump.txt</span> from target to source server.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Rename the file to <span class="Monospace">abr_dest.txt</span>, and move it to <span class="Monospace">&lt;path2&gt;</span> (<span class="Monospace">&lt;path2&gt;</span> can be identical to <span class="Monospace">&lt;path1&gt;</span>).</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">On the source server, run the command:</p>
+        <p class="BulletedCont"><span class="Monospace">ade_admin -N --cmd "digest_diff &lt;path1&gt;/abr_dump.txt &lt;path2&gt;/abr_dest.txt &lt;diff_file&gt;"</span>.</p>
+        <p class="BulletedCont">The missing digests are stored in <span class="Monospace">&lt;diff_file&gt;</span>.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">(Optional) Step 3: Generate the export file</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">(Optional) This step can be run on a Linux system only. This step  may be used to increase performance for the following step. If you use Windows servers, but still have access to a Linux system, you can copy the file to the Linux system, and run the command. The result file can be copied back to your Windows server for the next step. Run the command:</p>
+        <p class="BulletedCont"><span class="Monospace">sort -k 4,4 -k 5,5 --numeric-sort /tmp/&lt;diff_file&gt; &gt; /tmp/&lt;result_file&gt;</span>
+        </p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Run this command to create the export file:</p>
+        <p class="BulletedCont"><span class="Monospace">ade_admin -p &lt;password&gt; --cmd "export_block_by_list &lt;result_file&gt; &lt;export_folder&gt; &lt;max_file_size&gt;"</span>
+        </p>
+        <div class="ExampleIndent" MadCap:autonum="&lt;b&gt;Example&lt;/b&gt;: "><span class="Monospace">ade_admin -p admin --cmd "export_block_by_list diff.txt d:\export 64G"</span>
+        </div>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Move this folder (and all the files included) to the target server. Exported file names look like: “exported_block_0000.exp".</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">Step 4: Edit the compact.delay tunable</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">On the target server, set the tunable <span class="Monospace">compact.delay</span> to 1000 days. The tunable avoids block files replicated from other sources to be compacted if not older than <span class="Monospace">compact.delay</span> days.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Connect to ade_admin on the local ADE server.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">On the target server , run the command:</p>
+        <p class="BulletedCont"><span class="Monospace">ade_admin -p &lt;password&gt; --cmd "import_block &lt;exported_file&gt;"</span>
+        </p>
+        <p class="BodyIndent">Do this for every file to import. If everything goes right, this file is removed at the end of the import (avoiding such mistake as removing the wrong files).</p>
+        <div class="ExampleIndent" MadCap:autonum="&lt;b&gt;Example&lt;/b&gt;: "><span class="Monospace">ade_admin -p admin --cmd "import_block u:\exported_block_0017.exp"</span>
+        </div>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Remove dump and delta files.</p>
+        <p class="s1_StepNum" MadCap:autonum="5. ">Check the replication lag value.</p>
+        <p class="s1_StepNum" MadCap:autonum="6. ">When the replication lag decreases and stabilizes between 0 and 7 days, set the tunable <span class="Monospace">compact.delay</span> to 7 days.</p>
+    </body>
+</html>

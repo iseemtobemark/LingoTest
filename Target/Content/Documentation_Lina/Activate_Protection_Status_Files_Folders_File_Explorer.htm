@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="client_config_403703647_1235378"></a><a name="client_config_403703647_97377"></a>Activate the Protection Status of Files and Folders in the File Explorer</h1>
+        <p class="BodyAfterHead">On Windows agents, you can use the overlay feature to display the protection status of files and folders in the File Explorer.</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Right-click in the Windows File Explorer on any folder or file and select <span class="interface"><b>Atempo </b><MadCap:variable name="General.ProductName" style="font-weight: bold;" /> </span>&gt; <span class="interface" style="font-weight: bold;">Show backup Status</span>.</p>
+        <p class="BulletedCont">A green icon indicates that the folder of file is protected. A red icon indicates that the folder or file is not protected.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Refresh the File Explorer to see the icons.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">To disable the overlay, right-click any folder or file and select <span class="interface" style="font-weight: bold;">Hide backup status</span>. <MadCap:variable name="General.ProductName" /> uses six different overlay icons. By design, Windows only supports ten overlay icons. If other applications are already using overlay icons, you may not be able to see <MadCap:variable name="General.ProductName" /> icons. Check the overlay used in the registry key: <span class="Monospace">HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\ CurrentVersion\Explorer\ShellIconOverlayIdentifiers</span>. If needed, delete other application overlay icons.</p>
+    </body>
+</html>

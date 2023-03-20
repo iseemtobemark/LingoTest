@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="ALN.admin" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="">Assign an E-mail Address to the Agent</h1>
+        <p>This e-mail address can:</p>
+        <p class="Bulleted" MadCap:autonum="• "> Be provided in the <MadCap:variable name="ALN.ade_admin" /> for each agent or several agents.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Be provided in the agent interface. To provide an e-mail address in the agent interface, see <MadCap:xref href="Provide_E-Mail_to_Identify_Agent.htm">Providing an E-Mail Address to Identify the Agent</MadCap:xref>.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Be used to send e-mail notifications.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Be used to access the <MadCap:variable name="ALN.aln_web_resto" /> interface. </p>
+        <h2 MadCap:autonum="">Assign an E-mail Address in the Agent Details</h2>
+        <p>To manually assign an e-mail address to an agent in the <MadCap:variable name="ALN.ade_admin" />:</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">In the left menu of the <MadCap:variable name="ALN.ade_admin" />, click <span class="Bold">Agents</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">In the list of agents, click on an agent.</p>
+        <p class="BulletedCont">The agent details window appear.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Go to <span class="Bold">Information</span> &gt; <span class="Bold">User</span>, then enter an agent e-mail.</p>
+        <p class="BulletedCont">If a user e-mail is added in the <MadCap:variable name="ALN.ade_admin" />, this e-mail is not editable in the agent interface (<span class="Bold">Identity</span> tile in the agent settings). </p>
+        <div class="figureIndented">
+            <img src="../Resources/Images/Images_Topics_Lina/assign_email_agent_manually.png" MadCap:mediastyle="@media print { width: 359px;height: auto; }" style="width: 400px;height: auto;" />
+            <p class="Figure" MadCap:autonum="&lt;b&gt;Figure&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="server_add_email_agent"></a>E-mail field in the <span class="Bold">User</span> area</p>
+        </div>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Click <span class="Bold">Save</span>.</p>
+        <p class="s1_StepNum" MadCap:conditions="General.Hidden" MadCap:autonum="5. ">Go to  <span class="Bold">Server &gt; Users</span>.</p>
+        <p class="s1_StepNum" MadCap:conditions="General.Hidden" MadCap:autonum="6. ">
+            <MadCap:annotation MadCap:createDate="2022-12-02T17:43:29.1132297+01:00" MadCap:creator="lisal" MadCap:initials="LI" MadCap:comment="add procédure pour mettre email user ussi, n'existe pas ds Lina 5.3" MadCap:editor="lisal" MadCap:editDate="2022-12-02T17:43:30.2612536+01:00">Click on a user. </MadCap:annotation>
+        </p>
+        <p class="BulletedCont" MadCap:conditions="General.Hidden">The user details window appears.</p>
+        <p class="s1_StepNum" MadCap:conditions="General.Hidden" MadCap:autonum="7. ">In the <span class="Bold">E-mail</span> section, enter an e-mail address to identify the agent (<MadCap:xref href="#server_add_email_agent" class="figure_x">see Figure</MadCap:xref>). <MadCap:conditionalText MadCap:conditions="General.Hidden">You can provide multiple addresses by using a colon to separate them.</MadCap:conditionalText> </p>
+        <div class="figureIndented" MadCap:conditions="General.Hidden">
+            <img src="../Resources/Images/Images_Topics_Lina/assign_email_agent_manually.png" MadCap:mediastyle="@media print { width: 359px;height: auto; }" style="width: 400px;height: auto;" />
+            <p class="Figure" MadCap:conditions="General.Hidden" MadCap:autonum="&lt;b&gt;Figure&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="server_add_email_agent"></a>E-mail text field in the <span class="Bold">User</span> area</p>
+        </div>
+        <p class="s1_StepNum" MadCap:conditions="General.Hidden" MadCap:autonum="8. ">Click <span class="Bold">Save</span>.</p>
+        <h2 MadCap:autonum="">Assign an E-mail Address, using the Active Directory</h2>
+        <p>To automatically assign several e-mail addresses to several agents at a time, using the Active Directory:</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Go to the list of agents.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">In the list of agents, click the <img src="../Resources/Images/Images_Topics_Lina/cogwheel_button.png" /> icon above the list of agents to access the agents settings.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">In the agents settings, go to <span class="Bold">Declared agents</span> &gt; <span class="Bold">E-mails update</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Ensure the LDAP is configured. </p>
+        <p class="BulletedCont">You can display the LDAP configuration. If no LDAP is configured, see <MadCap:xref href="Configure_LDAP.htm">Configure LDAP</MadCap:xref>.</p>
+        <p class="s1_StepNum" MadCap:autonum="5. ">(Optional) <span class="Bold">Overwrite existing e-mails</span> to update the whole list of user e-mails. If you do not enable this option, no existing user e-mail is updated.</p>
+        <p class="s1_StepNum" MadCap:autonum="6. ">(Optional) Click on the <span class="Bold">Test</span> button to preview the e-mails update. </p>
+        <p class="s1_StepNum" MadCap:autonum="7. ">Click on <span class="Bold">Update agents e-mail now</span> to apply all changes. </p>
+    </body>
+</html>

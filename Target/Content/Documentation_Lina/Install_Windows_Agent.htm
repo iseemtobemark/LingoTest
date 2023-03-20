@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="aln_installation_adm_2087185880_1359277"></a>Install a Windows Agent</h1>
+        <h2 MadCap:autonum="">Install a Windows Agent in Graphical Mode</h2>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Launch the program <span class="Monospace">setup.exe</span> on the agent from the directory: <span class="Monospace">ATLXXX.iso\Agent\Windows\amd64</span></p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Follow the on-screen instructions:</p>
+        <p class="sa_StepAlpha" MadCap:autonum="a. "><span class="Bold">License Agreement</span> Accept the License Agreement to install <MadCap:variable name="General.ProductName" />.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="b. "><span class="Bold">Destination Folder</span> Choose a directory other than the default (<span class="Monospace">C:\Program Files\Atempo\Atempo Live Navigator\</span>). Click <b>Change...</b> and select a directory in the tree.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="c. "><span class="Bold">Database Folder</span> Choose the path to install the database of the <MadCap:variable name="ALN.aln.agent" />. To choose a directory other than the default (<span class="Monospace">C:\ProgramData\HNDB</span>), click <b>Change...</b> and select a directory in the tree. </p>
+        <p class="BulletedIndentCont">Ensure that you have at least 10% of the volume of the data to protect in free disk space for the database.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="d. "><span class="Bold">Network fully qualified name of the server</span> Enter a fully qualified name for the <MadCap:variable name="General.ProductName" /> server where the protection policy of your <MadCap:variable name="ALN.aln.agent" /> is defined. See <MadCap:xref href="Configure_Agent_to_Server_Access.htm">Agent to Server Access Configuration</MadCap:xref> for more details on the server name.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Click <span class="interface" style="font-weight: bold;">Install</span> to finish installing.</p>
+        <h2 MadCap:autonum="">Install a Windows Agent on a Remote Desktop Services Server</h2>
+        <p>To install agents on an RDS server:</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Open the command line interface.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Run the command <span class="Monospace">change user /install</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Install the <MadCap:variable name="ALN.aln.agent" />. The installation must be done once per RDS server.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">When the agent is installed, run the command <span class="Monospace">change user /execute</span>.</p>
+    </body>
+</html>

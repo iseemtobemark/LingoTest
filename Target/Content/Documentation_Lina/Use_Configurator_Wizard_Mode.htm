@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="">Use the Configurator in Wizard Mode</h1>
+        <p>The Wizard mode automatically launches after a server installation or if the <MadCap:variable name="ALN.ade_admin" MadCap:conditions="ALN.ALN" /><MadCap:variable name="HSS.ade_admin" MadCap:conditions="HSS.HSS" /> is not configured.</p>
+        <p>It is necessary to use an internet browser to configure <MadCap:variable name="General.ProductName" MadCap:conditions="ALN.ALN" /><MadCap:variable name="General.ProductNameHSS" MadCap:conditions="ALN.HSS" />. To configure and activate the deduplication engine, you can enter the path <span class="Monospace">https://hostname:8181</span> in a browser. <span class="Monospace">hostname</span> corresponds to the server on which the binaries are installed.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">Step 1: Select a product to activate</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">In the Volume analysis of the Configurator Wizard, click <span class="Bold">Next</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Activate one or several of the following products:</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">HyperStream.</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><MadCap:variable name="General.ProductName"></MadCap:variable>.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">HVDS.</p>
+        <p class="BulletedCont"> The configured options will be applied to the activated product only.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Click <span class="Bold">Next</span>.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">Step 2: Define port numbers</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Define a port number for the:</p>
+        <p class="BulletedIndent" MadCap:autonum="• "> Deduplication engine : <span class="Monospace">23232</span> is the default port.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">Web administration port: <span class="Monospace">8181</span> is the default port.</p>
+        <p class="BulletedCont">To modify these ports in the <MadCap:variable name="ALN.ade_admin" MadCap:conditions="ALN.ALN" /><MadCap:variable name="HSS.ade_admin" MadCap:conditions="ALN.HSS" />, go to <span class="Bold">Settings</span> &gt; <span class="Bold">Advanced</span> &gt; <span class="Bold">Configurator</span> &gt; <span class="Bold">Advanced</span> &gt; <span class="Bold">Ports</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">(Optional) If you selected <MadCap:variable name="General.ProductName" /> in the product selection, you can enable a dual port to secure communication between the  <MadCap:variable name="ALN.ade_admin" /> and the port used for data transfer. </p>
+        <p class="BulletedCont">To enable dual ports in the <MadCap:variable name="ALN.ade_admin" MadCap:conditions="HSS.ALN" /><MadCap:variable name="HSS.ade_admin" MadCap:conditions="ALN.HSS" />, go to <span class="Bold">Settings</span> &gt; <span class="Bold">Advanced</span> &gt; <span class="Bold">Configurator</span> &gt; <span class="Bold">Advanced</span> &gt; <span class="Bold">Ports</span>.</p>
+        <p class="BulletedCont">As of version 5.0, <MadCap:variable name="ALN.aln" /> uses by default the same communication port (<span class="Monospace">httpd.port=8181</span>) for the <MadCap:variable name="ALN.ade_admin" />	and the data transfer. This port is used whether you install a new server or upgrade an existing version. When you configure separate ports for administration and data, the data port is used for <MadCap:variable name="ALN.aln" /> backup and restore (<MadCap:variable name="ALN.aln_web_resto" /> included). </p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Click <span class="Bold">Next</span>.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">Step 3: Select directories for deduplicated data blocks, <MadCap:variable name="General.ProductName" MadCap:conditions="ALN.ALN" /><MadCap:variable name="HSS.hys_exe" MadCap:conditions="ALN.HSS" /> server data and agent metadata</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Select a database to store the ADE database, index data blocks and its journal on a fast access disk, such as an SSD:</p>
+        <p class="sa_StepAlpha" MadCap:autonum="a. ">Select a volume.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="b. ">Enter a path.</p>
+        <p class="BulletedCont">The database must be installed on a dedicated local disk. For performance reasons, it is recommended that:</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">You use about 100 GB for the size of this directory.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">You install the database and the data repository on separate disks.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Click <span class="Bold">Next</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Select a database to store deduplicated data blocks:</p>
+        <p class="sa_StepAlpha" MadCap:autonum="a. ">Select a volume.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="b. ">Enter a path.</p>
+        <p class="BulletedCont">This section contains information on the capacity (e.g., GB or TB of free space) and the type of storage (e.g., disk or SSD) for the location where the data will be stored. The storage directories correspond to the paths where the block files are stored. </p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Click <span class="Bold">Next</span>. </p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="5. ">If you activated HSS or HVDS, select the stream directories where new streams will be stored:</p>
+        <p class="sa_StepAlpha" MadCap:conditions="ALN.HSS" MadCap:autonum="a. ">Select a volume.</p>
+        <p class="sa_StepAlpha" MadCap:conditions="ALN.HSS" MadCap:autonum="b. ">Enter a path.</p>
+        <p class="s1_StepNum" MadCap:autonum="6. ">If you activated Lina, select a metabase to store metadata for each backed up agent on a fast access disk, such as an SSD:</p>
+        <p class="sa_StepAlpha" MadCap:autonum="a. ">Select a volume.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="b. ">Enter a path.</p>
+        <p class="BulletedCont">One database is created for each backed up agent. For performance reasons, it is recommended that you install the <MadCap:variable name="ALN.aln" /> database and the data repository on separate disks. The storage location of the databases can be added or changed in the <MadCap:variable name="ALN.ade_admin" />, provided the product is enabled. See <MadCap:xref href="Use_Configurator_Lina_Admin_Console.htm">Use the Configurator in the [%=ALN.ade_admin%]</MadCap:xref> for more information.</p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.ALN" MadCap:autonum="7. ">If you activated HSS or HVDS, select the stream directories where new streams will be stored:</p>
+        <p class="sa_StepAlpha" MadCap:conditions="ALN.ALN" MadCap:autonum="a. ">Select a volume.</p>
+        <p class="sa_StepAlpha" MadCap:conditions="ALN.ALN" MadCap:autonum="b. ">Enter a path.</p>
+        <p class="s1_StepNum" MadCap:autonum="8. ">Click <span class="Bold">Next</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="9. ">If you activated HSS or HVDS, select the stream directories where new streams will be stored:</p>
+        <p class="sa_StepAlpha" MadCap:autonum="a. ">Select a volume.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="b. ">Enter a path</p>
+        <p class="s1_StepNum" MadCap:autonum="10. ">Click <span class="Bold">Next</span>.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">Step 4: Finalize the initial configuration</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">In the configuration summary, verify the list of selected repositories and ports.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">(Optional) Confirm you want to receive update notifications. </p>
+        <p class="BulletedCont">To disable this option in the <MadCap:variable name="ALN.ade_admin" MadCap:conditions="HSS.ALN" /><MadCap:variable name="HSS.ade_admin" MadCap:conditions="ALN.HSS" />, go to <span class="Bold">Settings</span> &gt; <span class="Bold">Configurator</span> &gt; <span class="Bold">Advanced</span> &gt; <span class="Bold">Notifications for updates</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Click<span class="Bold"> Finish</span>. </p>
+        <p class="BulletedCont">A message  indicates that some modifications have been made in the section and the ADE/ALN/HSS server needs to be restarted to take the changes into account. You will be redirected to the <MadCap:variable name="ALN.ade_admin" MadCap:conditions="HSS.ALN" /><MadCap:variable name="HSS.ade_admin" MadCap:conditions="ALN.HSS" />.</p>
+    </body>
+</html>

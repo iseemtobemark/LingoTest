@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="completed">
+  <file
+    xml:space="preserve"
+    original="Principle_Hyperstream.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="fr">
+    <header>
+      <skl><external-file
+          href="Principle_Hyperstream.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">19</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11 r2"
+        tool-name="Lingo"
+        tool-version="11.1.7796.16213"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Principle</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Principle</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Principe</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Hyperstream replication is media pool-related to let you choose to partially replicate your Hyperstream data. Use this configuration to:</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Hyperstream replication is media pool-related to let you choose to partially replicate your Hyperstream data.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:conditions="ALN.HSS"> </mrk><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:conditions="ALN.HSS">Use this configuration to:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="68">La réplication Hyperstream est un processus de réplication lié au pool qui vous donne la possibilité de répliquer partiellement vos données Hyperstream.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Cette configuration est recommandée dans ces cas :</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Dispatch replicated data across various servers.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Dispatch replicated data across various servers.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Répliquer les données vers plusieurs serveurs différents.</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Ensure the availability of a limited number of media pool from the target server.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">Ensure the availability of a limited number of media pool from the target server.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Assurer la disponibilité d'un nombre spécifique de jeux à partir du serveur cible.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Topology</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Topology</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Topologie</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>This diagram (<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#HSS_simple_replication" class="figure_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Figure&lt;/MadCap:xref&gt;</ph>) shows a simple replication example:</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">This diagram (<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#HSS_simple_replication" class="figure_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Figure&lt;/MadCap:xref&gt;</ph>) shows a simple replication example:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Ce schéma (<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#HSS_simple_replication" class="figure_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Figure&lt;/MadCap:xref&gt;</ph>) montre un exemple de réplication simple :</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Simple replication</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS"
+            MadCap:parentConditions="ALN.HSS">Simple replication</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Réplication simple</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In this example, Media Pool 1 and Media Pool 2 are assigned to the first destination, Media Pool 3 is assigned to the second destination, and Media Pool 4 is not assigned to any of the destinations mentioned. If you choose to assign different destination servers, as Server B and Server C, to each, data related to Media Pools 1 and 2 is replicated to Server B, data related to Media Pool 3 is replicated to Server C, and data related to Media Pool 4 is not replicated.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">In this example, Media Pool 1 and Media Pool 2 are assigned to the first destination, Media Pool 3 is assigned to the second destination, and Media Pool 4 is not assigned to any of the destinations mentioned.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:conditions="ALN.HSS"> </mrk><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:conditions="ALN.HSS">If you choose to assign different destination servers, as Server B and Server C, to each, data related to Media Pools 1 and 2 is replicated to Server B, data related to Media Pool 3 is replicated to Server C, and data related to Media Pool 4 is not replicated.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Dans cet exemple, les jeux 1 et 2 sont affectés à la première destination, le jeu 3 est affecté à la deuxième destination, et le jeu 4 n’est affecté à aucune des destinations mentionnées. </mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Si vous choisissez d'assigner une machine différente aux deux destinations, par exemple les serveurs B et C, alors les données relatives aux jeux 1 et 2 sont répliquées sur le serveur B, les données liées au jeu 3 sont répliquées sur le serveur C, et les données liées au jeu 4 ne sont pas répliquées.</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Replicated Items</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Replicated Items</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Éléments répliqués</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>For every media pool replicated, all the streams and the related backed up objects blocks are replicated to the target server. Thus, the retention period is not server specific. Stream deletion is also replicated.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">For every media pool replicated, all the streams and the related backed up objects blocks are replicated to the target server.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:conditions="ALN.HSS"> </mrk><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:conditions="ALN.HSS">Thus, the retention period is not server specific.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:conditions="ALN.HSS"> </mrk><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:conditions="ALN.HSS">Stream deletion is also replicated.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Pour chaque jeu de médias, les flux ainsi que les blocs correspondants aux objets sauvegardés sont répliqués sur le serveur de destination.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">La période de rétention n’est ainsi pas spécifique au serveur.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0"> La suppression des flux est également répliquée.</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-div"
+        phase-name="pretrans"><source>To make sure your data replication is over, check the status of the replication synchronization indicator.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:conditions="ALN.HSS">To make sure your data replication is over, check the status of the replication synchronization indicator.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Pour vous assurer que votre réplication est terminée, vérifiez l'état de l'indicateur de synchronisation de la réplication.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

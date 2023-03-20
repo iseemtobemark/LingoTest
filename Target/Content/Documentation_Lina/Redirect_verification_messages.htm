@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="troubleshooting_2086620547_1199528"></a><a name="troubleshooting_2086620547_78433"></a>Redirect Verification Messages</h1>
+        <p class="Body">You can monitor verification messages without using the <MadCap:variable name="ALN.adm_exe" />, and redirect them to a text file.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">To redirect messages to a text file on a Windows system</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Open a <span class="Monospace">Command Prompt</span> from the <span class="Monospace">Start</span> menu.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Go to the <span class="Monospace">bin</span> folder of the ADE installation directory.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">To write the current messages to a file, run the command:</p>
+        <p class="BulletedCont"><span class="Monospace">ade_admin.exe -u &lt;user&gt; -p &lt;</span><span class="Monoitalic">password</span><span class="Monospace">&gt; -A req &gt; &lt;file&gt;</span>
+        </p>
+        <div class="ExampleIndent" MadCap:autonum="&lt;b&gt;Example&lt;/b&gt;: "><span class="Monospace">ade_admin.exe -u admin -p </span><span class="Monoitalic">admin</span><span class="Monospace"> -A req &gt; C:\messages.txt</span>
+        </div>
+        <p class="htd_HeadingToDo" MadCap:autonum="">To redirect messages to a text file on a Linux system</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Open a <span class="Monospace">Terminal</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Browse to the bin folder of the ADE installation directory.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">To write the current messages to the <span class="Monospace">/home/user/mess.txt</span> file, run the command:</p>
+        <p class="BulletedCont"><span class="Monospace">ade_admin -u &lt;</span><span class="Monoitalic">user</span><span class="Monospace">&gt; -p &lt;</span><span class="Monoitalic">password</span><span class="Monospace">&gt; -A req &gt; &lt;</span><span class="Monoitalic">file</span><span class="Monospace">&gt;</span>
+        </p>
+        <div class="ExampleIndent" MadCap:autonum="&lt;b&gt;Example&lt;/b&gt;: "><span class="Monospace">ade_admin -u admin -p </span><span class="Monoitalic">admin</span><span class="Monospace"> -A req &gt; /home/user/mess.txt</span>
+        </div>
+    </body>
+</html>

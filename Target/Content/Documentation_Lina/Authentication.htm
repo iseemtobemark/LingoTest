@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="security_1820763905_1239674"></a><a name="security_1820763905_64100"></a>Authentication</h1>
+        <h2 MadCap:autonum="">Format</h2>
+        <p class="BodyAfterHead">On Windows machines, authentication is done in one of these two formats:</p>
+        <p class="Bulleted" MadCap:autonum="• "><span class="Monoitalic">netbios_domain_name</span><span class="Monospace">\</span><span class="Monoitalic">user</span>
+        </p>
+        <p class="BulletedCont">For instance: <span class="Monospace">atempo\mike</span></p>
+        <p class="Bulleted" MadCap:autonum="• "><span class="Monoitalic">user</span><span class="Monospace">@</span><span class="Monoitalic">fully_qualified_domain_name</span>
+        </p>
+        <p class="BulletedCont">For instance: <span class="Monospace">mike@us.atempo.network</span></p>
+        <p class="Body">On Linux machines, the user name format can be:</p>
+        <p class="Bulleted" MadCap:autonum="• "><span class="Monoitalic">user_name</span> (for a local connexion only)</p>
+        <p class="BulletedCont">For instance: <span class="Monospace">mike</span></p>
+        <p class="Bulleted" MadCap:autonum="• "><span class="Monoitalic">user</span><span class="Monospace">@</span><span class="Monoitalic">fully_qualified_domain_name</span>
+        </p>
+        <p class="BulletedCont">For instance: <span class="Monospace">mike@us.atempo.network</span></p>
+        <h2 MadCap:autonum="">Supported accounts</h2>
+        <p class="BodyAfterHead">The login you provide must be of an account allowed to log on to the local machine.</p>
+        <p class="BodyAfterHead">On Windows, the login must be interactive rather than a network login.</p>
+        <h2 MadCap:autonum="">Two-factor authentication</h2>
+        <p>A two-factor authentication method is available in the <MadCap:variable name="ALN.ade_admin" />, Configurator and the Statistics interfaces. When a two-factor authentication method is enabled, users must enter their credentials, as well as an additional code.
+</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">To activate the two-factor authentication for a user</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Download the authentication application of your choice (Authy, Google Authenticator, Microsoft Authenticator, etc.).</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Click <span class="Bold">Server</span>  &gt; <span class="Bold">Users</span>. </p>
+        <p class="s1_StepNum" MadCap:autonum="3. "> In the drop-down list above the list of users, select a tenant for the agent.</p>
+        <p class="BulletedCont">To activate the two-factor authentication for an admin or a superadmin user, select <span class="Bold">All tenants</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Select a user to open an information page for this user. This page displays information related to:</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">The status of a user (enabled or disabled).</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">The user e-mail and the possibility for the administrator to change the password of a user, if necessary.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">The user group  selected for that user.</p>
+        <p class="BulletedIndent" MadCap:autonum="• "> The double-factor authentication.</p>
+        <p class="s1_StepNum" MadCap:autonum="5. ">Select the <span class="Bold">2-factor authentication</span> tab.</p>
+        <p class="s1_StepNum" MadCap:autonum="6. ">Provide an authentication key to the application. A QR code and a 16-digit code are provided in the <MadCap:variable name="ALN.ade_admin" />. They can be used as authentication keys.  When an authentication key is provided, the application generates a 6-digit code every 30 seconds.</p>
+        <p class="s1_StepNum" MadCap:autonum="7. ">Add the account name and user password in the authentication application.</p>
+        <p class="s1_StepNum" MadCap:autonum="8. ">At the bottom of the page, enter the code provided by the authentication application, then click <span class="Bold">Enable the 2-factor authentication</span>. A confirmation dialog is displayed when the code provided is correct. This dialog contains:</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">A button to disable the two-factor authentication for the user. A 6-digit code is  required to disable the two-factor authentication.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">A button to remove recovery codes. This button prevents the use of recovery codes when the two-factor authentication is enabled.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">A button to generate new recovery codes. This button generates new recovery codes.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">Ten recovery codes, which can be used once, are provided in the <MadCap:variable name="ALN.ade_admin" />. These 8-digit codes display only when the two-factor authentication is enabled. </p>
+        <p class="BulletedCont">When the two-factor authentication is enabled for one or several users, the <img src="../Resources/Images/Images_Topics_Lina/2_FA_activated.png" /> icon appears in the list of users.</p>
+        <p class="BulletedCont">To deactivate the two-factor authentication, remove recovery codes or generate new recovery codes, go to the agent details, then in the <span class="Bold">2-factor Authentication</span> tab.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">To log in the <MadCap:variable name="ALN.ade_admin" />, Configurator and the Statistics interfaces</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Enter the user's credentials. An additional step is required to confirm the authentication. The user can:</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">
+Enter a security code provided every 30 seconds by the authentication application.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">Enter a recovery code provided   in the <MadCap:variable name="ALN.ade_admin" />.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">
+Contact an administrator to reset the user's account.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Enter a security code or a recovery code, then click
+<span class="Bold">Validate</span>. To use the same code for 30 days, select <span class="Bold">Extend the code validity for 30 days</span>.</p>
+    </body>
+</html>

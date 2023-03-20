@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/TableStyles/t_BasicTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="server_config_1507838811_1238384"></a>Create <MadCap:variable name="General.ProductName" /> Agents Manually</h1>
+        <p class="BodyAfterHead">In the <MadCap:variable name="ALN.ade_admin" />, you can add agents manually to the list of agents to protect. Once they are declared in the list, you can apply a protection scheme and strategy to each one individually. </p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Open the  <MadCap:variable name="ALN.adm_exe" /></p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Select <span class="Bold">Agents</span> to open the Agents view. </p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">In the list of tenants, specify the tenant to associate with the agent.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Click the <img src="../Resources/Images/Images_Topics_Lina/create_button.png" /> button. </p>
+        <p class="BulletedCont">The new agent details window appears. (<MadCap:xref href="#add_new_agent" class="figure_x">see Figure</MadCap:xref>).</p>
+        <div class="figureIndented">
+            <img src="../Resources/Images/Images_Topics_Lina/add_new_agent.png" MadCap:mediastyle="@media print { width: 500px;height: auto; }" style="width: 549px;height: auto;" />
+            <p class="Figure" MadCap:autonum="&lt;b&gt;Figure&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="add_new_agent"></a>New agent parameters<br /></p>
+        </div>
+        <p class="s1_StepNum" MadCap:autonum="5. ">Enter the name of the <MadCap:variable name="ALN.aln.agent" /> that you want to declare or select an agent from the list of agents that have been installed but not yet declared. </p>
+        <p class="BulletedCont">When declaring a macOS agent named by default "user’s Mac", we recommend to select the agent from the list rather than typing its name. If you do type it, note that the apostrophe in "user’s" is a typographic apostrophe (unicode 2019, UTF-8 E2 80 99) and not the apostrophe from the keyboard (0x27).</p>
+        <p class="s1_StepNum" MadCap:autonum="6. ">Select an agent group. </p>
+        <p class="BulletedCont">By default,  agents inherit the protection and strategy set for their agent group. Agents can have their own protection and strategy if they belong to the default agent group (<span class="Bold">No protection inheritance</span>).</p>
+        <p class="BulletedCont">You can also add an agent to an agent group in the list of agent groups.</p>
+        <p class="s1_StepNum" MadCap:autonum="7. ">Select the protection scheme to apply to your agent. </p>
+        <p class="BulletedCont">You can also create a new protection by selecting the <span class="Bold">+</span> button or view information on that protection by clicking the pen icon.</p>
+        <p class="s1_StepNum" MadCap:autonum="8. ">Select the strategy to apply to your agent. </p>
+        <p class="BulletedCont">You can also create a new strategy by selecting the <span class="Bold">+</span> button or view information on that strategy by clicking the pencil icon.  Your agent inherits the strategy selected for his agent group.</p>
+        <p class="s1_StepNum" MadCap:autonum="9. ">Select a status for the agent.</p>
+        <p class="BulletedCont">Agent statuses distinguish active agents from inactive agents. They also determine which operations can be run on the agent. For more information, <MadCap:conditionalText MadCap:conditions="General.PDF">see (<MadCap:xref href="#block_statuses">Block statuses</MadCap:xref>)</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Online"> <MadCap:xref href="#block_statuses" class="table_x">see Table</MadCap:xref></MadCap:conditionalText>. Available statuses are:</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold">Keep all versions (normal state)</span>.</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold">In vacation</span>.</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold">Paused</span>. </p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold">Manually disabled</span>.</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold">Archived</span>.</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold">Keep only last version</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="10. ">Select an update policy. You can use the default update policy or create an update policy. To create an update policy:</p>
+        <p class="sa_StepAlpha" MadCap:autonum="a. "> Click <span class="Bold">Use a specific update policy</span>.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="b. ">Enable updates.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="c. ">Add an URL of update.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="d. ">Enable the <span class="Bold">Force update as soon as possible</span> option.</p>
+        <p class="s1_StepNum" MadCap:autonum="11. ">(Optional) Select a tag to apply on the agent. A tag can be used to highlight a characteristic common to several agents (a location, for instance).</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">To select an existing tag, click in the tag field and enter a tag name. Click on the tag automatically suggested to apply this tag on the agent. </p>
+        <p class="BulletedIndent" MadCap:autonum="• ">To create a tag, click in the tag field and enter a tag name. Pick a tag color, then click the <span class="Bold">+</span> button. </p>
+        <p class="BulletedIndentCont">The tag is automatically applied on the agent.</p>
+        <p class="s1_StepNum" MadCap:autonum="12. ">Click <span class="Bold">Create</span> to finish declaring the agent.</p>
+        <p class="pc_procedure_cont">The agent is added to the list of <span class="Bold">Agents</span>, in the <span class="Bold">No protection inheritance</span> group.</p>
+        <table class="TableStyle-t_BasicTable" style="mc-table-style: url('../Resources/TableStyles/t_BasicTable.css');margin-left: 0;margin-right: auto;caption-side: top;mc-caption-repeat: true;width: auto;" cellspacing="0">
+            <caption>
+                <p class="TableCaption" MadCap:autonum="&lt;b&gt;Table&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="block_statuses"></a>Block statuses</p>
+            </caption>
+            <col class="TableStyle-t_BasicTable-Column-Column1" />
+            <col class="TableStyle-t_BasicTable-Column-Column2" />
+            <col class="TableStyle-t_BasicTable-Column-Column2" />
+            <col class="TableStyle-t_BasicTable-Column-Column2" />
+            <col class="TableStyle-t_BasicTable-Column-Column1" />
+            <col class="TableStyle-t_BasicTable-Column-Column2" />
+            <col class="TableStyle-t_BasicTable-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-t_BasicTable-Head-Header1">
+                    <td class="TableStyle-t_BasicTable-HeadE-Column1-Header1">
+                        <p>Status</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-HeadF-Column2-Header1">
+                        <p>Data backup</p>
+                    </td>
+                    <th class="TableStyle-t_BasicTable-HeadF-Column2-Header1">
+                        <p class="tbt_TableText">Data restore</p>
+                    </th>
+                    <th class="TableStyle-t_BasicTable-HeadE-Column2-Header1">
+                        <p class="tbt_TableText">Data retention</p>
+                    </th>
+                    <th class="TableStyle-t_BasicTable-HeadE-Column1-Header1">
+                        <p class="tbt_TableText">Alarm triggering</p>
+                    </th>
+                    <th class="TableStyle-t_BasicTable-HeadF-Column2-Header1">
+                        <p class="tbt_TableText">License required</p>
+                    </th>
+                    <th class="TableStyle-t_BasicTable-HeadD-Column2-Header1">
+                        <p class="tbt_TableText">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText"><span class="Bold">Keep all versions (normal state)</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyF-Column2-row1" style="text-align: center;">
+                        <p> </p>
+                        <p>X</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyF-Column2-row1" style="text-align: center;">
+                        <p class="tbt_TableText"> </p>
+                        <p class="tbt_TableText" style="text-align: center;">X</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyE-Column2-row1" style="text-align: center;">
+                        <p class="tbt_TableText"> </p>
+                        <p class="tbt_TableText" style="text-align: center;">X</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1" style="text-align: center;">
+                        <p class="tbt_TableText"> </p>
+                        <p class="tbt_TableText" style="text-align: center;"><span style="font-weight: normal;">X</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyF-Column2-row1" style="text-align: center;">
+                        <p class="tbt_TableText"> </p>
+                        <p class="tbt_TableText" style="text-align: center;">X</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">This state is used for <MadCap:variable name="General.ProductName" /> Agents by default.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText"><span class="Bold">In vacation</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyF-Column2-row2">
+                        <p style="text-align: center;"> </p>
+                        <p style="text-align: center;">X</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyF-Column2-row2">
+                        <p class="tbt_TableText" style="text-align: center;"> </p>
+                        <p class="tbt_TableText" style="text-align: center;">X</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyE-Column2-row2">
+                        <p class="tbt_TableText" style="text-align: center;"> </p>
+                        <p class="tbt_TableText" style="text-align: center;">X</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p> </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyF-Column2-row2">
+                        <p class="tbt_TableText" style="text-align: center;"> </p>
+                        <p class="tbt_TableText" style="text-align: center;">X</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">This status can be used to prevent alarm triggering when an agent is inactive.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Paused</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyF-Column2-row1"> </td>
+                    <td class="TableStyle-t_BasicTable-BodyF-Column2-row1">
+                        <p class="tbt_TableText" style="text-align: center;">X</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyE-Column2-row1">
+                        <p class="tbt_TableText" style="text-align: center;">X</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1" style="font-weight: normal;text-align: center;">
+                        <p> <span style="font-weight: normal;">X</span></p>
+                        <p> </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyF-Column2-row1">
+                        <p class="tbt_TableText" style="text-align: center;">X</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">This status can be used for performance purposes or to create a flow control. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText"><span class="Bold">Manually disabled</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyF-Column2-row2"> </td>
+                    <td class="TableStyle-t_BasicTable-BodyF-Column2-row2">
+                        <p class="tbt_TableText" style="text-align: center;"> </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyE-Column2-row2">
+                        <p class="tbt_TableText"> </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2" style="text-align: center;">
+                        <p style="font-weight: normal;"> </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyF-Column2-row2">
+                        <p class="tbt_TableText"> </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">This status can be assigned to agents that do not require to be used, nor require a license.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p>Archived</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyF-Column2-row1"> </td>
+                    <td class="TableStyle-t_BasicTable-BodyF-Column2-row1">
+                        <p class="tbt_TableText" style="text-align: center;">X</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyE-Column2-row1">
+                        <p class="tbt_TableText"> </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText" style="font-weight: normal;text-align: center;">X</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyF-Column2-row1">
+                        <p class="tbt_TableText"> </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">This status can be used for data security audits. This status can also be assigned to agents that do not require a license.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyB-Column1-row2">
+                        <p><span class="Bold">Keep only last version</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyC-Column2-row2"> </td>
+                    <td class="TableStyle-t_BasicTable-BodyC-Column2-row2">
+                        <p class="tbt_TableText" style="text-align: center;">X</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyB-Column2-row2">
+                        <p class="tbt_TableText" style="text-align: center;">X</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyB-Column1-row2">
+                        <p class="tbt_TableText" style="font-weight: normal;text-align: center;">X</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyC-Column2-row2">
+                        <p class="tbt_TableText"> </p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyA-Column2-row2">
+                        <p class="tbt_TableText">This status can be used when a person switches workstations.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

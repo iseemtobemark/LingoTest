@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="">Restore a File Using the Restore Wizard</h1>
+        <p class="Introduction">The <MadCap:variable name="ALN.aln_restore_wizard" /> lets you filter the list of files to restore by applying search criteria based on location, type, and time range. </p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">Step 1: Launch the <MadCap:variable name="ALN.aln_restore_wizard" /></p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Right-click the <MadCap:variable name="ALN.aln.agent" /> icon <img src="../Resources/Images/Images_Topics_Lina/trayicon32.png" MadCap:mediastyle="@media print { height: 16px;width: auto; }" style="height: 16px;width: auto;" />  in the task bar and select <span class="Bold"><MadCap:variable name="ALN.agent_restore" /></span>. </p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Select <span class="Bold">Restore a file</span> &gt; <span class="Bold">Start</span>.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">Step 2: Select the restore source for the file</p>
+        <p>A list of available servers displays in the upper-right corner of the window. This list displays only if there are several restore sources available and if you are not in Advanced mode. Each item of the list contains:</p>
+        <p class="Bulleted" MadCap:autonum="• ">An icon that specifies if the server is available or not.</p>
+        <p class="Bulleted" MadCap:autonum="• ">The name of the restore source (primary and secondary). </p>
+        <p class="Bulleted" MadCap:autonum="• ">The retention period for each server.</p>
+        <p class="ss_SingleStep" MadCap:autonum="&amp;gt;">Select the server to use for the file restore.</p>
+        <p class="BulletedCont">By default, the primary server is selected as an available server.   The <MadCap:variable name="ALN.aln.agent" /> switches on the secondary server if the primary server is unreachable.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">Step 3: Locate the file to restore</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">In the <span class="Bold">Select Folder</span> window, select <span class="Bold">Browse backup</span> to locate the folder in which your file was saved. You can indicate either the complete path to your file, or enter a parent folder and choose to include sub-folders in the search. </p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Click <span class="Bold">OK</span>. The folder path appears in the folder selection window.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Click <span class="Bold">Next</span>.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">(Optional) Step 4: Provide additional information</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Type or select the extension from the <span class="Bold">Show existing file types</span> list.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Click <span class="Bold">Next</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. "> If you know the last modification of your file, specify the time and date range.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Click <span class="Bold">Next</span>.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">Step 5: Select the file to restore</p>
+        <p class="s1_StepNum" MadCap:autonum="1. "> Choose your file from the list.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Click <span class="Bold">Next</span>. </p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Select the version of the file you want to restore.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Click <span class="Bold">Next</span>. </p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">Step 6: Define restore options and restore your file</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Choose the restore location: </p>
+        <p class="BulletedIndent" MadCap:autonum="• ">Turn off the toggle to restore the file to its original location.</p>
+        <p class="or1_Or1Step" MadCap:autonum="Or "> </p>
+        <p class="BulletedIndent" MadCap:autonum="• ">Turn on the toggle to change the target directory of the restore.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">If you choose a new location, click <span class="Bold">Mycomputer</span> to add the target directory. </p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">If the file to restore already exists at this location, select the restore behavior : </p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold">Overwrite</span> The file is replaced by the restored file. </p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold">Skip</span> The file is not restored.</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold">Rename</span> The file already present is renamed with the suffix <span class="Monospace">.bak</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">If needed, change the identity to a user that may have more privilege to restore  data. If the chosen identity is linked to an admin group, the restore is done directly as administrator (<span class="Monospace">NT Authority\system</span> on Windows, <span class="Monospace">root</span> on Linux and macOS):</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold">Impersonated restore</span> Type the username and password of the user you want to restore.</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold">System restore on Windows</span> Type the username and password belonging to the local administrators group.</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold">System restore Linux and macOS</span> Type the username and password belonging to the admin, adm, sudo, wheel or root groups.</p>
+        <p class="s1_StepNum_KeepWithNext" MadCap:autonum="5. ">Click <span class="Bold">Check Identity</span>.</p>
+        <p class="s1_StepNum_KeepWithNext" MadCap:autonum="6. ">Select <span class="Bold">Restore</span>. To cancel the restore process, click <span class="Bold">Cancel</span>.</p>
+        <p class="BulletedCont"> Once the restore process is complete, you can view the details in the status overview (<MadCap:xref href="#File_restore_wizard_step7" class="figure_x">see Figure</MadCap:xref>). </p>
+        <p class="s1_StepNum" MadCap:autonum="7. ">Click <span class="Bold">Finish</span> to close the <MadCap:variable name="ALN.aln_restore_wizard" />. </p>
+        <div class="figureIndented">
+            <img src="../Resources/Images/Images_Topics_Lina/FR_file_restore_wizard_step7.PNG" MadCap:mediastyle="@media print { height: auto;width: 459px; }" style="width: 549px;height: auto;" />
+            <p class="Figure" MadCap:autonum="&lt;b&gt;Figure&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="File_restore_wizard_step7"></a>Successful file restore</p>
+        </div>
+        <p class="Description">The file size information in the <MadCap:variable name="ALN.aln_restore_wizard"></MadCap:variable> is shown in decimal prefixes (1 MB is equal to 1000 KB) whereas file sizes in File systems are usually shown in binary prefixes (1 MB is equal to 1024 KB). As a result, you may notice a difference if you compare both sizes. The file in the <MadCap:variable name="ALN.aln_restore_wizard"></MadCap:variable> seems bigger. However, they are actually of the same size.</p>
+    </body>
+</html>

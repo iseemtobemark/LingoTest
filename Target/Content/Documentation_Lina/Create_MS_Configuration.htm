@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="">Create a <MadCap:variable name="General.ProductName" /> Multi-Server Configuration</h1>
+        <p>The <MadCap:variable name="General.ProductName" /> master server must be installed on a server that will manage nodes. When the installation is over, you can configure nodes. This procedure can be performed in CLI interface only and consists of 4 steps:</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Create a master server and nodes.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. "> Attach the nodes to the master server.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Restart the nodes.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Update the accessinfo string. This step is mandatory only if a proxy or reverse proxy is used to access nodes.</p>
+        <h2 MadCap:autonum="">Prerequisites</h2>
+        <p>Select the servers that will be used as master server and nodes, as well as their location. </p>
+        <p>As an example for this procedure, 3 servers are used:</p>
+        <p class="Bulleted" MadCap:autonum="• ">A master server called myserver.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Two nodes called mynode1 and mynode2.</p>
+        <h2 MadCap:autonum="">Step 1: Create a Master Server</h2>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Run the  <MadCap:variable name="General.ProductName" /> setup on myserver. </p>
+        <p class="BulletedCont">See <MadCap:xref href="Install_Lina_Server.htm">Install the [%=ALN.aln%] Server</MadCap:xref> for more details. </p>
+        <p class="BulletedCont"> Do not complete the configuration steps that usually follow the server installation. Since the Master server will not host any backed up data, these steps are not required.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Stop the <MadCap:variable name="General.ProductName" /> service, then run this command to replace the standalone instance with a master instance:</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: PlainText;" madcap-space-after-export="preserve">./ade_server --create --force --master</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <p class="BulletedCont">A master instance with a dual port is created. The default values for the following ports are:</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">Data port used to communicate with agents: <span class="Monospace">8181</span>.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">Administration UI port: <span class="Monospace">8182</span>.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">CLI port: <span class="Monospace">23232</span>. </p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">(Optional) Run this command to customize the TCP ports: </p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: PlainText;" madcap-space-after-export="preserve">./ade_server --create --force --master  -P 23232 --httpd_port 8182 --data_port 8181</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <p class="BulletedCont">The TCP port can be customized while creating a master server or using the Configurator.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Restart the <MadCap:variable name="General.ProductName" /> service. </p>
+        <p class="BulletedCont">The multi-server instance is ready to be configured.</p>
+        <h2 MadCap:autonum="">Step 2: Create Nodes</h2>
+        <p> When you install a <MadCap:variable name="General.ProductName" /> Server, the default port numbers are:</p>
+        <p class="Bulleted" MadCap:autonum="• ">Data port used to communicate with agents: <span class="Monospace">8181</span>. </p>
+        <p class="Bulleted" MadCap:autonum="• ">Administration UI port: <span class="Monospace">8182</span>.</p>
+        <p class="Bulleted" MadCap:autonum="• ">CLI port: <span class="Monospace">23232</span>.</p>
+        <p>However, if you install more than one node on the same machine, you have to use different port numbers for each node as explained below.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">To create a node</p>
+        <p class="ss_SingleStep" MadCap:autonum="&amp;gt;">Run the  <MadCap:variable name="General.ProductName" /> setup on mynode1. </p>
+        <p class="BulletedCont">See <MadCap:xref href="Install_Lina_Server.htm">Install the [%=ALN.aln%] Server</MadCap:xref> for more details. This installation procedure does not differ from a standard server installation (standalone server installation).</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">To change the default port numbers </p>
+        <p>Changing the port numbers after the installation may be necessary if:</p>
+        <p class="Bulleted" MadCap:autonum="• "> You do not want to keep the default port values and </p>
+        <p class="Bulleted" MadCap:autonum="• ">You have performed a non-interactive batch installation, which does not allow you to change the port values.</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Go to the <MadCap:variable name="General.ProductName" /> Home Directory and run this command: <span class="Monospace">./ade_admin -u superadmin</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Enter the administration UI port and data port numbers selected for each node.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" madcap-space-after-export="preserve">&gt; set httpd.data_port=8183
+&gt; set httpd.port=8184
+&gt; set net.port=23233
+</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Restart the <MadCap:variable name="General.ProductName" /> service.</p>
+        <h2 MadCap:autonum="">Step 3: Attach the Nodes to a Master Server</h2>
+        <p>You can use two methods to attach a node to a master server:</p>
+        <p class="Bulleted" MadCap:autonum="• ">Method 1: The access key of each node is retrieved, then used to link the master server and the nodes. It is recommended to use this method.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Method 2: The access key of the master server is retrieved, then used to link the master server and the nodes.</p>
+        <h3 MadCap:autonum="">Method 1: Attach the nodes to the master server, using the access key of each node</h3>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Log into mynode1 and mynode2, using this command: <span class="Monospace">./ade_admin -u superadmin</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Type <span class="Monospace">node</span> to retrieve the access key of each node. </p>
+        <p class="BulletedCont">Here is an example of what you may see for each node:</p>
+        <p class="BulletedCont"><span class="Monospace">&gt; node{</span>
+        </p>
+        <p class="BulletedCont"><span class="Monospace">"status" : 0,</span>
+        </p>
+        <p class="BulletedCont"><span class="Monospace">"status_msg" : "ASM_OK",</span>
+        </p>
+        <p class="BulletedCont"><span class="Monospace">"ACCESS_KEY" : "870f5358-fa99-11eb-bffb-e9ae15dda958",</span>
+        </p>
+        <p class="BulletedCont"><span class="Monospace">"mode" : "STANDALONE"</span>
+        </p>
+        <p class="BulletedCont"><span class="Monospace">}</span>
+        </p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Log into myserver,  using this command: <span class="Monospace">./ade_admin -u superadmin</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Accept mynode1 and mynode2, using the access key of each node.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: PlainText;" madcap-space-after-export="preserve">&gt; node accept 870f5358-fa99-11eb-bffb-e9ae15dda958
+&gt; node accept 88b44842-7f2a-4bb6-ad46-fd2816c2f301</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <p class="s1_StepNum" MadCap:autonum="5. ">Go to mynode1 and mynode2, then attach each node to the master server. </p>
+        <p class="BulletedCont">In this example, the port used is <span class="Monospace">8181</span>:</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" madcap-space-after-export="preserve">&gt; node attach &lt;myserver&gt;:8181</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <h3 MadCap:autonum="">Method 2: Attach the master server to the nodes, using the access key of the master server </h3>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Log into the master server, using this command: <span class="Monospace">./ade_admin -u superadmin</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Type <span class="Monospace">node</span> to retrieve the access key of myserver. </p>
+        <p class="BulletedCont">Here is an example of what you may see for each node:</p>
+        <p class="BulletedCont"><span class="Monospace">&gt; node</span>
+        </p>
+        <p class="BulletedCont"><span class="Monospace">{</span>
+        </p>
+        <p class="BulletedCont"><span class="Monospace">"status": 0,</span>
+        </p>
+        <p class="BulletedCont"><span class="Monospace">"status_msg": "ASM_OK",</span>
+        </p>
+        <p class="BulletedCont"><span class="Monospace">"server_uuid": "20203944-d748-4321-834e-cceabcbeaa27",</span>
+        </p>
+        <p class="BulletedCont"><span class="Monospace">"ACCESS_KEY": "efbc28ff-9d25-4eb5-a2a8-d1e31120f3ad",</span>
+        </p>
+        <p class="BulletedCont"><span class="Monospace">"date": 1649150387,</span>
+        </p>
+        <p class="BulletedCont"><span class="Monospace">"mode": "MASTER",</span>
+        </p>
+        <p class="BulletedCont"><span class="Monospace">...</span>
+        </p>
+        <p class="BulletedCont"><span class="Monospace">}</span>
+        </p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Go to mynode1 and mynode2.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Attach myserver to each node, using the access key of each node.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" madcap-space-after-export="preserve">&gt; node attach &lt;myserver&gt;:8181 efbc28ff-9d25-4eb5-a2a8-d1e31120f3ad</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <p>For security purposes, it is recommended to generate a new access key for the master server. Regenerating access keys prevents any attachment of an undesirable node. To regenerate the access key of the master server, use the command <span class="Monospace">node renew</span>.</p>
+        <h2 MadCap:autonum="">Step 4: Restart the Nodes</h2>
+        <p>mynode1 and mynode2 must be restarted after being attached to myserver, otherwise myserver cannot detect a new node.</p>
+        <p class="ss_SingleStep" MadCap:autonum="&amp;gt;">Restart each node.</p>
+        <h2 MadCap:autonum="">(Optional) Step 5: Check the Multi-Server Configuration</h2>
+        <p>You can perform this step to check if nodes are correctly attached to the master server.</p>
+        <p class="ss_SingleStep" MadCap:autonum="&amp;gt;">In the Command Line Interface (CLI), go to myserver and type <span class="Monospace">node</span>. </p>
+        <p class="BulletedCont">In the following example, you can see that two nodes have been attached to myserver.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: PlainText;" madcap-space-after-export="preserve">&gt; node
+{
+    "status": 0,
+    "status_msg": "ASM_OK",
+    "server_uuid": "20203944-d748-4321-834e-cceabcbeaa27",
+    "ACCESS_KEY": "efbc28ff-9d25-4eb5-a2a8-d1e31120f3ad",
+    "date": 1649150868,
+    "mode": "MASTER",
+    "nodes": [
+        {
+            "id": 1,
+            "uuid": "0befc910-0176-4bee-b568-6a19740c031e",
+            "name": "mynode1",
+            "port": 8181,
+            "friendly_name": "mynode1_8181",
+            "last_ip": "",
+            "last_seen": 0,
+            "offline": true,
+            "access_info": "mynode1:8181",
+            "nb_agent": 0,
+            "free_space_volume": 0,
+            "version": "6.0.0.20704 DEV",
+
+            "os": "Windows Server 2019 64 bits  10.0.17763 AMD-64",
+            "hss_port": 23232,
+            "admin_port": 8182
+        },
+        {
+            "id": 2,
+            "uuid": "26c926aa-7850-4dca-a971-61c748e5694c",
+            "name": "hyperstream",
+            "port": 8181,
+            "friendly_name": "mynode2_8181",
+            "last_ip": "",
+            "last_seen": 0,
+            "offline": true,
+            "access_info": "mynode2:8181",
+            "nb_agent": 0,
+            "free_space_volume": 0,
+            "version": null,
+            *hss_port": 23232,
+            "admin_port": 8182
+        }
+    ],
+    "queue": [],
+    "offline": 0
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <h2 MadCap:autonum="">(Optional) Step 6: Set a Dispatch Policy for Each tenant</h2>
+        <p> A dispatch policy specifies how new agents are distributed to nodes. Three types of policy can be applied:</p>
+        <p class="Bulleted" MadCap:autonum="• ">Round robin: Agents are distributed equally between several nodes. The round-robin policy is the default dispatch policy.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Least number of agents: Agents are distributed on nodes that contain the least number of agents.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Most free space: Agents are distributed on nodes that contain the most free space.</p>
+        <p>To associate a dispatch policy with a tenant in the <MadCap:variable name="ALN.ade_admin" />, see <MadCap:xref href="Create_a_Tenant.htm">Create a Tenant</MadCap:xref>.</p>
+        <h2 MadCap:autonum="">Step 7: Update the accessinfo on the nodes</h2>
+        <p>This step is mandatory only if a proxy or a reverse proxy is used to access a node.</p>
+        <p>The accessinfo is a string used to connect an agent to a node. It can be edited when:</p>
+        <p class="Bulleted" MadCap:autonum="• "> The internal DNS does not match with the external DNS.</p>
+        <p class="Bulleted" MadCap:autonum="• ">A reverse proxy is used.</p>
+        <p>The same syntax is used for the accessinfo and the CfgServerHost. For more details on the CfgServerHost, see <MadCap:xref href="Configure_Agent_to_Server_Access.htm">Configure Advanced Agent to Server Access</MadCap:xref>.</p>
+        <p class="ss_SingleStep" MadCap:autonum="&amp;gt;">On each node, update the accessinfo, using this command. </p>
+        <p class="BulletedCont"><span class="Monospace">1 172.16.130.30:8181</span> is the value of the new accessinfo:</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" madcap-space-after-export="preserve">&gt; node accessinfo 1 172.16.130.30:8181</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <h2 MadCap:autonum="">Advanced commands</h2>
+        <p>You can use the following commands to get more information from ade_admin:</p>
+        <p class="Bulleted" MadCap:autonum="• "><span class="Monospace">tcp</span>: This command lists all TCP ports and can be used on all nodes.</p>
+        <p class="Bulleted" MadCap:autonum="• "><span class="Monospace">agent</span>: This command lists all agents used on the master server.</p>
+        <p class="Bulleted" MadCap:autonum="• "><span class="Monospace">node</span>: This command lists all nodes and shows the TCP ports used for these nodes on the master server.</p>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="aln_admin_1282167276_1065299"></a><a name="aln_admin_1282167276_18644"></a>ADE Repository </h1>
+        <p>Adding or removing a repository can also be performed by modifying an environment variable in the <MadCap:variable name="ALN.ade_admin" />. <MadCap:conditionalText MadCap:conditions="ALN.user">See <MadCap:xref href="Lina_Administration_Console.htm">[%=ALN.ade_admin%]</MadCap:xref> for details</MadCap:conditionalText>. </p>
+        <h2 MadCap:autonum="">Add a Repository</h2>
+        <p class="Body">When you add a repository, the existing block files remain in the repository in which they were initially written.</p>
+        <p>You can add repositories, using the <span class="Monospace">repository_path</span> command. Each time a new block file must be written, <MadCap:variable name="ALN.ade" /> goes to the next path in the list in a circular fashion.</p>
+        <p>It is recommended using local disks to locate the repository. </p>
+        <p>To add a repository:</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Stop the Deduplication Engine service (by default <span class="Monospace" style="font-size: 10pt;line-height: 12pt;">ADE.default</span>).</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Launch this command:</p>
+        <p class="BulletedCont"><span class="Monospace">ade_server --repository_path="</span><span class="Monoitalic">&lt;path1&gt;</span><span class="Monospace">;</span><span class="Monoitalic">&lt;path2&gt;</span><span class="Monospace">;</span><span class="Monoitalic">&lt;pathn&gt;</span><span class="Monospace">"</span>
+        </p>
+        <p class="BulletedCont">Where <span class="Monoitalic">&lt;path1&gt;</span>; <span class="Monoitalic">&lt;path2&gt;</span><span class="Monospace">;</span><span class="Monoitalic">&lt;pathn&gt;</span><span class="Monospace"> </span>is the list of all repository paths in use, including the new one.</p>
+        <p class="BulletedCont">You can write up to 2048 characters when you define the repository paths.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Restart the Deduplication Engine service.</p>
+        <h2 MadCap:autonum="">Remove a Repository</h2>
+        <p>The path of a repository can be removed  from <span class="Monospace">repository_path</span>.</p>
+        <p>If you remove a repository that already contained backups, the data backed up remains in the repository unless you move the existing block files using one of the commands described in <MadCap:xref href="#aln_admin_1282167276_1069122">To move an existing repository contents:</MadCap:xref>. Do not manually move block files otherwise <MadCap:variable name="ALN.ade" /> loses track of these files.</p>
+        <p>To remove a repository:</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Stop the Deduplication Engine service (by default <span class="Monospace" style="font-size: 10pt;line-height: 12pt;">ADE.default</span>).</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Launch this command:</p>
+        <p class="BulletedCont"><span class="Monospace">ade_server --repository_path="</span><span class="Monoitalic">&lt;path1&gt;</span><span class="Monospace">;</span><span class="Monoitalic">&lt;path2&gt;</span><span class="Monospace">;</span><span class="Monoitalic">&lt;pathn</span><span class="Monospace">&gt;"</span>
+        </p>
+        <p class="BulletedCont">Where <span class="Monoitalic">&lt;path1&gt;</span>; <span class="Monoitalic">&lt;path2&gt;</span><span class="Monospace">;</span><span class="Monoitalic">&lt;pathn&gt;</span><span class="Monospace"> </span>is the list of all remaining repository paths in use, without the one you want to remove.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Restart the Deduplication Engine service.</p>
+        <h2 MadCap:autonum="">Move a Repository</h2>
+        <p>Moving block files does not create a new repository in the destination location, nor does it remove the source repository. Once block files have been moved, if you do not add a new repository in the new location, the next backup continues using the old repository. </p>
+        <p><a name="aln_admin_1282167276_1069122"></a><a name="aln_admin_1282167276_22549"></a>To move content of an existing repository:</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Stop the Deduplication Engine service (by default <span class="Monospace" style="font-size: 10pt;line-height: 12pt;">ADE.default</span>).</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">You can either : </p>
+        <p class="BulletedIndent" MadCap:autonum="• ">Move all block files at once, using this command:</p>
+        <p class="BulletedIndentCont" xml:space="preserve" madcap-space-after-export="preserve">
+            <span class="Monospace">ade_server --mv_blockfiles_dest=</span>
+            <span class="Monoitalic">&lt;dest&gt;</span>
+        </p>
+        <p class="BulletedIndentCont">Where <span class="Monoitalic">&lt;dest&gt;</span> is the new path.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">Move the block file by file, using these commands:</p>
+        <p class="BulletedIndentCont" xml:space="preserve" madcap-space-after-export="preserve">
+            <span class="Monospace">ade_server --mv_blockfile=</span>
+            <span class="Monoitalic">&lt;filename&gt;</span>
+            <span class="Monospace"> --mv_blockfiles_dest=</span>
+            <span class="Monoitalic">&lt;dest&gt;</span>
+        </p>
+        <p class="BulletedIndentCont">Where <span class="Monoitalic">&lt;filename&gt;</span> is the name of the block file to move and<span class="Monospace">  </span><span class="Monoitalic">&lt;dest&gt;</span> is the new path.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Restart the Deduplication Engine service.</p>
+    </body>
+</html>

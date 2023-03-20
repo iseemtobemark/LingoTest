@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <p> </p>
+        <h1 MadCap:autonum="">Grant Full Disk Access to <MadCap:variable name="General.ProductName" /> for macOS Catalina and Above</h1>
+        <p>MacOS Catalina and above versions include a new privacy policy that prevents applications from accessing various components of the system, including sensitive data sets. By default, applications such as <MadCap:variable name="General.ProductName" /> are prevented from accessing user data, such as mail or messages databases.</p>
+        <p>To provide complete protection for all system components, a Full Disk Access is required after: </p>
+        <p class="Bullet1" MadCap:autonum="• ">Installing the <MadCap:variable name="ALN.aln.agent" />.</p>
+        <p class="Bullet1" MadCap:autonum="• ">Upgrading with the <MadCap:variable name="ALN.aln.agent" /> already installed on your system.</p>
+        <p>This is a one-time configuration. Once the Privacy settings are selected in the <MadCap:variable name="ALN.aln.wizard" /> and the <MadCap:variable name="ALN.aln.agt.elem" />, they are retained during upgrades of the <MadCap:variable name="General.ProductName" /> package. </p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">To grant Full Disk Access</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">In the Apple menu, click <span class="Bold">System Preferences</span> to access the <span class="Bold">Security &amp; Privacy</span> window. </p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Select the <span class="Bold">Privacy</span> tab. </p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Select <span class="Bold">Full Disk Access</span> in the left menu.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Click the lock at the bottom left of the pane to make changes and enter your credentials.</p>
+        <p class="s1_StepNum" MadCap:autonum="5. ">Click the <strong>+</strong> icon. </p>
+        <p class="s1_StepNum" MadCap:autonum="6. ">Open the <MadCap:variable name="ALN.aln.agt.elem" /> element located in the finder under <span class="Monospace">/library/Application Support/HN/base/bin</span>. </p>
+        <p class="s1_StepNum" MadCap:autonum="7. ">Repeat steps 5 and 6 for the <MadCap:variable name="ALN.aln.wizard" /> located in <span class="Monospace">/Applications/LiveNavigator</span>. </p>
+        <p class="BulletedCont">Both apps can access all system components when they are listed with the check mark  (<MadCap:xref href="#HNagent_and_Live_Navigator_have_access" class="figure_x">see Figure</MadCap:xref>). </p>
+        <div class="figureIndented">
+            <img src="../Resources/Images/Images_Topics_Lina/mojave_check_hnagent_&amp;_alnwizard.png" MadCap:mediastyle="@media print { width: 459px;height: auto; }" style="width: 549px;height: auto;" />
+            <p class="Figure" MadCap:autonum="&lt;b&gt;Figure&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="HNagent_and_Live_Navigator_have_access"></a><MadCap:variable name="ALN.aln.agt.elem" /> and <MadCap:variable name="ALN.aln.wizard" /> have disk access</p>
+        </div>
+        <p class="s1_StepNum_KeepWithNext" MadCap:autonum="8. ">Restart the system to restart the <MadCap:variable name="ALN.aln.agt.elem" />.</p>
+        <div class="Tip" MadCap:autonum="&lt;b&gt;Tip&lt;/b&gt;: ">You can also use the Terminal application to restart the <MadCap:variable name="ALN.aln.agt.elem" />, using the following commands:<br /><br /><span class="Monospace">&lt;servername&gt;$ sudo bash<br /><br />Password:<br /><br />bash-3.2# launchct1 unload /Library/LaunchDaemons/com.hnagent.plist<br /><br />bash-3.2# launchct1 load /Library/launchDaemons/com.hnagent.plist<br /><br />bash-3.2#</span><br /></div>
+        <p class="BulletedCont">At this point, the <MadCap:variable name="General.ProductName" /> Agent is fully operational on your system.</p>
+    </body>
+</html>

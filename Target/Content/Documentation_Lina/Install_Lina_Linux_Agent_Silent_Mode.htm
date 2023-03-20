@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="aln_installation_adm_2087185880_1360112"></a><a name="aln_installation_adm_2087185880_48604"></a>Install  a  Linux Agent in Silent Mode</h1>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Open a terminal and log in as <span class="Monospace">root</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Define and export these environment variables:</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Monospace">export HN_SERVER_NAME=</span><span class="Monoitalic">&lt;server_connection_string&gt;</span>
+        </p>
+        <p class="BulletedIndentCont">where <span class="Monoitalic">&lt;server_connection_string&gt;</span> is in the form:</p>
+        <p class="BulletedIndentCont"><span class="Monoitalic">&lt;servername&gt;</span><span class="Monospace">:</span><span class="Monoitalic">&lt;encrypted port&gt;</span><span class="Monospace">:</span><span class="Monoitalic">&lt;unencrypted port&gt;</span> </p>
+        <p class="BulletedIndentCont">
+            <MadCap:conditionalText MadCap:conditions="ALN.admin">See <MadCap:xref href="Configure_Agent_to_Server_Access.htm">Agent to Server Access Configuration</MadCap:xref> for details.</MadCap:conditionalText>
+        </p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Monospace">export HN_WORK_DIR</span>=<span class="Monoitalic">&lt;</span><span class="Monoitalic" style="font-size: 10pt;line-height: 12pt;">directory_name</span><span class="Monoitalic" style="font-size: 11pt;line-height: 13pt;">&gt;</span></p>
+        <p class="BulletedIndentCont">where <span class="Monoitalic">&lt;</span><span class="Monoitalic">directory_name</span><span class="Monoitalic" style="font-size: 11pt;line-height: 13pt;">&gt;</span> is the path of the <MadCap:variable name="General.ProductName" /> Home directory.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Launch the installation:</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">On Debian-based distributions, run:</p>
+        <p class="BulletedIndentCont"><span class="Monospace">dpkg -i </span><span class="Monoitalic">&lt;packagename&gt;</span><span class="Monospace">setup.deb</span>
+        </p>
+        <p class="BulletedIndent" MadCap:autonum="• ">On RPM-based distributions, run:</p>
+        <p class="BulletedIndentCont"><span class="Monospace">rpm -i </span><span class="Monoitalic">&lt;packagename&gt;</span><span class="Monospace">setup.rpm</span>
+        </p>
+    </body>
+</html>

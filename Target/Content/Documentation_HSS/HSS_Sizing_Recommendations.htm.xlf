@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="completed">
+  <file
+    xml:space="preserve"
+    original="HSS_Sizing_Recommendations.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="fr">
+    <header>
+      <skl><external-file
+          href="HSS_Sizing_Recommendations.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">13</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11 r2"
+        tool-name="Lingo"
+        tool-version="11.1.7796.16213"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Sizing Recommendations</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Sizing Recommendations</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Recommandations de dimensionnement</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Atempo provides sizing recommendations to help you configure the <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="HSS.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> solution. Our recommendations vary according to these criteria:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Atempo provides sizing recommendations to help you configure the <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="HSS.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> solution.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Our recommendations vary according to these criteria:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Atempo fournit des recommandations de dimensionnement pour vous aider à configurer la solution <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="HSS.hys_exe" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Nos recommandations varient selon ces critères :</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The configuration mode:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The configuration mode:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="95"
+            MadCap:diff="ContentChanged">Mode de configuration :</mrk></target><alt-trans
+          match-quality="95"
+          origin="previous-version"><seg-source>The configuration Mode:</seg-source><target
+            MadCap:segmentStatus="Untranslated">Mode configuration</target></alt-trans></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Scalability &amp; Performance.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Scalability &amp; Performance.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="96"
+            MadCap:diff="ContentChanged">Évolutivité &amp; Performance.</mrk></target><alt-trans
+          match-quality="96"
+          origin="previous-version"><seg-source>Scalability &amp; Performance</seg-source><target
+            MadCap:segmentStatus="Untranslated">Evolutivité &amp; Performance</target></alt-trans></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Network Storage &amp; Optimization.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Network Storage &amp; Optimization.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="97"
+            MadCap:diff="ContentChanged">Optimisation &amp; stockage réseau.</mrk></target><alt-trans
+          match-quality="97"
+          origin="previous-version"><seg-source>Network Storage &amp; Optimization</seg-source><target
+            MadCap:segmentStatus="Untranslated">Optimisation réseau &amp; stockage</target></alt-trans></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The volume of data to protect.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The volume of data to protect.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="96"
+            MadCap:diff="ContentChanged">Volume de données à protéger.</mrk></target><alt-trans
+          match-quality="96"
+          origin="previous-version"><seg-source>The volume of data to protect</seg-source><target
+            MadCap:segmentStatus="Untranslated">Le volume de données à protéger</target></alt-trans></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Our sizing recommendations are based on statistical data. As a result, some specific configurations may not fit into this scheme and may require additional and deeper analysis. See the <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:annotation MadCap:createDate="2020-06-12T16:37:59.9241908+02:00" MadCap:creator="tychom" MadCap:initials="TY" MadCap:comment="Include hyperlink to Sizing Guide in the User Group" MadCap:editor="tychom" MadCap:editDate="2020-06-12T16:38:18.8398970+02:00" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;</bpt>Sizing Guide<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:annotation&gt;</ept> for details.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Our sizing recommendations are based on statistical data.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">As a result, some specific configurations may not fit into this scheme and may require additional and deeper analysis.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">See the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:annotation MadCap:createDate="2020-06-12T16:37:59.9241908+02:00" MadCap:creator="tychom" MadCap:initials="TY" MadCap:comment="Include hyperlink to Sizing Guide in the User Group" MadCap:editor="tychom" MadCap:editDate="2020-06-12T16:38:18.8398970+02:00" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;</bpt>Sizing Guide<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:annotation&gt;</ept> for details.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Nos recommandations de dimensionnement sont basées sur des informations statistiques.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Il se peut donc que certaines configurations particulières ne répondent pas à ces recommandations et demandent des analyses plus approfondies.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="57">Voir le <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:annotation MadCap:createDate="2020-06-12T16:37:59.9241908+02:00" MadCap:creator="tychom" MadCap:initials="TY" MadCap:comment="Include hyperlink to Sizing Guide in the User Group" MadCap:editor="tychom" MadCap:editDate="2020-06-12T16:38:18.8398970+02:00" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;</bpt>Guide des compatibilité<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:annotation&gt;</ept> pour plus de détails.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

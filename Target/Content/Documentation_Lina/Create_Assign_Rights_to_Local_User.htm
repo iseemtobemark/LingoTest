@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="users_73164349_1264043"></a>Create and Assign Rights to  a Local User</h1>
+        <p>When installing  <MadCap:variable name="ALN.ade" MadCap:conditions="ALN.ALN" /><MadCap:variable name="HSS.hys_exe" MadCap:conditions="ALN.HSS" />, a local administrator is created by default with the following identity:</p>
+        <p class="Bulleted" MadCap:autonum="• ">Username: <span class="Monospace">superadmin</span>.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Password: <span class="Monospace">superadmin</span>.</p>
+        <p>It is strongly recommended that you modify the password of the <span class="Monospace">superadmin</span> user as soon as possible.  To reset the password of an existing user, go to step 9 of the following procedure.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">To add a user</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Log into the <MadCap:variable name="ALN.ade_admin" MadCap:conditions="ALN.ALN" /><MadCap:variable name="HSS.ade_admin" MadCap:conditions="ALN.HSS" /> with administrator privileges.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Select <span class="Bold">Server</span> &gt;  <span class="Bold">Users</span>. </p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Assign a tenant to the user using the drop-down list in the top bar of the <MadCap:variable name="ALN.ade_admin" MadCap:conditions="ALN.ALN" /><MadCap:variable name="HSS.ade_admin" MadCap:conditions="ALN.HSS" />. </p>
+        <p class="BulletedCont">To create a regular user or an administrator, select a specific tenant. </p>
+        <p class="BulletedCont">To create a superadmin user, select <span class="Bold">All tenants</span>. </p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">In the <b>Users</b> view, click the <img src="../Resources/Images/Images_Topics_Lina/create_button.png" /> button. </p>
+        <p class="BulletedCont">The user parameters interface appears.<br /></p>
+        <p class="s1_StepNum" MadCap:autonum="5. ">Type the local user name. </p>
+        <p class="BulletedCont">You can change the user name after the user creation. For an LDAP user, the user must be in the form: <span class="Monospace">user@domain</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="6. ">(Optional) Add a comment. </p>
+        <p class="s1_StepNum" MadCap:autonum="7. ">(Optional) Select <span class="Bold">Local user</span> as the type of user.</p>
+        <p class="s1_StepNum" MadCap:autonum="8. ">(Optional) Enable or disable the user. By default, users are enabled. A disabled user cannot log into the <MadCap:variable name="ALN.ade_admin" MadCap:conditions="ALN.ALN" /><MadCap:variable name="HSS.ade_admin" MadCap:conditions="ALN.HSS" />. </p>
+        <p class="s1_StepNum" MadCap:autonum="9. ">Provide a password for the local user. </p>
+        <p class="BulletedCont">When a user is created, the password field is replaced by an option. To reset the user password, toggle the <span class="Bold">Change the password</span>, then enter a new password.</p>
+        <p class="s1_StepNum" MadCap:autonum="10. ">(Optional) Provide the e-mail address of the local user. </p>
+        <p class="BulletedCont">
+            <MadCap:conditionalText MadCap:conditions="ALN.admin">The email address can also be modified on the <MadCap:variable name="ALN.aln.agent" />. For more details, see the <MadCap:variable name="General.UserGuideTitleUser" />.</MadCap:conditionalText>
+        </p>
+        <p class="s1_StepNum" MadCap:autonum="11. ">(Optional) Select a user group to grant rights to the user. A profile is associated with a user group and therefore grants rights to it. If no group is selected, new users are added to the <span class="Bold">Default User Group</span>. See <MadCap:xref href="Create_Configure_User_Profile.htm">Creating a User Profile</MadCap:xref> and <MadCap:xref href="Create_Configure_Local_User_Group.htm">Creating a User Group</MadCap:xref> for more details.</p>
+        <p class="s1_StepNum" MadCap:autonum="12. ">Click <span class="Bold">Create</span>.</p>
+        <p class="BulletedCont">If you want to edit information of a local user, click the user name in the list of users, then edit the user details and click <span class="Bold">Save</span>.</p>
+    </body>
+</html>

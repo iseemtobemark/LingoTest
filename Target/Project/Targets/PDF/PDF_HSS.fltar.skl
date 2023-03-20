@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget Version="2" Comment="New Target" Type="PDF" Destinations="" GlossaryTermConversion="marked" MasterToc="/Project/TOCs/HSS.fltoc" MasterPageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" PatchHeadingLevels="true" AutoSizeCaptureCaptions="true" InjectEmptyPages="true" ConditionTagExpression="include[ALN.ATN or ALN.HSS or HSS.HSS or HSS.PDF], exclude[ALN.admin or ALN.ALN or ALN.AMM or ALN.BMR or ALN.HELP or ALN.HVDS or ALN.PDF or ALN.Syno or ALN.user or General.Hidden or HSS.ADA or HSS.admin or HSS.ALN or HSS.AMM or HSS.ATN or HSS.HELP or HSS.MAC or HSS.UNIX or HSS.user or PrintGuides.UserGuideA or PrintGuides.UserGuideB or HVAVMware.PDF or TN-xen-us.PDF or HVAVMware.HELP or TN-xen-us.HELP]" conditions="HVAVMware.PDF,HSS.PDF" OutputFile="[%=HSS.PDF_File_Name%]" GetLatestBeforeCompile="true">
+    <PrintedOutput CollapseMargins="true" GenerateTOCProxy="true" GenerateIndexProxy="false" GenerateGlossaryProxy="false" PreserveTrackedChanges="false" OutputFormat="doc" />
+    <PDF PageLayout="SinglePage" FullScreen="false" CollapsedBookmarks="true" InitialMagnification="Fit" TitleBar="DocumentTitle" ShowUsedBookmarks="false" DownsampleImages="true" ImagePPIThreshold="150" />
+    <Glossaries />
+    <DocumentProperties Title="[%=General.ProductNameHSS%]" Author="Atempo SAS" />
+    <Destinations>
+        <Destination Link="/Project/Destinations/Intranet HyperStreamServer EN.fldes" Publish="true" IsResource="false" />
+    </Destinations>
+</CatapultTarget>

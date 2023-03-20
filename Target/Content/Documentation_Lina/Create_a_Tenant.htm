@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="">Create a Tenant</h1>
+        <p class="htd_HeadingToDo" MadCap:autonum="">To create a tenant</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Log into the <MadCap:variable name="ALN.ade_admin" MadCap:conditions="ALN.ALN" /><MadCap:variable name="HSS.ade_admin" MadCap:conditions="ALN.HSS" />  with administration rights (superadmin).</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Go to <span class="Bold">Server</span>&gt; <span class="Bold">Structure</span> &gt; <span class="Bold">Tenants</span> to open the list of tenants. </p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Above the list of tenants, click <b>+</b> to create a tenant sheet.<br /></p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Enter the tenant name. </p>
+        <p class="s1_StepNum" MadCap:autonum="5. ">(Optional) Add a comment below the tenant name.</p>
+        <p class="s1_StepNum" MadCap:autonum="6. ">(Optional) Define the tenant as a default tenant, using the toggle switch. You can enable this option to prefill the tenant field in the login window.</p>
+        <p class="s1_StepNum" MadCap:autonum="7. ">(Optional) Set up an automatic connection to the tenant when logging into <MadCap:variable name="ALN.ade_admin" />. </p>
+        <p class="BulletedCont">This option automatically binds a machine name, IP address, or IP address set  to a tenant without this tenant being the default one. </p>
+        <p class="BulletedCont">To specify how the connection should be bound:</p>
+        <p class="sa_StepAlpha" MadCap:autonum="a. "> Enter an IP address, a machine  or a sub-network name.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="b. ">Click <span class="Bold">Add this auto-connection</span>.<br />If no address or name is specified, the auto-connection is taken into account.<br />If any auto-connection is set, the default domain is taken into account.</p>
+        <p class="s1_StepNum" MadCap:autonum="8. ">(Optional) These steps can be performed with new or existing tenants on a multi-server configuration  only: </p>
+        <p class="sa_StepAlpha" MadCap:autonum="a. ">Select a dispatch policy that redirects agents to the nodes. By default, you can add an agent on alternating nodes (round robin), on a node with the least number of agents or with the most free space.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="b. ">Select one or several nodes to associate with a tenant, using the toggle switch besides the tenant name. By default, a tenant can access all nodes but you can restrict the number of nodes that can be accessed. If you have nodes, you can add a tenant to one or several nodes.</p>
+        <p class="s1_StepNum" MadCap:autonum="9. ">Click <span class="Bold">Create</span> to validate the creation of the tenant. If you want to edit the tenant properties, click on the tenant in the tenant list, edit the property of your choice, then click <span class="Bold">Save</span>.</p>
+        <p class="BulletedCont">In the list of tenants, you can display or hide information regarding UUID, users auto-connections, nodes, comments or agents.<br /></p>
+    </body>
+</html>

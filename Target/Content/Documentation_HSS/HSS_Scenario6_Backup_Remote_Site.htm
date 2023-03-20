@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/TableStyles/t_BasicTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="hss_appendix_4278766472_1040860"></a><a name="hss_appendix_4278766472_50860"></a>Scenario 6 - Remote Sites backing up locally and replicating to the Central Site</h1>
+        <p>The diagram (<MadCap:xref href="#hss_scenario6" class="figure_x">see Figure</MadCap:xref>) illustrates the local backup process of remote sites and their replication to the central site.</p>
+        <div class="figure">
+            <img src="../Resources/Images/Images_Topics_HSS/HSS_remote_sites_local_backup_replicate_to_central_site.png" style="margin-left: 68, 8572px;margin-top: 5, 46408px;margin-right: 1, 858307px;margin-bottom: 8, 102158px;width: 589px;height: 210px;" MadCap:mediastyle="@media print { width: 600px;height: auto; }" />
+            <p class="Figure" MadCap:autonum="&lt;b&gt;Figure&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="hss_scenario6"></a>Scenario 6</p>
+        </div>
+        <p class="Body">Securing the environment is managed by:</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Replicating remote office <MadCap:variable name="HSS.hys_exe" />(s) to the central site to prevent data loss</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Remote <MadCap:variable name="HSS.hys_exe" />s are also protected by stopping the <MadCap:variable name="HSS.hys_exe" /> and taking a snapshot.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Central <MadCap:variable name="HSS.hys_exe" /> is secured by mirroring to another <MadCap:variable name="HSS.hys_exe" /> (this is known as failover).</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Central <MadCap:variable name="HSS.hys_exe" /> is backed up  through script and snapshot (which is supported by the disk array) to prevent <MadCap:variable name="HSS.hys_exe" /> corruption.</p>
+        <h3 MadCap:autonum="">Procedure</h3>
+        <p>Check for each scenario the according restore process (<MadCap:xref href="#hss_scenario6_restore" class="table_x">see Table</MadCap:xref>): </p>
+        <table class="TableStyle-t_BasicTable" style="mc-table-style: url('../Resources/TableStyles/t_BasicTable.css');margin-left: 0;margin-right: auto;caption-side: top;" cellspacing="0">
+            <caption>
+                <p class="TableCaption" MadCap:autonum="&lt;b&gt;Table&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="hss_scenario6_restore"></a>Restore processes in scenario 6</p>
+            </caption>
+            <col class="TableStyle-t_BasicTable-Column-Column1" />
+            <col class="TableStyle-t_BasicTable-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-t_BasicTable-Head-Header1">
+                    <td class="TableStyle-t_BasicTable-HeadE-Column1-Header1">
+                        <p class="tbh_TableHead">Scenario</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-HeadD-Column2-Header1">
+                        <p class="tbh_TableHead">Restore Process</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Remote HyperStream Server crashes (data loss). A spare server will be rebuilt at the datacenter; once the process is completed, this new HyperStream server will be shipped to the remote site.</p>
+                        <p class="tbt_TableText">Backup and restore will be possible through the central HyperStream server.</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p>See <MadCap:xref href="HSS_Scenario5_Restore_Damaged_Rep_HSS.htm">Scenario 5 - Restore of a Damaged Replicated HyperStream Server (over the WAN)</MadCap:xref> for details.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">Remote HyperStream Server is corrupt. Use local snapshot to restore a viable version of the database.</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">Technical Assistance of Atempo Professional Services is required.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Central HyperStream Server crashes (data loss). Failover HyperStream Server is automatically available for backup and restore.</p>
+                        <p class="tbt_TableText">Central HyperStream Server can then be rebuilt.</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p>See <MadCap:xref href="HSS_Scenario3_Restore_Damaged_Mirror.htm">Scenario 3 - Restore of a Damaged Mirror</MadCap:xref> for details.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyB-Column1-row2">
+                        <p class="tbt_TableText">Central HyperStream Server is corrupt. Rebuild from the disk array snapshot by restoring a viable version of the database.</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyA-Column2-row2">
+                        <p class="tbt_TableText">Technical Assistance of Atempo Professional Services is required.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

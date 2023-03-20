@@ -1,0 +1,616 @@
+/*<meta Version="9" />*/
+
+/* MadCap Table Style: */
+
+mcTableStyle
+{
+	name: a2_ArtNoCaption2;
+	margin-left: 34px;
+	margin-right: 0px;
+	margin-top: 12pt;
+	margin-bottom: 0pt;
+	border-spacing-x: 0;
+	border-spacing-y: 0;
+	border-collapse: collapse;
+	border-left-color: #000000;
+	border-right-color: #000000;
+	border-top-color: #000000;
+	border-bottom-color: #000000;
+	border-top-style: none;
+	border-bottom-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	cell-padding-top: 0pt;
+	cell-padding-left: 0pt;
+	cell-padding-right: 0pt;
+	cell-padding-bottom: 0pt;
+	max-id: 4;
+}
+
+mcTableColumnStyle
+{
+	separator-style: none;
+	ruler-style: none;
+	name: Column1;
+	id: 0;
+}
+
+mcTableHeadStyle
+{
+	name: Header1;
+	id: 3;
+}
+
+mcTableBodyStyle
+{
+	span: 4;
+	separator-style: none;
+	ruler-style: none;
+	name: Body1;
+	id: 1;
+}
+
+mcTableBodyStyle
+{
+	span: 0;
+	separator-style: none;
+	ruler-style: none;
+	name: Body2;
+	id: 2;
+}
+
+mcTableFootStyle
+{
+	name: Footer1;
+	id: 4;
+}
+
+/* Cell Styles: */
+
+.TableStyle-a2_ArtNoCaption2
+{
+	border-collapse: collapse;
+	border-left-style: none;
+	border-left-color: #000000;
+	border-right-style: none;
+	border-right-color: #000000;
+	border-top-style: none;
+	border-top-color: #000000;
+	border-bottom-style: none;
+	border-bottom-color: #000000;
+	margin-left: 34px;
+	margin-right: 0px;
+	margin-top: 12pt;
+	margin-bottom: 0pt;
+	border-spacing: 0px 0px;
+}
+
+.TableStyle-a2_ArtNoCaption2-Column-Column1
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-Head-Header1
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-HeadI-Column1-Header1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-HeadI-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-HeadE-Column1-Header1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-HeadE-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-HeadF-Column1-Header1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-HeadF-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-HeadH-Column1-Header1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-HeadH-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-HeadD-Column1-Header1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-a2_ArtNoCaption2-HeadD-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-HeadC-Column1-Header1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-HeadC-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-HeadB-Column1-Header1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-HeadB-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-HeadA-Column1-Header1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-a2_ArtNoCaption2-HeadA-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-HeadG-Column1-Header1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-a2_ArtNoCaption2-HeadG-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-Foot-Footer1
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-FootI-Column1-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-FootI-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-FootE-Column1-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-FootE-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-FootF-Column1-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-FootF-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-FootH-Column1-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-FootH-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-FootD-Column1-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-a2_ArtNoCaption2-FootD-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-FootC-Column1-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-FootC-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-FootB-Column1-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-FootB-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-FootA-Column1-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-a2_ArtNoCaption2-FootA-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-FootG-Column1-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-a2_ArtNoCaption2-FootG-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-Body-Body1
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyI-Column1-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-bottom-style: none;
+	border-right-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyI-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyE-Column1-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-bottom-style: none;
+	border-right-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyE-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyF-Column1-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-bottom-style: none;
+	border-right-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyF-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyH-Column1-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-bottom-style: none;
+	border-right-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyH-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyD-Column1-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-bottom-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyD-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyC-Column1-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyC-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyB-Column1-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyB-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyA-Column1-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyA-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyG-Column1-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-bottom-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyG-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-Body-Body2
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyI-Column1-Body2
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-bottom-style: none;
+	border-right-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyI-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyE-Column1-Body2
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-bottom-style: none;
+	border-right-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyE-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyF-Column1-Body2
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-bottom-style: none;
+	border-right-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyF-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyH-Column1-Body2
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-bottom-style: none;
+	border-right-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyH-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyD-Column1-Body2
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-bottom-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyD-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyC-Column1-Body2
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyC-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyB-Column1-Body2
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyB-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyA-Column1-Body2
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyA-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyG-Column1-Body2
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-bottom-style: none;
+}
+
+.TableStyle-a2_ArtNoCaption2-BodyG-Column1-Body2 p
+{
+	
+}
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="aln_installation_adm_2087185880_1360338"></a><a name="aln_installation_adm_2087185880_49212"></a>Configure Advanced Agent to Server Access</h1>
+        <p class="BodyAfterHead">The ports and proxy (if any) information required for the agent to access the server is integrated with the server name definition in the <span class="Monospace">CfgServerHost</span> file in the form:<span class="Monospace">&lt;tenant_name&gt;/&lt;agent_identifier&gt;:&lt;node_name&gt;@&lt;server_host&gt;:&lt;port&gt;::&lt;proxy_host&gt;:&lt;proxy_port&gt;:&lt;proxy_user&gt;:&lt;proxy_passwd&gt;</span></p>
+        <p class="Body">If a parameter is not specified, its default value is used:</p>
+        <p class="Bulleted" MadCap:autonum="• ">The most basic definition is:</p>
+        <p class="BulletedCont"><span class="Monoitalic">&lt;server_host&gt;</span>
+        </p>
+        <p class="Bulleted" MadCap:autonum="• ">The Agent Identifier is the name of the <MadCap:variable name="ALN.aln.agent" /> as displayed in the <MadCap:variable name="ALN.ade_admin" />. The Agent Identifier can also be modified in the Agent view of the <MadCap:variable name="ALN.adm_exe" />. See <MadCap:xref href="Display_the_Agents_View.htm#aln_admin_1282167276_1042474">To display the general agents view</MadCap:xref>. By default, the Agent Identifier is identical to the computer name. However, you can declare a different Agent Identifier for your agent during the installation process:</p>
+        <p class="Bulleted" MadCap:autonum="• ">Standalone configuration: This command is used to add an agent to a tenant: <span class="Monospace">&lt;tenant_name&gt;/&lt;agent_identifier&gt;@&lt;server_host&gt;</span> where <span class="Monospace">server host</span> is a standalone server.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Multi-server configuration: </p>
+        <p class="BulletedIndent" MadCap:autonum="• ">This command is used to add an agent to a node via a dispatch policy. <span class="Monospace">&lt;tenant_name&gt;/&lt;agent_identifier&gt;@&lt;server_host&gt;</span> where <span class="Monospace">server host</span> is a master server. </p>
+        <p class="BulletedIndent" MadCap:autonum="• ">This command is used to force an agent to a specific node. <span class="Monospace">&lt;tenant_name&gt;/&lt;agent_identifier&gt;:&lt;node_name&gt;@&lt;server_host&gt;</span> where <span class="Monospace">server host</span> is the master server and node name is the access string in the <MadCap:variable name="ALN.ade_admin" />. To find the access string, see <MadCap:xref href="Manage_Nodes.htm">Managing Nodes.</MadCap:xref></p>
+        <p class="BulletedIndent" MadCap:autonum="• ">This command is used to add an agent to a tenant:</p>
+        <p class="BulletedIndentCont"><span class="Monoitalic">&lt;tenant_name&gt;/&lt;agent_identifier&gt;@&lt;server_host&gt;</span>
+        </p>
+        <p class="Bulleted" MadCap:autonum="• ">Server host:</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">To redefine ports, use:</p>
+        <p class="BulletedCont"><span class="Monoitalic">&lt;server_host&gt;:&lt;port&gt;</span>
+        </p>
+        <p class="BulletedIndent" MadCap:autonum="• ">To redefine the proxy and use default value for the port numbers, use:</p>
+        <p class="BulletedCont"><span class="Monoitalic">&lt;server_host&gt;</span><span class="Monospace">:::</span><span class="Monoitalic">&lt;proxy_host&gt;</span><span class="Monospace">:</span><span class="Monoitalic">&lt;proxy_port&gt;</span>
+        </p>
+        <p class="BulletedIndent" MadCap:autonum="• ">To redefine the proxy and proxy authentication and use default ports, use:</p>
+        <p class="BulletedCont"><span class="Monoitalic">&lt;server_host&gt;</span><span class="Monospace">:::</span><span class="Monoitalic">&lt;proxy_host&gt;</span><span class="Monospace">:</span><span class="Monoitalic">&lt;proxy_port&gt;</span><span class="Monospace">:</span><span class="Monoitalic">&lt;proxy_user&gt;</span><span class="Monospace">:</span><span class="Monoitalic">&lt;proxy_passwd&gt;</span>
+        </p>
+        <p class="BulletedCont">For instance, if you are deploying <MadCap:variable name="General.ProductName" /> on a Windows agent, the command is in the form:</p>
+        <p class="BulletedCont"><span class="Monospace">setup.exe /vSERVERNAME=</span><span class="Monoitalic">&lt;server_host&gt;</span><span class="Monospace">:::</span><span class="Monoitalic">&lt;proxy_host&gt;</span><span class="Monospace">:</span><span class="Monoitalic">&lt;proxy_port&gt;</span><span class="Monospace">:</span><span class="Monoitalic">&lt;proxy_user&gt;</span><span class="Monospace">:</span><span class="Monoitalic">&lt;proxy_passwd&gt;</span>
+        </p>
+        <p class="BulletedCont">If you are using the graphical interface when you specify the server name, use:</p>
+        <p class="BulletedCont"><span class="Monoitalic">&lt;server_host&gt;:&lt;port&gt;::&lt;proxy_host&gt;:&lt;proxy_port&gt;:&lt;proxy_user&gt;:&lt;proxy_passwd&gt;</span>
+        </p>
+        <div class="ExampleIndent" MadCap:autonum="&lt;b&gt;Example&lt;/b&gt;: ">Configuration of a <MadCap:variable name="ALN.aln.agent" /> with a predefined tenant<br /><br /><span class="Bold">Name of the workstation:</span> <span class="Monoitalic">DESKTOP-UVKPIFE</span><br /><br /><span class="Bold">Tenant name:</span> <span class="Monoitalic">DemoAtempo</span><br /><br /><span class="Bold">Agent Identifier:</span> <span class="Monoitalic">MinisterePoste1</span><br /><br />To specify the Agent Identifier and tenant name during the installation process, use the following syntax in the Server Name field: <span class="Monoitalic">DemoAtempo/MinisterePoste1@alnserver.atempo.com</span>.<br /><br /><img src="../Resources/Images/Images_Topics_Lina/agent_install_tenant.png" MadCap:mediastyle="@media print { width: 359px;height: auto; }" style="width: 459px;height: auto;" /><br /><br />See the  section on how to declare the agent in the <MadCap:variable name="ALN.ade_admin" /> and apply a protection scheme and strategy. </div>
+    </body>
+</html>

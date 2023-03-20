@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/TableStyles/t_BasicTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="aln_admin_1282167276_1170647"></a><a name="aln_admin_1282167276_67627"></a>Access Background Services</h1>
+        <p class="BodyAfterHead">The <b>Background Services</b> view shows all the services running on the server and enables users to pause, stop, or start a service. It can be viewed by all users.</p>
+        <p>To display the Background Services view:</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Open the <MadCap:variable name="ALN.ade_admin" MadCap:conditions="ALN.ALN" /><MadCap:variable name="HSS.ade_admin" MadCap:conditions="ALN.HSS" />.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Select <span class="Bold">Server &gt; Services</span>. All services are displayed (<MadCap:xref href="#Background_Services_parameters" class="table_x">see Table</MadCap:xref>).</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Double click on a service for more information. </p>
+        <p class="Body">The following table summarizes the available services.</p>
+        <table style="mc-table-style: url('../Resources/TableStyles/t_BasicTable.css');margin-left: 0;margin-right: auto;caption-side: top;mc-caption-repeat: true;" class="TableStyle-t_BasicTable" cellspacing="0">
+            <caption>
+                <p class="TableCaption" MadCap:autonum="&lt;b&gt;Table&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="Background_Services_parameters"></a>Background Services parameters</p>
+            </caption>
+            <col class="TableStyle-t_BasicTable-Column-Column1" />
+            <col class="TableStyle-t_BasicTable-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-t_BasicTable-Head-Header1">
+                    <th class="TableStyle-t_BasicTable-HeadE-Column1-Header1">Parameter</th>
+                    <th class="TableStyle-t_BasicTable-HeadD-Column2-Header1">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">Checker</td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">Searches and (if found) get blocks from mirror server to replace locally corrupted blocks (following a disk corruption or I/O error for example)</td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">Compactor</td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">Frees disk space by compacting existing data</td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">Discover</td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">Bonjour service that searches for all available <MadCap:variable name="ALN.hys_exe" />s on the network</td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">Garbage Collector</td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">Runs cleaning operations (stream and file removal)</td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">Monitor</td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">Displays statistics and runs maintenance operations</td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyB-Column1-row2">Replication</td>
+                    <td class="TableStyle-t_BasicTable-BodyA-Column2-row2">Sends streams and blocks to replicate to the replication destination server</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>You can perform the following actions on the services: </p>
+        <p class="Bulleted" MadCap:autonum="• ">Pause the service.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Stop the service.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Start/resume the service.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Enable the service.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Disable the service.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Refresh the list of services.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Display the following information for all services:</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">The status of the background service.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">The name of the background service.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">The description of the background service.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">Start, run and end dates of the background service.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">A description of the background service and advanced information.</p>
+    </body>
+</html>

@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="completed">
+  <file
+    xml:space="preserve"
+    original="Secure_Dedup_Engine_Database_OS-Based_Snapshot.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="fr">
+    <header>
+      <skl><external-file
+          href="Secure_Dedup_Engine_Database_OS-Based_Snapshot.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">20</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11 r2"
+        tool-name="Lingo"
+        tool-version="11.1.7796.16213"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Secure the Deduplication Engine Database with an OS-Based Snapshot</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Secure the Deduplication Engine Database with an OS-Based Snapshot</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Protéger la base de données du moteur de déduplication avec un snapshot du système d'exploitation</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To secure the Deduplication Engine database with an OS based Snapshot</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To secure the Deduplication Engine database with an OS based Snapshot</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Pour protéger la base de données du moteur de déduplication avec un snapshot du système d'exploitation</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Open the <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace" style="font-size: 10pt;line-height: 12pt;"&gt;</bpt>ade_admin<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> command line interface on your server.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Open the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace" style="font-size: 10pt;line-height: 12pt;"&gt;</bpt>ade_admin<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> command line interface on your server.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Ouvrez l'interface de ligne de commande <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace" style="font-size: 10pt;line-height: 12pt;"&gt;</bpt>ade_admin<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> sur votre serveur.</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Set the database into hot backup mode with this command:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Set the database into hot backup mode with this command:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Mettez la base de données en mode sauvegarde à chaud avec cette commande :</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>ade:23232&gt; begin</source><seg-source><mrk
+            mtype="seg"
+            mid="1">ade:23232&gt; begin</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">ade:23232&gt; begin</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Get the list of all the paths to back up with this command:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Get the list of all the paths to back up with this command:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Récupérez la liste de tous les chemins à sauvegarder avec cette commande :</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>ade:23232&gt; bck_list</source><seg-source><mrk
+            mtype="seg"
+            mid="1">ade:23232&gt; bck_list</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">ade:23232&gt; bck_list</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The command returns a list in the form:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The command returns a list in the form:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">La commande renvoie une liste sous la forme :</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>HOME=/hss/hssC</source><seg-source><mrk
+            mtype="seg"
+            mid="1">HOME=/hss/hssC</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">HOME=/hss/hssC</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>DB_CORE=/hss/hssC/rds/catalog/dedup_block_dat/</source><seg-source><mrk
+            mtype="seg"
+            mid="1">DB_CORE=/hss/hssC/rds/catalog/dedup_block_dat/</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">DB_CORE=/hss/hssC/rds/catalog/dedup_block_dat/</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>DB_LOG=/hss/hssC/syslog/</source><seg-source><mrk
+            mtype="seg"
+            mid="1">DB_LOG=/hss/hssC/syslog/</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">DB_LOG=/hss/hssC/syslog/</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>REPOSITORY=/hss/REPS</source><seg-source><mrk
+            mtype="seg"
+            mid="1">REPOSITORY=/hss/REPS</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">REPOSITORY=/hss/REPS</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>REPOSITORY=/hss/hssC/space tmp/1</source><seg-source><mrk
+            mtype="seg"
+            mid="1">REPOSITORY=/hss/hssC/space tmp/1</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">REPOSITORY=/hss/hssC/space tmp/1</mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>REPOSITORY=/sk_tmp/2</source><seg-source><mrk
+            mtype="seg"
+            mid="1">REPOSITORY=/sk_tmp/2</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">REPOSITORY=/sk_tmp/2</mrk></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>STREAM=/hss/hssC/server/dedup/stream</source><seg-source><mrk
+            mtype="seg"
+            mid="1">STREAM=/hss/hssC/server/dedup/stream</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">STREAM=/hss/hssC/server/dedup/stream</mrk></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>ALN=</source><seg-source><mrk
+            mtype="seg"
+            mid="1">ALN=</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">ALN=</mrk></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Perform a snapshot of all the directories present in the backup list.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Perform a snapshot of all the directories present in the backup list.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Réalisez un snapshot de tous les répertoires présents dans la liste de sauvegarde.</mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Set the database out of hot backup mode with this command:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Set the database out of hot backup mode with this command:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Désactivez le mode de sauvegarde à chaud sur la base de données avec cette commande :</mrk></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>ade:23232&gt; end</source><seg-source><mrk
+            mtype="seg"
+            mid="1">ade:23232&gt; end</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">ade:23232&gt; end</mrk></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Store or back up the snapshot.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Store or back up the snapshot.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Stockez ou sauvegardez le snapshot.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

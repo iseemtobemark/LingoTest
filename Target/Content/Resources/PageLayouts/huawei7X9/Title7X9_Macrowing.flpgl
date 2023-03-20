@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <Page Name="All" Width="210mm" Height="297mm" Padding="20px" PageSize="custom" PageType="normal" PaddingLeft="0" PaddingRight="0" PaddingTop="0" PaddingBottom="0" BackgroundRepeat="no-repeat" Orientation="portrait" BackgroundImage="none" BackgroundPositionX="10px" BackgroundPositionY="-90px" BleedLeft="0" BleedRight="0" BleedTop="0" BleedBottom="0">
+        <Frame Flow="body" Y="200px" Bottom="239px" X="60px" Right="-1px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="735px" Height="684px" PaddingLeft="0" PaddingTop="0">
+        </Frame>
+        <Frame X="0px" Y="260px" Width="793px" Height="376px" Flow="header" Right="1px" Bottom="487px" Anchors="" BackgroundType="Solid" PaddingRight="20pt" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="width: 100%;margin-top: 14pt;margin-left: 0;margin-right: auto;">
+                            <xhtml:col xhtml:style="width: 416px;" />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td>
+                                        <xhtml:p xhtml:style="text-align: center;">
+                                            <xhtml:img xhtml:src="../../Images/Huawei_Macrowing/logo-macrowing.png" xhtml:style="max-width: 55%;" />
+                                        </xhtml:p>
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="completed">
+  <file
+    xml:space="preserve"
+    original="Create_Thin_Volume_Linux.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="fr">
+    <header>
+      <skl><external-file
+          href="Create_Thin_Volume_Linux.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">23</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11 r2"
+        tool-name="Lingo"
+        tool-version="11.1.7796.16213"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Create a Thin Volume on Linux</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Create a Thin Volume on Linux</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Créer un thin volume sur Linux</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>This sample shows how to create a thin volume:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">This sample shows how to create a thin volume:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Cet exemple montre comment créer un thin volume :</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>First, create the partition and the volume group:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">First, create the partition and the volume group:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Tout d'abord, créez la partition et le groupe de volumes :</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>pvcreate /dev/sdd3</source><seg-source><mrk
+            mtype="seg"
+            mid="1">pvcreate /dev/sdd3</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">pvcreate /dev/sdd3</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>vgcreate vg1 /dev/sdd3</source><seg-source><mrk
+            mtype="seg"
+            mid="1">vgcreate vg1 /dev/sdd3</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">vgcreate vg1 /dev/sdd3</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Create a thin pool of 1TB:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Create a thin pool of 1TB:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Créez un thin pool de 1 To :</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>lvcreate -L 1T -T vg1/thinpool</source><seg-source><mrk
+            mtype="seg"
+            mid="1">lvcreate -L 1T -T vg1/thinpool</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">lvcreate -L 1T -T vg1/thinpool</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Create a thin volume named <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>lv1<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>. It is a virtual volume. You can store blocks in this volume for example:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Create a thin volume named <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>lv1<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">It is a virtual volume.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">You can store blocks in this volume for example:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Créez un thin volume nommé <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>lv1<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">C'est un volume virtuel.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Vous pouvez stocker des blocs dans ce volume, par exemple :</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>lvcreate -V 1T -T vg1/thinpool -n lv1</source><seg-source><mrk
+            mtype="seg"
+            mid="1">lvcreate -V 1T -T vg1/thinpool -n lv1</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">lvcreate -V 1T -T vg1/thinpool -n lv1</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Create a snapshot named "<bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>snap1<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>" (use snap_create in ade_admin):</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Create a snapshot named "<bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>snap1<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>" (use snap_create in ade_admin):</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Créez un snapshot nommé "<bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>snap1<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>" (utilisez snap_create dans ade_admin) :</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-div"
+        phase-name="pretrans"><source>lvcreate -s -n snap1 vg1/lv1<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>lvdisplay -C --noheadings -o vg_name,lv_name,lv_attr<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	vg1<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>lv1<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace" style="font-weight: bold;"&gt;</bpt>V<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>wi-a-tz<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	vg1<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>thinpool twi-a-tz</source><seg-source><mrk
+            mtype="seg"
+            mid="1">lvcreate -s -n snap1 vg1/lv1<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">lvdisplay -C --noheadings -o vg_name,lv_name,lv_attr<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="3">	</mrk><mrk
+            mtype="seg"
+            mid="4">vg1<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>lv1<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace" style="font-weight: bold;"&gt;</bpt>V<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>wi-a-tz<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="5">	</mrk><mrk
+            mtype="seg"
+            mid="6">vg1<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>thinpool twi-a-tz</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">lvcreate -s -n snap1 vg1/lv1<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">lvdisplay -C --noheadings -o vg_name,lv_name,lv_attr<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">vg1<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>lv1<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace" style="font-weight: bold;"&gt;</bpt>V<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>wi-a-tz<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">vg1<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>thinpool twi-a-tz</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The bold "V" shows that you have successfully created a Thin Provisioned logical volume. You must put all your data on this kind of volume.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The bold "V" shows that you have successfully created a Thin Provisioned logical volume.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">You must put all your data on this kind of volume.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Le « V » en gras indique que vous avez créé avec succès un thin volume.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Vous devez mettre toutes vos données sur ce type de volume.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:conditions="ALN.HSS" MadCap:autonum=""><a name="replication_1301808991_1144296"></a><a name="replication_1301808991_15370"></a>Simple and Hierarchical Replication</h1>
+        <p class="BodyAfterHead" MadCap:conditions="ALN.HSS">Replication enables to copy the content of an <MadCap:variable name="ALN.hys_exe" /> onto another. Unlike bidirectional replication, simple and hierarchical replication are a one way copy. I.e., the destination server content is not copied back onto the source (unless you specifically define a bidirectional replication).</p>
+        <p class="Body" MadCap:conditions="ALN.HSS">These replication configurations are supported:</p>
+        <p class="Bulleted" MadCap:conditions="ALN.HSS" MadCap:autonum="• ">Server A to Server B.</p>
+        <p class="Bulleted" MadCap:conditions="ALN.HSS" MadCap:autonum="• ">Servers A,B,C,D, etc. to Server N.</p>
+        <p class="Bulleted" MadCap:conditions="ALN.HSS" MadCap:autonum="• ">Server A to Server B to Server C to Server A.</p>
+        <div class="Note" MadCap:conditions="ALN.HSS" MadCap:autonum="&lt;b&gt;Note&lt;/b&gt;: ">Replicating an <MadCap:variable name="ALN.hys_exe" /> A to an <MadCap:variable name="ALN.hys_exe" /> B is supported only if the two servers are installed on different physical servers (or virtual machines). The servers must have the same architecture, the same operating system, and the same HyperStream version.</div>
+        <div class="Caution" MadCap:conditions="ALN.HSS" MadCap:autonum="&lt;b&gt;Important&lt;/b&gt;: ">The replication starts as soon as the replication destination is created. Ensure that the time to launch the replication is appropriate prior to defining the replication destination.</div>
+        <p class="htd_HeadingToDo" MadCap:conditions="ALN.HSS" MadCap:autonum="">To activate the replication of <MadCap:variable name="ALN.hys_exe" /> A to <MadCap:variable name="ALN.hys_exe" /> B with the Graphical User Interface</p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="1. ">Launch the <MadCap:variable name="HSS.ade_admin" /> on Server A and log in as the <span class="Monospace">admin</span> user.</p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="2. ">Select <span class="Bold">Server &gt; Configuration &gt; Replication</span>. </p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="3. ">Click <span class="Bold">Add</span>.</p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="4. ">Provide the name and port number of Server B.</p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="5. ">Click <span class="Bold">Validate the creation</span>. </p>
+        <p class="htd_HeadingToDo" MadCap:conditions="ALN.HSS" MadCap:autonum="">To activate the replication of <MadCap:variable name="ALN.hys_exe" /> A to <MadCap:variable name="ALN.hys_exe" /> B with the Command Line Interface</p>
+        <div class="Note" MadCap:conditions="ALN.HSS" MadCap:autonum="&lt;b&gt;Note&lt;/b&gt;: ">Use the command line only if you cannot access the <MadCap:variable name="HSS.ade_admin" /> .</div>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="1. ">Launch the <span class="Monospace">ade_admin</span> command line interface on Server A as <span class="Monospace">admin</span>.</p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="2. ">Run the <span class="Monospace">add_repli &lt;</span><span class="Monoitalic">server B</span><span class="Monospace">&gt;:&lt;</span><span class="Monoitalic">port_number</span><span class="Monospace">&gt;</span> command to add Server B as a replication destination for Server A.</p>
+        <p class="htd_HeadingToDo" MadCap:conditions="ALN.HSS" MadCap:autonum="">To pause/restart replication of the <MadCap:variable name="ALN.hys_exe" /></p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="1. ">Launch the <span class="Monospace">ade_admin</span> command line interface on the source <MadCap:variable name="ALN.hys_exe" />.</p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="2. ">To pause the replication, run this command:</p>
+        <p class="BulletedCont" MadCap:conditions="ALN.HSS"><span class="Monospace">service pause replication</span>
+        </p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="3. ">To resume the replication, run this command:</p>
+        <p class="BulletedCont" MadCap:conditions="ALN.HSS"><span class="Monospace">service resume replication</span>
+        </p>
+        <p class="htd_HeadingToDo" MadCap:conditions="ALN.HSS" MadCap:autonum=""><a name="replication_1301808991_1144352"></a><a name="replication_1301808991_64197"></a>To display bidirectional replication information</p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="1. ">Launch the <span class="Monospace">ade_admin</span> command line interface on one of the servers.</p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="2. ">Run the command</p>
+        <p class="BulletedCont" MadCap:conditions="ALN.HSS"><span class="Monospace">repli_info</span>
+        </p>
+        <p class="pc_procedure_cont" MadCap:conditions="ALN.HSS">This information is returned:</p>
+        <p class="JCLTop" MadCap:conditions="ALN.HSS">TIBERIUM:23233&gt; repli_info</p>
+        <p class="JCL" MadCap:conditions="ALN.HSS" xml:space="preserve" madcap-space-after-export="preserve">- ADE Replicator: TIBERIUM:32323 (ed8ccb38-820a-2e45-a579-018b22f1caab) CONNECTED 
+(59 minutes ago)</p>
+        <p class="JCL" MadCap:conditions="ALN.HSS" xml:space="preserve" madcap-space-after-export="preserve">- HSS Replicator: TIBERIUM:32323 (ed8ccb38-820a-2e45-a579-018b22f1caab) CONNECTED 
+(59 minutes ago)</p>
+        <p class="JCLBottom" MadCap:conditions="ALN.HSS">        Last synchro: 0 minute(s) ago</p>
+        <p class="pc_procedure_cont" MadCap:conditions="ALN.HSS">The <span class="Monospace">Last synchro</span> parameter, also known as replication lag, displays the date from which you are able to restore data from the replication target server if the replication source is off. If its value is <span class="Monospace">0</span>, the synchronizing is complete.</p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="3. ">Run the command:</p>
+        <p class="BulletedCont" MadCap:conditions="ALN.HSS"><span class="Monospace">service list</span>
+        </p>
+        <p class="pc_procedure_cont" MadCap:conditions="ALN.HSS">This information is returned:</p>
+        <p class="JCLTop" MadCap:conditions="ALN.HSS">redhsswin3:23232&gt; service list</p>
+        <p class="JCL" MadCap:conditions="ALN.HSS">ADE Replication   is RUNNING  (type= 6, host=redhsswin4:23232,uuid=e5030fd4-f0d8-374e-9b76-32a01bcc5dbd,remote_blocks=36998698,timeshifting=0,status=CONNECTED)</p>
+        <p class="JCL" MadCap:conditions="ALN.HSS">Compactor         is READY    (type= 7, wasted=10.67%)</p>
+        <p class="JCL" MadCap:conditions="ALN.HSS">Discover          is RUNNING  (type= 8, nb_server=29,upnp=0)</p>
+        <p class="JCL" MadCap:conditions="ALN.HSS">Garbage Collector is READY    (type= 9, pending_task=0)</p>
+        <p class="JCL" MadCap:conditions="ALN.HSS">HSS               is RUNNING  (type=15, nb_stream=2405)</p>
+        <p class="JCL" MadCap:conditions="ALN.HSS">HSS Replication   is RUNNING  (type=13, host=redhsswin4:23232,uuid=e5030fd4-f0d8-374e-9b76-32a01bcc5dbd,nb_waiting_task=1,status=CONNECTED)</p>
+        <p class="JCL" MadCap:conditions="ALN.HSS">Monitor           is RUNNING  (type= 3, thr=15,cli=4,req=546,chk=8544,get=0,put=0,upd=0,inc=0,dec=0,del=0,net=28.31,bck=0.00,resto=0.00,rep_in=0.00,rep_out=23.98,cpu=0 %,ram=1849 MB,vm=1898 MB)</p>
+        <p class="JCLBottom" MadCap:conditions="ALN.HSS">Web server        is RUNNING  (type= 5, sessions=0,port=8181)</p>
+        <p class="pc_procedure_cont" MadCap:conditions="ALN.HSS">The <span class="Monospace">Rep_in</span> parameter provides the incoming data rate in MB/s, while <span class="Monospace">Rep_out</span> provides the outgoing data rate in MB/s.</p>
+    </body>
+</html>

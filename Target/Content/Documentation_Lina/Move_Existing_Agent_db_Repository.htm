@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="">Move an existing Agent Database Repository</h1>
+        <p>Moving an agent database repository does not remove the source repository. Once agent database repositories have been moved, and no new repository is added, <MadCap:variable name="ALN.aln" /> continues using the old repository for the incoming new agent. See <MadCap:xref href="Add_Agent_DB_Repositories.htm#aln_admin_1282167276_1065300">Adding or Removing an Agent Database Repository</MadCap:xref> for details.</p>
+        <p>To move an existing repository contents:</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Stop the Deduplication Engine service (by default <span class="Monospace" style="font-size: 10pt;line-height: 12pt;">ADE.default</span>).</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Launch the command <span class="Monospace">ade_server -L "src=&lt;sources&gt;,dest=&lt;destination&gt;,set_as_default=[0|1],vol_max=&lt;size in bytes&gt;"</span></p>
+        <p class="BulletedCont">Where:</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Monospace">&lt;sources&gt;</span> is the list of repositories to be moved. If not provided, move all existing repositories.</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Monospace">&lt;destination&gt;</span> is the list of destination repositories.</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Monospace">&lt;set_as_default&gt;</span> is <span class="Monospace">0</span> if the source repositories remain to be used as agent database repositories. Otherwise, set the destination as the new agent database repository.</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Monospace">&lt;vol_max&gt;</span> keeps moving agent database repositories until the limit is reached (optional).</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Restart the Deduplication Engine service.</p>
+    </body>
+</html>

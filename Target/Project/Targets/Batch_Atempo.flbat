@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultBatchTarget
+  Version="1"
+  Comment="New Batch Target">
+  <Targets>
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Online Output/BMR_old"
+      Type="HTML5" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Online Output/GPO"
+      Type="HTML5" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Online Output/HTML5 - Admin"
+      Type="HTML5"
+      Build="false"
+      Publish="false" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Online Output/HTML5 - BMR"
+      Type="HTML5"
+      LastBuilt="2022-12-13T10:53:19.1612523+01:00" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Online Output/HTML5 - HSS"
+      Type="HTML5"
+      Build="false"
+      Publish="false"
+      LastBuilt="2022-08-28T20:37:43.1281816+02:00" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Online Output/HTML5 - User"
+      Type="HTML5"
+      Build="false"
+      Publish="false"
+      LastBuilt="2022-12-16T15:38:16.1059220+01:00" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="PDF/PDF_HSS"
+      Type="PDF"
+      Build="false"
+      Publish="false"
+      LastBuilt="2022-12-13T15:35:38.2062975+01:00" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="PDF/PDF-Admin"
+      Type="PDF"
+      Build="false"
+      Publish="false"
+      LastBuilt="2022-12-16T13:11:13.8942827+01:00" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="PDF/PDF-Syno"
+      Type="PDF"
+      Build="false"
+      LastBuilt="2022-05-23T11:45:34.3182593+02:00" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="PDF/PDF-User"
+      Type="PDF"
+      Build="true"
+      Publish="true"
+      LastBuilt="2022-12-16T15:10:30.8149211+01:00" />
+  </Targets>
+</CatapultBatchTarget>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget Version="2" Comment="User Documentation" Type="WebHelp2" Destinations="" MasterToc="/Project/TOCs/ALN-User.fltoc" MasterStylesheet="/Content/Resources/Stylesheets/styles.css" ConditionTagExpression="include[ALN.ADE or ALN.ALN or ALN.HELP or ALN.HVDS or ALN.user or HSS.user], exclude[ALN.ADA or ALN.admin or ALN.AMM or ALN.ATN or ALN.BMR or ALN.HSS or ALN.MAC or ALN.PDF or ALN.UNIX or ALN.WINDOWS or General.Hidden or HSS.ADA or HSS.ADE or HSS.admin or HSS.ALN or HSS.AMM or HSS.ATN or HSS.HELP or HSS.HSS or HSS.MAC or HSS.PDF or HSS.UNIX or HSS.WINDOWS or ALN.Hidden or ALN.ADAM or ALN.BMR_Beta or ALN.Comment or ALN.FM8_SYSTEM_HIDEELEMENT or ALN.FM8_TRACK_CHANGES_ADDED or ALN.FM8_TRACK_CHANGES_DELETED or ALN.MVS or ALN.VSE]" MasterPage="/Content/Resources/MasterPages/MasterPage.flmsp" InsertMOTW="true" GenerateWebSafeImages="true" WebSafeFileExtension="png" DefaultUrl="/Content/A_Introduction Topics/Welcome.htm" MoveOutputContentToRoot="false" Skin="/Project/Skins/HTML5 - Tripane.flskn" ExcludeUnreferencedContent="true" PreCompileScaledImages="false" PartialWordSearch="true" conditions="ALN.HELP">
+    <PrintedOutput CollapseMargins="true" GenerateTOCProxy="true" GenerateIndexProxy="true" GenerateGlossaryProxy="true" />
+    <Glossaries>
+        <Glossary Link="/Project/Glossaries/Glossary-ALN.flglo" />
+    </Glossaries>
+    <Destinations>
+        <Destination Link="/Project/Destinations/Intranet User EN.fldes" Publish="true" IsResource="false" />
+    </Destinations>
+</CatapultTarget>

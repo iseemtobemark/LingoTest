@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="completed">
+  <file
+    xml:space="preserve"
+    original="Web_Restore.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="fr">
+    <header>
+      <skl><external-file
+          href="Web_Restore.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">9</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11 r2"
+        tool-name="Lingo"
+        tool-version="11.1.7796.16213"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>
+            <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:conditionalText MadCap:conditions="ALN.PDF" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;&lt;a name="web_restore_32892506_27512"&gt;&lt;/a&gt;</bpt>
+            <ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:conditionalText&gt;</ept>Web Restore</source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:conditionalText MadCap:conditions="ALN.PDF" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;&lt;a name="web_restore_32892506_27512"&gt;&lt;/a&gt;</bpt> <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:conditionalText&gt;</ept>Web Restore</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="76"><bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:conditionalText MadCap:conditions="ALN.PDF" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;&lt;a name="web_restore_32892506_27512"&gt;&lt;/a&gt;</bpt> <ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:conditionalText&gt;</ept>Restauration Web</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Using an Internet browser, you can connect to the Web Restore interface from any machine and download the protected files of your choice, provided that you have the appropriate permissions to do so.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Using an Internet browser, you can connect to the Web Restore interface from any machine and download the protected files of your choice, provided that you have the appropriate permissions to do so.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">A l’aide d’un navigateur Internet, vous pouvez vous connecter à l’interface de Restauration Web depuis n’importe quelle machine et télécharger les fichiers protégés de votre choix, à condition d’avoir les permissions.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source><ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.aln_web_resto" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> has three modes:</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.aln_web_resto" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> has three modes:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="88">La <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.aln_web_resto" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> contient trois modes :</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>End user<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> Restore the protected files of your choice from your machine.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>End user<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> Restore the protected files of your choice from your machine.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="98"
+            MadCap:diff="ContentChanged"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Utilisateur<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> Restaurer les fichiers de votre choix depuis votre machine.</mrk></target><alt-trans
+          match-quality="84"
+          origin="previous-version"><seg-source>Restore the protected files of your choice from your machine.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Permet de restaurer les fichiers protégés de votre choix depuis votre machine.</target></alt-trans><alt-trans
+          match-quality="57"
+          origin="previous-version"><seg-source>Restore the protected files of your choice from any agent within your tenant.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Permet de récupérer les fichiers de votre choix depuis n'importe quel agent de votre entité.</target></alt-trans></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Admin<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> Restore the protected files of your choice from any agent within your tenant.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Admin<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> Restore the protected files of your choice from any agent within your tenant.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="98"
+            MadCap:diff="ContentChanged"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Admin<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> Restaurer les fichiers de votre choix depuis n'importe quel agent de votre entité.</mrk></target><alt-trans
+          match-quality="90"
+          origin="previous-version"><seg-source>Restore the protected files of your choice from any agent within your tenant.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Permet de récupérer les fichiers de votre choix depuis n'importe quel agent de votre entité.</target></alt-trans><alt-trans
+          match-quality="64"
+          origin="previous-version"><seg-source>Restore the protected files of your choice from your machine.</seg-source><target
+            MadCap:segmentStatus="Untranslated">Permet de restaurer les fichiers protégés de votre choix depuis votre machine.</target></alt-trans></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Multi-agent<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> Restore all the protected files from a group of agents in one single operation (archiving mode). It is not possible to choose the file(s) to restore when performing a <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.aln_web_resto" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> in multi-agent mode.</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Multi-agent<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> Restore all the protected files from a group of agents in one single operation (archiving mode).</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">It is not possible to choose the file(s) to restore when performing a <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.aln_web_resto" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> in multi-agent mode.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0"
+            MadCap:diff="ContentChanged"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Multi-agent<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> Restaurer tous les fichiers protégés d'un groupe d'agents en une seule opération (mode archivage).</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="98">Il n'est pas possible de choisir les fichiers à restaurer lors d'une <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.aln_web_resto" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> en mode multi-agent.</mrk></target><alt-trans
+          match-quality="87"
+          origin="previous-version"><seg-source>Restore all the protected files from a group of agents in one single operation (archiving mode).</seg-source><target
+            MadCap:segmentStatus="Untranslated">Permet de récupérer la totalité des fichiers d'un groupe d'agents en une seule opération (archiving mode).</target></alt-trans><alt-trans
+          match-quality="87"
+          origin="previous-version"><seg-source>Restore all the protected files from a group of agents in one single operation (archiving mode).</seg-source><target
+            MadCap:segmentStatus="Untranslated">Permet de récupérer la totalité des fichiers d'un groupe d'agents en une seule opération (archiving mode).</target></alt-trans><alt-trans
+          match-quality="87"
+          origin="previous-version"><seg-source>Restore all the protected files from a group of agents in one single operation (archiving mode).</seg-source><target
+            MadCap:segmentStatus="Untranslated">Permet de récupérer la totalité des fichiers d'un groupe d'agents en une seule opération (archiving mode).</target></alt-trans><alt-trans
+          match-quality="87"
+          origin="previous-version"><seg-source>Restore all the protected files from a group of agents in one single operation (archiving mode).</seg-source><target
+            MadCap:segmentStatus="Untranslated">Permet de récupérer la totalité des fichiers d'un groupe d'agents en une seule opération (archiving mode).</target></alt-trans><alt-trans
+          match-quality="87"
+          origin="previous-version"><seg-source>Restore all the protected files from a group of agents in one single operation (archiving mode).</seg-source><target
+            MadCap:segmentStatus="Untranslated">Permet de récupérer la totalité des fichiers d'un groupe d'agents en une seule opération (archiving mode).</target></alt-trans></trans-unit></body>
+  </file>
+</xliff>

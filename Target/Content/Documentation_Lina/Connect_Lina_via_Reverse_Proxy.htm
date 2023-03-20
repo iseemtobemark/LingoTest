@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="">Connect to <MadCap:variable name="General.ProductName" /> via a Reverse Proxy</h1>
+        <p class="BodyAfterHead">Administrators can set up a reverse proxy to access <MadCap:variable name="General.ProductName" /> services over the Internet. Yet, <MadCap:variable name="General.ProductName" /> agents require the reverse proxy public name or address to be able to connect, and this name is different from the corporate network <MadCap:variable name="General.ProductName" /> server name. </p>
+        <h2 MadCap:autonum="">Standalone configuration</h2>
+        <p class="BodyAfterHead">In this configuration, you:</p>
+        <p class="Bulleted" MadCap:autonum="• "> Must enter a line that  specifies the corporate network gateway name or address and the <MadCap:variable name="General.ProductName" /> server name or address on the corporate network.</p>
+        <p class="BulletedCont">The syntax to use for each network gateway is:  <span class="Monospace">&lt;corporate_gateway_name_or_adress&gt;=&lt;private_aln_server_name_or_adress&gt;</span></p>
+        <p class="BulletedCont">For instance:  <span class="Monospace">gateway=alnserver</span> or <span class="Monospace">192.168.1.254=192.168.1.42</span></p>
+        <p class="Bulleted" MadCap:autonum="• ">Can also enter a line  that sets the reverse proxy public name or address as the current server name. The <span class="Monospace">*</span> wildcard  is used to replace any gateway name, address or a part of it.</p>
+        <p class="BodyIndent">The syntax is: <span class="Monospace">*=</span><span class="Monospace">&lt;reverse_proxy_public_name_or_adress&gt;</span></p>
+        <p class="BodyIndent">For instance:  <span class="Monospace">*=myreverseproxy</span> or <span class="Monospace">*=128.30.52.37</span></p>
+        <p class="BulletedCont"><span class="Lead-In">Example.</span> This is a configuration example of a client connecting to the <MadCap:variable name="General.ProductName" /> server through a reverse proxy when the gateway is different from its corporate gateway:</p>
+        <p class="BulletedCont"><span class="Monospace">gateway=alnserver</span>
+        </p>
+        <p class="BulletedCont"><span class="Monospace">*=myreverseproxy</span>
+        </p>
+        <h2 MadCap:autonum="">Multi-server configuration</h2>
+        <p class="BodyAfterHead">In this configuration, you:</p>
+        <p class="Bulleted" MadCap:autonum="• "> Must enter a line that  specifies the corporate network gateway name or address and the <MadCap:variable name="General.ProductName" /> master server name or address on the corporate network.</p>
+        <p class="BulletedCont">The syntax to use for each network gateway is:  <span class="Monospace">&lt;corporate_gateway_name_</span> or <span class="Monospace">_adress&gt;=&lt;private_aln_master_server_name_or_adress&gt;</span></p>
+        <p class="BulletedCont">For instance:  <span class="Monospace">gateway=alnserver</span> or <span class="Monospace">192.168.1.254=192.168.1.42</span></p>
+        <p class="Bulleted" MadCap:autonum="• ">Can also enter a line to manage node access. The syntax to use for each node is:</p>
+        <p class="BulletedCont"><span class="Monospace">&lt;corporate_gateway_name_or_adress&gt;|&lt;node_name_or_address&gt;=&lt;private_aln_node_name_or_address&gt;</span>
+        </p>
+    </body>
+</html>

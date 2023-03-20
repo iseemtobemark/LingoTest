@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <body>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Choose the restore location: </p>
+        <p class="BulletedIndent" MadCap:autonum="• ">Switch off the toggle to restore the file to its original location.</p>
+        <p class="or1_Or1Step" MadCap:autonum="Or "> </p>
+        <p class="BulletedIndent" MadCap:autonum="• ">Switch on the toggle to change the target directory of the restore.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">If you choose a new location, click <span class="Bold">My computer</span> to add the target directory. </p>
+        <p class="s1_StepNum" MadCap:autonum="3. "> Select the restore behavior if the file to restore already exists at this location: </p>
+        <p class="BulletedIndent" MadCap:autonum="• ">
+            <span class="Bold">Overwrite</span> The file is replaced by the restored file. </p>
+        <p class="BulletedIndent" MadCap:autonum="• ">
+            <span class="Bold">Skip</span> The file is not restored.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">
+            <span class="Bold">Rename</span> The file already present is renamed with the suffix <span class="Monospace">.bak</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">If needed, change the user identity for this restore:</p>
+        <p class="BulletedIndentList" MadCap:autonum="–">
+            <span class="Bold">Impersonated restore</span> Type the user name and password of the user you want to restore.</p>
+        <p class="BulletedIndentList" MadCap:autonum="–">
+            <span class="Bold">System restore on Windows</span> Type user and password belonging to the local administrators group.</p>
+        <p class="BulletedIndentList" MadCap:autonum="–">
+            <span class="Bold">System restore Linux and macOS</span> Type user and password belonging to the admin, adm, sudo, wheel or root groups.</p>
+    </body>
+</html>

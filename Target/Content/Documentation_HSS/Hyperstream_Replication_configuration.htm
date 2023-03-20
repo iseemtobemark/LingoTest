@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head MadCap:changes="2">
+        <MadCap:changeData>
+            <MadCap:RemoveChange MadCap:userName="tychom" MadCap:initials="TY" MadCap:id="2" MadCap:timestamp="2020-05-12T16:24:01.7340909+02:00" />
+        </MadCap:changeData>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" MadCap:changes="2" />
+    </head>
+    <body>
+        <h1 MadCap:conditions="ALN.HSS" MadCap:autonum=""><a name="replication_1301808991_1144866"></a>Hyperstream Replication Configuration</h1>
+        <p class="BodyAfterHead" MadCap:conditions="ALN.HSS">To activate Hyperstream replication, you must delete your global replication destinations. As long as at least one global replication destination is present, Hyperstream replication is disabled.</p>
+        <p class="Body" MadCap:conditions="ALN.HSS">To use Hyperstream replication, you must:</p>
+        <p class="Bulleted" MadCap:conditions="ALN.HSS" MadCap:autonum="• ">Add a replication destination.</p>
+        <p class="Bulleted" MadCap:conditions="ALN.HSS" MadCap:autonum="• ">Configure a media pool.</p>
+        <p class="htd_HeadingToDo" MadCap:conditions="ALN.HSS" MadCap:autonum="">Step 1: Add a destination</p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="1. ">Connect to the <MadCap:variable name="HSS.ade_admin" /> with administration rights.</p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="2. ">Select <span class="Bold">HyperStream &gt; Replication</span>.</p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="3. ">Click <b>Add</b>. The <b>New Replication Destination</b> window is displayed.</p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="4. ">Enter the parameters as described in this table:</p>
+        <p class="sa_StepAlpha" MadCap:conditions="ALN.HSS" MadCap:autonum="a. "><span class="Bold">Name</span> Name of the new destination, as displayed in the <MadCap:variable name="HSS.ade_admin" />.</p>
+        <p class="sa_StepAlpha" MadCap:conditions="ALN.HSS" MadCap:autonum="b. "><span class="Bold">Status</span> Selecting the <b>Status</b> check box enables the replication destination.</p>
+        <p class="sa_StepAlpha" MadCap:conditions="ALN.HSS" MadCap:autonum="c. "><span class="Bold">Host Name</span> Host name of the target server to which the data is replicated.</p>
+        <p class="sa_StepAlpha" MadCap:conditions="ALN.HSS" MadCap:autonum="d. "><span class="Bold">Port</span> Destination port on the target server. The default value is <span class="Monospace">23232</span>.</p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="5. ">Select <span class="Bold">Validate the creation</span>. </p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="6. ">(Optional) To modify a destination: </p>
+        <p class="sa_StepAlpha" MadCap:conditions="ALN.HSS" MadCap:autonum="a. ">If you change the information related to a replication destination, delete manually every former stream.</p>
+        <p class="sa_StepAlpha" MadCap:conditions="ALN.HSS" MadCap:autonum="b. ">Double click on the replication destination you want to modify. The <b>Destination Details</b> window opens.</p>
+        <p class="sa_StepAlpha" MadCap:conditions="ALN.HSS" MadCap:autonum="c. ">Modify the parameters. </p>
+        <p class="htd_HeadingToDo" MadCap:conditions="ALN.HSS" MadCap:autonum="">Step 2: Configure a media pool</p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="1. ">Perform a backup if you do not have a valid Hyperstream backup, and wait until it is completed.</p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="2. ">Select <span class="Bold">HyperStream &gt; Replication</span>. A new pool has been created based on the name of the related <MadCap:variable name="ALN.tn" /> media pool. Streams are grouped together by <MadCap:variable name="ALN.tn" /> media pool. A special pool called <span class="Emphasis">empty</span> is used to store every stream whose media pool is unknown.</p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="3. ">Select the newly added media pool.</p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="4. ">Click <span class="Bold">Modify</span>.</p>
+        <p class="s1_StepNum" MadCap:conditions="ALN.HSS" MadCap:autonum="5. ">Select a replication destination from list. The replication starts as soon as you enable the media pool.</p>
+    </body>
+</html>

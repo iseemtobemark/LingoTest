@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="aln_installation_adm_2087185880_1359923"></a><a name="aln_installation_adm_2087185880_35527"></a>Update a  macOS Agent</h1>
+        <p class="BodyAfterHead">You can activate the automatic update mode on the <MadCap:variable name="General.ProductName" /> agents or update agents manually.<MadCap:conditionalText MadCap:conditions="ALN.admin"> See the <MadCap:xref href="Lina_Configuration.htm#url_autom_update_agent">Update URL</MadCap:xref> section to configure the automatic update of agents in the <MadCap:variable name="ALN.ade_admin" />. </MadCap:conditionalText> <MadCap:conditionalText MadCap:conditions="ALN.user">See the administration guide to configure the automatic update of agents in the <MadCap:variable name="ALN.ade_admin" />.</MadCap:conditionalText></p>
+        <p>On macOS Catalina, the storage location for files other than system files has changed. As a result, backed up files in macOS Catalina are mounted on <span class="Monospace">/System/Volumes/Data</span>. However, their location in the Finder remains the same as well as your backup settings in relation to previous macOS versions. Server and client rules are automatically rewritten according to the location of your files. </p>
+        <p>To manually launch an update:</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Download the latest available version of the product from <a href="https://support.atempo.com/login">Atempo support portal</a>. </p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Mount the <span class="Monospace">/Agents/macosx/LiveNavigator.dmg</span> file. It contains a file called <span class="Monospace">LiveNavigator.pkg</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Run this file to launch the setup. The setup offers to upgrade rather than install and displays only screens related to update.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Follow on-screen instructions.</p>
+        <p class="s1_StepNum" MadCap:autonum="5. ">Restart the HNagent service: Launch (default path)</p>
+        <p class="BulletedCont"><span class="Monospace">launchctl unload /Library/LaunchDaemons/com.hnagent.plist</span>
+        </p>
+        <p class="BulletedCont"><span class="Monospace">launchctl load /Library/LaunchDaemons/com.hnagent.plist</span>
+        </p>
+    </body>
+</html>

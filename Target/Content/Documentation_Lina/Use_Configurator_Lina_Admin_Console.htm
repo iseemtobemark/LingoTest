@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="">Use the Configurator in the <MadCap:variable name="ALN.ade_admin" MadCap:conditions="ALN.ALN" /><MadCap:variable name="HSS.ade_admin" MadCap:conditions="ALN.HSS" /></h1>
+        <p class="htd_HeadingToDo" MadCap:autonum="">To use the Configurator</p>
+        <p class="ss_SingleStep" MadCap:autonum="&amp;gt;">Go to <span class="Bold">Settings</span>  &gt; <span class="Bold">Configurator</span>.</p>
+        <p>In the <MadCap:variable name="ALN.ade_admin" MadCap:conditions="ALN.ALN" /><MadCap:variable name="HSS.ade_admin" MadCap:conditions="ALN.HSS" />, you can:</p>
+        <p class="Bulleted" MadCap:autonum="• ">Database tab: Modify, delete or add the directory selected for the ADE database.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Storage tab: </p>
+        <p class="BulletedIndent" MadCap:autonum="• ">Modify or delete the directory selected for  the database that stores the deduplicated data blocks.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">Move content to an additional directory.</p>
+        <p class="Bulleted" MadCap:autonum="• "> Hyperstream tab: </p>
+        <p class="BulletedIndent" MadCap:autonum="• ">Activate HyperStream and HVDS after installing the <MadCap:variable name="General.ProductName" /> server.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">Modify or delete the directory selected for  stream directories. A destination directory is required when a directory is created.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">Move content to an additional directory.</p>
+        <p class="Bulleted" MadCap:autonum="• "><MadCap:variable name="General.ProductName" /> tab:</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">Activate <MadCap:variable name="General.ProductName" />  after installing the <MadCap:variable name="General.ProductName" /> server.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">Modify or delete the directory selected for  the metabase that stores metadata for each backed up agent.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">Move content to one or several additional directories. A destination directory is required when a directory is created. See <MadCap:xref href="Move_Existing_Agent_db_Repository.htm">Move an existing Agent Database Repository</MadCap:xref> for more information on how to move the metabase content in command line mode.</p>
+        <p class="BulletedIndentCont">Moving an agent database repository does not remove the source repository. Once agent database repositories have been moved, and no new repository is added, <MadCap:variable name="General.ProductName" /> continues using the old repository for the incoming new agent. </p>
+        <p class="Bulleted" MadCap:autonum="• ">Advanced tab:</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">Enable or disable update notifications.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">Customize the deduplication engine, <MadCap:variable name="ALN.ade_admin" MadCap:conditions="HSS.ALN" /><MadCap:variable name="HSS.ade_admin" MadCap:conditions="ALN.HSS" /> and data ports.</p>
+        <h2 MadCap:autonum="">Modify an existing directory</h2>
+        <p>Deduplicated data blocks can be stored in one or several directories. To select a directory:</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Open the <MadCap:variable name="ALN.ade_admin" MadCap:conditions="ALN.ALN" /><MadCap:variable name="HSS.ade_admin" MadCap:conditions="ALN.HSS" />.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Click <span class="Bold">Settings</span>  &gt; <span class="Bold">Configurator</span>. </p>
+        <p class="BulletedCont">The Configurator window opens.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Click on the: </p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold">Database</span> tab to move the content of the ADE database.</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><b>Storage</b> tab to modify the existing volume and path selected for  the database that stores the deduplicated data blocks.</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold">Hyperstream</span> tab to modify the existing volume and path selected for stream directories and add a destination directory.</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Bold"><MadCap:variable name="General.ProductName" /></span> tab to modify the existing volume and path selected for  the metabase. It is possible to add paths in order to increase the storage, but a minimum of 1 TB of free space is required.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Select a volume, then enter a path. </p>
+        <p class="BulletedCont">If a destination already exists, you can use the ellipsis button to modify the path.</p>
+        <p class="s1_StepNum" MadCap:autonum="5. ">Click <span class="Bold">Apply</span>. Your changes are saved.</p>
+        <h2 MadCap:autonum="">Add a directory</h2>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Click <span class="Bold">Settings</span>  &gt; <span class="Bold">Configurator</span> &gt; <span class="Bold">Database</span>. </p>
+        <p class="BulletedCont">The Configurator window opens.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">To add a directory, click the <span class="Bold">Add a directory</span> button.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Select a volume, then enter a path. </p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Click <span class="Bold">Apply</span>. Your changes are saved.</p>
+        <p class="BulletedCont">If you define several repositories, agent databases are copied successively into one or the other repository. The server writes the first database into the first repository, then the next database into the next repository, etc. </p>
+        <h2 MadCap:autonum="">Delete a directory</h2>
+        <p class="ss_SingleStep" MadCap:autonum="&amp;gt;">To remove a repository, click the <span class="Bold">Add a directory</span> button then click the cross on the right hand of the path.</p>
+        <p class="BulletedCont">Removed repositories that contained agent databases are kept in the repository unless you move the database using the <span class="Monospace">ade_server</span> command.</p>
+    </body>
+</html>

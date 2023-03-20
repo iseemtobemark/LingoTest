@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="GPO"
+  Type="WebHelp2"
+  Destinations=""
+  ShowMadCapBacklink="false"
+  GlossaryTermConversion="marked"
+  DefaultUrl="/Content/Archived_Topics/GPO.htm"
+  MasterToc="/Project/TOCs/GPO.fltoc"
+  MasterStylesheet="/Content/Resources/Stylesheets/styles.css"
+  Skin="/Project/Skins/HTML5 - Tripane-BMR_old.flskn"
+  ConditionTagExpression="include[ALN.ADE or ALN.admin or ALN.ALN or ALN.HELP or ALN.HVDS] exclude[ALN.ADA or ALN.AMM or ALN.ATN or ALN.HSS or ALN.MAC or ALN.PDF or ALN.UNIX or ALN.user] "
+  PartialWordSearch="true"
+  InsertMOTW="true"
+  PreCompileScaledImages="false"
+  GenerateWebSafeImages="true"
+  WebSafeFileExtension="png"
+  ExcludeUnreferencedContent="true"
+  EquationsOutputType="PNG"
+  MasterPage="/Content/Resources/MasterPages/MasterPage.flmsp"
+  AliasFile="/Project/Advanced/AliasFile.flali">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/Glossary-ALN.flglo" />
+  </Glossaries>
+</CatapultTarget>

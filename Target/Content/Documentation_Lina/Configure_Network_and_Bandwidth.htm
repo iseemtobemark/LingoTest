@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/TableStyles/ti_IndentedBasicTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="client_config_403703647_1264536"></a><a name="client_config_403703647_87985"></a>Configure Network and Bandwidth Parameters</h1>
+        <p>To set the network and bandwidth parameters on the <MadCap:variable name="ALN.aln.agent" />, your administrator needs to activate <span class="Bold">Allow Agent to Modify Network Parameters</span> in the strategy details.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">To configure network and bandwidth parameters</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Right-click the <MadCap:variable name="ALN.aln.agent" /> icon <img src="../Resources/Images/Images_Topics_Lina/trayicon32.png" MadCap:mediastyle="@media print { height: 16px;width: auto; }" style="height: 16px;width: auto;" /> in the task bar and select <span class="Bold"><MadCap:variable name="ALN.agent_settings" /></span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Select <span class="Bold">Settings</span>&gt; <span class="Bold">Options</span>. </p>
+        <p>The following network and bandwidth parameters are displayed (<MadCap:xref href="#Network_and_bandwidth_parameters" class="table_x">see Table</MadCap:xref>).</p>
+        <table class="TableStyle-ti_IndentedBasicTable" style="mc-table-style: url('../Resources/TableStyles/ti_IndentedBasicTable.css');margin-left: 0;margin-right: auto;caption-side: top;mc-caption-repeat: true;" cellspacing="0">
+            <caption>
+                <p class="TableCaption" MadCap:autonum="&lt;b&gt;Table&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="Network_and_bandwidth_parameters"></a>Network and bandwidth parameter descriptions</p>
+            </caption>
+            <col class="TableStyle-ti_IndentedBasicTable-Column-Column1" />
+            <col class="TableStyle-ti_IndentedBasicTable-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-ti_IndentedBasicTable-Head-Header1">
+                    <td class="TableStyle-ti_IndentedBasicTable-HeadE-Column1-Header1">
+                        <p class="tbh_TableHead">Parameter</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-HeadD-Column2-Header1">
+                        <p class="tbh_TableHead">Description</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row1">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Bandwidth</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Lets you adjust the amount of bandwidth in kB/s that is used to transfer data. By default, the bandwidth is set at maximum.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row2">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">Restrict Network interfaces</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">Restricts access to the <MadCap:variable name="General.ProductName"></MadCap:variable> server, unless a network interface and gateway have been defined.</p>
+                        <p class="tbt_TableText">For the network interface, you can choose between: </p>
+                        <p class="BulletedTable" MadCap:autonum="• ">Any</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">PPP/VPN</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">Wi-Fi</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">Ethernet</p>
+                        <p class="BulletedTable" MadCap:autonum="• ">Loopback</p>
+                        <p class="tbt_TableText">You can use the character <span class="Bold">*</span> in the definition of the gateway name, and enter several gateways separated by a comma.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row1">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Use WAN mode</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">WAN mode is a network inter-agent deduplication optimization. It makes it easier to perform backups in a slow network environment, ensuring the agent does not send blocks already stored on the server.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-ti_IndentedBasicTable-Body-row2">
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyB-Column1-row2">
+                        <p class="tbt_TableText">Never use WAN mode</p>
+                    </td>
+                    <td class="TableStyle-ti_IndentedBasicTable-BodyA-Column2-row2">
+                        <p class="tbt_TableText">Lets you enter the name of a gateway on which WAN mode should not be activated. You can use the character <span class="Bold">*</span> in the definition of the gateway name, and enter several gateways separated by a comma.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

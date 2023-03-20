@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="security_3568438272_1006274"></a><a name="security_3568438272_73960"></a>Duplication</h1>
+        <p class="BodyAfterHead">In addition to mirroring and replication, you can also secure your data by performing duplication of your <MadCap:variable name="HSS.hys_exe" /> backups using the <MadCap:variable name="HSS.vlsa_exe" />. See the <MadCap:variable name="HSS.adm_EN_doc" /> for details. </p>
+        <p class="Note">On the other hand, the duplication of VLS or physical tapes to an <MadCap:variable name="HSS.hys_exe" /> is not supported. The duplication appears to be successful, no logs are generated but restoring the duplicated data will fail.</p>
+        <p><span class="Bold">Direct SAN or library access</span>:</p>
+        <p class="BodyAfterHead">If the <MadCap:variable name="HSS.hys_exe" /> is a Storage Node (i.e., it is connected to a SAN or to a tape library, and you want to duplicate data directly from the <MadCap:variable name="HSS.hys_exe" /> to the SAN or tape library) you must set the tunable <span class="Monospace">dup_select_sn_for_hss</span> to the name of the storage node on the <MadCap:variable name="HSS.tn" /> Server. Otherwise, the duplication will go through the <MadCap:variable name="HSS.tn" /> Server via the LAN, and performances will be degraded.</p>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="">Export Logs to Syslog Server</h1>
+        <p class="Description">Syslog is a Message Logging Standard used to secure and centralize logging data. This is useful for administrators because they can access data from one location and oversee important events. To export logs, you need to configure the Syslog server in the <MadCap:variable name="ALN.ade_admin" MadCap:conditions="ALN.ALN" /><MadCap:variable name="HSS.ade_admin" MadCap:conditions="ALN.HSS" />.</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Select <span class="Bold">Settings</span> &gt; <span class="Bold">Settings</span> &gt; <span class="Bold">Preferences</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Go to <span class="Bold">Server</span> &gt; <span class="Bold">Syslog</span>, then enable the Syslog server. </p>
+        <p class="BulletedCont" MadCap:autonum="">A Syslog server configuration is not deleted when disabled.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Select a protocol (TCP or UDP).</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Select the message format:</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Monospace">3164</span> for the default RFC 3164 format.</p>
+        <p class="or1_Or1Step" MadCap:autonum="Or "> </p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Monospace">5424</span> for the RFC 5424 format.</p>
+        <p class="s1_StepNum" MadCap:autonum="5. ">Enter the Syslog server name. </p>
+        <p class="s1_StepNum" MadCap:autonum="6. ">Enter the port number corresponding to the protocol.</p>
+        <p class="BulletedIndent" MadCap:autonum="• "> TCP: By default, the TCP port number is <span class="Monospace">6514</span> .</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">UDP: By default, the UDP port number is <span class="Monospace">514</span>.   </p>
+        <p class="s1_StepNum" MadCap:autonum="7. ">Click <span class="Bold">Apply syslog configuration</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="8. ">Close the window. </p>
+        <p class="Description">Logs are then sent to the Syslog server. The mapping between severities/facilities in Syslog and the severity of ADE logs is as follows: </p>
+        <p class="Bulleted" MadCap:autonum="• "><span class="Bold">INFO</span> user-level/Informational.</p>
+        <p class="Bulleted" MadCap:autonum="• "><span class="Bold">WARN</span> user-level/Warning.</p>
+        <p class="Bulleted" MadCap:autonum="• "><span class="Bold">DEBUG</span> user-level/Debug.</p>
+        <p class="Bulleted" MadCap:autonum="• "><span class="Bold">ERR</span> user-level/Error.</p>
+        <p class="Bulleted" MadCap:autonum="• "><span class="Bold">FATAL</span> user-level/Emergency.</p>
+    </body>
+</html>

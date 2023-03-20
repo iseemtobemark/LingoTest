@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="aln_admin_1282167276_1170967"></a>Manage the Activity History Component</h1>
+        <p class="BodyAfterHead">The Activity History displays history information on backup and restore, global operations as well as on maintenance<MadCap:conditionalText MadCap:conditions="ALN.HSS"> and replication</MadCap:conditionalText>. <MadCap:xref href="Activity_Monitoring_Component.htm#aln_admin_1282167276_1170917" target="_blank">Activity Monitoring</MadCap:xref> for details.</p>
+        <p class="BodyAfterHead" MadCap:conditions="ALN.HSS">The <b>Replication</b> area displays the replication activity on &lt;<span class="Monospace">server_name</span>&gt; over the period of time you defined (by default, one day).</p>
+        <p class="Body" MadCap:conditions="ALN.HSS">The volume of incoming data represents data replicated from another server to &lt;<span class="Monospace">server_name</span>&gt;, while the volume of outgoing data represents data replicated from &lt;<span class="Monospace">server_name</span>&gt; to another server.</p>
+        <p class="Body" MadCap:conditions="ALN.HSS">No replication volume is directly attributed to <MadCap:variable name="ALN.hys_exe" /> nor <MadCap:variable name="General.ProductName" /> since their replication does not involve any data transfer with the server.</p>
+        <p class="Body" MadCap:conditions="ALN.HSS">The number of incoming or outgoing replicated blocks represents the number of blocks replicated to or from &lt;<span class="Monospace">server_name</span>&gt; per second.</p>
+        <p class="Body" MadCap:conditions="ALN.HSS">The number of incoming or outgoing replicated objects represents the number of <MadCap:variable name="General.ProductName" /> files and folders replicated to or from &lt;<span class="Monospace">server_name</span>&gt; per second.</p>
+        <p class="Body">The charts depend on <MadCap:conditionalText MadCap:conditions="ALN.ALN">the agent</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="ALN.HSS">the catalog</MadCap:conditionalText>, the unit (time) and the period selected in the left menu. If the periods proposed by the application do not suit, you can configure a customized period.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum=""><a name="aln_admin_1282167276_1170989"></a><a name="aln_admin_1282167276_15676"></a>To configure a customized period</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Click <span class="Bold">Activity History</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Click <b>Custom Period</b>.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Enter the information for display start date in the <span class="Bold">Display the last</span> field and select the unit in the list (e.g., day(s), month(s).</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Select the scale of values in the <span class="Bold">With a step of</span> drop down list.</p>
+        <p class="s1_StepNum" MadCap:autonum="5. ">Select <b>the present</b> or <b>a date</b> to configure until when you want to see the statistics.</p>
+        <p class="s1_StepNum" MadCap:autonum="6. ">Click <b>Apply</b>.</p>
+        <p class="s1_StepNum" MadCap:autonum="7. ">Click the chart key to hide/show the corresponding information.</p>
+    </body>
+</html>

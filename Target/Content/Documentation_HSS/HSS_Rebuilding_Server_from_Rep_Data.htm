@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.Hidden" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:conditions="General.Hidden" MadCap:autonum=""><a name="security_3568438272_1127288"></a><span class="_Override">Rebuilding a Server from Replicated Data</span>
+        </h1>
+        <p class="BodyAfterHead" MadCap:conditions="General.Hidden"><span class="_Override">When you lose completely or partially one of the servers involved in a replication, you can still rebuild it from the replicated data stored on another server. Recovering data is done either through a synchronization, or through a reverse-synchronization, depending on which server you lost.</span>
+        </p>
+        <p class="Note" MadCap:conditions="General.Hidden"><span class="_Override">Regardless of the direction of the recovery, it includes a rollback of the agent databases and can thus be lengthy.</span>
+        </p>
+        <p class="Body" MadCap:conditions="General.Hidden"><span class="_Override">This diagram illustrates how to recover a replicated server:</span>
+        </p>
+        <p MadCap:conditions="General.Hidden">
+            <img src="../Resources/Images/Images_Topics_HSS/31e_repli_recovery.gif" style="width: 509.4394px;height: 339.8391px;margin-left: 74, 81808px;margin-top: 5, 28336px;margin-right: 11, 10959px;margin-bottom: 7, 387939px;" />
+        </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="Small" MadCap:conditions="General.Hidden">
+                <MadCap:dropDownHotspot><span class="_Override">Synchronization</span>
+                </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="BodyAfterHead" MadCap:conditions="General.Hidden"><span class="_Override">With synchronization, all missing data is resynchronized from the source server to the target server as soon as the target server is available again. This is the default mode; no special operation is required for synchronization to occur.</span>
+                </p>
+                <p class="Body" MadCap:conditions="General.Hidden"><span class="_Override">In the above diagram, Agents A and B on ALN Server 2 are synchronized from ALN Server 1.</span>
+                </p>
+                <p class="Note" MadCap:conditions="General.Hidden"><span class="_Override">Synchronization is always preferred over reverse-synchronization when data is present on both a source server and a target server, as is the case in the example for Agent A and B that are present on ALN Server 1 and ALN Server 3.</span>
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="Small" MadCap:conditions="General.Hidden">
+                <MadCap:dropDownHotspot><span class="_Override">Reverse-Synchronization</span>
+                </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="BodyAfterHead" MadCap:conditions="General.Hidden"><span class="_Override">If data is not available on the source server, but on the target server, data is recovered through a </span><span class="Emphasis">reverse-synchronization</span><span class="_Override"> from the target server to the source server.</span>
+                </p>
+                <p class="Body" MadCap:conditions="General.Hidden"><span class="_Override">In the above diagram, Agents C and D on ALN Server 2 are reverse-synchronized from ALN Server 3.</span>
+                </p>
+                <p class="Note" MadCap:conditions="General.Hidden"><span class="_Override">If an error occurs during the reverse-synchronization, a log is generated on the <MadCap:variable name="HSS.aln" /></span><span class="_Override"> server and the synchronization is canceled.</span>
+                </p>
+                <h3 MadCap:conditions="General.Hidden" MadCap:autonum=""><a name="security_3568438272_1127308"></a><a name="security_3568438272_73439"></a><span class="_Override">Reverse Synchronization Prerequisites</span>
+                </h3>
+                <p class="BodyAfterHead" MadCap:conditions="General.Hidden"><span class="_Override">By default when you define a replication, the target server is not allowed to write on the source server. To enable reverse-synchronization (from target to source), you must set a tunable on the server. These are the reasons for requiring to set a tunable:</span>
+                </p>
+                <p class="Bulleted" MadCap:conditions="General.Hidden" MadCap:autonum="• "><span class="Lead-In">Destruction of data.</span><span class="_Override"> The reverse synchronization erases the data present on the source server.</span>
+                </p>
+                <p class="Bulleted" MadCap:conditions="General.Hidden" MadCap:autonum="• "><span class="Lead-In">Security.</span><span class="_Override"> The database content is modified by a user other than the source server user.</span>
+                </p>
+                <p class="htd_HeadingToDo" MadCap:conditions="General.Hidden" MadCap:autonum=""><span class="_Override">To allow reverse synchronization</span>
+                </p>
+                <p class="s1_StepNum" MadCap:conditions="General.Hidden" MadCap:autonum="1. "><span class="_Override">Open the file </span><span class="Monoitalic" style="font-size: 10pt;line-height: 12pt;">&lt;ALN_Root&gt;</span><span class="Monospace">/advsettings.cfg</span><span class="_Override"> on the server. If the file does not exist, create it.</span>
+                </p>
+                <p class="s1_StepNum" MadCap:conditions="General.Hidden" MadCap:autonum="2. "><span class="_Override">Add this line and save the file:</span>
+                </p>
+                <p class="One-line_JCL_Indent" MadCap:conditions="General.Hidden"><span class="Monospace">HN_REPLICATION_FULL_RESYNC_FROM_TARGET=true</span>
+                </p>
+                <p class="s1_StepNum" MadCap:conditions="General.Hidden" MadCap:autonum="3. "><span class="_Override">Restart the server.</span>
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="General.Hidden">
+            <MadCap:dropDownHead class="Small">
+                <MadCap:dropDownHotspot><span class="_Override">Disaster Recovery</span>
+                </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p class="BodyAfterHead" MadCap:conditions="HSS.ALN"><span class="_Override">If your source server has been totally destroyed, you must rebuild a new server.</span>
+                </p>
+                <p class="htd_HeadingToDo" MadCap:conditions="HSS.ALN" MadCap:autonum=""><span class="_Override">To reconstruct a new server</span>
+                </p>
+                <p class="s1_StepNum" MadCap:conditions="HSS.ALN" MadCap:autonum="1. "><span class="_Override">Verify that the servers designated as replication source or destination for the destroyed server are running and reachable.</span>
+                </p>
+                <p class="s1_StepNum" MadCap:conditions="HSS.ALN" MadCap:autonum="2. "><span class="_Override">Install a new <MadCap:variable name="HSS.aln" /></span><span class="_Override"> server from scratch.</span>
+                </p>
+                <p class="s1_StepNum" MadCap:conditions="HSS.ALN" MadCap:autonum="3. "><span class="_Override">Stop the </span><span class="Monospace">Deduplication Engine</span><span class="_Override"> service on the <MadCap:variable name="HSS.aln" /></span><span class="_Override"> server.</span>
+                </p>
+                <p class="s1_StepNum" MadCap:conditions="HSS.ALN" MadCap:autonum="4. "><span class="_Override">To take the backed up configuration into account, run this command:</span>
+                </p>
+                <p class="One-line_JCL_Indent" MadCap:conditions="HSS.ALN"><span class="Monoitalic">&lt;ADE_root&gt;</span><span class="Monospace">/bin/ade_server.exe --recover &lt;</span><span class="Monoitalic">path</span><span class="Monospace">&gt; --force </span>
+                </p>
+                <p class="Message_Where" MadCap:conditions="HSS.ALN" style="font-family: Calibri;font-weight: normal;" MadCap:autonum="Where: "><span class="Monoitalic">&lt;path&gt;</span> is the directory where you saved the bootstrap configuration file, as described in <MadCap:xref href="Prerequisites.htm#security_3568438272_1127129" target="_blank">Disaster Recovery Prerequisites</MadCap:xref> You must specify the path even if you plan to use the automatically backed up bootstrap files.
+        </p>
+                <p class="s1_StepNum" MadCap:conditions="HSS.ALN" MadCap:autonum="5. ">&gt;Ensure that the reverse-synchronization is authorized on the server to enable the recovery of replicated data through reverse-synchronization. See <MadCap:xref href="#security_3568438272_1127308">Reverse Synchronization Prerequisites</MadCap:xref> for details.
+        </p>
+                <p class="s1_StepNum" MadCap:conditions="HSS.ALN" MadCap:autonum="6. ">Start the <span class="Monospace">Deduplication Engine</span> service on the recovered <MadCap:variable name="HSS.aln" /> server.
+        </p>
+                <p class="s1_StepNum" MadCap:conditions="HSS.ALN" MadCap:autonum="7. ">If the server you recovered was the replication destination for another <MadCap:variable name="HSS.aln" /> server, verify on the source server in the Background Services view of <MadCap:variable name="HSS.ade_admin" /> that the replication service is started. If not, restart it.
+        </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

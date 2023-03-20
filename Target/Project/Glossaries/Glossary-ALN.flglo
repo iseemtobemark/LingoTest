@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlossary
+  conditions="">
+  <GlossaryEntry
+    glossTerm="Glossary.Term17"
+    TermClass="Popup"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Atempo-Deduplication Engine</Term>
+    </Terms>
+    <Definition
+      Link="">[%=ALN.ade%] is a software component with which the [%=General.ProductName%] server communicates. Its role is to gather all protected data blocks for implementation of data deduplication.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term18"
+    TermClass="Popup"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Continuous Data Protection (CDP)</Term>
+    </Terms>
+    <Definition
+      Link="">A technology which intercepts modifications on objects at block level and stores this data in order to protect it.[%=General.ProductName%] offers protection at near CDP level: thanks to the Recovery Point Objective feature, you can limit the number of backup sessions by postponing the next backup until a defined time interval has elapsed.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term19"
+    TermClass="Popup"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>group</Term>
+    </Terms>
+    <Definition
+      Link="">The intermediate level between an agent view and the [%=General.ProductName%] agent. A view can be constituted by one or more groups in which agents are distributed.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term22"
+    TermClass="Popup"
+    Stem="True"
+    IgnoreCase="true"
+    SortAs="protection rule">
+    <Terms>
+      <Term>protection rule</Term>
+    </Terms>
+    <Definition
+      Link="">The protection rule is one of the components of a protection scheme. It consists of these elements:
+Combinations of:
+File categories, defined as a series of extensions or file patterns (e.g. ~*)
+An action to apply to objects corresponding to the defined file types
+A default action for file types not explicitly specified by a category</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term23"
+    TermClass="Popup"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>protection scheme</Term>
+    </Terms>
+    <Definition
+      Link="">The protection scheme determines what data is to be protected on [%=General.ProductName%] agents.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term24"
+    TermClass="Popup"
+    Stem="True"
+    IgnoreCase="true"
+    SortAs="strategy">
+    <Terms>
+      <Term>strategy</Term>
+    </Terms>
+    <Definition
+      Link="">A strategy is a feature used by the [%=General.ProductName%] administrator to determine the method for protecting the data of [%=General.ProductName%] agents.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term25"
+    TermClass="Popup"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>view</Term>
+    </Terms>
+    <Definition
+      Link="">The highest level in the organization of [%=General.ProductName%] agents. A view permits listing of all the agents declared on the server and can be constituted of agent groups.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    SortAs="protection policy"
+    glossTerm="Glossary-ALN.Term0"
+    TermClass="Popup"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>protection policy</Term>
+    </Terms>
+    <Definition
+      Link="">A protection policy is defined on the server and consists of a protection scheme and a strategy. A protection policy is applied to the agent.</Definition>
+  </GlossaryEntry>
+</CatapultGlossary>

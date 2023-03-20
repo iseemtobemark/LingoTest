@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="aln_admin_1282167276_1170917"></a><a name="aln_admin_1282167276_90718"></a>Activity Monitoring  Component</h1>
+        <p class="BodyAfterHead">The Activity Monitoring displays information on backup, restore, replication, and maintenance.</p>
+        <p class="Body">These are the information you have access to based on:</p>
+        <p class="Bulleted" MadCap:autonum="• ">The number of blocks refers to the blocks processed.</p>
+        <p class="Bulleted" MadCap:conditions="ALN.ALN" MadCap:autonum="• ">The number of objects represents the <MadCap:variable name="General.ProductName" /> files and folders backed up or restored.</p>
+        <p class="Bulleted" MadCap:conditions="ALN.HSS" MadCap:autonum="• ">The number of streams represents the <MadCap:variable name="ALN.hys_exe" /> streams backed up or restored.</p>
+        <p>Data is shown for a one, five or fifteen minute time interval depending on what has been selected on the left menu.</p>
+        <h2 MadCap:autonum="">Backup &amp; Restore</h2>
+        <p class="BodyAfterHead">Displays real time information on a per second basis of ongoing backup and restore operations on &lt;<span class="Monospace">server_name</span>&gt;.</p>
+        <p class="Body">The number of blocks refers to the blocks processed. <MadCap:conditionalText MadCap:conditions="ALN.ALN">The number of objects represents the <MadCap:variable name="General.ProductName" /> files and folders backed up or restored.</MadCap:conditionalText></p>
+        <h2 MadCap:autonum="">Maintenance</h2>
+        <p class="BodyAfterHead">Displays real time information on a per second basis of ongoing maintenance operations on &lt;<span class="Monospace">server_name</span>&gt;.</p>
+        <p class="Body">Maintenance takes place in two steps:</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Deleted or modified data (i.e., a more recent version of the data has been backed up) that have reached the end of their retention period, are unreferenced from the database, but are not physically removed from the repository.  Data is then said to be recyclable.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">The recyclable blocks, provided that they are no longer present in any backup, are deleted from the repository during a compacting operation.  For the deduplicated repository, the maintenance information shown is always physical, while for <MadCap:variable name="ALN.hys_exe" /> and <MadCap:variable name="General.ProductName" />, the maintenance information is referenced. The number of objects deleted concerns <MadCap:variable name="General.ProductName" /> only.</p>
+    </body>
+</html>

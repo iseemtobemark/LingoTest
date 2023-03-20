@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="624" MadCap:lastWidth="972" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Network Ports</h1>
+        <p><MadCap:variable name="HSS.hys_exe" /> uses different ports to connect to hardware, virtual devices, and networks. This topic summarizes network ports and their connection directions.</p>
+        <h3>ADE Server Web Administration Interface</h3>
+        <p>Web Supervision Machine connection to ADE Server:</p>
+        <ul>
+            <li>8181/TCP<br />Incoming on ADE server, outgoing on Web Supervision Machine<br />Configurable during ADE installation, as well as in ADE Graphic User Interface and Command Line Interface.</li>
+        </ul>
+        <h3> Configuration assistance (HSS setup/drive)</h3>
+        <p>Bonjour Service on Time Navigator Server:</p>
+        <ul>
+            <li>5353/UDP<br />Incoming on Time Navigator Server</li>
+        </ul>
+        <h3>Time Navigator HSS Drive to use ADE deduplication</h3>
+        <p>Time Navigator Agent connection to ADE Server: for Time Navigator HSS Drive:</p>
+        <ul>
+            <li>23232/TCP<br />Incoming on ADE Server, outgoing on Time Navigator Agent<br />Configurable during ADE installation, as well as in Graphic User Interface and ADE Command Line Interface.<br />For Time Navigator, in the HSS drive file through GUI.</li>
+        </ul>
+    </body>
+</html>

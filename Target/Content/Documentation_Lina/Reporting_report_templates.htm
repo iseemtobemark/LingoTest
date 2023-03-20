@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/TableStyles/t_BasicTable.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Report templates</title>
+    </head>
+    <body>
+        <h1 MadCap:autonum="">Report Templates</h1>
+        <p>A report template is used to configure the content of a report.  This chapter explains how to:</p>
+        <p class="Bulleted" MadCap:autonum="• ">Create a report template.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Edit a report template.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Delete a report template.</p>
+        <p>In the list of report templates, you can create a report template or select a report template, then:</p>
+        <p class="Bulleted" MadCap:autonum="• ">Delete or duplicate a report template.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Generate reports for a specific report template.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Send reports generated for a specific report template.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Display reports generated for a specific report template.</p>
+        <h2 MadCap:autonum="">Create a Report Template</h2>
+        <p class="htd_HeadingToDo" MadCap:autonum="">Step 1: Define a name for the report template</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">In the <span class="Bold">Server</span> tab, go to  <span class="Bold">Statistics &amp; Reporting</span> &gt; <span class="Bold">Backup reports</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">In the list of report templates, click <img src="../Resources/Images/Images_Topics_Lina/create_button.png" />.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Define a name for the report template. By default, the name is <span class="Monospace">New report template</span>. The name of a report template can be defined during or after creation.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">Step 2: Configure the report template</p>
+        <p>  A report template can be configured during or after creation, using two tabs:</p>
+        <p class="Bulleted" MadCap:autonum="• ">The <span class="Bold">Report templates</span> tab: This tab is used to define the content of the report.</p>
+        <p class="Bulleted" MadCap:autonum="• ">The <span class="Bold">Reports</span> tab: This tab is used to schedule automatic reports.</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Edit the <span class="Bold">Report templates</span> tab (<MadCap:xref href="#report_config_parameters" class="table_x">see Table</MadCap:xref>).</p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/t_BasicTable.css');" class="TableStyle-t_BasicTable" cellspacing="0">
+            <caption>
+                <p class="TableCaption" MadCap:autonum="&lt;b&gt;Table&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="report_config_parameters"></a>Parameters in the Report templates tab</p>
+            </caption>
+            <col style="width: 176px;" class="TableStyle-t_BasicTable-Column-Column1" />
+            <col class="TableStyle-t_BasicTable-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-t_BasicTable-Head-Header1">
+                    <th class="TableStyle-t_BasicTable-HeadE-Column1-Header1">
+                        <p class="tbt_TableText">Option</p>
+                    </th>
+                    <th class="TableStyle-t_BasicTable-HeadD-Column2-Header1">
+                        <p class="tbt_TableText">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">Include the product name in the report title</td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">Displays the product name in the report title.</td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">Language</td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">Defines the language used for reports. Reports can be sent in English or French. By default, the language is the same as the language used on the <MadCap:variable name="ALN.ade_admin" />.</td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">Keep generated reports for </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">Defines the retention period for generated reports. By default, the retention period is unlimited.</td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">Show storage</td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">Displays the remaining space or space used for backup. This option is accessible to superadmins only.</td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">Show performance indicators</td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">Displays the deduplication and compression rates, and the volume of protected and restorable data. This option is accessible to superadmins only.</td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">Show recently backed up agents</td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">Displays data on agents that have been recently backed up.</td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">Show agents that were not recently backed up</td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">Displays data on agents that have not been recently backed up.</td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">Show agents that were not recently connected</td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2"> Displays data on agents that have not been recently connected.</td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">Show never connected agents</td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">Displays data on agents that have never been connected.</td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">Agents inactivity threshold in days</td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">Defines the inactivity threshold for agents that have been recently backed up or connected.</td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">Select all/Unselect all</td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">Selects/Deselects all the options that display under this option. An additional column appears in the report when one of these options is selected.</td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">Protected volume</td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">Displays the data volume protected by <MadCap:variable name="General.ProductName" />.</td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">Restorable volume</td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">Displays the data volume that can be restored by <MadCap:variable name="General.ProductName" />.</td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">Agent group</td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">Displays the group of agents managed by the same administrator.</td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">Strategy</td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">Displays the strategy associated with the  agents.</td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">Protection</td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">Displays the protection associated with the agents.</td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">Last logon</td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">Displays the name of the last user logged on the agent.</td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">E-mail</td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">Displays the e-mail address provided by the user on the <MadCap:variable name="ALN.aln.agent" />. </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">Last started session</td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">Displays the last started session of backup.</td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">Last completed session</td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">Displays the last completed session of backup.</td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">Last connection</td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">Displays the time at which the <MadCap:variable name="ALN.aln.agent" /> last contacted the server.</td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyB-Column1-row2">Last synchronization</td>
+                    <td class="TableStyle-t_BasicTable-BodyA-Column2-row2">Displays the time at which the data to backup was sent to the <MadCap:variable name="General.ProductName" /> server from the agent.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p> </p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Edit the <span class="Bold">Reports</span> tab (<MadCap:xref href="#report_sending_parameters" class="table_x">see Table</MadCap:xref>). </p>
+        <table style="width: 100%;mc-table-style: url('../Resources/TableStyles/t_BasicTable.css');margin-left: 0;margin-right: auto;" class="TableStyle-t_BasicTable" cellspacing="0">
+            <caption>
+                <p class="TableCaption" MadCap:autonum="&lt;b&gt;Table&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="report_sending_parameters"></a>Parameters in the Reports tab</p>
+            </caption>
+            <col class="TableStyle-t_BasicTable-Column-Column1" style="width: 230px;" />
+            <col class="TableStyle-t_BasicTable-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-t_BasicTable-Head-Header1">
+                    <th class="TableStyle-t_BasicTable-HeadE-Column1-Header1">
+                        <p class="tbt_TableText">Option</p>
+                    </th>
+                    <th class="TableStyle-t_BasicTable-HeadD-Column2-Header1">
+                        <p class="tbt_TableText">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Enable automatic e-mail report</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">Defines whether the report should be sent automatically.</td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">&lt;Schedule frequency&gt; on &lt;day of the week&gt; at &lt;server time&gt;</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">Schedules the recurrence of the report. A report can be sent every day, week or month. A weekly report is sent on every Monday, whereas a monthly report is sent on the first day of the month.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p>Send mode</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p>Defines how the report should be sent. A report can be:</p>
+                        <p class="Bulleted" MadCap:autonum="• ">Enclosed as a file attachment.</p>
+                        <p class="Bulleted" MadCap:autonum="• ">Embedded as a URL link.</p>
+                        <p class="Bulleted" MadCap:autonum="• ">Embedded as a static table.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyB-Column1-row2">
+                        <p class="tbt_TableText">Enter an e-mail address</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyA-Column2-row2">
+                        <p>Defines a list of recipients for the report. Each recipient should be separated by a comma.  The SMTP Mail Service must been configured, otherwise the content of this tab will not be editable. For more details on the configuration of the SMTP Mail Service, see <MadCap:xref href="Configure_SMTP_Mail_Service.htm">Configuring the SMTP Mail Service</MadCap:xref>.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="htd_HeadingToDo" MadCap:autonum="">Step 3: Confirm the creation of the report template</p>
+        <p class="ss_SingleStep" MadCap:autonum="&amp;gt;">Click <span class="Bold">Create</span>. A pop-up dialog confirms the report template is created.</p>
+        <h2 MadCap:autonum="">Delete a Report Template</h2>
+        <p>To delete a report template, as well as the reports associated with that report template:</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">In the <span class="Bold">Server</span> tab, go to click <span class="Bold">Statistics &amp; Reporting</span> &gt; <span class="Bold">Backup reports</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. "> In the list of report templates, select a report template, then click <img src="../Resources/Images/Images_Topics_Lina/icon_delete.png" />.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Confirm the deletion of the report template. The list of report templates is automatically updated.</p>
+    </body>
+</html>

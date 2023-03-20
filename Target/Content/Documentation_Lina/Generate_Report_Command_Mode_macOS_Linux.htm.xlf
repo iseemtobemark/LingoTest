@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="completed">
+  <file
+    xml:space="preserve"
+    original="Generate_Report_Command_Mode_macOS_Linux.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="fr">
+    <header>
+      <skl><external-file
+          href="Generate_Report_Command_Mode_macOS_Linux.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">18</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11 r2"
+        tool-name="Lingo"
+        tool-version="11.1.7796.16213"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Generate the Report in Command Mode on macOS or Linux</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Generate the Report in Command Mode on macOS or Linux</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Générer le rapport en mode commande sous macOS et Unix</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To generate the Report in command mode</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To generate the Report in command mode</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Pour générer le rapport en mode commande</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>After configuring <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace" style="font-size: 10pt;line-height: 12pt;"&gt;</bpt>advanced_env_report<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>, start generation by entering option 0 at the choice prompt:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">After configuring <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace" style="font-size: 10pt;line-height: 12pt;"&gt;</bpt>advanced_env_report<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>, start generation by entering option 0 at the choice prompt:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Après avoir configuré <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace" style="font-size: 10pt;line-height: 12pt;"&gt;</bpt>advanced_env_report<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>, démarrez la génération en saisissant option 0 dans l'invite de commande :</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>your choice (0)0</source><seg-source><mrk
+            mtype="seg"
+            mid="1">your choice (0)0</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">your choice (0)0</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>As the report is generated, the list of files being collected and copied scrolls to the screen. This process can take some time. Finally, you will see a message similar to this one:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">As the report is generated, the list of files being collected and copied scrolls to the screen.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">This process can take some time.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Finally, you will see a message similar to this one:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Lors de la génération du rapport, la liste des fichiers collectés et copiés défile sur l’écran.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Ce processus peut durer un certain temps.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">À la fin, vous verrez un message similaire à celui-ci :</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-div"
+        phase-name="pretrans"><source>Please send the following files to the e-mail address "support@atempo.com" :<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>/Applications/Atempo/TimeNavigator/Adm/AER_aria.local.tar.gz<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>(size :<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>216<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>KB)<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>(Do not forget to specify your Call Number)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Please send the following files to the e-mail address "support@atempo.com" :<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">/Applications/Atempo/TimeNavigator/Adm/AER_aria.local.tar.gz<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">(size :<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>216<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>KB)<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">(Do not forget to specify your Call Number)</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Veuillez envoyer les fichiers suivants à l'adresse e-mail "support@atempo.com" : <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">/Applications/Atempo/TimeNavigator/Adm/AER_aria.local.tar.gz<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">(taille : <ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>216<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>KB)<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">(N'oubliez pas de préciser votre numéro d'appel)</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Send the report files to support@atempo.com (even if the program mentions support@atempo.com). You can also upload these files by FTP when you open an inquiry. See <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="Sending_the_Environment_Reporter_FTP.htm#troubleshooting_2086620547_1200567" target="_blank" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Sending the Environment Reporter by FTP&lt;/MadCap:xref&gt;</ph> for details.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Send the report files to support@atempo.com (even if the program mentions support@atempo.com).</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">You can also upload these files by FTP when you open an inquiry.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">See <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="Sending_the_Environment_Reporter_FTP.htm#troubleshooting_2086620547_1200567" target="_blank" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Sending the Environment Reporter by FTP&lt;/MadCap:xref&gt;</ph> for details.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Envoyez les fichiers de rapport à support@atempo.com (même si le programme mentionne support@atempo.com).</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Vous pouvez également télécharger ces fichiers par FTP lors de l’ouverture d’une requête.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Voir <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="Sending_the_Environment_Reporter_FTP.htm#troubleshooting_2086620547_1200567" target="_blank" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Sending the Environment Reporter by FTP&lt;/MadCap:xref&gt;</ph> pour plus de détails.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

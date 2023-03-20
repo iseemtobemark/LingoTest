@@ -1,0 +1,1262 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="completed">
+  <file
+    xml:space="preserve"
+    original="Reporting_report_templates.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="fr">
+    <header>
+      <skl><external-file
+          href="Reporting_report_templates.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">124</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11 r2"
+        tool-name="Lingo"
+        tool-version="11.1.7796.16213"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-title"
+        phase-name="pretrans"><source>Report templates</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Report templates</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Modèles de rapport</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Report Templates</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Report Templates</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Modèles de rapports</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>A report template is used to configure the content of a report.  This chapter explains how to:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">A report template is used to configure the content of a report.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">This chapter explains how to:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Un modèle de rapport est utilisé pour configurer le contenu d'un rapport.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Ce chapitre explique comment :</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Create a report template.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Create a report template.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Créer un modèle de rapport.</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Edit a report template.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Edit a report template.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Modifier un modèle de rapport.</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Delete a report template.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Delete a report template.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Supprimer un modèle de rapport.</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In the list of report templates, you can create a report template or select a report template, then:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In the list of report templates, you can create a report template or select a report template, then:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="56">Dans la liste des modèles de rapport, vous pouvez créer ou sélectionner un modèle de rapport, puis :</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Delete or duplicate a report template.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Delete or duplicate a report template.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="65">Supprimer ou dupliquer un modèle de rapport.</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Generate reports for a specific report template.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Generate reports for a specific report template.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="54">Générer des rapports pour un modèle de rapport spécifique.</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Send reports generated for a specific report template.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Send reports generated for a specific report template.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Envoyer des rapports générés pour un modèle de rapport spécifique.</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Display reports generated for a specific report template.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Display reports generated for a specific report template.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Afficher des rapports générés pour un modèle de rapport spécifique.</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Create a Report Template</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Create a Report Template</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Créer un modèle de rapport</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Step 1: Define a name for the report template</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Step 1: Define a name for the report template</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Étape 1 : Définir un nom pour le modèle de rapport</mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In the <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Server<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> tab, go to  <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Statistics &amp; Reporting<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &gt; <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Backup reports<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Server<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> tab, go to <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Statistics &amp; Reporting<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &gt; <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Backup reports<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="85">Dans l'onglet <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Serveur<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>, cliquez sur <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Statistiques &amp; Rapports<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>, puis sur <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Rapports de sauvegarde<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In the list of report templates, click <ph
+            id="1"
+            ctype="image" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;img src="../Resources/Images/Images_Topics_Lina/create_button.png" /&gt;</ph>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In the list of report templates, click <ph
+              id="1"
+              ctype="image" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;img src="../Resources/Images/Images_Topics_Lina/create_button.png" /&gt;</ph>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="64">Dans la liste des modèles de rapport, cliquez sur <ph
+              id="1"
+              ctype="image" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;img src="../Resources/Images/Images_Topics_Lina/create_button.png" /&gt;</ph>.</mrk></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Define a name for the report template. By default, the name is <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>New report template<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>. The name of a report template can be defined during or after creation.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Define a name for the report template.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">By default, the name is <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>New report template<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">The name of a report template can be defined during or after creation.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Définissez un nom pour le modèle de rapport.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Par défaut, le nom est <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>Nouveau modèle de rapport<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Le nom d'un modèle de rapport peut être défini pendant ou après sa création.</mrk></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Step 2: Configure the report template</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Step 2: Configure the report template</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Étape 2 : Configurer le modèle de rapport</mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>A report template can be configured during or after creation, using two tabs:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">A report template can be configured during or after creation, using two tabs:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Un modèle de rapport peut être configuré pendant ou après sa création, à l'aide de deux onglets :</mrk></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Report templates<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> tab: This tab is used to define the content of the report.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Report templates<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> tab: This tab is used to define the content of the report.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">L'onglet <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Modèles de rapport<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> : cet onglet permet de définir le contenu du rapport.</mrk></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Reports<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> tab: This tab is used to schedule automatic reports.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Reports<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> tab: This tab is used to schedule automatic reports.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">L'onglet <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Rapports<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> : cet onglet est utilisé pour programmer des rapports automatiques.</mrk></target></trans-unit><trans-unit
+        id="21"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Edit the <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Report templates<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> tab (<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#report_config_parameters" class="table_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Table&lt;/MadCap:xref&gt;</ph>).</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Edit the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Report templates<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> tab (<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#report_config_parameters" class="table_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Table&lt;/MadCap:xref&gt;</ph>).</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Modifiez l'onglet <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Modèles de rapport<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> (<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#report_config_parameters" class="table_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Table&lt;/MadCap:xref&gt;</ph>).</mrk></target></trans-unit><trans-unit
+        id="22"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Parameters in the Report templates tab</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Parameters in the Report templates tab</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Paramètres dans l'onglet configuration du rapport</mrk></target></trans-unit><trans-unit
+        id="23"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Option</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Option</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Option</mrk></target></trans-unit><trans-unit
+        id="24"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Description</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Description</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Description</mrk></target></trans-unit><trans-unit
+        id="25"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Include the product name in the report title</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Include the product name in the report title</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Inclure le nom du produit dans le titre du rapport</mrk></target></trans-unit><trans-unit
+        id="26"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Displays the product name in the report title.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Displays the product name in the report title.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Affiche le nom du produit dans le titre du rapport.</mrk></target></trans-unit><trans-unit
+        id="27"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Language</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Language</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Langue</mrk></target></trans-unit><trans-unit
+        id="28"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Defines the language used for reports. Reports can be sent in English or French. By default, the language is the same as the language used on the <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.ade_admin" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Defines the language used for reports.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Reports can be sent in English or French.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">By default, the language is the same as the language used on the <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.ade_admin" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Définit la langue utilisée pour les rapports.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Les rapports peuvent être envoyés en anglais ou en français.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Par défaut, la langue utilisée est celle de la  <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.ade_admin" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>.</mrk></target></trans-unit><trans-unit
+        id="29"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Keep generated reports for</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Keep generated reports for</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Conserver les rapports générés pendant</mrk></target></trans-unit><trans-unit
+        id="30"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Defines the retention period for generated reports. By default, the retention period is unlimited.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Defines the retention period for generated reports.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">By default, the retention period is unlimited.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Définit la période de conservation des rapports générés.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Par défaut, la période de conservation est illimitée.</mrk></target></trans-unit><trans-unit
+        id="31"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Show storage</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Show storage</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Afficher le stockage</mrk></target></trans-unit><trans-unit
+        id="32"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Displays the remaining space or space used for backup. This option is accessible to superadmins only.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Displays the remaining space or space used for backup.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">This option is accessible to superadmins only.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Affiche l'espace restant ou l'espace utilisé pour la sauvegarde.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Cette option n'est accessible qu'aux superadmins.</mrk></target></trans-unit><trans-unit
+        id="33"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Show performance indicators</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Show performance indicators</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Montrer l'efficacité</mrk></target></trans-unit><trans-unit
+        id="34"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Displays the deduplication and compression rates, and the volume of protected and restorable data. This option is accessible to superadmins only.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Displays the deduplication and compression rates, and the volume of protected and restorable data.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">This option is accessible to superadmins only.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Affiche les taux de déduplication et de compression, ainsi que le volume des données protégées et restaurables.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Cette option n'est accessible qu'aux superadmins.</mrk></target></trans-unit><trans-unit
+        id="35"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Show recently backed up agents</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Show recently backed up agents</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Afficher les agents récemment sauvegardés</mrk></target></trans-unit><trans-unit
+        id="36"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Displays data on agents that have been recently backed up.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Displays data on agents that have been recently backed up.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Affiche les données sur les agents qui ont été récemment sauvegardés.</mrk></target></trans-unit><trans-unit
+        id="37"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Show agents that were not recently backed up</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Show agents that were not recently backed up</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Afficher les agents qui n'ont pas été sauvegardés récemment</mrk></target></trans-unit><trans-unit
+        id="38"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Displays data on agents that have not been recently backed up.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Displays data on agents that have not been recently backed up.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Affiche les données sur les agents qui n'ont pas été récemment sauvegardés.</mrk></target></trans-unit><trans-unit
+        id="39"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Show agents that were not recently connected</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Show agents that were not recently connected</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Afficher les agents non connectés récemment</mrk></target></trans-unit><trans-unit
+        id="40"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Displays data on agents that have not been recently connected.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Displays data on agents that have not been recently connected.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="61">Afficher les données sur les agents qui ne se sont pas connectés récemment.</mrk></target></trans-unit><trans-unit
+        id="41"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Show never connected agents</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Show never connected agents</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Afficher les agents jamais connectés</mrk></target></trans-unit><trans-unit
+        id="42"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Displays data on agents that have never been connected.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Displays data on agents that have never been connected.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Affiche les données sur les agents qui n'ont jamais été connectés.</mrk></target></trans-unit><trans-unit
+        id="43"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Agents inactivity threshold in days</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Agents inactivity threshold in days</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Seuil d'inactivité des agents en jours</mrk></target></trans-unit><trans-unit
+        id="44"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Defines the inactivity threshold for agents that have been recently backed up or connected.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Defines the inactivity threshold for agents that have been recently backed up or connected.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Définit le seuil d'inactivité pour les agents qui ont été récemment sauvegardés ou connectés.</mrk></target></trans-unit><trans-unit
+        id="45"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Select all/Unselect all</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Select all/Unselect all</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Tout sélectionner/Désélectionner</mrk></target></trans-unit><trans-unit
+        id="46"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Selects/Deselects all the options that display under this option. An additional column appears in the report when one of these options is selected.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Selects/Deselects all the options that display under this option.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">An additional column appears in the report when one of these options is selected.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Sélectionne/désélectionne toutes les options qui s'affichent sous cette option.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Une colonne supplémentaire apparaît dans le rapport lorsqu'une de ces options est sélectionnée.</mrk></target></trans-unit><trans-unit
+        id="47"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Protected volume</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Protected volume</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Volume protégé</mrk></target></trans-unit><trans-unit
+        id="48"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Displays the data volume protected by <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Displays the data volume protected by <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Affiche le volume de données protégé par <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>.</mrk></target></trans-unit><trans-unit
+        id="49"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Restorable volume</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Restorable volume</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Volume restaurable</mrk></target></trans-unit><trans-unit
+        id="50"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Displays the data volume that can be restored by <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Displays the data volume that can be restored by <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Affiche le volume de données qui peut être restauré par <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>.</mrk></target></trans-unit><trans-unit
+        id="51"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Agent group</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Agent group</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Groupe d'agents</mrk></target></trans-unit><trans-unit
+        id="52"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Displays the group of agents managed by the same administrator.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Displays the group of agents managed by the same administrator.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Affiche le groupe d'agents gérés par le même administrateur.</mrk></target></trans-unit><trans-unit
+        id="53"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Strategy</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Strategy</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Stratégie</mrk></target></trans-unit><trans-unit
+        id="54"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Displays the strategy associated with the  agents.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Displays the strategy associated with the agents.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Affiche la stratégie associée aux agents.</mrk></target></trans-unit><trans-unit
+        id="55"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Protection</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Protection</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Protection</mrk></target></trans-unit><trans-unit
+        id="56"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Displays the protection associated with the agents.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Displays the protection associated with the agents.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Affiche la protection associée aux agents.</mrk></target></trans-unit><trans-unit
+        id="57"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Last logon</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Last logon</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Dernière connexion</mrk></target></trans-unit><trans-unit
+        id="58"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Displays the name of the last user logged on the agent.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Displays the name of the last user logged on the agent.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Affiche le nom du dernier utilisateur connecté à l'agent.</mrk></target></trans-unit><trans-unit
+        id="59"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>E-mail</source><seg-source><mrk
+            mtype="seg"
+            mid="1">E-mail</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">E-mail</mrk></target></trans-unit><trans-unit
+        id="60"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Displays the e-mail address provided by the user on the <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.aln.agent" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Displays the e-mail address provided by the user on the <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.aln.agent" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="79">Affiche l'adresse e-mail fournie par l'utilisateur sur l'<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.aln.agent" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>.</mrk></target></trans-unit><trans-unit
+        id="61"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Last started session</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Last started session</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Dernière session commencée</mrk></target></trans-unit><trans-unit
+        id="62"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Displays the last started session of backup.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Displays the last started session of backup.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Affiche la dernière session de sauvegarde lancée.</mrk></target></trans-unit><trans-unit
+        id="63"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Last completed session</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Last completed session</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Dernière session terminée</mrk></target></trans-unit><trans-unit
+        id="64"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Displays the last completed session of backup.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Displays the last completed session of backup.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Affiche la dernière session de sauvegarde terminée.</mrk></target></trans-unit><trans-unit
+        id="65"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Last connection</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Last connection</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Dernière connexion</mrk></target></trans-unit><trans-unit
+        id="66"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Displays the time at which the <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.aln.agent" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> last contacted the server.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Displays the time at which the <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.aln.agent" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> last contacted the server.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Affiche l'heure à laquelle l'<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.aln.agent" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> a contacté le serveur pour la dernière fois.</mrk></target></trans-unit><trans-unit
+        id="67"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Last synchronization</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Last synchronization</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Dernière synchronisation</mrk></target></trans-unit><trans-unit
+        id="68"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Displays the time at which the data to backup was sent to the <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> server from the agent.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Displays the time at which the data to backup was sent to the <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph> server from the agent.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Affiche l'heure à laquelle les données à sauvegarder ont été envoyées au serveur <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>  par l'agent.</mrk></target></trans-unit><trans-unit
+        id="69"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Edit the <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Reports<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> tab (<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#report_sending_parameters" class="table_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Table&lt;/MadCap:xref&gt;</ph>).</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Edit the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Reports<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> tab (<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#report_sending_parameters" class="table_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Table&lt;/MadCap:xref&gt;</ph>).</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Modifiez l'onglet <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Rapports<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> (<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="#report_sending_parameters" class="table_x" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;see Table&lt;/MadCap:xref&gt;</ph>)</mrk></target></trans-unit><trans-unit
+        id="70"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Parameters in the Reports tab</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Parameters in the Reports tab</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="76">Paramètres dans l'onglet Rapports</mrk></target></trans-unit><trans-unit
+        id="71"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Option</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Option</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="101">Option</mrk></target></trans-unit><trans-unit
+        id="72"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Description</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Description</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Contenu</mrk></target></trans-unit><trans-unit
+        id="73"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Enable automatic e-mail report</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Enable automatic e-mail report</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Activer l'envoi automatique de rapports</mrk></target></trans-unit><trans-unit
+        id="74"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>Defines whether the report should be sent automatically.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Defines whether the report should be sent automatically.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Définit si le rapport doit être envoyé automatiquement.</mrk></target></trans-unit><trans-unit
+        id="75"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>&lt;Schedule frequency&gt; on &lt;day of the week&gt; at &lt;server time&gt;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">&lt;Schedule frequency&gt; on &lt;day of the week&gt; at &lt;server time&gt;</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">&lt;Fréquence de planification&gt; le &lt;jour de la semaine&gt; à &lt;heure du serveur&gt;.</mrk></target></trans-unit><trans-unit
+        id="76"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Schedules the recurrence of the report. A report can be sent every day, week or month. A weekly report is sent on every Monday, whereas a monthly report is sent on the first day of the month.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Schedules the recurrence of the report.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">A report can be sent every day, week or month.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">A weekly report is sent on every Monday, whereas a monthly report is sent on the first day of the month.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Planifie la récurrence du rapport.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Un rapport peut être envoyé chaque jour, semaine ou mois.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Un rapport hebdomadaire est envoyé chaque lundi, tandis qu'un rapport mensuel est envoyé le premier jour du mois.</mrk></target></trans-unit><trans-unit
+        id="77"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Send mode</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Send mode</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Mode d'envoi</mrk></target></trans-unit><trans-unit
+        id="78"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Defines how the report should be sent. A report can be:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Defines how the report should be sent.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">A report can be:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Définit la manière dont le rapport doit être envoyé.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Un rapport peut être :</mrk></target></trans-unit><trans-unit
+        id="79"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Enclosed as a file attachment.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Enclosed as a file attachment.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Joint sous la forme d'un fichier en pièce jointe.</mrk></target></trans-unit><trans-unit
+        id="80"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Embedded as a URL link.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Embedded as a URL link.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Intégré sous la forme d'un lien URL.</mrk></target></trans-unit><trans-unit
+        id="81"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Embedded as a static table.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Embedded as a static table.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Intégré sous la forme d'un tableau statique.</mrk></target></trans-unit><trans-unit
+        id="82"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Enter an e-mail address</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Enter an e-mail address</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Saisir une adresse e-mail</mrk></target></trans-unit><trans-unit
+        id="83"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Defines a list of recipients for the report. Each recipient should be separated by a comma.  The SMTP Mail Service must been configured, otherwise the content of this tab will not be editable. For more details on the configuration of the SMTP Mail Service, see <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="Configure_SMTP_Mail_Service.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Configuring the SMTP Mail Service&lt;/MadCap:xref&gt;</ph>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Defines a list of recipients for the report.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Each recipient should be separated by a comma.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">The SMTP Mail Service must been configured, otherwise the content of this tab will not be editable.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">For more details on the configuration of the SMTP Mail Service, see <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="Configure_SMTP_Mail_Service.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Configuring the SMTP Mail Service&lt;/MadCap:xref&gt;</ph>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Définit une liste de destinataires pour le rapport.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Chaque destinataire doit être séparé par une virgule.</mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Le service de messagerie SMTP doit être configuré, sinon le contenu de cet onglet ne sera pas modifiable.</mrk><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="56">Pour plus de détails sur la configuration du  service de messagerie SMTP, consulter <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:xref href="Configure_SMTP_Mail_Service.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"&gt;Configuring the SMTP Mail Service&lt;/MadCap:xref&gt;</ph>.</mrk></target></trans-unit><trans-unit
+        id="84"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Step 3: Confirm the creation of the report template</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Step 3: Confirm the creation of the report template</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Étape 3 : Confirmer la création du modèle de rapport</mrk></target></trans-unit><trans-unit
+        id="85"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Click <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Create<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>. A pop-up dialog confirms the report template is created.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Click <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Create<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">A pop-up dialog confirms the report template is created.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Cliquez sur <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Créer<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Une fenêtre contextuelle confirme la création du modèle de rapport.</mrk></target></trans-unit><trans-unit
+        id="86"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Delete a Report Template</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Delete a Report Template</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="88">Supprimer un modèle de rapport</mrk></target></trans-unit><trans-unit
+        id="87"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To delete a report template, as well as the reports associated with that report template:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To delete a report template, as well as the reports associated with that report template:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Pour supprimer un modèle de rapport, ainsi que les rapports associés à ce modèle de rapport :</mrk></target></trans-unit><trans-unit
+        id="88"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In the <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Server<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> tab, go to click <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Statistics &amp; Reporting<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &gt; <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Backup reports<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Server<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> tab, go to click <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Statistics &amp; Reporting<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &gt; <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Backup reports<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="91">Dans l'onglet <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Serveur<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>, cliquez sur <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Statistiques &amp; Rapports<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &gt; <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Bold"&gt;</bpt>Rapports de sauvegarde<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="89"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>In the list of report templates, select a report template, then click <ph
+            id="1"
+            ctype="image" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;img src="../Resources/Images/Images_Topics_Lina/icon_delete.png" /&gt;</ph>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">In the list of report templates, select a report template, then click <ph
+              id="1"
+              ctype="image" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;img src="../Resources/Images/Images_Topics_Lina/icon_delete.png" /&gt;</ph>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Dans la liste des modèles de rapport, sélectionnez un modèle, puis cliquez sur <ph
+              id="1"
+              ctype="image" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;img src="../Resources/Images/Images_Topics_Lina/icon_delete.png" /&gt;</ph>.</mrk></target></trans-unit><trans-unit
+        id="90"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Confirm the deletion of the report template. The list of report templates is automatically updated.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Confirm the deletion of the report template.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">The list of report templates is automatically updated.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="79">Confirmez la suppression du rapport.</mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="83">La liste des rapports est automatiquement mise à jour.</mrk></target></trans-unit></body>
+  </file>
+</xliff>

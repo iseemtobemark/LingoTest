@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum="">Restore  Snapshots  on a Linux Server</h1>
+        <h2 MadCap:autonum="">Prerequisites</h2>
+        <p class="BodyAfterHead">To mount a snapshots, take into account these prerequisites:</p>
+        <p class="Bulleted" MadCap:autonum="• ">If the device <span class="Monospace">/dev/mapper/&lt;vg_name&gt;/&lt;snap_name&gt;</span> is missing, before the snapshot creation you must:</p>
+        <p class="BulletedList" MadCap:autonum="–">Run <span class="Monospace">lvchange -ay &lt;vg_name&gt;/&lt;snap_name&gt;</span>.</p>
+        <p class="or2_Or2SubStep" MadCap:autonum="Or "> </p>
+        <p class="BulletedList" MadCap:autonum="–">Modify <span class="Monospace">/etc/lvm/lvm.conf</span> and add the <span class="Monospace">auto_set_activation_skip = 0</span> line to the configuration file.</p>
+        <p class="Bulleted" MadCap:autonum="• ">The ADE <span class="Monospace">snap_mount &lt;ID&gt;</span> command gives the opportunity to mount snapshots too.</p>
+        <h2 MadCap:autonum="">Mount the Snapshot</h2>
+        <p class="BodyAfterHead">Before mounting the snapshot, you can use the command <span class="Monospace">lvs</span> to get information about the snapshots. For example:</p>
+        <p class="JCLTop">[root@cherubin data]# lvs</p>
+        <p class="JCL" xml:space="preserve" madcap-space-after-export="preserve">LV		VG          		Attr       	LSize	  Pool    Origin Data%</p>
+        <p class="JCL">lv_root		vg_cherubin -wi-ao----   6,71g</p>
+        <p class="JCL">lv_swap		vg_cherubin -wi-ao---- 816,00m</p>
+        <p class="JCL">SNAP_ID1		vg_data     Vwi-a-tz--  90,00g		thinpool lv1    2,64</p>
+        <p class="JCL">SNAP_ID2		vg_data     Vwi-a-tz--  90,00g 		thinpool lv1    2,64</p>
+        <p class="JCL">lv1		vg_data     Vwi-aotz--  90,00g 			thinpool        2,64</p>
+        <p class="JCL">lvol0		vg_data     -wi-a----- 100,00m</p>
+        <p class="JCL">thinpool		vg_data     twi-a-tz--  90,00g    			       		  						2,66</p>
+        <p class="JCL">thin2		vg_data2    twi-a-tz--   6,00g   		          						  		    	0,00</p>
+        <p class="JCLBottom">thinvolume		vg_data2    Vwi-a-tz--   1,00g 		thin2           0,00</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">To mount a snapshot</p>
+        <p class="ss_SingleStep" MadCap:autonum="&amp;gt;">Launch the command:</p>
+        <p class="BulletedCont"><span class="Monospace">mount </span><span class="Monospace">/dev/mapper/&lt;vg_name&gt;/&lt;snap_name&gt;</span><span class="Monospace"> /&lt;mount_point&gt;</span>
+        </p>
+        <div class="ExampleIndent" MadCap:autonum="&lt;b&gt;Example&lt;/b&gt;: ">
+            <br /><span class="Monospace">mount /dev/mapper/vg_data/SNAP_ID /mnt/snap</span>
+        </div>
+        <p>Regardless of the method you choose, after a restore of your <MadCap:variable name="General.ProductName" /> server, you need to manually remove the file <span class="Monospace">db_backup_sync</span> located in the <span class="_Override" style="font-weight: bold;"><MadCap:variable name="General.ProductName" style="font-weight: normal;" /></span> database path.</p>
+        <h2 MadCap:autonum="">Revert the Snapshot</h2>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Stop the ADE service.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Launch:</p>
+        <p class="BulletedCont"><span class="Monospace">unmount /&lt;lv_mount_point&gt;0</span>
+        </p>
+        <div class="ExampleIndent" MadCap:autonum="&lt;b&gt;Example&lt;/b&gt;: ">
+            <br /><span class="Monospace">umount /data/lv1</span>
+            <br /><span class="Monospace">data/lv1</span> is the mount point of the <span class="Monospace">/dev/vg_data/lv1</span> logical volume that must be reverted.</div>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Launch:</p>
+        <p class="BulletedCont"><span class="Monospace">lvrename /dev/&lt;vg_name&gt;/&lt;lv_name&gt; /dev/&lt;vg_name&gt;/&lt;lv_bck_name&gt;</span>
+        </p>
+        <p class="BulletedCont"><span class="Monospace">lvrename /dev/&lt;vg_name&gt;/&lt;snap_name&gt; /dev/&lt;vg_name&gt;/&lt;lv_name&gt;</span>
+        </p>
+        <div class="ExampleIndent" MadCap:autonum="&lt;b&gt;Example&lt;/b&gt;: ">
+            <br /><span class="Monospace">lvrename /dev/vg_data/lv1 /dev/vg_data/lv1_sav</span>
+            <br /><span class="Monospace">lvrename /dev/vg_data/SNAP_ID /dev/vg_data/lv1</span>
+        </div>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Verify that all your data is correctly restored, and remove the initial volume:</p>
+        <p class="BulletedCont"><span class="Monospace">lvremove /dev/&lt;vg_name&gt;/&lt;lv_bck_name&gt;</span>
+        </p>
+        <div class="ExampleIndent" MadCap:autonum="&lt;b&gt;Example&lt;/b&gt;: ">
+            <br /><span class="Monospace">lvremove /dev/vg_data/lv1_sav</span>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,798 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="completed">
+  <file
+    xml:space="preserve"
+    original="Trigger_Snapshots.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="fr">
+    <header>
+      <skl><external-file
+          href="Trigger_Snapshots.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">68</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11 r2"
+        tool-name="Lingo"
+        tool-version="11.1.7796.16213"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Trigger Snapshots</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Trigger Snapshots</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Déclencher des snapshots</mrk></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Snapshots operations take place in the <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>ade_admin<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> Command Line Interface.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Snapshots operations take place in the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>ade_admin<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> Command Line Interface.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Les opérations sur les snapshots s’effectuent dans l’interface en mode commande <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>ade_admin<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>To launch ade_admin</source><seg-source><mrk
+            mtype="seg"
+            mid="1">To launch ade_admin</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Pour lancer ade_admin</mrk></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>On the machine hosting the <ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.ade" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>, launch the <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>ade_admin<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> command line interface:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">On the machine hosting the <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.ade" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>, launch the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>ade_admin<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> command line interface:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Sur la machine hébergeant le <ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:variable name="ALN.ade" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /&gt;</ph>, lancez l'interface en mode commande <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>ade_admin<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> :</mrk></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Windows.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Windows.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Windows.</mrk></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Go to <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="interface" style="font-weight: bold;"&gt;</bpt>Start<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &gt; <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="interface" style="font-weight: bold;"&gt;</bpt>Programs<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &gt;<bpt
+            id="4"
+            ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt> Atempo Deduplication Engine <ept
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept>&gt; <bpt
+            id="5"
+            ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Administration<ept
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Go to <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="interface" style="font-weight: bold;"&gt;</bpt>Start<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &gt; <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="interface" style="font-weight: bold;"&gt;</bpt>Programs<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &gt;<bpt
+              id="4"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt> Atempo Deduplication Engine <ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept>&gt; <bpt
+              id="5"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Administration<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="55">Allez sur<bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="interface" style="font-weight: bold;"&gt;</bpt> Démarrer<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &gt; <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="interface" style="font-weight: bold;"&gt;</bpt>Programmes<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &gt; <bpt
+              id="4"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Atempo Deduplication Engine<ept
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept> &gt; <bpt
+              id="5"
+              ctype="bold" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;b&gt;</bpt>Administration<ept
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/b&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Linux.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Linux.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="100">Linux.</mrk></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Launch the <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>./ade_admin<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> command.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Launch the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>./ade_admin<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> command.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Lancer la commande <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>./ade_admin<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Connect with the <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>admin<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> profile and provide the password.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Connect with the <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>admin<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> profile and provide the password.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Connectez-vous avec l’utilisateur  <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>admin<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> et saisissez le mot de passe.</mrk></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-p"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Lead-In"&gt;</bpt>ade_admin commands.<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> These are the <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>ade_admin<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> commands to use for snapshots:</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Lead-In"&gt;</bpt></mrk><mrk
+            mtype="seg"
+            mid="2">ade_admin commands.</mrk><mrk
+            mtype="seg"
+            mid="3"><ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept></mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">These are the <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>ade_admin<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> commands to use for snapshots:</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Commandes ade_admin.</mrk><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Les commandes <bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>ade_admin<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> à utiliser pour  les snapshots sont :</mrk></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>snap_create</source><seg-source><mrk
+            mtype="seg"
+            mid="1">snap_create</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">snap_create</mrk></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Puts the ADE server in hot backup mode, creates a snapshot, then exits the hot backup mode. It returns the snapshot ID and all paths to protect. If you intend to perform a backup, then it is mandatory to back up all the provided paths.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Puts the ADE server in hot backup mode, creates a snapshot, then exits the hot backup mode.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">It returns the snapshot ID and all paths to protect.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">If you intend to perform a backup, then it is mandatory to back up all the provided paths.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Met le serveur ADE en mode de sauvegarde à chaud, crée un snapshot, puis quitte le mode de sauvegarde à chaud. </mrk><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Il renvoie l'ID du snapshot et tous les chemins à protéger. </mrk><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Si vous prévoyez d'effectuer une sauvegarde, il est obligatoire de sauvegarder tous les chemins fournis.</mrk></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>snap_list</source><seg-source><mrk
+            mtype="seg"
+            mid="1">snap_list</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">snap_list</mrk></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Displays a list of all the snapshots created with the command <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>snap_create<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Displays a list of all the snapshots created with the command <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>snap_create<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Affiche une liste de tous les snapshots créés avec la commande <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>snap_create<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>.</mrk></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-p"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>snap_delete<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &lt;ID&gt;</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>snap_delete<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &lt;ID&gt;</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>snap_delete<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &lt;ID&gt;</mrk></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Deletes the snapshot specified with the ID.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Deletes the snapshot specified with the ID.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Supprime le snapshot dont on précise l’ID.</mrk></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-p"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>snap_bck_list <ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>&lt;ID&gt;</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>snap_bck_list <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>&lt;ID&gt;</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>snap_bck_list <ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept>&lt;ID&gt;</mrk></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Lists the paths of all the ADE components necessary to back up this snapshot (home directory, block repositories, database, logs, etc.).</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Lists the paths of all the ADE components necessary to back up this snapshot (home directory, block repositories, database, logs, etc.).</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Liste les chemins de tous les composants ADE nécessaires pour sauvegarder ce snapshot (répertoire d’installation, espace de stockage des blocs, base de données, journaux de logs, etc.).</mrk></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>The following commands are for Linux only:</source><seg-source><mrk
+            mtype="seg"
+            mid="1">The following commands are for Linux only:</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Ces commandes sont uniquement pour Linux :</mrk></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-p"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>snap_mount<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &lt;ID&gt;</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>snap_mount<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &lt;ID&gt;</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>snap_mount<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &lt;ID&gt;</mrk></target></trans-unit><trans-unit
+        id="21"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Mounts snapshot &lt;ID&gt; on path <bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>&lt;ADE Install path&gt; /snapshot/&lt;ID&gt;<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> in read-only mode.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Mounts snapshot &lt;ID&gt; on path <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>&lt;ADE Install path&gt; /snapshot/&lt;ID&gt;<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> in read-only mode.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Monte le snapshot &lt;ID&gt; à l'emplacement <bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>&lt;ADE Install path&gt; /snapshot/&lt;ID&gt;<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> en mode lecture seule.</mrk></target></trans-unit><trans-unit
+        id="22"
+        restype="x-xml-p"
+        phase-name="pretrans"><source><bpt
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>snap_unmount<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &lt;ID&gt;</source><seg-source><mrk
+            mtype="seg"
+            mid="1"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>snap_unmount<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &lt;ID&gt;</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0"><bpt
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;span class="Monospace"&gt;</bpt>snap_unmount<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/span&gt;</ept> &lt;ID&gt;</mrk></target></trans-unit><trans-unit
+        id="23"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Unmounts snapshot &lt;ID&gt;.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Unmounts snapshot &lt;ID&gt;.</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Démonte le snapshot &lt;ID&gt;.</mrk></target></trans-unit><trans-unit
+        id="24"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>ade_admin commands on a Windows system example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">ade_admin commands on a Windows system example</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Exemple de commandes ade_admin sur un système Windows </mrk></target></trans-unit><trans-unit
+        id="25"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>WIN-1NAI2760G00:23232&gt; snap_create</source><seg-source><mrk
+            mtype="seg"
+            mid="1">WIN-1NAI2760G00:23232&gt; snap_create</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">WIN-1NAI2760G00:23232&gt; snap_create</mrk></target></trans-unit><trans-unit
+        id="26"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>SNAPID={B4C61C61-75FC-4067-8A1C-EEB89462B46F}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">SNAPID={B4C61C61-75FC-4067-8A1C-EEB89462B46F}</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">SNAPID={B4C61C61-75FC-4067-8A1C-EEB89462B46F}</mrk></target></trans-unit><trans-unit
+        id="27"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>HOME=C:\DEV\dedup</source><seg-source><mrk
+            mtype="seg"
+            mid="1">HOME=C:\DEV\dedup</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">HOME=C:\DEV\dedup</mrk></target></trans-unit><trans-unit
+        id="28"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>SNAP_HOME=\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy77\DEV\dedup</source><seg-source><mrk
+            mtype="seg"
+            mid="1">SNAP_HOME=\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy77\DEV\dedup</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">SNAP_HOME=\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy77\DEV\dedup</mrk></target></trans-unit><trans-unit
+        id="29"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>DB_CORE=C:\DEV\dedup\rds\catalog\dedup_block_dat\</source><seg-source><mrk
+            mtype="seg"
+            mid="1">DB_CORE=C:\DEV\dedup\rds\catalog\dedup_block_dat\</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">DB_CORE=C:\DEV\dedup\rds\catalog\dedup_block_dat\</mrk></target></trans-unit><trans-unit
+        id="30"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>SNAP_DB_CORE=\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy77\DEV\dedup\rds\catalog\dedup_block_dat</source><seg-source><mrk
+            mtype="seg"
+            mid="1">SNAP_DB_CORE=\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy77\DEV\dedup\rds\catalog\dedup_block_dat</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">SNAP_DB_CORE=\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy77\DEV\dedup\rds\catalog\dedup_block_dat</mrk></target></trans-unit><trans-unit
+        id="31"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>DB_LOG=C:\DEV\dedup\syslog\</source><seg-source><mrk
+            mtype="seg"
+            mid="1">DB_LOG=C:\DEV\dedup\syslog\</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">DB_LOG=C:\DEV\dedup\syslog\</mrk></target></trans-unit><trans-unit
+        id="32"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>SNAP_DB_LOG=\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy77\DEV\dedup\syslog</source><seg-source><mrk
+            mtype="seg"
+            mid="1">SNAP_DB_LOG=\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy77\DEV\dedup\syslog</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">SNAP_DB_LOG=\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy77\DEV\dedup\syslog</mrk></target></trans-unit><trans-unit
+        id="33"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>REPOSITORY=C:\DEV\dedup\server\dedup_block\block</source><seg-source><mrk
+            mtype="seg"
+            mid="1">REPOSITORY=C:\DEV\dedup\server\dedup_block\block</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">REPOSITORY=C:\DEV\dedup\server\dedup_block\block</mrk></target></trans-unit><trans-unit
+        id="34"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>SNAP_REPOSITORY=\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy77\DEV\dedup\server\dedup_block\block</source><seg-source><mrk
+            mtype="seg"
+            mid="1">SNAP_REPOSITORY=\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy77\DEV\dedup\server\dedup_block\block</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">SNAP_REPOSITORY=\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy77\DEV\dedup\server\dedup_block\block</mrk></target></trans-unit><trans-unit
+        id="35"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>REPOSITORY=C:\TEST\JUNCTION</source><seg-source><mrk
+            mtype="seg"
+            mid="1">REPOSITORY=C:\TEST\JUNCTION</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">REPOSITORY=C:\TEST\JUNCTION</mrk></target></trans-unit><trans-unit
+        id="36"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>SNAP_REPOSITORY=\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy78\AAA\BBB</source><seg-source><mrk
+            mtype="seg"
+            mid="1">SNAP_REPOSITORY=\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy78\AAA\BBB</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">SNAP_REPOSITORY=\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy78\AAA\BBB</mrk></target></trans-unit><trans-unit
+        id="37"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>REPOSITORY=C:\link\rep_link</source><seg-source><mrk
+            mtype="seg"
+            mid="1">REPOSITORY=C:\link\rep_link</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">REPOSITORY=C:\link\rep_link</mrk></target></trans-unit><trans-unit
+        id="38"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>SNAP_REPOSITORY=\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy78\target_of_link\rep_link</source><seg-source><mrk
+            mtype="seg"
+            mid="1">SNAP_REPOSITORY=\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy78\target_of_link\rep_link</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">SNAP_REPOSITORY=\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy78\target_of_link\rep_link</mrk></target></trans-unit><trans-unit
+        id="39"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>REPOSITORY=C:\mount\rep_mount</source><seg-source><mrk
+            mtype="seg"
+            mid="1">REPOSITORY=C:\mount\rep_mount</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">REPOSITORY=C:\mount\rep_mount</mrk></target></trans-unit><trans-unit
+        id="40"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>SNAP_REPOSITORY=\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy79\rep_mount</source><seg-source><mrk
+            mtype="seg"
+            mid="1">SNAP_REPOSITORY=\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy79\rep_mount</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">SNAP_REPOSITORY=\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy79\rep_mount</mrk></target></trans-unit><trans-unit
+        id="41"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>WIN-1NAI2760G00:23232&gt; snap_list</source><seg-source><mrk
+            mtype="seg"
+            mid="1">WIN-1NAI2760G00:23232&gt; snap_list</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">WIN-1NAI2760G00:23232&gt; snap_list</mrk></target></trans-unit><trans-unit
+        id="42"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>{F407669E-6592-42BC-B82F-1EAC864B51F5}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">{F407669E-6592-42BC-B82F-1EAC864B51F5}</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">{F407669E-6592-42BC-B82F-1EAC864B51F5}</mrk></target></trans-unit><trans-unit
+        id="43"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>{284B9A54-6F89-425B-8DB1-E6408DF9A223}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">{284B9A54-6F89-425B-8DB1-E6408DF9A223}</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">{284B9A54-6F89-425B-8DB1-E6408DF9A223}</mrk></target></trans-unit><trans-unit
+        id="44"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>{B4C61C61-75FC-4067-8A1C-EEB89462B46F}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">{B4C61C61-75FC-4067-8A1C-EEB89462B46F}</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">{B4C61C61-75FC-4067-8A1C-EEB89462B46F}</mrk></target></trans-unit><trans-unit
+        id="45"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>WIN-1NAI2760G00:23232&gt; snap_delete {B4C61C61-75FC-4067-8A1C-EEB89462B46F}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">WIN-1NAI2760G00:23232&gt; snap_delete {B4C61C61-75FC-4067-8A1C-EEB89462B46F}</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">WIN-1NAI2760G00:23232&gt; snap_delete {B4C61C61-75FC-4067-8A1C-EEB89462B46F}</mrk></target></trans-unit><trans-unit
+        id="46"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>ade_admin commands on a Linux system example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">ade_admin commands on a Linux system example</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">Exemple de commandes ade_admin sur un système Linux</mrk></target></trans-unit><trans-unit
+        id="47"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>hyperstream:23238&gt; snap_create</source><seg-source><mrk
+            mtype="seg"
+            mid="1">hyperstream:23238&gt; snap_create</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">hyperstream:23238&gt; snap_create</mrk></target></trans-unit><trans-unit
+        id="48"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>SNAPID=SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105</source><seg-source><mrk
+            mtype="seg"
+            mid="1">SNAPID=SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">SNAPID=SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105</mrk></target></trans-unit><trans-unit
+        id="49"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>HOME=/mnt/lv1/ADE33/snapshot/SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105_00/ADE33</source><seg-source><mrk
+            mtype="seg"
+            mid="1">HOME=/mnt/lv1/ADE33/snapshot/SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105_00/ADE33</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">HOME=/mnt/lv1/ADE33/snapshot/SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105_00/ADE33</mrk></target></trans-unit><trans-unit
+        id="50"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>DB_CORE=/mnt/lv1/ADE33/snapshot/SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105_00/ADE33/rds/catalog/dedup_block_dat</source><seg-source><mrk
+            mtype="seg"
+            mid="1">DB_CORE=/mnt/lv1/ADE33/snapshot/SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105_00/ADE33/rds/catalog/dedup_block_dat</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">DB_CORE=/mnt/lv1/ADE33/snapshot/SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105_00/ADE33/rds/catalog/dedup_block_dat</mrk></target></trans-unit><trans-unit
+        id="51"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>DB_LOG=/mnt/lv1/ADE33/snapshot/SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105_00/ADE33/syslog</source><seg-source><mrk
+            mtype="seg"
+            mid="1">DB_LOG=/mnt/lv1/ADE33/snapshot/SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105_00/ADE33/syslog</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">DB_LOG=/mnt/lv1/ADE33/snapshot/SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105_00/ADE33/syslog</mrk></target></trans-unit><trans-unit
+        id="52"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>REPOSITORY=/mnt/lv1/ADE33/snapshot/SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105_00/ADE33/server/dedup_block/block</source><seg-source><mrk
+            mtype="seg"
+            mid="1">REPOSITORY=/mnt/lv1/ADE33/snapshot/SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105_00/ADE33/server/dedup_block/block</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">REPOSITORY=/mnt/lv1/ADE33/snapshot/SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105_00/ADE33/server/dedup_block/block</mrk></target></trans-unit><trans-unit
+        id="53"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>REPOSITORY=/mnt/lv1/ADE33/snapshot/SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105_01/BLOCKS</source><seg-source><mrk
+            mtype="seg"
+            mid="1">REPOSITORY=/mnt/lv1/ADE33/snapshot/SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105_01/BLOCKS</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">REPOSITORY=/mnt/lv1/ADE33/snapshot/SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105_01/BLOCKS</mrk></target></trans-unit><trans-unit
+        id="54"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>STREAM=/mnt/lv1/ADE33/snapshot/SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105_01/STREAMS</source><seg-source><mrk
+            mtype="seg"
+            mid="1">STREAM=/mnt/lv1/ADE33/snapshot/SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105_01/STREAMS</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">STREAM=/mnt/lv1/ADE33/snapshot/SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105_01/STREAMS</mrk></target></trans-unit><trans-unit
+        id="55"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>hyperstream:23238&gt; snap_list</source><seg-source><mrk
+            mtype="seg"
+            mid="1">hyperstream:23238&gt; snap_list</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">hyperstream:23238&gt; snap_list</mrk></target></trans-unit><trans-unit
+        id="56"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425563072 Thu Mar 05 14:44:32 2015</source><seg-source><mrk
+            mtype="seg"
+            mid="1">SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425563072 Thu Mar 05 14:44:32 2015</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425563072 Thu Mar 05 14:44:32 2015</mrk></target></trans-unit><trans-unit
+        id="57"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425563140 Thu Mar 05 14:45:40 2015</source><seg-source><mrk
+            mtype="seg"
+            mid="1">SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425563140 Thu Mar 05 14:45:40 2015</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425563140 Thu Mar 05 14:45:40 2015</mrk></target></trans-unit><trans-unit
+        id="58"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105 Fri Mar 06 14:38:25 2015</source><seg-source><mrk
+            mtype="seg"
+            mid="1">SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105 Fri Mar 06 14:38:25 2015</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105 Fri Mar 06 14:38:25 2015</mrk></target></trans-unit><trans-unit
+        id="59"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>hyperstream:23238&gt; snap_umount SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105</source><seg-source><mrk
+            mtype="seg"
+            mid="1">hyperstream:23238&gt; snap_umount SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">hyperstream:23238&gt; snap_umount SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105</mrk></target></trans-unit><trans-unit
+        id="60"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>hyperstream:23238&gt; snap_delete SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105</source><seg-source><mrk
+            mtype="seg"
+            mid="1">hyperstream:23238&gt; snap_delete SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105</mrk></seg-source><target
+          state="translated"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">hyperstream:23238&gt; snap_delete SNAP_a9f36767_65ec_45ca_bf80_e9502e486972_1425649105</mrk></target></trans-unit></body>
+  </file>
+</xliff>

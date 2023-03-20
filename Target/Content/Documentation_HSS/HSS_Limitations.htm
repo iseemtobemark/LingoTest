@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="introduction_1675518870_1005341"></a><a name="introduction_1675518870_99393"></a>Limitations of <MadCap:variable name="General.ProductNameHSS" /></h1>
+        <p><b>Format</b>
+        </p>
+        <p>SIDF is the only supported data format. Tina and TAR are not supported.</p>
+        <p><b>Encrypted Data</b>
+        </p>
+        <p>It is not recommended to deduplicate encrypted data. This type of data may vary at each backup which can affect the deduplication rate. </p>
+        <p><MadCap:variable name="HSS.tn" /> generates an alarm when you try to apply encryption on a backup selection. If your backup strategy is associated with a HyperStream pool, the alarm activates during the selection process or through the <MadCap:variable name="HSS.scm_exe" />.The alarm warns you that such encryption lowers the deduplication rate.</p>
+        <p>If you are using an operating system based on encryption such as <MadCap:annotation MadCap:createDate="2020-06-12T15:30:02.4457663+02:00" MadCap:creator="tychom" MadCap:initials="TY" MadCap:comment="Bitlock vs EFS =&gt; see with LCH or François for details" MadCap:editor="tychom" MadCap:editDate="2020-06-12T15:30:31.0094135+02:00">EFS</MadCap:annotation> on Windows, this also affects the deduplication rate. However, no alarm is generated in that case since <MadCap:variable name="HSS.tn" /> does not have any control over the encryption.</p>
+        <p><b>Installation of several <MadCap:variable name="HSS.hys_doc"></MadCap:variable>s</b>
+        </p>
+        <p>Replicating an <MadCap:variable name="HSS.hys_exe" /> A to an <MadCap:variable name="HSS.hys_exe" /> B is supported only if the two servers are installed on different physical servers (or virtual machines). It is highly recommended that these servers have the same architecture and the same operating system.</p>
+        <p><b>Duplication</b>
+        </p>
+        <p>While the duplication of HyperStream data to a VLS is supported, the duplication of VLS tapes, or physical tapes, to an <MadCap:variable name="HSS.hys_exe" /> is not supported.</p>
+        <p><b>Network Disks</b>
+        </p>
+        <p><MadCap:variable name="HSS.hys_exe" /> does not support deduplication across network drives or mounted NFS/CIFS volumes.</p>
+        <p><span MadCap:createDate="2020-06-12T16:27:09.3174116+02:00" MadCap:creator="tychom" MadCap:initials="TY" MadCap:comment="This paragraph needs proofreading" MadCap:editor="tychom" MadCap:editDate="2020-06-12T16:27:23.7555206+02:00" class="Bold">Disk to Disk to Tape (D2D2T)</span>
+        </p>
+        <p>D2D2T is a backup strategy where data is initially backed up on VLS and, subsequently, on physical tapes. It is recommended to only use <MadCap:variable name="HSS.hys_exe" /> with D2D2T for long-term backup retention (several months or years). This enables to secure data for a long period and to increase the deduplication ratio. </p>
+    </body>
+</html>

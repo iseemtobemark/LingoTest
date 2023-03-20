@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="server_config_1507838811_1239402"></a><a name="server_config_1507838811_20822"></a>Create a Protection Rule</h1>
+        <p class="BodyAfterHead">Creating a rule consists of these steps:</p>
+        <p class="Bulleted" MadCap:autonum="• ">Creating associations between file categories and actions to protect files by type.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Choosing a default action for file types that are not explicitly specified in a category. </p>
+        <p MadCap:conditions="General.Hidden">Predefined actions:</p>
+        <p class="Bulleted" MadCap:conditions="General.Hidden" MadCap:autonum="• "><span class="Bold">All/Include, non-editable</span> Objects are protected, the agent can't change it.</p>
+        <p class="Bulleted" MadCap:conditions="General.Hidden" MadCap:autonum="• "><span class="Bold">None/Exclude, non-editable </span>Objects are not protected, the agent can't change it.</p>
+        <p class="Bulleted" MadCap:conditions="General.Hidden" MadCap:autonum="• "><span class="Bold">All/Include, editable</span> Objects are protected but the agent can change it.  In this case, the agent can decide directly on his computer, which objects to include or exclude.</p>
+        <p class="Bulleted" MadCap:conditions="General.Hidden" MadCap:autonum="• "><span class="Bold">None/Exclude, editable</span> Objects are not protected but the agent can decide to protect them. In this case, the agent can decide directly on his computer, which objects to include or exclude.</p>
+        <p MadCap:conditions="General.Hidden">If the default action is <span class="Bold"> All/editable</span> and one category action is <span class="Bold">Include/non-editable</span>: <br /></p>
+        <p class="Bulleted" MadCap:conditions="General.Hidden" MadCap:autonum="• ">The user can exclude some parts of the zone where this rule is applied. </p>
+        <p class="Bulleted" MadCap:conditions="General.Hidden" MadCap:autonum="• ">The files of the category are still forcefully included in this zone. </p>
+        <p>In the list of protection rules, you can:</p>
+        <p class="Bulleted" MadCap:autonum="• ">Display the list of protection rules per name, tenant and use.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Create, edit, delete and duplicate protections.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Refresh the list of file categories.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Copy file categories to another tenant. To copy a file category to another tenant:</p>
+        <p class="sa_StepAlpha" MadCap:autonum="a. "> Select the file category, then click the button shaped like a globe.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="b. ">Select the tenant that will receive the protection, then click <span class="Bold">Save</span>.</p>
+        <p class="Bulleted" MadCap:autonum="• ">Export a list of protections in .CSV or .HTML formats.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">To create a protection rule</p>
+        <p>To create a new rule from an existing one, select the rule and click <span class="interface" style="font-weight: bold;">Duplicate</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Open the <MadCap:variable name="General.ProductName" /> <MadCap:variable name="ALN.adm_exe" />. </p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Select <span class="Bold">Backup</span><span class="Bold"> &gt; Protection configuration &gt; Protection rules</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Click <img src="../Resources/Images/Images_Topics_Lina/create_button.png" />. The settings of the protection rule display.</p>
+        <div class="figureIndented" MadCap:conditions="General.Hidden">
+            <img src="../Resources/Images/Images_Topics_Lina/lina_add_protection_rule.png" MadCap:mediastyle="@media print { width: 459px;height: auto; }" style="width: 549px;height: auto;" />
+            <p class="Figure" MadCap:autonum="&lt;b&gt;Figure&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;">In this example, graphical files are excluded from protection</p>
+        </div>
+        <p class="s1_StepNum" MadCap:autonum="4. ">In the <span class="Bold">General</span> section, enter a name for the protection rule to configure.</p>
+        <p class="s1_StepNum" MadCap:autonum="5. ">Click to authorize the agent to modify the protection rule.</p>
+        <p class="s1_StepNum" MadCap:autonum="6. ">Select the default action to be performed for out-of-category data specified in step 7. Two options are available:</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">All files are protected.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">No file is protected.</p>
+        <p class="s1_StepNum" MadCap:autonum="7. ">(Optional) In the <span class="Bold">Exceptions</span> section, create a list of file categories + Action (protected or excluded) combinations. Each action applies only to the chosen file category:</p>
+        <p class="sa_StepAlpha" MadCap:autonum="a. ">Click the drop-down list on <span class="Bold">Add an existing File Category</span>.</p>
+        <p class="sa_StepAlpha" MadCap:autonum="b. ">Click on the category of files to protect to select it. To add a file category, click <span class="Bold">+</span>.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">(Optional) Modify  the action to be performed on the files of this category (Protect or Exclude). Categories are editable if needed from this screen. You can allow modification on agents.</p>
+        <p class="s1_StepNum" MadCap:autonum="8. ">Click <span class="Bold">Create</span> or <span class="Bold">Save</span> to save your changes. </p>
+    </body>
+</html>

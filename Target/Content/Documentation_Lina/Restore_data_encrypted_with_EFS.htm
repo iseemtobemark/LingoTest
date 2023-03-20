@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/TableStyles/t_BasicTable.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1 MadCap:autonum="">Restore Data Encrypted with EFS</h1>
+        <p class="Introduction"><MadCap:variable name="General.ProductName" /> supports the backup of files and folders encrypted with Windows EFS. To restore data that is backed up in encrypted format, you must use the agent in order to also restore the NTFS stream. </p>
+        <p>To perform a cross-restore in the agent interface, you must first reimport the encryption key to successfully access the data.</p>
+        <p class="Description">This overview (<MadCap:xref href="#Restore_scenarios_of_data_encrypted_with_EFS" class="table_x">see Table</MadCap:xref>) provides information about different scenarios to restore encrypted data. </p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;caption-side: top;mc-table-style: url('../Resources/TableStyles/t_BasicTable.css');" class="TableStyle-t_BasicTable" cellspacing="0">
+            <caption>
+                <p class="TableCaption" MadCap:autonum="&lt;b&gt;Table&lt;b&gt;: &lt;/b&gt;&lt;/b&gt;"><a name="Restore_scenarios_of_data_encrypted_with_EFS"></a>Restore scenarios of data encrypted with EFS</p>
+            </caption>
+            <col class="TableStyle-t_BasicTable-Column-Column1" />
+            <col class="TableStyle-t_BasicTable-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-t_BasicTable-Head-Header1">
+                    <th class="TableStyle-t_BasicTable-HeadE-Column1-Header1">
+                        <p class="tbt_TableText">Scenario</p>
+                    </th>
+                    <th class="TableStyle-t_BasicTable-HeadD-Column2-Header1">
+                        <p class="tbt_TableText">Outcome</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row1">
+                        <p class="tbt_TableText">Restore using an agent on the same machine and with the same Windows user</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row1">
+                        <p class="tbt_TableText">Possible to restore both the data and the encryption details stored in the NTFS alternate stream. The data remains encrypted.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row2">
+                    <td class="TableStyle-t_BasicTable-BodyE-Column1-row2">
+                        <p class="tbt_TableText">Restore using an agent on another machine and with the same Windows user</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyD-Column2-row2">
+                        <p class="tbt_TableText">Possible to restore only if the certificate used for encryption is reimported on the restore destination.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-t_BasicTable-Body-row1">
+                    <td class="TableStyle-t_BasicTable-BodyB-Column1-row1">
+                        <p class="tbt_TableText">Web restore</p>
+                    </td>
+                    <td class="TableStyle-t_BasicTable-BodyA-Column2-row1">
+                        <p class="tbt_TableText">Not possible, because no tool is able to restore data and alternate streams in the web interface.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="">Uninstall a Windows Agent in Silent Mode</h1>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Launch a command line on your agent and navigate to the directory containing the <span class="Monospace">setup.exe</span> program of your <MadCap:variable name="ALN.aln.agent" />: <span class="Monospace">ATLXXX.iso\Agent\Windows\amd64</span></p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Enter this command:</p>
+        <p class="BulletedCont"><span class="Monospace">setup.exe /ExtractCab</span>
+        </p>
+        <p class="BulletedCont">The splash screen of the setup program opens.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Select the language. The <span class="Monospace">ALN.msi</span> installation program is extracted to <span class="Monospace">.\SupportFiles</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Navigate to <span class="Monospace">SupportFiles </span>folder and enter the command:</p>
+        <p class="BulletedCont"><span class="Monospace">msiexec /x ALN.msi /qn</span>
+        </p>
+        <p class="BulletedCont">If you want to remove the client database during the process, run:</p>
+        <p class="BulletedCont"><span class="Monospace">msiexec /x ALN.msi REMOVEDATABASE=1 /qn</span>
+        </p>
+    </body>
+</html>

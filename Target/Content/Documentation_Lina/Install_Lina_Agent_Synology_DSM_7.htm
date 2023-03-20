@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="">Install the <MadCap:variable name="ALN.aln.agent" /> in Synology DSM 7</h1>
+        <p>
+A DSM 7 Synology <MadCap:variable name="ALN.aln.agent" /> is installed using a Command Line Interface. The installation involves two stages:</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Retrieval of the <MadCap:variable name="General.ProductName" /> package (<span class="Monospace">lina_5.3-XXXXX_X86_64.spk</span> for Intel or <span class="Monospace">lina_5.3-XXX_arm.spk</span> for ARM, for example).</p>
+        <p class="s1_StepNum" MadCap:autonum="2. "> Installation of the <MadCap:variable name="General.ProductName" /> package in the Synology administrator interface. Administrator rights are required to perform the installation.</p>
+        <p>If the <MadCap:variable name="ALN.aln.agent" /> is already installed on a Synology  version DSM 7, you must uninstall it, then install the most recent version of the <MadCap:variable name="ALN.aln.agent" /> for Synology version DSM 7.</p>
+        <h2 MadCap:autonum="">Install the <MadCap:variable name="ALN.aln.agent"></MadCap:variable></h2>
+        <p class="htd_HeadingToDo" MadCap:autonum="">Step 1: Enable the SSH service</p>
+        <p>The SSH service must be enabled before installing the <MadCap:variable name="ALN.aln.agent" />.</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">In the NAS control panel, click the <span class="Bold">Terminal &amp; SNMP</span> section.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">In the <span class="Bold">Terminal</span> tab, enable the SSH service and click <span class="Bold">Apply</span> to confirm your choice.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">Step 2: Assign access rights to the <MadCap:variable name="ALN.aln.agent"></MadCap:variable></p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Log in to the Synology login terminal as an administrator, using an SSH client. You can use a tool like PuTTY or a Linux terminal.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Create the <span class="Monospace">HN</span> directory, then modify the access rights for the <MadCap:variable name="ALN.aln.agent" /> by running the following commands:</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton>
+            </MadCap:codeSnippetCopyButton>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: PlainText;" madcap-space-after-export="preserve">sudo mkdir /usr/local/etc/HN
+sudo chmod -R 777 /usr/local/etc/HN
+sudo chmod 777 /usr/local/etc/rc.d/</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <p class="htd_HeadingToDo" MadCap:autonum="">Step 3: Install the <MadCap:variable name="General.ProductName"></MadCap:variable> package in Synology</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Log in to the Synology web administration interface.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">In the <b>Package Center</b>, click <b>Installed</b> in the left menu pane. </p>
+        <p class="s1_StepNum" MadCap:autonum="3. "> 
+ 
+Click <b>Manual Install</b>. A file explorer displays.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Click <span class="Bold">Browse</span>, then select the <MadCap:variable name="ALN.aln.agent" /> installation file. An error message indicating that the package is not verified by Synology displays. </p>
+        <p class="s1_StepNum" MadCap:autonum="5. "> 
+Confirm the package installation.</p>
+        <p class="s1_StepNum" MadCap:autonum="6. "> 
+ 
+Enter the server name.</p>
+        <p class="s1_StepNum" MadCap:autonum="7. ">
+Unselect the <span class="Bold">Run after installation</span> option, then click <span class="Bold">Done</span>. An error message indicating that the server has not been found may appear. This message is normal because the service is not started yet.
+</p>
+        <p class="s1_StepNum" MadCap:autonum="8. ">Click <span class="Bold">OK</span>. The <MadCap:variable name="General.ProductName" /> package is installed, but does not start automatically.</p>
+        <p class="s1_StepNum" MadCap:autonum="9. ">In the Synology terminal, run the following command:</p>
+        <p class="BulletedCont"><span class="Monospace">sudo sed -i 's/package/root/g' /var/packages/lina/conf/privilege</span>
+        </p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">Step 4: Start the <MadCap:variable name="ALN.aln.agent"></MadCap:variable></p>
+        <p class="ss_SingleStep" MadCap:autonum="&amp;gt;">Start the <MadCap:variable name="ALN.aln.agent" /> via the <span class="Bold">Package Center</span>  of the Synology server administration interface.</p>
+        <h2 MadCap:autonum=""><a name="Uninstall_Lina_Agent"></a>Uninstall a <MadCap:variable name="ALN.aln.agent" /></h2>
+        <p class="htd_HeadingToDo" MadCap:autonum="">To uninstall a <MadCap:variable name="ALN.aln.agent"></MadCap:variable></p>
+        <p class="s1_StepNum" MadCap:autonum="1. "> 
+Log in to the Synology web administration interface.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Open the <span class="Bold">Package Center</span>. </p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">In the menu on the left, open the <span class="Bold">Installed</span> section.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Select the <MadCap:variable name="ALN.aln.agent" />. A button with a drop-down arrow appears under the logo of the <MadCap:variable name="ALN.aln.agent" />.</p>
+        <p class="s1_StepNum" MadCap:autonum="5. ">Click the drop-down arrow, then click <span class="Bold">Uninstall</span>. A confirmation window appears.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">To update  <MadCap:variable name="General.ProductName" />, keep the database.</p>
+        <p class="BulletedIndent" MadCap:autonum="• ">To uninstall  <MadCap:variable name="General.ProductName" /> permanently, delete the database.</p>
+    </body>
+</html>

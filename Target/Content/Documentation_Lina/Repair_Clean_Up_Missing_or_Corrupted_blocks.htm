@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="appendix_maintenance_2072635088_1086664"></a><a name="appendix_maintenance_2072635088_31074"></a>Repair and Clean Up Missing or Corrupted Blocks</h1>
+        <p>To fix missing or corrupted blocks, you must apply the repair procedure.</p>
+        <p>The replication operation does not replicate missing or corrupted blocks: the replication of the agent stops when encountering such blocks, and it generates this log: “<span class="Monospace">Error reading block</span>”. Apply the repair and cleanup procedure to fix the block issue.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">Step 1: Repair the corrupted blocks</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Ensure that your system does not encounter any hardware or system issue.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Stop the ADE service.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Run this command in the <span class="Monospace">bin</span> directory of the installation directory: </p>
+        <p class="BulletedCont"><span class="Monospace">ade_server --repair &lt;path&gt;</span>
+        </p>
+        <p class="BulletedCont">Where <span class="Monospace">path</span> is the location where your database is copied  before the modifications take place.</p>
+        <p class="BulletedCont">The repair tool checks the block files consistency and browses through client database or streams to identify which files refer to missing or corrupted blocks. A file referring to one or more missing or corrupted blocks, is referred as <span class="Monospace">erroneous</span>.</p>
+        <p class="BulletedCont">If an <span class="Monospace">erroneous</span> file is still under protection on an active agent, the file is entirely sent to the server again, giving an opportunity to retrieve the missing block. The last version of the file is fixed, and there is a very high probability to fix many, if not all, previous file versions. </p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">When the repair process ends, start the ADE service.</p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">(Optional) Step 2: Recheck the corrupted blocks</p>
+        <p class="BulletedCont">On an optional basis, you can periodically check out if <span class="Monospace">erroneous</span> files get fixed by running the recheck operation.</p>
+        <p class="ss_SingleStep" MadCap:autonum="&amp;gt;">Run this command in the <span class="Monospace">bin</span> directory of the installation directory when you want to know the number of remaining files to fix: </p>
+        <p class="BulletedCont"><span class="Monospace">ade_server --repair RECHECK</span>
+        </p>
+        <p class="htd_HeadingToDo" MadCap:autonum="">(Optional) Step 3: Clean up the corrupted blocks</p>
+        <p class="pc_procedure_cont">If no missing block can be retrieved, you can clean up the system by running the cleanup process. This may also free additional space, in case the blocks presenting problems are stored along with expired data.</p>
+        <p class="ss_SingleStep" MadCap:autonum="&amp;gt;">Run this command in the <span class="Monospace">bin</span> directory of the installation directory: </p>
+        <p class="BulletedCont"><span class="Monospace">ade_server --repair CLEANUP</span>
+        </p>
+    </body>
+</html>

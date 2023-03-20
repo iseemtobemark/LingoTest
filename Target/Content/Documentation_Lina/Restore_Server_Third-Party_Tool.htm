@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="appendix_server_protect_2327159732_1046301"></a><a name="appendix_server_protect_2327159732_59101"></a>Restore the Server with a Third-Party Tool</h1>
+        <p class="htd_HeadingToDo" MadCap:autonum="">To restore the Deduplication Engine database backed up with a third party tool </p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Stop the ADE service.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Restore the database with the third party tool.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Create a file named <span class="Monospace" style="font-size: 10pt;line-height: 12pt;">.tina_restored</span> at the root of the Deduplication Engine installation directory. This file can be empty. It is automatically removed by ADE once the restore process is complete.</p>
+        <p class="s1_StepNum" MadCap:autonum="4. ">Restart the ADE service.</p>
+        <p class="BulletedCont">Regardless of the method you choose, after a restore of your <MadCap:variable name="General.ProductName" /> server, you need to manually remove the file <span class="Monospace">db_backup_sync</span> located in the <span class="_Override" style="font-weight: bold;"><MadCap:variable name="General.ProductName" style="font-weight: normal;" /></span> database path.</p>
+    </body>
+</html>

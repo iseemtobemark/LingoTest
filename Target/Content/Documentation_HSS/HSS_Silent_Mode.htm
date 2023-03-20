@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 MadCap:autonum=""><a name="hss_installation_814337163_1097244"></a><a name="hss_installation_814337163_10347"></a>Install the <MadCap:variable name="General.ProductNameHSS" /> in Silent Mode</h1>
+        <p class="BodyAfterHead">If you cannot install in graphical mode, you have the option to install/upgrade <MadCap:variable name="HSS.hys_exe" /> in silent mode.</p>
+        <p class="Body">To do so, you must create a batch file. Then you can use this file to install <MadCap:variable name="HSS.hys_exe" /> on machines without graphical or X terminals.</p>
+        <h2 MadCap:autonum="">To Install <MadCap:variable name="HSS.hys_exe" /> in Silent Mode</h2>
+        <p class="Introduction">To edit the file, use a bare metal text editor, such as Notepad, not a Word Processor such as MS-Word. Use double backslashes in Windows.</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Open the <span class="Monospace">batch_install_sample.txt</span> sample file located in the Setup directory of the product iso.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Set the value of the required parameters according to your environment and save the batch file as a text file. This sample file gives you the opportunity to install and upgrade different products in silent mode, including the License Manager. This sample is set to install <MadCap:variable name="HSS.hys_exe" />. If you plan to install a <MadCap:variable name="HSS.aln" /> server, you also must uncomment and set these variables:</p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Monospace">USER_INSTALL_DIR_HSX</span>
+        </p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Monospace">ALN_HTTP_PORT</span>
+        </p>
+        <p class="BulletedIndent" MadCap:autonum="• "><span class="Monospace">ALN_HTTPS_PORT</span>
+        </p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Launch the installer using this command:</p>
+        <p class="BulletedCont"><span class="Monoitalic">&lt;installer_path&gt;</span><span class="Monospace"> -f </span><span class="Monoitalic">&lt;batch_file_absolute_path&gt;</span>
+        </p>
+        <p class="pc_procedure_cont">Examples:</p>
+        <p class="pc_procedure_cont"><span class="Lead-In">Windows.</span>
+        </p>
+        <p class="BulletedCont"><span class="Monospace">C:\temp\ATS340-Windows-X64.exe -f C:\temp\my_batch_file.txt</span>
+        </p>
+        <p class="pc_procedure_cont"><span class="Lead-In">Linux.</span>
+        </p>
+        <p class="BulletedCont"><span class="Monospace">/tmp/ATS340-Linux-X64.bin -f /tmp/my_batch_file.txt</span>
+        </p>
+        <p class="pc_procedure_cont"><MadCap:variable name="HSS.hys_exe" /> installation starts automatically with the parameters specified in your batch file.</p>
+        <h2 MadCap:autonum="">To Upgrade <MadCap:variable name="HSS.hys_exe" /> in Silent Mode</h2>
+        <p class="BodyAfterHead">The procedure to upgrade is the same as to install. However, some parameters must be modified to perform a silent upgrade:</p>
+        <p class="s1_StepNum" MadCap:autonum="1. ">Set <span class="Monospace">INSTALL_MODE_IS_UPGRADE=1</span>.</p>
+        <p class="s1_StepNum" MadCap:autonum="2. ">Set <span class="Monospace">HSS_ENV_NAME</span> to the name of the environment you plan to upgrade.</p>
+        <p class="s1_StepNum" MadCap:autonum="3. ">Comment out these lines:</p>
+        <p class="JCLTop">HYPERSTREAM_NAME=default</p>
+        <p class="JCL">HYPERSTREAM_PORT=23232</p>
+        <p class="JCL">ADE_WEB_CONSOLE_PORT=8181 (default value)</p>
+        <p class="JCL">USER_INSTALL_DIR_BASE=/usr/Atempo/HyperStream/default</p>
+        <p class="JCL">USER_INSTALL_DIR_BLOCKS=/usr/Atempo/HyperStream/default</p>
+        <p class="JCLBottom">USER_INSTALL_DIR_STREAMS=/usr/Atempo/HyperStream/default</p>
+        <h2 MadCap:autonum="">To Uninstall <MadCap:variable name="HSS.hys_exe" /> in Silent Mode</h2>
+        <p class="BodyAfterHead">If you installed the <MadCap:variable name="HSS.hys_exe" /> server in silent mode, the uninstallation automatically runs in silent mode too. See <MadCap:xref href="HSS_Uninstallation.htm">Uninstalling [%=HSS.hys_exe%]</MadCap:xref>.</p>
+    </body>
+</html>
